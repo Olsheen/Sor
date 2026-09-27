@@ -1,0 +1,3102 @@
+Diese Datei wurde mit der HOF Suite von Rumpelhans geschrieben.
+This file was written with HOF Suite by Rumpelhans.
+
+[HOF_SUITE_DIRECTORIES]
+Heuliez Bus GX137 beta
+Heuliez Bus GX137 BETA2.5
+HH109_Stadtgelenkbus2012_HHA
+HH_Stadtbus2017
+MB_O530_Facelift
+MB_O530_Modded
+Solaris Tenont
+Solaris Urbino IV
+[HOF_SUITE_DIRECTORIES_END]
+
+[name]
+Marseille2018
+
+[servicetrip]
+Hors Service
+
+[global_strings]
+6
+Marseille2018
+Marseille2018
+Marseille2018
+
+
+
+
+stringcount_terminus
+23
+
+stringcount_busstop
+9
+
+[addterminus_list]
+	010	Metro La Rose	METRO LA ROSE   	METRO LA ROSE   	                	METRO LA ROSE   	Metro La Rose.bmp	Metro La Rose       			METRO LA ROSE														
+	011	Chateau Gombert	CHATEAU GOMBERT 	CHATEAU GOMBERT 	                	CHATEAU GOMBERT 	ChateauGombert.bmp	Chateau Gombert - 1																	
+	013	La Parade par Av. Albert Einstein	LA PARADE       	   LA PARADE    	                	   LA PARADE    	LaParade.bmp	La Parade - 1S																	
+	021	Cite La Marie Haute	CITE MARIE HAUTE	 CITE LA MARIE  	     HAUTE      	CITE MARIE HAUTE	Cite la Marie.bmp	Cite La Marie Haute																	
+	031	Metro Malpasse	METRO MALPASSE  	METRO MALPASSE  	                	METRO MALPASSE  	Metro Malpasse.bmp	Metro Malpasse      			METRO MALPASSE														
+	041	La Valentine C. Commercial	LA VALENTINE C.C	LA VALENTINE    	C.COMMERCIAL    	LA VALENTINE C.C	La Valentine.bmp	La Valentine CC - 4 			LA VALENTINE C.														
+	042	Metro La Rose par les Vaudrans	METRO LA ROSE   	METRO LA ROSE   	par Les Vaudrans	                	Metro La Rose.bmp	La Rose par Vaudrans			PAR VAUDRANS														
+	043	Les 3 Lucs	LES 3 LUCS      	LES 3 LUCS*L[4B]	                	LES 3 LUCS      	Les 3 Lucs.bmp	Les 3 Lucs - 4B     			LES 3 LUCS														
+	044	La Valentine C.Commercial par Les Vaudrans	CC PAR VAUDRANS 	LA VALENTINE C.C	par Les Vaudrans	LA VALENTINE C.C	La Valentine.bmp	CC Valentine par V.																	
+	045	Les Vaudrans	LES VAUDRANS    	LES VAUDRANS    	                	LES VAUDRANS    	Les Vaudrans.bmp	Les Vaudrans        			LES VAUDRANS														
+	051	La Parade Par Av. de Chateau Gombert	LA PARADE       	   LA PARADE    	                	LA PARADE       	LaParade.bmp	La Parade - 5       			LA PARADE														
+	111	Plateau de la Croix Rouge	PLATEAU CROIX-R.	 PLATEAU DE LA  	  CROIX ROUGE   	CROIX ROUGE     	Plateau de la Croix Rouge.bmp	Plateau Croix-Rouge 			CROIX ROUGE														
+	131	Technopole de Chateau Gombert	TECHNOPOLE GOMB.	TECHNOPOLE DE   	CHATEAU GOMBERT 	TECH CH GOMBERT 	Technopole de Chateau Gombert.bmp	Technopole Chateau G																	
+	132	St Jerome Parking Relais	ST JEROME P+R   	   ST JEROME    	 PARKING RELAIS 	ST JEROME P+R   	StJeromePR.bmp	Saint Jerome P+R    			ST JEROME PR														
+	141	Allauch par College	ALLAUCH         	ALLAUCH         	par College     	ALLAUCH PAR COLL	Allauch.bmp	Allauch par College 			ALLAUCH														
+	142	La Feve	LA FEVE         	LA FEVE         	                	LA FEVE         	LaFeve.bmp	La Feve - 142       			LA FEVE														
+	143	Metro La Rose par la Montade	METRO LA ROSE   	 METRO LA ROSE  	 par La Montade 	PAR LA MONTADE  	Metro La Rose.bmp	La Rose par Montade 			METRO LA ROSE														
+	144	La Feve par la Montade	LA FEVE PAR MONT	LA FEVE         	par La Montade  	LA FEVE PAR MONT	LaFeve.bmp	La Feve par Montade 			LA FEVE PAR MON														
+	145	La Montade	LA MONTADE      	LA MONTADE      	                	LA MONTADE      	La Montade.bmp	La Montade - 143    			LA MONTADE														
+	146	Allauch	ALLAUCH         	ALLAUCH         	                	ALLAUCH         	Allauch.bmp	Allauch             			ALLAUCH														
+	190	Castellane	CASTELLANE      	CASTELLANE      	                	CASTELLANE      		CASTELLANE																	
+	191	Madrague	MADRAGUE DE MONT	MADRAGUE DE     	MONTREDON       	MADRAGUE DE MONT		MADRAGUE DE MONTREDO																	
+	192	Pointe Rouge Port	POINTE ROUGE    	POINTE ROUGE    	PORT            	POINTE ROUGE    		POINTE ROUGE																	
+	193	Vieille Chapelle	VIELLE CHAPELLE 	VIEILLE CHAPELLE	                	VIEILLE CHAPELLE		VIEILLE CHAPELLE																	
+	194	Escale Borely	ESCALE BORELY   	ESCALE BORELY   	                	ESCALE BORELY   		ESCALE BORELY																	
+	201	Callelongue	CALLELONGUE     	CALLELONGUE     	                	CALLELONGUE     		CALLELONGUE         			CALLELONGUE    	    													      
+	271	Lycee St Exupery	LYCEE ST EXUPERY	LYCEE ST EXUPERY	                	LYCEE ST EXUPERY	LyceeStExupery.bmp	Lycee Saint Exupery																	
+	281	Metro Bougainville	BOUGAINVILLE    	     METRO      	  BOUGAINVILLE  	  BOUGAINVILLE  	Metro Bougainville.bmp	Metro Bougainville																	
+	311	Les Aygalades	LES AYGALADES   	  LES AYGALADES 	                	  LES AYGALADES 	Les Aygalades.bmp	Les Aygalades																	
+	321	St Jerome IUT	ST JEROME IUT   	 ST JEROME IUT  	                	 ST JEROME IUT  	St Jerome IUT.bmp	St Jerome IUT - 32																	
+	322	Canebiere Bourse	CANEBIERE BOURSE	CANEBIERE BOURSE	                	CANEBIERE BOURSE	Canebiere Bourse.bmp	Canebiere Bourse																	
+	341	Le Merlan	LE MERLAN       	   LE MERLAN    		   LE MERLAN    	LeMerlan.bmp	Le Merlan																	
+	342	Reformes Canebiere	REFORMES CANEBIE	    REFORMES    	    CANEBIERE   	REFORMES CANEBIE	Reformes Canebiere.bmp	Reformes Canebiere																	
+	371	La Batarelle	LA BATARELLE    	  LA BATARELLE  		  LA BATARELLE  	La Batarelle.bmp	La Batarelle																	
+	372	La Batarelle Etoile	BATARELLE ETOILE	  LA BATARELLE  	     ETOILE     	BATARELLE ETOILE	La Batarelle Etoile.bmp	La Batarelle Etoile																	
+	373	College Jean Giono	COLLEGE J. GIONO	COLLEGE*L[37A]  	JEAN GIONO      	                	College Jean Giono.bmp	College Jean Giono																	
+	421	Depot La Rose	DEPOT LA ROSE   	DEPOT LA ROSE   	                	DEPOT LA ROSE   	DepotLaRose.bmp	Depot La Rose - 42  			DEPOT LA ROSE														
+	422	Metro 5 Avenues	METRO 5 AVENUES 	METRO           	5 AVENUES       	METRO 5 AVENUES 	Metro5Avenues.bmp	Metro Cinq Avenues																	
+	423	Les Baronnies	LES BARONNIES   	LES BARONNIES   	*L[42T]         	LES BARONNIES   	LesBaronnies.bmp	Les Baronnies - 42T 			LES BARONNIES														
+	531	Les Flamants	LES FLAMANTS    	LES FLAMANTS    	                	LES FLAMANTS    	Les Flamants.bmp	Les Flamants - 53   			LES FLAMANTS														
+	532	Metro St Just	METRO ST JUST   	METRO ST JUST   	                	METRO ST JUST   	Metro St Just.bmp	Metro St Just       			METRO ST JUST														
+	533	Geraniums	GERANIUMS       	GERANIUMS       	                	GERANIUMS       		GERANIUMS           			GERANIUMS      	    													      
+	541	Catalans	CATALANS        	CATALANS        	                	CATALANS        		CATALANS																	
+	542	Metro La Timone	METRO LA TIMONE 	METRO LA TIMONE 	                	METRO LA TIMONE 		METRO LA TIMONE																	
+	551	Joliette	JOLIETTE        	JOLIETTE        	                	JOLIETTE        		JOLIETTE																	
+	552	Roucas Blanc	ROUCAS BLANC    	ROUCAS BLANC    	                	ROUCAS BLANC    		ROUCAS BLANC																	
+	571	Vauban La Poste	VAUBAN LA POSTE 	VAUBAN LA POSTE 	                	VAUBAN LA POSTE 	Vauban.bmp	VAUBAN LA POSTE																	
+	601	MuCEM St Jean	MUCEM ST JEAN   	MuCEM ST JEAN   	                	MuCEM ST JEAN   	MuCEM.bmp																		
+	602	Notre Dame de la Garde	N.D.DE LA GARDE 	NOTRE DAME      	DE LA GARDE     	N.D. DE LA GARDE	Notre Dame de la Garde.bmp																		
+	611	Bompard	BOMPARD         	BOMPARD         	                	BOMPARD         	Bompard.bmp																		
+	801	Eglise d Endoume	EGLISE D'ENDOUME	EGLISE D'ENDOUME	                	EGLISE D'ENDOUME	Eglise Endoume.bmp																		
+	811	Le Pharo	LE PHARO        	    LE PHARO    	                	    LE PHARO    	Le Pharo.bmp	Le Pharo - 81																	
+	821	Pharo Catalans	PHARO CATALANS  	PHARO CATALANS  	                	PHARO CATALANS  		PHARO CATALANS      			PHARO CATALANS														
+	822	Euromed Arenc	EUROMED ARENC   	EUROMED ARENC   	                	EUROMED ARENC   		EUROMED ARENC       			EUROMED ARENC														
+	823	Gare St Charles	GARE ST CHARLES 	GARE ST CHARLES 	                	GARE ST CHARLES 		GARE ST CHARLES     			GARE ST CHARLES														
+	831	Metro Rond Point du Prado	METRO RD PT PRAD	METRO ROND POINT	DU PRADO        	METRO R PT PRADO		METRO RD PT DU PRADO			METRO R PT PRAD														
+	832	Canebiere Vieux Port	CANEBIERE V.PORT	CANEBIERE       	VIEUX PORT      	CANEBIERE V.PORT		CANEBIERE VIEUX PORT			CANEBIERE V.POR														
+	151	La Blancarde          - T2	LA BLANCARDE    	LA BLANCARDE    	*L[T2]*T*DC[OR] 	LA BLANCARDE    	Blancarde.bmp	La Blancarde- T2																	
+	152	Arenc Le Silo          - T2	ARENC LE SILO   	 ARENC LE SILO  	*L[T2]*T*DC[OR] 	 ARENC LE SILO  	Arenc Le Silo.bmp	Arenc Le Silo -T2																	
+	153	Castellane          - T3	CASTELLANE      	CASTELLANE      	*L[T3]*T*DC[OR] 	CASTELLANE      	Castellane.bmp	Castellane - T3																	
+	154	Arenc Le Silo          - T3	ARENC LE SILO   	 ARENC LE SILO  	*L[T3]*T*DC[OR] 	 ARENC LE SILO  	Arenc Le Silo.bmp	Arenc Le Silo - T3																	
+{ALLEX}	100	Hors Service	HORS SERVICE    	HORS SERVICE    	                	HORS SERVICE    	HS.bmp	HORS SERVICE        			HORS SERVICE														
+{ALLEX}	101	Dépôt La Rose	DEPOT LA ROSE   	 DEPOT LA ROSE  	                	 DEPOT LA ROSE  	DepotLaRose.bmp	Depot La Rose																	
+{ALLEX}	102	Dépôt Arenc	DEPOT ARENC     	  DEPOT ARENC   	                	  DEPOT ARENC   	DepotArenc.bmp	Depot Arenc																	
+	103	SPECIAL	SPECIAL         	    SPECIAL     		     SPECIAL    		SPECIAL																	
+{ALLEX}	104	Formation	FORMATION       	    Formation   		    Formation   		Formation																	
+[end]
+
+[addbusstop_list]
+1 - Château Gombert	CHATEAU GOMBERT 	Chateau Gombert	Terminus Ligne 1	Chateau Gombert - 1					
+1 - Métro La Rose	METRO LA ROSE   	 Metro La Rose	Terminus Ligne 1	Metro La Rose					
+11 - Métro La Rose	METRO LA ROSE   	 Metro La Rose	Terminus Ligne 1	Metro La Rose - 1					
+11 - Plateau de la Croix Rouge	CROIX-ROUGE - 11	Plateau de la Croix Rouge	Terminus Ligne 11	Plateau Croix-Rouge					
+142 - La Fêve	LA FEVE - 142   	La Feve	Terminus Ligne 142	La Feve - 142					
+142 - Métro La Rose	METRO LA ROSE   	Metro La Rose	Terminus Ligne 142	Metro La Rose - 142					
+142J - La Fêve	LA FEVE - 142JET	La Feve	Terminus Ligne 142JET	La Feve - 142JET					
+142J - Métro La Rose	METRO LA ROSE   	Metro La Rose	Terminus Ligne 142JET	Metro La Rose - 142J					
+143 - La Montade	LA MONTADE      	La Montade	Terminus Ligne 143	La Montade					
+143 - Métro La Rose	METRO LA ROS    	Metro La Rose	Terminus Ligne 143	Metro La Rose					
+144 - Allauch	ALLAUCH         	Allauch	Terminus Ligne 144	Allauch					
+144 - Métro La Rose	METRO LA ROSE   	Metro La Rose	Terminus Ligne 144	Metro La Rose					
+144J - Allauch	ALLAUCH         	Allauch	Terminus Ligne 144JET	Allauch					
+144J - Métro La Rose	METRO LA ROSE   	Metro La Rose	Terminus Ligne 144JET	Metro La Rose					
+145 - Allauch	ALLAUCH - 145   	Allauch	Terminus Ligne 145	Allauch - 145					
+145 - Métro La Rose	METRO LA ROSE   	Metro La Rose	Terminus Ligne 145	Metro La Rose					
+1S - La Parade	LA PARADE       	La Parade	Terminus Ligne 1S	La Parade					
+1S - Métro La Rose	METRO LA ROSE   	Metro La Rose	Terminus Ligne 1S	Metro La Rose					
+2 - Cité la Marie Haute	CITE MARIE HAUTE	Cite La Marie Haute	Terminus Ligne 2	Cite La Marie Haute					
+2 - Métro La Rose	METRO LA ROSE   	 Metro La Rose	Terminus Ligne 2	Metro La Rose					
+27 - Lycée St Exupéry	LYCEE ST EXUPERY	Lycee St Exupery	Terminus Ligne 27	Lycee Saint Exupery					
+27 - Métro La Rose	METRO LA ROSE   	Metro La Rose	Terminus Ligne 27	Metro La Rose - 27					
+28 - Les Aygalades	LES AYGALADES   	Les Aygalades	Terminus Ligne 28	Les Aygalades - 28					
+28 - Métro Bougainville	BOUGAINVILLE    	Bougainville	Terminus Ligne 28	Metro Bougainville					
+3 - Métro La Rose	METRO LA ROSE   	 Metro La Rose	Terminus Ligne 3	Metro La Rose - 3					
+3 - St Jérôme Parking Relais	ST JEROME P+R 3 	Prochain Arret	Saint Jerome P+R	St Jerome P+R - 3					
+31 - Canebière Bourse	CANEBIERE BOURSE	Canebiere Bourse	Terminus Ligne 31	Canebiere Bourse					
+31 - Les Aygalades	LES AYGALADES 31	Les Aygalades	Terminus Ligne 31	Les Aygalades - 31					
+32 - Canebière Bourse	CANEBIERE BOURSE	Canebiere Bourse	Terminus Ligne 32	Canebiere Bourse					
+32 - St Jérôme IUT	ST JEROME IUT 32	St Jerome IUT	Terminus Ligne 32	St Jerome IUT - 32					
+33 - Réformés Canebière	REFORMES CANEBIE	Reformes Canebiere	Terminus Ligne 33	Reformes Canebiere					
+33 - St Jérôme Parking Relais	ST JEROME P+R 33	St Jerome P+R	Terminus Ligne 33	St Jerome P+R - 33					
+33S - Le Merlan	LE MERLAN - 33S 	Le Merlan	Terminus Ligne 33S	Le Merlan - 33S					
+33S - Réformés Canebière	REFORMES CANEBIE	Reformes Canebiere	Terminus Ligne 33S	Reformes Canebiere					
+34 - Le Merlan	LE MERLAN - 34  	Le Merlan	Terminus Ligne 34	Le Merlan - 34					
+34 - Réformés Canebière	REFORMES CANEBIE	Reformes Canebiere	Terminus Ligne 34	Reformes Canebiere					
+37 - La Batarelle	LA BATARELLE    	La Batarelle	Terminus Ligne 37	La Batarelle					
+37 - Métro Malpassé	METRO MALPASSE  	Metro Malpasse	Terminus Ligne 37	Metro Malpasse					
+37A - Collège Jean Giono	COLLEGE J. GIONO	College Jean Giono	Terminus Ligne 37A	College Jean Giono					
+37A - La Batarelle	LA BATARELLE    	La Batarelle	Terminus Ligne 37A	La Batarelle					
+37S - La Batarelle Etoile	BATARELLE ETOILE	La Batarelle Etoile	Terminus Ligne 37S	La Batarelle Etoile					
+37S - Métro Malpassé	METRO MALPASSE  	Metro Malpasse	Terminus Ligne 37S	Metro Malpasse					
+38 - Métro Bougainville	BOUGAINVILLE    	Bougainville	Terminus Ligne 38	Metro Bougainville					
+38 - Métro Malpassé	METRO MALPASSE  	Metro Malpasse	Terminus Ligne 38	Metro Malpasse					
+4 - La Valentine C.Commercial	LA VALENTINE C-C	La Valentine C.Commercial	Terminus Ligne 4	La Valentine C. Com.					
+4 - Métro La Rose	METRO LA ROSE   	Metro La Rose	Terminus Ligne 4	Metro La Rose					
+4 Chemins des Aygalades	4 CHS. AYGALADES	Prochain Arret	4 Chemins des Aygalades	4 Chs. des Aygalades					
+42 - Dépôt La Rose	DEPOT LA ROSE   	Depot La Rose	Terminus Ligne 42	Depot La Rose					
+42 - Métro 5 Avenues	METRO 5 AVENUES 	Metro 5 Avenues	Terminus Ligne 42	Metro Cinq Avenues					
+42T - Les Baronnies	LES BARONNIES   	Les Baronnies	Terminus Ligne 42T	Les Baronnies					
+42T - Métro 5 Avenues	METRO 5 AVENUES 	Metro 5 Avenues	Terminus Ligne 42T	Metro 5 Avenues					
+4B - Les 3 Lucs	LES 3 LUCS      	Les 3 Lucs	Terminus Ligne 4B	Les 3 Lucs					
+4B - Métro La Rose	METRO LA ROSE   	Metro La Rose	Terminus Ligne 4b	Metro La Rose					
+4S - Les Vaudrans	LES VAUDRANS    	Les Vaudrans	Terminus Ligne 4S	Les Vaudrans					
+4S - Métro La Rose	METRO LA ROSE   	Metro La Rose	Terminus Ligne 4s	Metro La Rose					
+5 - La Parade	LA PARADE       	La Parade	Terminus Ligne 5	La Parade					
+5 - Métro La Rose	METRO LA ROSE   	Metro La Rose	Terminus Ligne 5	Metro La Rose					
+5 Avenues Burel	5 AVENUES BUREL 	Prochain Arret	5 Avenues Burel	Cinq Avenues Burel					
+5 Avenues Chartreux	5 AV. CHARTREUX 	Prochain Arret	5 Avenues Chartreux	5 Avenues Chartreux					
+53 - Les Flamants	LES FLAMANTS    	Les Flamants	Terminus Ligne 53	Les Flamants - 53					
+53 - Métro St Just	METRO ST JUST   	Metro St Just	Terminus Ligne 53	Metro St Just - 53					
+81 - Le Pharo	LE PHARO - 81   	Le Pharo	Terminus Ligne 81	Le Pharo - 81					
+81 - Métro St Just	METRO ST JUST   	Metro St Just	Terminus Ligne 81	Metro St Just - 81					
+Allauch	ALLAUCH         	Prochain Arret	Allauch	Allauch					
+Ampère Gay Lussac	AMP. GAY LUSSAC 	Prochain Arret	Ampere Gay Lussac	Ampere Gay Lussac					
+Ansaldi La Javie	ANSALDI LA JAVIE	Prochain Arret	Ansaldi La Javie	Ansaldi La Javie					
+B3A - Métro Malpassé	METRO MALPASSE  	Metro Malpasse	Terminus Ligne B3A	Metro Malpasse					
+B3A - St Jérôme Parking Relais	ST JEROME P+R   	St Jerome P+R	Terminus Ligne B3A	Saint Jerome P+R					
+B3B - Métro La Rose	METRO LA ROSE   	METRO LA ROSE	Terminus Ligne B3B	Metro La Rose					
+B3B - Technopôle de Château Gombert	TECH.CH. GOMBERT	Technopole Ch. Gombert	Terminus Ligne B3B	Tech. Chat. Gombert					
+Bar 1900	BAR 1900        	Prochain Arret	Bar 1900	Bar 1900					
+Bara Bessons	BARA BESSONS    	Prochain Arret	Bara Bessons	Bara Bessons					
+Bara La Croix	BARA LA CROIX   	Prochain Arret	Bara La Croix	Bara La Croix					
+Bara Prats	BARA PRATS      	Prochain Arret	Bara Prats	Bara Prats					
+Bara Val de Gray	BARA VAL DE GRAY	Prochain Arret	Bara Val de Gray	Bara Val de Gray					
+Barbusse Colbert	BARBUSSE COLBERT	Prochain Arret	Barbusse Colbert	Barbusse Colbert					
+Barielle	BARIELLE        	Prochain Arret	Barielle	Barielle					
+Belle de Mai Loubon	BDM LOUBON      	Prochain Arret	Belle de Mai Loubon	Belle de Mai Loubon					
+Belle de Mai National	BDM NATIONAL    	Prochain Arret	Belle de Mai National	Belle de Mai Nat.					
+Berthe Sylva La Rose	B. SYLVA LA ROSE	Prochain Arret	Berthe Sylva La Rose	Berthe Sylva La Rose					
+Berthe Sylva Valdonne	B.SYLVA VALDONNE	Prochain Arret	Berthe Sylva Valdonne	B. Sylva Valdonne					
+Bertrandon	BERTRANDON      	Prochain Arret	Bertrandon	Bertrandon					
+Bon Rencontre	BON RENCONTRE   	Prochain Arret	Bon Rencontre	Bon Rencontre					
+Bougainville	BOUGAINVILLE    	Prochain Arret	Bougainville	Bougainville					
+Braque Les Flamants	BRAQUE FLAMANTS 	Prochain Arret	Braque Les Flamants	Braque Les Flamants					
+Breteuil Puget	BRETEUIL PUGET  	Prochain Arret	Breteuil Fortia	Breteuil Fortia					
+Burel Plombières	BUREL PLOMBIERES	Prochain Arret	Burel Plombieres	Burel Plombieres					
+Busserine HLM	BUSSERINE HLM   	Prochain Arret	Busserine HLM	Busserine HLM					
+Cade Mouton	CADE MOUTON     	Prochain Arret	Cade Mouton	Cade Mouton					
+Canebière Capucins	CNBE. CAPUCINS  	Prochain Arret	Canebiere Capucins	Canebiere Capucins					
+Canebière Garibaldi	NOAILLES        	Prochain Arret	Noailles	Canebiere Garibaldi					
+Canebière St Ferréol	CNBE. ST FERREOL	Prochain Arret	Canebiere St Ferreol	Canebiere St Ferreol					
+Canebière Vieux Port	CNBE. VIEUX PORT	Prochain Arret	Canebiere Vieux Port	Canebiere Vieux Port					
+Canton Vert	CANTON VERT     	Prochain Arret	Canton Vert	Canton Vert					
+Cantons Rouges	CANTONS ROUGES  	Prochain Arret	Cantons Rouges	Cantons Rouges					
+Casanova Barbès	CASANOVA BARBES 	Prochain Arret	Casanova Barbes	Casanova Barbes					
+Casanova Canet	CASANOVA CANET  	Prochain Arret	Casanova Canet	Casanova Canet					
+Casanova De Lesseps	CASANOVA LESSEPS	Prochain Arret	Casanova De Lesseps	Casanova De Lesseps					
+Casanova États-Unis	CASANOVA USA    	Prochain Arret	Casanova Etats-Unis	Casanova Etats-Unis					
+Casanova Larousse	CSN. LAROUSSE   	Prochain Arret	Casanova Larousse	Casanova Larousse					
+Castellas Les Lions	CASTELLAS LIONS 	Prochain Arret	Castellas Les Lions	Castellas Les Lions					
+Castors de Servières	CASTORS DE SERVS	Prochain Arret	Castors de Servieres	Castors de Servieres					
+Catalans	CATALANS        	Prochain Arret	Catalans	Catalans					
+Centre Commercial du Merlan	C. C. LE MERLAN 	Prochain Arret	CC Le Merlan	C. Commercial Merlan					
+Centre Valentine 1	C. VALENTINE 1  	Prochain Arret	Centre Valentine 1	Centre Valentine 1					
+Centre Valentine 2	C. VALENTINE 2  	Prochain Arret	Centre Valentine 2	Centre Valentine 2					
+CFA Corot	CFA COROT       	Prochain Arret	CFA Corot	CFA Corot					
+Champfleuri	CHAMPFLEURI     	Prochain Arret	Champfleuri	Champfleuri					
+Chartreux Ecoles	CHARTREUX ECOLES	Prochain Arret	Chartreux Ecoles	Chartreux Ecoles					
+Chartreux Pierre Roche	CHARTREUX P.ROCH	Prochain Arret	Chartreux Pierre Roche	Chartreux P. Roche					
+Château de la Parade	CHATEAU PARADE  	Prochain Arret	Chateau de la Parade	Chateau de la Parade					
+Château des Martégaux	CHATEAU MARTEGAU	Prochain Arret	Chateau des Martegaux	Chateau Martegaux					
+Château Gombert	CHATEAU GOMBERT 	Prochain Arret	Chateau Gombert	Chateau Gombert					
+Chemin de la Commanderie	CH. COMMANDERIE 	Prochain Arret	Chemin de la Commanderie	Chemin Commanderie					
+Chemin de St Antoine	CHEMIN ST ANTOIN	Prochain Arret	Chemin de St Antoine	Chemin de St Antoine					
+Chemin des Grives	CH. DES GRIVES  	Prochain Arret	Chemin des Grives	Chemin des Grives					
+Chutes Lavie	CHTS LVIE RAGUSE	Prochain Arret	Chutes Lavie	Chutes Lavie					
+Chutes Lavie Dahdah	CHTS LVIE DAHDAH	Prochain Arret	Chutes Lavie Dahdah	Chutes Lavie Dahdah					
+Chutes Lavie Raguse	CHUTES LAVIE    	Prochain Arret	Chutes Lavie Raguse	Chutes Lavie Raguse					
+Cimetière du Canet	CIMETIERE CANET 	Prochain Arret	Cimetiere du Canet	Cimetiere du Canet					
+Cité Bassens	CITE BASSENS    	Prochain Arret	Cite Bassens	Cite Bassens					
+Cité La Marie Basse	CITE MARIE BASSE	Prochain Arret	Cite La Marie Basse	Cite La Marie Basse					
+Cité St Just	CITE ST JUST    	Prochain Arret	Cite St Just	Cite Saint Just					
+Clos d'Orville	CLOS ORVILLE    	Prochain Arret	Clos Orville	Clos Orville					
+Clovis Hugues	CLOVIS HUGUES   	Prochain Arret	Clovis Hugues	Clovis Hugues					
+Collège Edouard Manet	COLLEGE E. MANET	Prochain Arret	College E. Manet	College E. Manet					
+Collège Malraux	COLLEGE MALRAUX 	Prochain Arret	College Malraux	College Malraux					
+Collège Rostand	COLLEGE ROSTAND 	Prochain Arret	College Rostand	College Rostand					
+Collège Yves Montand	COLLEGE MONTAND 	Prochain Arret	College Yves Montand	College Yves Montand					
+Consolation Balustres	CONSO. BALUSTRES	Prochain Arret	Consolation Balustres	Conso. Balustres					
+Consolation Gracieuse	CONSO. GRACIEUSE	Prochain Arret	Consolation Gracieuse	Conso. Gracieuse					
+Copernic	COPERNIC        	Prochain Arret	Copernic	Copernic					
+Copernic Champollion	C. CHAMPOLLION  	Prochain Arret	Copernic Champollion	Copernic Champollion					
+Corot Lacordaire	COROT LACORDAIRE	Prochain Arret	Corot Lacordaire	Corot Lacordaire					
+Corot Monet	COROT MONET     	Prochain Arret	Corot Monet	Corot Monet					
+Corot Moutte	COROT MOUTTE    	Prochain Arret	Corot Moutte	Corot Moutte					
+Corse 4 Septembre	CORSE 4 SEPT.   	Prochain Arret	Corse 4 Septembre	Corse 4 Septembre					
+Corse d'Aurelle	CORSE AURELLE   	Prochain Arret	Corse Aurelle	Corse Aurelle					
+Coxe Mairie 13-14	COXE MAIRIE 1314	Prochain Arret	Coxe Mairie 13-14	Coxe Mairie 13-14					
+Coxe Massenet	COXE MASSENET   	Prochain Arret	Coxe Massenet	Coxe Massenet					
+Daudet Michel	DAUDET MICHEL   	Prochain Arret	Daudet Michel	Daudet Michel					
+Daudet St Just	DAUDET ST JUST  	Prochain Arret	Daudet Saint Just	Daudet Saint Just					
+De Lesseps Casanova	LESSEPS CASANOVA	Prochain Arret	De Lesseps Casanova	De Lesseps Casanova					
+De Roux Crémieux	DE ROUX CREMIEUX	Prochain Arret	De Roux Cremieux	De Roux Cremieux					
+De Roux Garlaban	DE ROUX GARLABAN	Prochain Arret	De Roux Garlaban	De Roux Garlaban					
+Delprat Vallon Vert	DELPRAT V. VERT 	Prochain Arret	Delprat Vallon Vert	Delprat Vallon Vert					
+Direction 5 Avenues - 42	                	Ligne 42 vers	Metro 5 Avenues	42 - Metro 5 Avenues					
+Direction 5 Avenues - 42T		Ligne 42T vers	Metro 5 Avenues	42T - Metro 5 Avs.					
+Direction Allauch - 144		Ligne 144 vers	Allauch	144 - Allauch					
+Direction Allauch - 144J		Ligne 144J vers	Allauch	144J - Allauch					
+Direction Allauch - 145		Ligne 145 vers	Allauch	145 - Allauch NUIT					
+Direction Bougainville - 28		Ligne 28 vers	Bougainville	28 - Bougainville					
+Direction Bougainville - 38		Ligne 38 vers	Bougainville	38 - Bougainville					
+Direction Canebière Bourse - 31		Ligne 31 vers	Canebiere Bourse	31 - Canebie. Bourse					
+Direction Canebière Bourse - 32		Ligne 32 vers	Canebiere Bourse	32 - Canebie. Bourse					
+Direction Château Gombert - 1		Ligne 1 vers	Chateau Gombert	1 - Chateau Gombert					
+Direction Cité La Marie Haute - 2		Ligne 2 vers	Cite La Marie Haute	2 - Cite Marie Haute					
+Direction Collège Jean Giono - 37A		Ligne 37A vers	College Jean Giono	37A - College Giono					
+Direction Croix Rouge - 11		Ligne 11 vers	Plateau Croix Rouge	11 - Croix-Rouge					
+Direction Dépôt La Rose - 42		Ligne 42 vers	Depot La Rose	42 - Depot La Rose					
+Direction La Batarelle - 37		Ligne 37 vers	La Batarelle	37 - La Batarelle					
+Direction La Batarelle - 37A		Ligne 37A vers	La Batarelle	37A - La Batarelle					
+Direction La Batarelle Etoile - 37S		Ligne 37S vers	La Batarelle Etoile	37S - Batarelle Etl.					
+Direction La Fêve - 142		Ligne 142 vers	La Feve	142 - La Feve					
+Direction La Fêve - 142J		Ligne 142J vers	La Feve	142J - La Feve					
+Direction La Montade - 143		Ligne 143 vers	La Montade	143 - La Montade					
+Direction La Parade - 1S		Ligne 1S vers	La Parade	1S - La Parade					
+Direction La Parade - 5		Ligne 5 vers	La Parade	5 - La Parade					
+Direction La Rose - 1		Ligne 1 vers	Métro La Rose	1 - Metro La Rose					
+Direction La Rose - 11		Ligne 11 vers	Metro La Rose	11 - Metro La Rose					
+Direction La Rose - 142		Ligne 142 vers	Metro La Rose	142 - Metro La Rose					
+Direction La Rose - 142J		Ligne 142J vers	Metro La Rose	142J - Metro La Rose					
+Direction La Rose - 143		Ligne 143 vers	Metro La Rose	143- Metro La Rose					
+Direction La Rose - 144		Ligne 144 vers	Metro La Rose	144 - Metro La Rose					
+Direction La Rose - 144J	                	Ligne 144J vers	Metro La Rose	144J - Metro La Rose					
+Direction La Rose - 145	                	Ligne 145 vers	Metro La Rose	145 - Metro La Rose					
+Direction La Rose - 1S		Ligne 1S vers	Metro La Rose	1S- Metro La Rose					
+Direction La Rose - 2		Ligne 2 vers	Metro La Rose	2 -> Metro La Rose					
+Direction La Rose - 27		Ligne 27 vers	Metro La Rose	27 - Metro La Rose					
+Direction La Rose - 3		Ligne 3 vers	Métro La Rose	3 - Metro La Rose					
+Direction La Rose - 4		Ligne 4 vers	Metro La Rose	4 - Metro La Rose					
+Direction La Rose - 4B		Ligne 4B vers	Metro La Rose	4B - Metro La Rose					
+Direction La Rose - 4S		Ligne 4S vers	Metro La Rose	4S - Metro La Rose					
+Direction La Rose - 5		Ligne 5 vers	Metro La Rose	5 - Metro La Rose					
+Direction La Rose - B3B		Ligne B3B vers	Metro La Rose	B3B - Metro La Rose					
+Direction La Valentine CC - 4		Ligne 4 vers	La Valentine CC	4 - La Valentine CC					
+Direction Le Merlan - 33S		Ligne 33S vers	Le Merlan	33S - Le Merlan					
+Direction Le Merlan - 34		Ligne 34 vers	Le Merlan	34 - Le Merlan					
+Direction Le Pharo - 81		Ligne 81 vers	Le Pharo	81 - Le Pharo					
+Direction Les 3 Lucs - 4B		Ligne 4B vers	Les 3 Lucs	4B - Les 3 Lucs					
+Direction Les Aygalades - 28		Ligne 28 vers	Les Aygalades	28 - Les Aygalades					
+Direction Les Aygalades - 31		Ligne 31 vers	Les Aygalades	31 - Les Aygalades					
+Direction Les Baronnies - 42T		Ligne 42T vers	Les Baronnies	42T - Les Baronnies					
+Direction Les Flamants - 53		Ligne 53 vers	Les Flamants	53 - Les Flamants					
+Direction Les Vaudrans - 4S		Ligne 4S vers	Les Vaudrans	4S - Les Vaudrans					
+Direction Lycée St Exupéry - 27		Ligne 27 vers	Lycee St Exupery	27 - Lycee Nord					
+Direction Malpassé - 37		Ligne 37 vers	Metro Malpasse	37 - Metro Malpasse					
+Direction Malpassé - 37S		Ligne 37S vers	Metro Malpasse	37S - Metro Malpasse					
+Direction Malpassé - 38		Ligne 38 vers	Metro Malpasse	38 - Metro Malpasse					
+Direction Malpassé - B3A		Ligne B3A vers	Metro Malpasse	B3A - Metro Malpasse					
+Direction Réformés - 33		Ligne 33 vers	Reformes Canebiere	33 - Les Reformes					
+Direction Réformés - 33S		Ligne 33S vers	Reformes Canebiere	33S - Les Reformes					
+Direction Réformés - 34		Ligne 34 vers	Reformes Canebiere	34 - Les Reformes					
+Direction St Jérôme IUT - 32		Ligne 32 vers	St Jerome IUT	32 - St Jerome IUT					
+Direction St Jérôme P+R - 3		Ligne 3 vers	St Jerome P+R	3 - St Jerome P+R					
+Direction St Jérôme P+R - 33		Ligne 33S vers	St Jerome P+R	33 - St Jerome P+R					
+Direction St Jérôme P+R - B3A		Ligne B3A vers	St Jerome P+R	B3A - St Jerome P+R					
+Direction St Just - 53		Ligne 53 vers	Metro St Just	53 - Metro St Just					
+Direction St Just - 81		Ligne 81 vers	Metro St Just	81 - Metro St Just					
+Direction Technopôle - B3B		Ligne B3B vers	Technopole Ch. Gombert	B3B - Technopole CG					
+Donadille	DONADILLE       	Prochain Arret	Donadille	Donadille					
+Donadille Langevin	DONA. LANGEVIN  	Prochain Arret	Donadille Langevin	Donadille Langevin					
+Ecole Maternelle	ECOLE MATERNELLE	Prochain Arret	Ecole Maternelle	Ecole Maternelle					
+Einstein Athéna	EINSTEIN ATHENA 	Prochain Arret	Einstein Athena	Einstein Athena					
+Einstein Monnet	EINSTEIN MONNET 	Prochain Arret	Einstein Monnet	Einstein Monnet					
+Einstein Parking Relais	EINSTEIN P+R    	Prochain Arret	Einstein Parking Relais	Eintein Pkg Relais					
+Flammarion Cassini	FLMMRN CASSINI  	Prochain Arret	Flammarion Cassini	Flammarion Cassini					
+Flammarion Siphon	FLMMRN SIPHON   	Prochain Arret	Flammarion Siphon	Flammarion Siphon					
+Fondacle	FONDACLE        	Prochain Arret	Fondacle	Fondacle					
+Forge Dolet	FORGE DOLET     	Prochain Arret	Forge Dolet	Forge Dolet					
+Fort Notre Dame	FORT NOTRE DAME 	Prochain Arret	Fort Notre Dame	Fort Notre Dame					
+Fournacle Les Aurengues	FOUR. AURENGUES 	Prochain Arret	Fournacle Les Aurengues	Fournacle Arengues					
+Gardiette Pagode	GARDIETTE PAGODE	Prochain Arret	Gardiette Pagode	Gardiette Pagode					
+Gay Lussac	GAY LUSSAC      	Prochain Arret	Gay Lussac	Gay Lussac					
+Gay Lussac Gèze	GAY LUSSAC GEZE 	Prochain Arret	Gay Lussac Geze	Gay Lussac Geze					
+Géraniums	GERANIUMS       	Prochain Arret	Geraniums	Geraniums					
+Gibbes Calvet	GIBBES CALVET   	Prochain Arret	Gibbes Calvet	Gibbes Calvet					
+Giono Libération	GIONO LIBERATION	Prochain Arret	Giono Liberation	Giono Liberation					
+Grottes Loubière	GROTTES LOUBIERE	Prochain Arret	Grottes Loubiere	Grottes Loubiere					
+Guigou	GUIGOU          	Prochain Arret	Guigou	Guigou					
+Henri Tasso	HENRI TASSO     	Prochain Arret	Henri Tasso	Henri Tasso					
+HLM Le Canet	HLM LE CANET    	Prochain Arret	HLM Le Canet	HLM Le Canet					
+Hôpital Laveran	HOPITAL LAVERAN 	Prochain Arret	Hopital Laveran	Hopital Laveran					
+Hôpital Mille Ecus	H. MILLE ECUS   	Prochain Arret	Hopital Mille Ecus	Hopital Mille Ecus					
+Joliot Curie	JOLIOT CURIE    	Prochain Arret	Joliot Curie	Joliot Curie					
+Jourdan Crèche	JOURDAN CRECHE  	Prochain Arret	Jourdan Creche	Jourdan Creche					
+Jourdan Le Mail	JOURDAN LE MAIL 	Prochain Arret	Jourdan Le Mail	Jourdan Le Mail					
+Keynes Langevin	KEYNES LANGEVIN 	Prochain Arret	Keynes Langevin	Keynes Langevin					
+La Batarelle Basse	BATARELLE BASSE 	Prochain Arret	La Batarelle Basse	La Batarelle Basse					
+La Bégude	LA BEGUDE       	Prochain Arret	La Begude	La Begude					
+La Bégude Sud	LA BEGUDE SUD   	Prochain Arret	La Begude Sud	La Begude Sud					
+La Boudinière	LA BOUDINIERE   	Prochain Arret	La Boudiniere	La Boudiniere					
+La Bourdonnière	LA BOURDONNIERE 	Prochain Arret	La Bourdonniere	La Bourdonniere					
+La Cascade	LA CASCADE      	Prochain Arret	La Cascade	La Cascade					
+La Croix Rouge	LA CROIX ROUGE  	Prochain Arret	La Croix Rouge	La Croix Rouge					
+La Croix Rouge Eglise	CROIX ROUGE EGL.	Prochain Arret	La Croix Rouge Eglise	Croix Rouge Eglise					
+La Croix Rouge Val Plan	CROIX ROUGE VAL 	Prochain Arret	La Croix Rouge Val Plan	Croix Rouge Val Plan					
+La Fêve	LA FEVE         	Prochain Arret	La Feve	La Feve					
+La Grave La Rose	LA GRAVE LA ROSE	Prochain Arret	La Grave La Rose	La Grave La Rose					
+La Julienne	LA JULIENNE     	Prochain Arret	La Julienne	La Julienne					
+La Louise	LA LOUISE       	Prochain Arret	La Louise	La Louise					
+La Margeray	LA MARGERAY     	Prochain Arret	La Margeray	La Margeray					
+La Marine	LA MARINE       	Prochain Arret	La Marine	La Marine					
+La Maurelle	LA MAURELLE     	Prochain Arret	La Maurelle	La Maurelle					
+La Montade	LA MONTADE      	Prochain Arret	La Montade	La Montade					
+La Parade Argelas	PARADE ARGELAS  	Prochain Arret	La Parade Argelas	La Parade Argelas					
+La Parade Chars	LA PARADE CHARS 	Prochain Arret	La Parade Chars	La Parade Chars					
+La Parade Garou	LA PARADE GAROU 	Prochain Arret	La Parade Garou	La Parade Garou					
+La Parade Pierrots	PARADE PIERROTS 	Prochain Arret	La Parade Pierrots	La Parade Pierrots					
+La Pounche Les Ourmes	POUNCHE OURMES  	Prochain Arret	La Pounche Les Ourmes	Pounche Les Ourmes					
+La Ravelle	LA RAVELLE      	Prochain Arret	La Ravelle	La Ravelle					
+La Rose	LA ROSE         	Prochain Arret	La Rose	La Rose					
+La Rose Bd Neuf	LA ROSE BD NEUF 	Prochain Arret	La Rose Bd Neuf	La Rose Bd Neuf					
+La Rose Fuveau	LA ROSE FUVEAU  	Prochain Arret	La Rose Fuveau	La Rose Fuveau					
+La Rose Poste	LA ROSE POSTE   	Prochain Arret	La Rose Poste	La Rose Poste					
+La Rose Verdière	LA ROSE VERDIERE	Prochain Arret	La Rose Verdiere	La Rose Verdiere					
+La Rose Village	LA ROSE VILLAGE 	Prochain Arret	La Rose Village	La Rose Village					
+La Simiane	LA SIMIANE      	Prochain Arret	La Simiane	La Simiane					
+La Sylve Le Castellas	SYLVE CASTELLAS 	Prochain Arret	La Sylve Le Castellas	La Sylve Castellas					
+La Tirane	LA TIRANE       	Prochain Arret	La Tirane	La Tirane					
+La Valentelle	LA VALENTELLE   	Prochain Arret	La Valentelle	La Valentelle					
+Langevin	LANGEVIN        	Prochain Arret	Langevin	Langevin					
+Langevin Consolation	L. CONSOLATION  	Prochain Arret	Langevin Consolation	Langevin Consolation					
+Langevin Plank	LANGEVIN PLANK  	Prochain Arret	Langevin Plank	Langevin Plank					
+Laveran Diderot	LAVERAN DIDEROT 	Prochain Arret	Laveran Diderot	Laveran Diderot					
+Le Bocage	LE BOCAGE       	Prochain Arret	Le Bocage	Le Bocage					
+Le Castellas	LE CASTELLAS    	Prochain Arret	Le Castellas	Le Castellas					
+Le Grand Puits Pie d'Autry	LE GRAND PUITS  	Prochain Arret	Le Grand Puits Pie Autry	Grand Puits Autry					
+Le Logis Neuf Centre Médical	LOGIS NEUF MEDIC	Prochain Arret	Le Logis Neuf Centre Medical	Logis Neuf C.Medical					
+Le Logis Neuf Ecoles	LOGIS NEUF ECOLE	Prochain Arret	Le Logis Neuf Ecoles	Le Logis Neuf Ecoles					
+Le Moulin à Huile	MOULIN A HUILE  	Prochain Arret	Le Moulin a Huile	Le Moulin a Huile					
+L'Elysée	ELYSEE          	Prochain Arret	Elysee	Elysee					
+Leprince Ringuet	LEPRINCE RINGUET	Prochain Arret	Leprince Ringuet	Leprince Ringuet					
+Les 3 Lucs Bouquière	3 LUCS BOUQUIERE	Prochain Arret	Les 3 Lucs Bouquiere	Les 3 Lucs Bouquiere					
+Les 3 Lucs Ste Rita	3 LUCS STE RITA 	Prochain Arret	Les 3 Lucs Ste Rita	Les 3 Lucs Ste Rita					
+Les Acacias	LES ACACIAS     	Prochain Arret	Les Acacias	Les Acacias					
+Les Alvergnes	LES ALVERGNES   	Prochain Arret	Les Alvergnes	Les Alvergnes					
+Les Aurengues	LES AURENGUES   	Prochain Arret	Les Aurengues	Les Aurengues					
+Les Bartavelles	LES BARTAVELLES 	Prochain Arret	Les Bartavelles	Les Bartavelles					
+Les Baudillons	LES BAUDILLONS  	Prochain Arret	Les Baudillons	Les Baudillons					
+Les Blacassins	LES BLACASSINS  	Prochain Arret	Les Blacassins	Les Blacassins					
+Les Cèdres	LES CEDRES      	Prochain Arret	Les Cedres	Les Cedres					
+Les Chanauds	LES CHANAUDS    	Prochain Arret	Les Chanauds	Les Chanauds					
+Les Chartreux	LES CHARTREUX   	Prochain Arret	Les Chartreux	Les Chartreux					
+Les Cigales	LES CIGALES     	Prochain Arret	Les Cigales	Les Cigales					
+Les Deux Tours	LES DEUX TOURS  	Prochain Arret	Les Deux Tours	Les Deux Tours					
+Les Ecoles	LES ECOLES      	Prochain Arret	Les Ecoles	Les Ecoles					
+Les Flamants Les Iris	FLAMANTS IRIS   	Prochain Arret	Les Flamants Les Iris	Flamants Les Iris					
+Les Hirondelles	LES HIRONDELLES 	Prochain Arret	Les Hirondelles	Les Hirondelles					
+Les Lauriers	LES LAURIERS    	Prochain Arret	Les Lauriers	Les Lauriers					
+Les Lilas	LES LILAS       	Prochain Arret	Les Lilas	Les Lilas					
+Les Madets	LES MADETS      	Prochain Arret	Les Madets	Les Madets					
+Les Martégaux	LES MARTEGAUX   	Prochain Arret	Les Martegaux	Les Martegaux					
+Les Moisserons	LES MOISSERONS  	Prochain Arret	Les Moisserons	Les Moisserons					
+Les Mourets	LES MOURETS     	Prochain Arret	Les Mourets	Les Mourets					
+Les Olives Blaches	OLIVES BLACHES  	Prochain Arret	Les Olives Blaches	Les Olives Blaches					
+Les Olives Comtesse	OLIVES COMTESSE 	Prochain Arret	Les Olives Comtesse	Les Olives Comtesse					
+Les Olives Village	OLIVES VILLAGE  	Prochain Arret	Les Olives Village	Les Olives Village					
+Les Oliviers	LES OLIVIERS    	Prochain Arret	Les Oliviers	Les Oliviers					
+Les Roubauds	LES ROUBAUDS    	Prochain Arret	Les Roubauds	Les Roubauds					
+Les Toits de La Pounche	TOITS LA POUNCHE	Prochain Arret	Les Toits de La Pounche	Toits de La Pounche					
+Les Vaudrans	LES VAUDRANS    	Prochain Arret	Les Vaudrans	Les Vaudrans					
+Les Vaudrans 3 Lucs	VAUDRANS 3 LUCS 	Prochain Arret	Les Vaudrans 3 Lucs	Les Vaudrans 3 Lucs					
+Les Vaudrans Marronniers	VAU. MARRONNIERS	Prochain Arret	Les Vaudrans Marronniers	Vaudrans Marronniers					
+Les Vidarès	LES VIDARES     	Prochain Arret	Les Vidares	Les Vidares					
+Les Vieux Cyprès	LES VIEUX CYPRES	Prochain Arret	Les Vieux Cypres	Les Vieux Cypres					
+L'Escallet	ESCALLET        	Prochain Arret	Escallet	Escallet					
+L'Hermitage	HERMITAGE       	Prochain Arret	Hermitage	Hermitage					
+Libération Dormoy	LIBERATION DRMY 	Prochain Arret	Liberation Dormoy	Liberation Dormoy					
+Libération Espérendieu	LIBERATION ESP. 	Prochain Arret	Liberation Esperendieu	Liberation Esperend.					
+Libération Réformés	LIBERATION REF. 	Prochain Arret	Liberation Reformes	Liberation Reformes					
+Libération St Vincent de Paul	LIBERATION S-VDP	Prochain Arret	Liberation S-V Paul	Liberation S-V Paul					
+Liberté Sembat	LIBERTE SEMBAT  	Prochain Arret	Liberte Sembat	Liberte Sembat					
+Lissandre	LISSANDRE       	Prochain Arret	Lissandre	Lissandre					
+Lissandre Ecoles	LISSANDRE ECOLES	Prochain Arret	Lissandre Ecoles	Lissandre Ecoles					
+Longchamp	LONGCHAMP       	Prochain Arret	Longchamp	Longchamp					
+Longchamp Montricher	LONGCHAMP       	Prochain Arret	Longchamp Montricher	Longchamp Montricher					
+Loubon Barbini	LOUBON BARBINI  	Prochain Arret	Loubon Barbini	Loubon Barbini					
+Loubon Bellevue	LOUBON BELLEVUE 	Prochain Arret	Loubon Bellevue	Loubon Bellevue					
+Lycée Artaud	LYCEE ARTAUD    	Prochain Arret	Lycee Artaud	Lycee Artaud					
+Lycée Colbert	LYCEE COLBERT   	Prochain Arret	Lycee Colbert	Lycee Colbert					
+Malpassé	MALPASSE        	Prochain Arret	Malpasse	Malpasse					
+Mas des Oliviers	MAS DES OLIVIERS	Prochain Arret	Mas des Oliviers	Mas des Oliviers					
+Mérimée Corot	MERIMEE COROT   	Prochain Arret	Merimee Corot	Merimee Corot					
+Merlan Brissac	MERLAN BRISSAC  	Prochain Arret 	Merlan Brissac	Merlan Brissac					
+Merlan Guynemer	MERLAN GUYNEMER 	Prochain Arret	Merlan Guynemer	Merlan Guynemer					
+Merlan Pâquerettes	M. PAQUERETTES  	Prochain Arret	Merlan Paquerettes	Merlan Paquerettes					
+Merlan Ste Marthe	M. STE MARTHE   	Prochain Arret	Merlan Ste Marthe	Merlan Ste Marthe					
+Merlan Tourelle	MERLAN TOURELLE 	Prochain Arret	Merlan Tourelle	Merlan Tourelle					
+Merlan Trompette	MERLAN TROMPETTE	Prochain Arret	Merlan Trompette	Merlan Trompette					
+Merlan Verdon	MERLAN VERDON   	Prochain Arret	Merlan Verdon	Merlan Verdon					
+Merlan Village	MERLAN VILLAGE  	Prochain Arret	Merlan Village	Merlan Village					
+Métro Colbert	METRO COLBERT   	Prochain Arret	Metro Colbert	Colbert Hotel Region					
+Métro Jules Guesde	PL. JULES GUESDE	Prochain Arret	Metro Jules Guesde	Place Jules Guesde					
+Métro La Rose 2	METRO LA ROSE   	Prochain Arret	Metro La Rose	Metro La Rose					
+Miège	MIEGE           	Prochain Arret	Miege	Miege					
+MIN Arnavaux	MIN ARNAVAUX    	Prochain Arret	MIN Arnavaux	MIN Arnavaux					
+MIN Bolivar	MIN BOLIVAR     	Prochain Arret	MIN Bolivar	MIN Bolivar					
+MIN Gibbes	MIN GIBBES      	Prochain Arret	MIN Gibbes	MIN Gibbes					
+Monet Florida	MONET FLORIDA   	Prochain Arret	Monet Florida	Monet Florida					
+Monet Lavandins	MONET LAVANDINS 	Prochain Arret	Monet Lavandins	Monet Lavandins					
+Monet St Barthélémy	MONET ST BARTH  	Prochain Arret	Monet St Barthelemy	Monet St Barthelemy					
+Moretti Gibbes	MORETTI GIBBES  	Prochain Arret	Moretti Gibbes	Moretti Gibbes					
+Moretti Rosiers	MORETTI ROSIERS 	Prochain Arret	Moretti Rosiers	Moretti Rosiers					
+Moretti Ste Marthe	MORETTI MARTHE  	Prochain Arret	Moretti Ste Marthe	Moretti Ste Marthe					
+Moutte Daudet	MOUTTE DAUDET   	Prochain Arret	Moutte Daudet	Moutte Daudet					
+Musée de la Moto	MUSEE DE LA MOTO	Prochain Arret	Musee de la Moto	Musee de la Moto					
+National	NATIONAL        	Prochain Arret	National	National					
+National Belle de Mai	NT. BELLE DE MAI	Prochain Arret	National Belle de Mai	Nat. Belle de Mai					
+National Guibal	NATIONAL GUIBAL 	Prochain Arret	National Guibal	National Guibal					
+National Loubon	NATIONAL LOUBON 	Prochain Arret	National Loubon	National Loubon					
+Néel	NEEL            	Prochain Arret	Neel	Neel					
+Nicolas Appert	NICOLAS APPERT  	Prochain Arret	Nicolas Appert	Nicolas Appert					
+Notre Dame de la Consolation	ND CONSOLATION  	Prochain Arret	ND de la Consolation	ND de la Consolation					
+Nungesser	NUNGESSER       	Prochain Arret	Nungesser	Nungesser					
+Palama Camoins	PALAMA CAMOINS  	Prochain Arret	Palama Camoins	Palama Camoins					
+Palama Carroussel	P. CARROUSSEL   	Prochain Arret	Palama Carroussel	Palama Carroussel					
+Palama Château Gombert	PALAMA GOMBERT  	Prochain Arret	Palama Chateau Gombert	Palama Ch. Gombert					
+Palama Ecuyers	PALAMA ECUYERS  	Prochain Arret	Palama Ecuyers	Palama Ecuyers					
+Palama Fumade	PALAMA FUMADE   	Prochain Arret	Palama Fumade	Palama Fumade					
+Parc Corot	PARC COROT      	Prochain Arret	Parc Corot	Parc Corot					
+Pardigon	PARDIGON        	Prochain Arret	Pardigon	Pardigon					
+Paris Forbin	PARIS FORBIN    	Prochain Arret	Paris Forbin	Paris Forbin					
+Pasteur Noria	PASTEUR NORIA   	Prochain Arret	Pasteur Noria	Pasteur Noria					
+Paul Gaffarel	PAUL GAFFAREL   	Prochain Arret	Paul Gaffarel	Paul Gaffarel					
+Paulette	PAULETTE        	Prochain Arret	Paulette	Paulette					
+Peintres Roux Jardinerie	ROUX JARDINERIE 		Peintres Roux Jardinerie	Roux Jardinerire					
+Peintres Roux La Serviane	ROUX SERVIANE   	Prochain Arret	Peintres Roux La Serviane	Roux La Serviane					
+Peintres Roux La Valentine	ROUX VALENTINE  	Prochain Arret	Peintres Roux La Valentine	Roux La Valentine					
+Peintres Roux Montre	ROUX MONTRE     	Prochain Arret	Peintres Roux Montre	Peintres Roux Montre					
+Pelletan Marceau	PELLETAN MARCEAU	Prochain Arret	Pelletan Marceau	Pelletan Marceau					
+Perrin Guigou	PERRIN GUIGOU   	Prochain Arret	Perrin Guigou	Perrin Guigou					
+Petit Chantier	PETIT CHANTIER  	Prochain Arret	Petit Chantier	Petit Chantier					
+Place aux Huiles	PLACE AUX HUILES	Prochain Arret	Place aux Huiles	Place aux Huiles					
+Place Bougainville	PL. BOUGAINVILLE	Prochain Arret	Place Bougainville	Place Bougainville					
+Place Brossolette	PL. BROSSOLETTE 	Prochain Arret	Place Brossolette	Place Brossolette					
+Place Caffo	PLACE CAFFO     	Prochain Arret	Place Caffo	Place Caffo					
+Place de la Corderie	PL. LA CORDERIE 	Prochain Arret	Place de la Corderie	Place de la Corderie					
+Place de Strasbourg	PL. STRASBOURG  	Prochain Arret	Place de Strasbourg	Place de Strasbourg					
+Place des États Unis	PLACE ETATS UNIS	Prochain Arret	Place des Etats Unis	Place des Etats Unis					
+Place des Héros	PLACE DES HEROS 	Prochain Arret	Place des Heros	Place des Heros					
+Place du 4 Septembre	PL. 4 SEPTEMBRE 	Prochain Arret	Place du 4 Septembre	Place du 4 Septembre					
+Place Leverrier	PLACE LEVERRIER 	Prochain Arret	Place Leverrier	Place Leverrier					
+Plage des Catalans	PLAGE CATALANS  	Prochain Arret	Plage des Catalans	Plage des Catalans					
+Plan de Cuques Cinéma	PLAN CUQUES CINE	Prochain Arret	Plan de Cuques Cinema	Plan Cuques Cinema					
+Plan de Cuques Eglise	CUQUES EGLISE   	Prochain Arret	Plan de Cuques Eglise	Plan Cuques Eglise					
+Plan de Cuques Félibrige	CUQUES FELIBRIGE	Prochain Arret	Plan de Cuques Felibrige	Cuques Felibrige					
+Plombières Arnal	PLOMBIERES ARNAL	Prochain Arret	Plombieres Arnal	Plombieres Arnal					
+Poilus Ecoles	POILUS ECOLES   	Prochain Arret	Poilus Ecoles	Poilus Ecoles					
+Poilus Mistral	POILUS MISTRAL	Prochain Arret	Poilus Mistral	Poilus Mistral					
+Poilus Siphon	POILUS SIPHON   	Prochain Arret	Poilus Siphon	Poilus Siphon					
+Près Canadel	PRES CANADEL    	Prochain Arret	Pres Canadel	Pres Canadel					
+Prosper Mérimée St Paul	PROSPER MERIMEE 	Prochain Arret	Prosper Merimee St Paul	Prosper Merimee					
+Puget Fortia	PUGET FORTIA    	Prochain Arret	Puget Fortia	Puget Fortia					
+Quartier de La Pounche	QUARTIER POUNCHE	Prochain Arret	Quartier de La Pounche	Quartier La Pounche					
+Raguse Chutes Lavie	RAGUSE CHTS LVIE	Prochain Arret	Raguse Chutes Lavie	Raguse Chutes Lavie					
+Raguse Luc	RAGUSE LUC      	Prochain Arret	Raguse Luc	Raguse Luc					
+Réformés Canebière	REF. CANEBIERE  	Prochain Arret	Reformes Canebiere	Reformes Canebiere					
+Résidence La Paquerette	RESIDENCE PAQ.  	Prochain Arret	Residence La Paquerette	Residence Paquerette					
+Résidence L'Echiquier	RES. ECHIQUIER  	Prochain Arret	Residence Echiquier	Res. Echiquier					
+Rond-Point des Oliviers	RD-PT OLIVIERS  	Prochain Arret	Rond Point des Oliviers	Rd-Pt des Oliviers					
+St Exupéry Lycée	ST EXUPERY LYCEE	Prochain Arret	St Exupery Lycee	St Exupery Lycee					
+St Jérôme Faculté	ST JEROME FAC   	Prochain Arret	Saint Jerome Faculte	Saint Jerome Faculte					
+St Jérôme IUT	ST JEROME IUT   	Prochain Arret	St Jerome IUT	St Jerome IUT					
+St Jérôme Les Sereins	STJEROME SEREINS	Prochain Arret	St Jerome Les Sereins	St Jerome Sereins					
+St Jérôme Pélabon	STJEROME PELABON	Prochain Arret	St Jerome Pelabon	St Jerome Pelabon					
+St Jérôme Susini	ST JEROME SUSINI	Prochain Arret	St Jerome Susini	St Jerome Susini					
+St Joseph	ST JOSEPH       	Prochain Arret	St Joseph	Saint Joseph					
+St Joseph Les Lions	ST JOSEPH LIONS 	Prochain Arret	St Joseph Les Lions	St Joseph Les Lions					
+St Just Achard	ST JUST ACHARD  	Prochain Arret	St Just Achard	St Just Achard					
+St Just Ivaldi	ST JUST IVALDI  	Prochain Arret	St Just Ivaldi	St Just Ivaldi					
+St Just Raguse	ST JUST RAGUSE  	Prochain Arret	St Just Raguse	St Just Raguse					
+St Just Vidal	ST JUST VIDAL   	Prochain Arret	St Just Vidal	St Just Vidal					
+St Louis Picardie	ST LOUIS PICARD.	Prochain Arret	St Louis Picardie	St Louis Picardie					
+St Mitre	ST MITRE        	Prochain Arret	St Mitre	St Mitre					
+St Mitre Ecoles	ST MITRE ECOLES 	Prochain Arret	St Mitre Ecoles	St Mitre Ecoles					
+St Mitre Party	ST MITRE PARTY  	Prochain Arret	St Mitre Party	St Mitre Party					
+St Mitre Village	ST MITRE VILLAGE	Prochain Arret	St Mitre Village	St Mitre Village					
+St Roch	SAINT ROCH      	Prochain Arret	St Roch	Saint Roch					
+St Victor	SAINT VICTOR    	Prochain Arret	St Victor	Saint Victor					
+Stade de Malpassé	STADE MALPASSE  	Prochain Arret	Stade de Malpasse	Stade de Malpasse					
+Stade Mallet	STADE MALLET    	Prochain Arret	Stade Mallet	Stade Mallet					
+Ste Marthe	SAINTE MARTHE   	Prochain Arret	Sainte Marthe	Sainte Marthe					
+Ste Marthe Bougie	STE M. BOUGIE   	Prochain Arret	Ste Marthe Bougie	Ste Marthe Bougie					
+Ste Marthe Colonel	STE M. COLONEL  	Prochain Arret	Ste Marthe Colonel	Ste Marthe Colonel					
+Ste Marthe Jourdan	STE M. JOURDAN  	Prochain Arret	Ste Marthe Jourdan	Ste Marthe Jourdan					
+Ste Marthe Le Camp	STE M. LE CAMP  	Prochain Arret	Ste Marthe Le Camp	Ste Marthe Le Camp					
+Ste Marthe Peupliers	STE M. PEUPLIERS	Prochain Arret	Ste Marthe Peupliers	Ste Marthe Peupliers					
+Ste Marthe Vert Bois	STE M. VERT BOIS	Prochain Arret	Ste Marthe Vert Bois	Ste Marthe Vert Bois					
+Strasbourg	STRASBOURG      	Prochain Arret	Strasbourg	Strasbourg					
+Strasbourg Amiens	STRASBOURG AMIEN	Prochain Arret	Strasbourg Amiens	Strasbourg Amiens					
+Strasbourg Desaix	STRASBOURG DESAI	Prochain Arret	Strasbourg Desaix	Strasbourg Desaix					
+Susini Marie Louise	SUSINI M. LOUISE	Prochain Arret	Susini Marie Louise	Susini Marie Louise					
+T2 - Canebière Capucins	T2 CANEB CAPUCIN	Prochain Arret	Canebiere Capucins	Caneb. Capucins -T2					
+T2 - Canebière Garibaldi	T2 CANEB GARIBAL	Prochain Arret	Caneb. Garibaldi	Caneb. Garibaldi -T2					
+T2 - Cinq Avenues	T2 - 5 AVENUES  	Prochain Arret	Cinq Avenues	Cinq Avenues - T2					
+T2 - Foch Boisson	T2 - F. BOISSON 	Prochain Arret	Foch Boisson	Foch Boisson - T2					
+T2 - Foch Sakakini	T2 - F. SAKAKINI	Prochain Arret	Foch Sakakini	Foch Sakakini - T2					
+T2 - La Blancarde	T2 - BLANCARDE  	Terminus	La Blancarde	La Blancarde - T2					
+T2 - Libération Espérendieu	T2LIBERATION ESP	Prochain Arret	Liberation Esperendieu	Liberation Esperend.					
+T2 - Libération Réformés	T2LIBERATION REF	Prochain Arret	Liberation Reformes	Liberation Reformes					
+T2 - Libération St Vincent de Paul	T2 LB SV DE PAUL	Prochain Arret	Liberation S-V Paul	Liberation S-V Paul					
+T2 - Longchamp	T2 - LONGCHAMP  	Prochain Arret	Longchamp	Longchamp - T2					
+T2 - National	T2 - NATIONAL   	Prochain Arret	National	National - T2					
+T2 - Réformés Canebière	T2 REFORMES CANE	Prochain Arret	Reformes Canebiere	Reformes Canebiere					
+T2, T3 - Arenc Le Silo	ARENC LE SILO   	Terminus	Arenc Le Silo	Arenc Le Silo -T2/T3					
+T2, T3 - Belsunce Alcazar	BELSUN. ALCAZAR 	Prochain Arret	Belsunce Alcazar	Belsunce Alcazar					
+T2, T3 - Euroméditerranée Gantès	EUROMED GANTES  	Prochain Arret	Euromed Gantes	Euromed Gantes T2/T3					
+T2, T3 - Joliette	T2/T3 JOLIETTE  	Prochain Arret	Joliette	Joliette - T2/T3					
+T2, T3 - République Dames	T2/T3 REP. DAMES	Prochain Arret	Republique Dames	Republique Dames					
+T2, T3 - Sadi Carnot	T2T3 SADI CARNOT	Prochain Arret	Sadi Carnot	Sadi Carnot - T2/T3					
+T3 - Castellane	T3 - CASTELLANE 	Terminus	Castellane	Castellane - T3					
+T3 - Cours Saint Louis	T3 CRS ST LOUIS 	Prochain Arret	Cours Saint Louis	Cours St Louis - T3					
+T3 - Place de Rome	T3 PLACE DE ROME	Prochain Arret	Place de Rome - Pref.	Place de Rome - T3					
+T3 - Rome Davso	T3 ROME DAVSO   	Prochain Arret	Rome Davso	Rome Davso - T3					
+T3 - Rome Dragon	T3 ROME DRAGON  	Prochain Arret	Rome Dragon - Antiq.	Rome Dragon - T3					
+Tastevin	TASTEVIN        	Prochain Arret	Tastevin	Tastevin					
+Technopôle Centrale Marseille	TECHNO. CENTRALE	Prochain Arret	Technopole Centrale Marseille	Technopole Centrale					
+Technopôle Polytech Marseille	TECHNO. POLYTECH	Prochain Arret	Technopole Polytech Marseille	Technopole Polytech					
+Théâtre du Merlan	THEATRE MERLAN  	Prochain Arret	Theatre du Merlan	Theatre du Merlan					
+Tour Sainte	TOUR SAINTE     	Prochain Arret	Tour Sainte	Tour Sainte					
+Transformateur	TRANSFORMATEUR  	Prochain Arret	Transformateur	Transformateur					
+Val des Pins	VAL DES PINS    	Prochain Arret	Val des Pins	Val des Pins					
+Val Plan	VAL PLAN        	Prochain Arret	Val Plan	Val Plan					
+Valdonne Fuveau	VALDONNE FUVEAU 	Prochain Arret	Valdonne Fuveau	Valdonne Fuveau					
+Valdonne Hôpital Laveran	VALDONNE HOPITAL	Prochain Arret	Valdonne Hptl. Laveran	Valdonne H. Laveran					
+Valdonne Peypin	VALDONNE PEYPIN 	Prochain Arret	Valdonne Peypin	Valdonne Peypin					
+Vélodrome	VELODROME       	Prochain Arret	Velodrome	Velodrome					
+Vieux Port - Cours Jean Ballard	VIEUX PORT BLLRD	Prochain Arret	Vieux Port Ballard	Vieux Port Ballard					
+Villecroze Bougie	VILLECZ. BOUGIE 	Prochain Arret	Villecroze Bougie	Villecroze Bougie					
+Villecroze Les Oliviers	VILLECROZE OLIV.	Prochain Arret	Villecroze Les Oliviers	Villecroze Oliviers					
+Villecroze Marronniers	V. MARRONNIERS  	Prochain Arret	Villecroze Marronniers	V. Marronniers					
+Voltaire St Charles	VOLT. ST CHARLES	Prochain Arret	Voltaire St Charles	Voltaire St Charles					
+[end]
+
+[infosystem_trip]
+23101
+Métro Malpassé - St Jérôme P+R
+132
+231
+
+[infosystem_busstop_list]
+11
+B3A - Métro Malpassé
+Direction St Jérôme P+R - B3A
+Malpassé
+Laveran Diderot
+Hôpital Laveran
+Stade de Malpassé
+Les Oliviers
+Les Lilas
+St Jérôme Faculté
+St Jérôme IUT
+B3A - St Jérôme Parking Relais
+
+[infosystem_trip]
+23102
+St Jérôme P+R - Métro Malpassé
+31
+231
+
+[infosystem_busstop_list]
+11
+B3A - St Jérôme Parking Relais
+Direction Malpassé - B3A
+St Jérôme IUT
+St Jérôme Faculté
+Les Lilas
+Les Oliviers
+Stade de Malpassé
+Hôpital Laveran
+Laveran Diderot
+Malpassé
+B3A - Métro Malpassé
+
+[infosystem_trip]
+23203
+Métro La Rose - Technopôle
+131
+232
+
+[infosystem_busstop_list]
+7
+B3B - Métro La Rose
+Direction Technopôle - B3B
+Métro La Rose 2
+Les Vieux Cyprès
+Technopôle Centrale Marseille
+Technopôle Polytech Marseille
+B3B - Technopôle de Château Gombert
+
+[infosystem_trip]
+23204
+Technopôle - Métro La Rose
+10
+232
+
+[infosystem_busstop_list]
+6
+B3B - Technopôle de Château Gombert
+Direction La Rose - B3B
+Technopôle Polytech Marseille
+Technopôle Centrale Marseille
+Les Vieux Cyprès
+B3B - Métro La Rose
+
+[infosystem_trip]
+305
+St Jérôme P+R - Technopôle
+131
+3
+
+[infosystem_busstop_list]
+25
+B3A - St Jérôme Parking Relais
+Direction Technopôle - B3B
+St Jérôme IUT
+St Jérôme Faculté
+Les Lilas
+Les Oliviers
+Stade de Malpassé
+Hôpital Laveran
+Laveran Diderot
+Malpassé
+La Rose Fuveau
+La Rose Village
+La Grave La Rose
+La Rose Poste
+Métro La Rose 2
+Les Vieux Cyprès
+Technopôle Centrale Marseille
+Technopôle Polytech Marseille
+Néel
+Leprince Ringuet
+Miège
+Miège
+Leprince Ringuet
+Néel
+B3B - Technopôle de Château Gombert
+
+[infosystem_trip]
+306
+Technopôle - St Jérôme P+R
+132
+3
+
+[infosystem_busstop_list]
+19
+B3B - Technopôle de Château Gombert
+Direction St Jérôme P+R - 3
+Technopôle Polytech Marseille
+Technopôle Centrale Marseille
+Les Vieux Cyprès
+Métro La Rose 2
+La Rose Poste
+La Grave La Rose
+La Rose Village
+La Rose Fuveau
+Malpassé
+Laveran Diderot
+Hôpital Laveran
+Stade de Malpassé
+Les Oliviers
+Les Lilas
+St Jérôme Faculté
+St Jérôme IUT
+B3A - St Jérôme Parking Relais
+
+[infosystem_trip]
+101
+Métro La Rose - Château Gombert
+11
+1
+
+[infosystem_busstop_list]
+16
+1 - Métro La Rose
+Direction Château Gombert - 1
+Métro La Rose 2
+Val Plan
+Les Vieux Cyprès
+Einstein Monnet
+Einstein Athéna
+Collège Malraux
+Einstein Parking Relais
+Bara Bessons
+Bara Val de Gray
+Bara La Croix
+Bara Prats
+Place des Héros
+Palama Château Gombert
+1 - Château Gombert
+
+[infosystem_trip]
+102
+Château Gombert - Métro La Rose
+10
+1
+
+[infosystem_busstop_list]
+15
+1 - Château Gombert
+Direction La Rose - 1
+Palama Château Gombert
+Place des Héros
+Bara Prats
+Bara La Croix
+Bara Val de Gray
+Bara Bessons
+Einstein Parking Relais
+Collège Malraux
+Einstein Athéna
+Einstein Monnet
+Les Vieux Cyprès
+Val Plan
+1 - Métro La Rose
+
+[infosystem_trip]
+103
+Métro La Rose - La Parade
+13
+1
+
+[infosystem_busstop_list]
+25
+1S - Métro La Rose
+Direction La Parade - 1S
+Métro La Rose 2
+Val Plan
+Les Vieux Cyprès
+Einstein Monnet
+Einstein Athéna
+Collège Malraux
+Einstein Parking Relais
+Bara Bessons
+Bara Val de Gray
+Bara La Croix
+Bara Prats
+Place des Héros
+Palama Château Gombert
+Château Gombert
+Palama Camoins
+Palama Carroussel
+Palama Ecuyers
+La Parade Chars
+Château de la Parade
+La Parade Garou
+La Parade Argelas
+La Parade Pierrots
+1S - La Parade
+
+[infosystem_trip]
+104
+La Parade - Métro La Rose
+10
+1
+
+[infosystem_busstop_list]
+24
+1S - La Parade
+Direction La Rose - 1S
+La Parade Pierrots
+La Parade Argelas
+La Parade Garou
+Château de la Parade
+La Parade Chars
+Palama Ecuyers
+Palama Carroussel
+Palama Camoins
+Château Gombert
+Palama Château Gombert
+Place des Héros
+Bara Prats
+Bara La Croix
+Bara Val de Gray
+Bara Bessons
+Einstein Parking Relais
+Collège Malraux
+Einstein Athéna
+Einstein Monnet
+Les Vieux Cyprès
+Val Plan
+1S - Métro La Rose
+
+[infosystem_trip]
+201
+Métro La Rose - Cité La Marie Haute
+21
+2
+
+[infosystem_busstop_list]
+17
+2 - Métro La Rose
+Direction Cité La Marie Haute - 2
+La Rose Poste
+La Grave La Rose
+La Rose
+La Rose Bd Neuf
+La Croix Rouge Val Plan
+La Bégude
+La Bégude Sud
+La Ravelle
+La Croix Rouge Eglise
+La Croix Rouge
+Delprat Vallon Vert
+Les Bartavelles
+Fournacle Les Aurengues
+Cité La Marie Basse
+2 - Cité la Marie Haute
+
+[infosystem_trip]
+202
+Cité La Marie Haute - Métro La Rose
+10
+2
+
+[infosystem_busstop_list]
+16
+2 - Cité la Marie Haute
+Direction La Rose - 2
+Cité La Marie Basse
+Fournacle Les Aurengues
+Les Bartavelles
+Delprat Vallon Vert
+La Croix Rouge
+La Croix Rouge Eglise
+La Ravelle
+La Bégude
+La Croix Rouge Val Plan
+La Rose Bd Neuf
+La Rose
+La Grave La Rose
+La Rose Poste
+2 - Métro La Rose
+
+[infosystem_trip]
+301
+Métro La Rose - St Jérome P+R
+132
+3
+
+[infosystem_busstop_list]
+13
+3 - Métro La Rose
+Direction St Jérôme P+R - 3
+Métro La Rose 2
+Val Plan
+Barielle
+Consolation Gracieuse
+Lycée Artaud
+Consolation Balustres
+Notre Dame de la Consolation
+Nicolas Appert
+Susini Marie Louise
+St Jérôme IUT
+3 - St Jérôme Parking Relais
+
+[infosystem_trip]
+302
+St Jérome P+R - Métro La Rose
+10
+3
+
+[infosystem_busstop_list]
+13
+3 - St Jérôme Parking Relais
+Direction La Rose - 3
+St Jérôme IUT
+Susini Marie Louise
+Nicolas Appert
+Notre Dame de la Consolation
+Consolation Balustres
+Lycée Artaud
+Consolation Gracieuse
+Barielle
+Val Plan
+Métro La Rose 2
+3 - Métro La Rose
+
+[infosystem_trip]
+401
+Métro La Rose - La Valentine CC
+41
+4
+
+[infosystem_busstop_list]
+30
+4 - Métro La Rose
+Direction La Valentine CC - 4
+La Rose Poste
+La Grave La Rose
+La Rose
+Les Baudillons
+Clos d'Orville
+La Maurelle
+Les Martégaux
+Château des Martégaux
+Fondacle
+Les Olives Comtesse
+Les Aurengues
+Les Acacias
+Les Olives Blaches
+Les Olives Village
+Poilus Mistral
+Vélodrome
+Poilus Siphon
+Poilus Ecoles
+Les 3 Lucs Ste Rita
+Peintres Roux Jardinerie
+Peintres Roux La Serviane
+Les 3 Lucs Bouquière
+Peintres Roux Montre
+Peintres Roux La Valentine
+Centre Valentine 1
+Centre Valentine 2
+La Valentelle
+4 - La Valentine C.Commercial
+
+[infosystem_trip]
+402
+La Valentine CC - Métro La Rose
+10
+4
+
+[infosystem_busstop_list]
+28
+4 - Métro La Rose
+Direction La Rose - 4
+La Valentelle
+Centre Valentine 2
+Centre Valentine 1
+Peintres Roux La Valentine
+Peintres Roux Montre
+Les 3 Lucs Bouquière
+Peintres Roux La Serviane
+Peintres Roux Jardinerie
+Les 3 Lucs Ste Rita
+Poilus Ecoles
+Poilus Siphon
+Vélodrome
+Poilus Mistral
+Les Olives Village
+Les Acacias
+Les Aurengues
+Les Olives Comtesse
+Fondacle
+Château des Martégaux
+Les Martégaux
+La Maurelle
+Les Baudillons
+La Rose
+La Grave La Rose
+La Rose Poste
+4 - Métro La Rose
+
+[infosystem_trip]
+403
+Métro La Rose - La Valentine CC par Les Vaudrans
+44
+4
+
+[infosystem_busstop_list]
+35
+4 - Métro La Rose
+Direction La Valentine CC - 4
+La Rose Poste
+La Grave La Rose
+La Rose
+Les Baudillons
+Clos d'Orville
+La Maurelle
+Les Martégaux
+Château des Martégaux
+Fondacle
+Les Olives Comtesse
+Les Aurengues
+Les Acacias
+Les Olives Blaches
+Les Olives Village
+Poilus Mistral
+Vélodrome
+Poilus Siphon
+Poilus Ecoles
+Les 3 Lucs Ste Rita
+Peintres Roux Jardinerie
+Les Vaudrans 3 Lucs
+Les Vaudrans Marronniers
+Les Vaudrans
+Les Vaudrans Marronniers
+Les Vaudrans 3 Lucs
+Peintres Roux La Serviane
+Les 3 Lucs Bouquière
+Peintres Roux Montre
+Peintres Roux La Valentine
+Centre Valentine 1
+Centre Valentine 2
+La Valentelle
+4 - La Valentine C.Commercial
+
+[infosystem_trip]
+404
+La Valentine CC - Métro La Rose par les Vaudrans
+42
+4
+
+[infosystem_busstop_list]
+33
+4 - Métro La Rose
+Direction La Rose - 4
+La Valentelle
+Centre Valentine 2
+Centre Valentine 1
+Peintres Roux La Valentine
+Peintres Roux Montre
+Les 3 Lucs Bouquière
+Peintres Roux La Serviane
+Les Vaudrans 3 Lucs
+Les Vaudrans Marronniers
+Les Vaudrans
+Les Vaudrans Marronniers
+Les Vaudrans 3 Lucs
+Peintres Roux Jardinerie
+Les 3 Lucs Ste Rita
+Poilus Ecoles
+Poilus Siphon
+Vélodrome
+Poilus Mistral
+Les Olives Village
+Les Acacias
+Les Aurengues
+Les Olives Comtesse
+Fondacle
+Château des Martégaux
+Les Martégaux
+La Maurelle
+Les Baudillons
+La Rose
+La Grave La Rose
+La Rose Poste
+4 - Métro La Rose
+
+[infosystem_trip]
+405
+Métro La Rose - Les 3 Lucs
+43
+4
+
+[infosystem_busstop_list]
+22
+4B - Métro La Rose
+Direction Les 3 Lucs - 4B
+La Rose Poste
+La Grave La Rose
+La Rose
+Les Baudillons
+Clos d'Orville
+La Maurelle
+Les Martégaux
+Château des Martégaux
+Fondacle
+Les Olives Comtesse
+Les Aurengues
+Les Acacias
+Les Olives Blaches
+Les Olives Village
+Poilus Mistral
+Vélodrome
+Poilus Siphon
+Poilus Ecoles
+Les 3 Lucs Ste Rita
+4B - Les 3 Lucs
+
+[infosystem_trip]
+406
+Les 3 Lucs - Métro La Rose
+10
+4
+
+[infosystem_busstop_list]
+20
+4B - Les 3 Lucs
+Direction La Rose - 4B
+Les 3 Lucs Ste Rita
+Poilus Ecoles
+Poilus Siphon
+Vélodrome
+Poilus Mistral
+Les Olives Village
+Les Acacias
+Les Aurengues
+Les Olives Comtesse
+Fondacle
+Château des Martégaux
+Les Martégaux
+La Maurelle
+Les Baudillons
+La Rose
+La Grave La Rose
+La Rose Poste
+4B - Métro La Rose
+
+[infosystem_trip]
+407
+Métro La Rose - Les Vaudrans
+45
+4
+
+[infosystem_busstop_list]
+24
+4S - Métro La Rose
+Direction Les Vaudrans - 4S
+La Rose Poste
+La Grave La Rose
+La Rose
+Les Baudillons
+Clos d'Orville
+La Maurelle
+Les Martégaux
+Château des Martégaux
+Fondacle
+Les Olives Comtesse
+Les Aurengues
+Les Acacias
+Les Olives Blaches
+Les Olives Village
+Poilus Mistral
+Vélodrome
+Poilus Siphon
+Poilus Ecoles
+Les 3 Lucs Ste Rita
+Les Vaudrans 3 Lucs
+Les Vaudrans Marronniers
+4S - Les Vaudrans
+
+[infosystem_trip]
+408
+Les Vaudrans - Métro La Rose
+10
+4
+
+[infosystem_busstop_list]
+22
+4S - Les Vaudrans
+Direction La Rose - 4S
+Les Vaudrans Marronniers
+Les Vaudrans 3 Lucs
+Les 3 Lucs Ste Rita
+Poilus Ecoles
+Poilus Siphon
+Vélodrome
+Poilus Mistral
+Les Olives Village
+Les Acacias
+Les Aurengues
+Les Olives Comtesse
+Fondacle
+Château des Martégaux
+Les Martégaux
+La Maurelle
+Les Baudillons
+La Rose
+La Grave La Rose
+La Rose Poste
+4S - Métro La Rose
+
+[infosystem_trip]
+501
+Métro La Rose - La Parade
+51
+5
+
+[infosystem_busstop_list]
+29
+5 - Métro La Rose
+Direction La Parade - 5
+Métro La Rose 2
+Val Plan
+Barielle
+Consolation Gracieuse
+Lycée Artaud
+Consolation Balustres
+Notre Dame de la Consolation
+St Mitre Ecoles
+St Mitre
+Les Deux Tours
+Stade Mallet
+La Julienne
+Tastevin
+Grottes Loubière
+Les Mourets
+Palama Château Gombert
+Château Gombert
+Palama Camoins
+Palama Fumade
+Palama Carroussel
+Palama Ecuyers
+La Parade Chars
+Château de la Parade
+La Parade Garou
+La Parade Argelas
+La Parade Pierrots
+5 - La Parade
+
+[infosystem_trip]
+502
+La Parade - Métro La Rose
+10
+5
+
+[infosystem_busstop_list]
+28
+5 - La Parade
+Direction La Rose - 5
+La Parade Pierrots
+La Parade Argelas
+La Parade Garou
+Château de la Parade
+La Parade Chars
+Palama Ecuyers
+Palama Carroussel
+Palama Fumade
+Palama Camoins
+Château Gombert
+Palama Château Gombert
+Les Mourets
+Grottes Loubière
+Tastevin
+La Julienne
+Stade Mallet
+Les Deux Tours
+St Mitre
+St Mitre Ecoles
+Notre Dame de la Consolation
+Consolation Balustres
+Lycée Artaud
+Consolation Gracieuse
+Barielle
+Val Plan
+5 - Métro La Rose
+
+[infosystem_trip]
+1101
+Métro La Rose - Croix Rouge
+111
+11
+
+[infosystem_busstop_list]
+19
+11 - Métro La Rose
+Direction Croix Rouge - 11
+Métro La Rose 2
+Val Plan
+Barielle
+Langevin Consolation
+Langevin Plank
+Keynes Langevin
+Joliot Curie
+Technopôle Polytech Marseille
+Néel
+Leprince Ringuet
+Miège
+Collège Malraux
+Copernic
+Copernic Champollion
+De Roux Crémieux
+De Roux Garlaban
+11 - Plateau de la Croix Rouge
+
+[infosystem_trip]
+1102
+Croix Rouge - Métro La Rose
+10
+11
+
+[infosystem_busstop_list]
+18
+11 - Plateau de la Croix Rouge
+Direction La Rose - 11
+De Roux Garlaban
+De Roux Crémieux
+Copernic Champollion
+Copernic
+Collège Malraux
+Miège
+Leprince Ringuet
+Néel
+Technopôle Polytech Marseille
+Joliot Curie
+Keynes Langevin
+Langevin Plank
+Langevin Consolation
+Barielle
+Val Plan
+11 - Métro La Rose
+
+[infosystem_trip]
+2701
+Métro La Rose - Lycée St Exupéry
+271
+27
+
+[infosystem_busstop_list]
+38
+27 - Métro La Rose
+Direction Lycée St Exupéry - 27
+La Rose Poste
+La Grave La Rose
+La Rose Village
+La Rose Fuveau
+Berthe Sylva La Rose
+Berthe Sylva Valdonne
+Valdonne Peypin
+Valdonne Hôpital Laveran
+Laveran Diderot
+Hôpital Laveran
+Stade de Malpassé
+Les Oliviers
+Les Hirondelles
+Merlan Ste Marthe
+Prosper Mérimée St Paul
+Centre Commercial du Merlan
+Théâtre du Merlan
+Busserine HLM
+Collège Edouard Manet
+La Margeray
+Forge Dolet
+Ste Marthe
+Nungesser
+La Simiane
+Tour Sainte
+Coxe Massenet
+St Joseph
+St Joseph Les Lions
+Chemin de St Antoine
+Résidence La Paquerette
+St Louis Picardie
+4 Chemins des Aygalades
+Chemin de la Commanderie
+Paul Gaffarel
+St Exupéry Lycée
+27 - Lycée St Exupéry
+
+[infosystem_trip]
+2702
+Lycée St Exupéry - Métro La Rose
+10
+27
+
+[infosystem_busstop_list]
+37
+27 - Lycée St Exupéry
+Direction La Rose - 27
+Paul Gaffarel
+Chemin de la Commanderie
+4 Chemins des Aygalades
+St Louis Picardie
+Résidence La Paquerette
+Chemin de St Antoine
+St Joseph Les Lions
+St Joseph
+Coxe Mairie 13-14
+Coxe Massenet
+Tour Sainte
+La Simiane
+Nungesser
+Ste Marthe
+Forge Dolet
+La Margeray
+Collège Edouard Manet
+Busserine HLM
+Théâtre du Merlan
+Centre Commercial du Merlan
+Prosper Mérimée St Paul
+Merlan Ste Marthe
+Les Hirondelles
+Les Oliviers
+Stade de Malpassé
+Hôpital Laveran
+Laveran Diderot
+Valdonne Hôpital Laveran
+Valdonne Peypin
+Berthe Sylva Valdonne
+La Rose Fuveau
+La Rose Village
+La Grave La Rose
+La Rose Poste
+27 - Métro La Rose
+
+[infosystem_trip]
+2801
+Métro Bougainville - Les Aygalades
+311
+28
+
+[infosystem_busstop_list]
+27
+28 - Métro Bougainville
+Direction Les Aygalades - 28
+Place Bougainville
+Casanova De Lesseps
+Casanova Barbès
+Casanova États-Unis
+Place des États Unis
+Cimetière du Canet
+Moretti Gibbes
+Moretti Rosiers
+Moretti Ste Marthe
+La Marine
+Bertrandon
+Ste Marthe Le Camp
+Ste Marthe Jourdan
+Ste Marthe Peupliers
+Ste Marthe
+Nungesser
+La Simiane
+Tour Sainte
+Coxe Massenet
+St Joseph
+St Joseph Les Lions
+Castellas Les Lions
+Le Castellas
+La Sylve Le Castellas
+28 - Les Aygalades
+
+[infosystem_trip]
+2802
+Les Aygalades - Métro Bougainville
+281
+28
+
+[infosystem_busstop_list]
+28
+28 - Les Aygalades
+Direction Bougainville - 28
+La Sylve Le Castellas
+Le Castellas
+Castellas Les Lions
+St Joseph Les Lions
+St Joseph
+Coxe Mairie 13-14
+Coxe Massenet
+Tour Sainte
+La Simiane
+Nungesser
+Ste Marthe
+Ste Marthe Peupliers
+Ste Marthe Vert Bois
+Ste Marthe Jourdan
+Ste Marthe Le Camp
+Bertrandon
+La Marine
+Moretti Ste Marthe
+Moretti Rosiers
+Moretti Gibbes
+Cimetière du Canet
+Place des États Unis
+Casanova États-Unis
+Casanova Barbès
+De Lesseps Casanova
+28 - Métro Bougainville
+
+[infosystem_trip]
+3101
+Canebière Bourse - Les Aygalades
+311
+31
+
+[infosystem_busstop_list]
+34
+31 - Canebière Bourse
+Direction Les Aygalades - 31
+Barbusse Colbert
+Métro Colbert
+Métro Jules Guesde
+Pelletan Marceau
+Place de Strasbourg
+Strasbourg Amiens
+Strasbourg Desaix
+Strasbourg
+National Loubon
+Loubon Bellevue
+Loubon Barbini
+Place Caffo
+Perrin Guigou
+5 Avenues Burel
+Ste Marthe Colonel
+Ste Marthe Bougie
+La Marine
+Bertrandon
+Ste Marthe Le Camp
+Ste Marthe Jourdan
+Ste Marthe Peupliers
+Ste Marthe
+Nungesser
+La Simiane
+Tour Sainte
+Coxe Massenet
+St Joseph
+St Joseph Les Lions
+Castellas Les Lions
+Le Castellas
+La Sylve Le Castellas
+31 - Les Aygalades
+
+[infosystem_trip]
+3102
+Les Aygalades - Canebière Bourse
+322
+31
+
+[infosystem_busstop_list]
+35
+31 - Les Aygalades
+Direction Canebière Bourse - 31
+La Sylve Le Castellas
+Le Castellas
+Castellas Les Lions
+St Joseph Les Lions
+St Joseph
+Coxe Mairie 13-14
+Coxe Massenet
+Tour Sainte
+La Simiane
+Nungesser
+Ste Marthe
+Ste Marthe Peupliers
+Ste Marthe Vert Bois
+Ste Marthe Jourdan
+Ste Marthe Le Camp
+Bertrandon
+La Marine
+Ste Marthe Bougie
+Ste Marthe Colonel
+5 Avenues Burel
+Burel Plombières
+Plombières Arnal
+Place Caffo
+Loubon Barbini
+Loubon Bellevue
+National Loubon
+Strasbourg Desaix
+Place de Strasbourg
+Paris Forbin
+Métro Jules Guesde
+Métro Colbert
+Barbusse Colbert
+31 - Canebière Bourse
+
+[infosystem_trip]
+3201
+Canebière Bourse - St Jérôme IUT
+321
+32
+
+[infosystem_busstop_list]
+34
+32 - Canebière Bourse
+Direction St Jérôme IUT - 32
+Barbusse Colbert
+Métro Colbert
+Métro Jules Guesde
+Pelletan Marceau
+Place de Strasbourg
+Strasbourg Amiens
+Strasbourg Desaix
+Strasbourg
+National Loubon
+Loubon Bellevue
+Loubon Barbini
+Place Caffo
+Perrin Guigou
+5 Avenues Burel
+Villecroze Marronniers
+Villecroze Bougie
+Monet St Barthélémy
+Monet Lavandins
+Monet Florida
+Mérimée Corot
+Centre Commercial du Merlan
+Prosper Mérimée St Paul
+Musée de la Moto
+Villecroze Les Oliviers
+Collège Rostand
+Les Cèdres
+Les Lauriers
+Stade de Malpassé
+Les Oliviers
+Les Lilas
+St Jérôme Faculté
+32 - St Jérôme IUT
+
+[infosystem_trip]
+3202
+St Jérôme IUT - Canebière Bourse
+322
+32
+
+[infosystem_busstop_list]
+33
+32 - St Jérôme IUT
+Direction Canebière Bourse - 32
+St Jérôme Faculté
+Les Lilas
+Les Oliviers
+Stade de Malpassé
+Les Lauriers
+Les Cèdres
+Collège Rostand
+Villecroze Les Oliviers
+Musée de la Moto
+Prosper Mérimée St Paul
+Centre Commercial du Merlan
+Mérimée Corot
+Monet Florida
+Monet Lavandins
+Monet St Barthélémy
+Villecroze Bougie
+Villecroze Marronniers
+5 Avenues Burel
+Burel Plombières
+Plombières Arnal
+Place Caffo
+Loubon Barbini
+Loubon Bellevue
+National Loubon
+Strasbourg Desaix
+Place de Strasbourg
+Paris Forbin
+Métro Jules Guesde
+Métro Colbert
+Barbusse Colbert
+32 - Canebière Bourse
+
+[infosystem_trip]
+3301
+Réformés - St Jérôme P+R
+132
+33
+
+[infosystem_busstop_list]
+28
+33 - Réformés Canebière
+Direction St Jérôme P+R - 33
+Voltaire St Charles
+National Guibal
+Belle de Mai National
+Clovis Hugues
+Belle de Mai Loubon
+Perrin Guigou
+5 Avenues Burel
+Ste Marthe Colonel
+Ste Marthe Bougie
+La Marine
+Bertrandon
+Ste Marthe Le Camp
+Cade Mouton
+Jourdan Crèche
+Jourdan Le Mail
+Busserine HLM
+Théâtre du Merlan
+Centre Commercial du Merlan
+Prosper Mérimée St Paul
+Merlan Ste Marthe
+Merlan Trompette
+Merlan Verdon
+Merlan Brissac
+Merlan Village
+Géraniums
+33 - St Jérôme Parking Relais
+
+[infosystem_trip]
+3302
+St Jérôme P+R - Réformés
+342
+33
+
+[infosystem_busstop_list]
+33
+33 - St Jérôme Parking Relais
+Direction Réformés - 33
+Géraniums
+Merlan Village
+Merlan Brissac
+Merlan Verdon
+Merlan Trompette
+Merlan Ste Marthe
+Prosper Mérimée St Paul
+Centre Commercial du Merlan
+Théâtre du Merlan
+Busserine HLM
+Collège Edouard Manet
+Jourdan Le Mail
+Jourdan Crèche
+Cade Mouton
+Ste Marthe Le Camp
+Bertrandon
+La Marine
+Ste Marthe Bougie
+Ste Marthe Colonel
+5 Avenues Burel
+Burel Plombières
+Plombières Arnal
+Place Caffo
+Loubon Barbini
+Loubon Bellevue
+National Loubon
+National Belle de Mai
+National Guibal
+Voltaire St Charles
+Liberté Sembat
+33 - Réformés Canebière
+
+[infosystem_trip]
+3303
+Réformés - Le Merlan
+341
+33
+
+[infosystem_busstop_list]
+33
+33S - Réformés Canebière
+Direction Le Merlan - 33S
+Voltaire St Charles
+National Guibal
+Belle de Mai National
+Clovis Hugues
+Belle de Mai Loubon
+Perrin Guigou
+5 Avenues Burel
+Ste Marthe Colonel
+Ste Marthe Bougie
+La Marine
+Bertrandon
+Ste Marthe Le Camp
+Cade Mouton
+Jourdan Crèche
+Jourdan Le Mail
+Busserine HLM
+Théâtre du Merlan
+Centre Commercial du Merlan
+Prosper Mérimée St Paul
+Merlan Ste Marthe
+Merlan Trompette
+Merlan Verdon
+Merlan Brissac
+Merlan Village
+Merlan Tourelle
+Merlan Brissac
+Merlan Tourelle
+Résidence L'Echiquier
+Merlan Pâquerettes
+Merlan Guynemer
+33S - Le Merlan
+
+[infosystem_trip]
+3304
+St Jérôme P+R - Réformés
+342
+33
+
+[infosystem_busstop_list]
+36
+33S - Le Merlan
+Direction Réformés - 33S
+Merlan Guynemer
+Merlan Pâquerettes
+Résidence L'Echiquier
+Merlan Tourelle
+Merlan Village
+Merlan Brissac
+Merlan Verdon
+Merlan Trompette
+Merlan Ste Marthe
+Prosper Mérimée St Paul
+Centre Commercial du Merlan
+Théâtre du Merlan
+Busserine HLM
+Collège Edouard Manet
+Jourdan Le Mail
+Jourdan Crèche
+Cade Mouton
+Ste Marthe Le Camp
+Bertrandon
+La Marine
+Ste Marthe Bougie
+Ste Marthe Colonel
+5 Avenues Burel
+Burel Plombières
+Plombières Arnal
+Place Caffo
+Loubon Barbini
+Loubon Bellevue
+National Loubon
+National Belle de Mai
+National Guibal
+Voltaire St Charles
+Liberté Sembat
+33S - Réformés Canebière
+
+[infosystem_trip]
+3401
+Réformés - Le Merlan
+341
+34
+
+[infosystem_busstop_list]
+27
+34 - Réformés Canebière
+Direction Le Merlan - 34
+Voltaire St Charles
+National Guibal
+Belle de Mai National
+Clovis Hugues
+Belle de Mai Loubon
+Perrin Guigou
+5 Avenues Burel
+Villecroze Marronniers
+Villecroze Bougie
+Monet St Barthélémy
+Monet Lavandins
+Monet Florida
+Mérimée Corot
+Centre Commercial du Merlan
+Prosper Mérimée St Paul
+Merlan Ste Marthe
+Merlan Trompette
+Merlan Verdon
+Merlan Brissac
+Merlan Village
+Merlan Tourelle
+Résidence L'Echiquier
+Merlan Pâquerettes
+Merlan Guynemer
+34 - Le Merlan
+
+[infosystem_trip]
+3402
+Le Merlan - Réformés Canebière
+342
+34
+
+[infosystem_busstop_list]
+31
+34 - Le Merlan
+Direction Réformés - 34
+Merlan Guynemer
+Merlan Pâquerettes
+Résidence L'Echiquier
+Merlan Tourelle
+Merlan Village
+Merlan Brissac
+Merlan Verdon
+Merlan Trompette
+Merlan Ste Marthe
+Prosper Mérimée St Paul
+Centre Commercial du Merlan
+Mérimée Corot
+Monet Florida
+Monet Lavandins
+Monet St Barthélémy
+Villecroze Bougie
+Villecroze Marronniers
+5 Avenues Burel
+Burel Plombières
+Plombières Arnal
+Place Caffo
+Loubon Barbini
+Loubon Bellevue
+National Loubon
+National Belle de Mai
+National Guibal
+Liberté Sembat
+Voltaire St Charles
+34 - Réformés Canebière
+
+[infosystem_trip]
+3701
+Métro Malpassé - La Batarelle
+371
+37
+
+[infosystem_busstop_list]
+22
+37 - Métro Malpassé
+Direction La Batarelle - 37
+Malpassé
+Valdonne Hôpital Laveran
+Valdonne Peypin
+Valdonne Fuveau
+St Jérôme Pélabon
+St Jérôme Les Sereins
+St Jérôme Susini
+Val des Pins
+Les Alvergnes
+Notre Dame de la Consolation
+St Mitre Ecoles
+St Mitre
+St Mitre Village
+St Mitre Party
+La Batarelle Basse
+Chemin des Grives
+L'Escallet
+Lissandre
+Lissandre Ecoles
+37 - La Batarelle
+
+[infosystem_trip]
+3702
+La Batarelle - Métro Malpassé
+31
+37
+
+[infosystem_busstop_list]
+21
+37 - La Batarelle
+Direction Malpassé - 37
+Lissandre Ecoles
+Lissandre
+L'Escallet
+Chemin des Grives
+La Batarelle Basse
+St Mitre Party
+St Mitre Village
+St Mitre Ecoles
+Notre Dame de la Consolation
+Les Alvergnes
+Val des Pins
+St Jérôme Susini
+St Jérôme Les Sereins
+St Jérôme Pélabon
+Valdonne Fuveau
+Valdonne Peypin
+Valdonne Hôpital Laveran
+Malpassé
+37 - Métro Malpassé
+
+[infosystem_trip]
+3703
+Métro Malpassé - La Batarelle Etoile
+372
+37
+
+[infosystem_busstop_list]
+23
+37S - Métro Malpassé
+Direction La Batarelle Etoile - 37S
+Malpassé
+Valdonne Hôpital Laveran
+Valdonne Peypin
+Valdonne Fuveau
+St Jérôme Pélabon
+St Jérôme Les Sereins
+St Jérôme Susini
+Val des Pins
+Les Alvergnes
+Notre Dame de la Consolation
+St Mitre Ecoles
+St Mitre
+St Mitre Village
+St Mitre Party
+La Batarelle Basse
+Chemin des Grives
+L'Escallet
+Lissandre
+Près Canadel
+Gardiette Pagode
+37S - La Batarelle Etoile
+
+[infosystem_trip]
+3704
+La Batarelle Etoile - Métro Malpassé
+31
+37
+
+[infosystem_busstop_list]
+22
+37S - La Batarelle Etoile
+Direction Malpassé - 37S
+Gardiette Pagode
+Près Canadel
+Lissandre
+L'Escallet
+Chemin des Grives
+La Batarelle Basse
+St Mitre Party
+St Mitre Village
+St Mitre Ecoles
+Notre Dame de la Consolation
+Les Alvergnes
+Val des Pins
+St Jérôme Susini
+St Jérôme Les Sereins
+St Jérôme Pélabon
+Valdonne Fuveau
+Valdonne Peypin
+Valdonne Hôpital Laveran
+Malpassé
+37S - Métro Malpassé
+
+[infosystem_trip]
+3705
+La Batarelle - Collège J. Giono
+373
+37
+
+[infosystem_busstop_list]
+17
+37A - La Batarelle
+Direction Collège Jean Giono - 37A
+Lissandre Ecoles
+Lissandre
+L'Escallet
+Chemin des Grives
+La Batarelle Basse
+St Mitre Party
+St Mitre Village
+St Mitre
+St Mitre Ecoles
+Notre Dame de la Consolation
+Consolation Balustres
+Lycée Artaud
+Consolation Gracieuse
+Barielle
+37A - Collège Jean Giono
+
+[infosystem_trip]
+3706
+Collège J. Giono - La Batarelle
+371
+37
+
+[infosystem_busstop_list]
+16
+37A - Collège Jean Giono
+Direction La Batarelle - 37A
+Consolation Gracieuse
+Lycée Artaud
+Consolation Balustres
+Notre Dame de la Consolation
+St Mitre Ecoles
+St Mitre
+St Mitre Village
+St Mitre Party
+La Batarelle Basse
+Chemin des Grives
+L'Escallet
+Lissandre
+Lissandre Ecoles
+37A - La Batarelle
+
+[infosystem_trip]
+3801
+Métro Bougainville - Métro Malpassé
+31
+38
+
+[infosystem_busstop_list]
+35
+38 - Métro Bougainville
+Direction Malpassé - 38
+Place Bougainville
+Casanova De Lesseps
+Casanova Barbès
+Casanova États-Unis
+Casanova Canet
+Casanova Larousse
+HLM Le Canet
+Gay Lussac Gèze
+Gay Lussac
+Ampère Gay Lussac
+Cité Bassens
+Castors de Servières
+MIN Bolivar
+MIN Arnavaux
+MIN Gibbes
+Gibbes Calvet
+Ste Marthe Le Camp
+Cade Mouton
+Jourdan Crèche
+Jourdan Le Mail
+Collège Edouard Manet
+Braque Les Flamants
+Les Flamants Les Iris
+Merlan Ste Marthe
+Musée de la Moto
+Villecroze Les Oliviers
+Collège Rostand
+Les Cèdres
+Les Lauriers
+Hôpital Laveran
+Laveran Diderot
+Malpassé
+38 - Métro Malpassé
+
+[infosystem_trip]
+3802
+Métro Malpassé - Métro Bougainville
+281
+38
+
+[infosystem_busstop_list]
+34
+38 - Métro Malpassé
+Direction Bougainville - 38
+Malpassé
+Laveran Diderot
+Hôpital Laveran
+Les Lauriers
+Les Cèdres
+Collège Rostand
+Villecroze Les Oliviers
+Musée de la Moto
+Merlan Ste Marthe
+Les Flamants Les Iris
+Braque Les Flamants
+Collège Edouard Manet
+Jourdan Le Mail
+Jourdan Crèche
+Cade Mouton
+Ste Marthe Le Camp
+Gibbes Calvet
+MIN Gibbes
+MIN Arnavaux
+MIN Bolivar
+Castors de Servières
+Cité Bassens
+Ampère Gay Lussac
+Gay Lussac
+Gay Lussac Gèze
+HLM Le Canet
+Casanova Canet
+Place des États Unis
+Casanova États-Unis
+Casanova Barbès
+De Lesseps Casanova
+38 - Métro Bougainville
+
+[infosystem_trip]
+4201
+Métro 5 Avenues - Dépôt La Rose
+421
+42
+
+[infosystem_busstop_list]
+23
+42 - Métro 5 Avenues
+Direction Dépôt La Rose - 42
+5 Avenues Chartreux
+Chartreux Ecoles
+Place Brossolette
+Chartreux Pierre Roche
+St Just Ivaldi
+St Just Achard
+Les Chartreux
+St Just Raguse
+Daudet St Just
+Daudet Michel
+Malpassé
+La Boudinière
+La Rose Verdière
+La Rose Fuveau
+La Rose Village
+La Grave La Rose
+La Rose Poste
+Métro La Rose 2
+Val Plan
+Barielle
+42 - Dépôt La Rose
+
+[infosystem_trip]
+4202
+Dépôt La Rose - Métro 5 Avenues
+422
+42
+
+[infosystem_busstop_list]
+23
+42 - Dépôt La Rose
+Direction 5 Avenues - 42
+Barielle
+Val Plan
+Métro La Rose 2
+La Rose Poste
+La Grave La Rose
+La Rose Village
+La Rose Fuveau
+La Rose Verdière
+La Boudinière
+Malpassé
+Daudet Michel
+Moutte Daudet
+Corot Moutte
+St Just Vidal
+St Just Raguse
+Les Chartreux
+St Just Achard
+St Just Ivaldi
+Chartreux Pierre Roche
+Place Brossolette
+42 - Métro 5 Avenues
+
+[infosystem_trip]
+4203
+Métro 5 Avenues - Les Baronnies
+423
+42
+
+[infosystem_busstop_list]
+26
+42T - Métro 5 Avenues
+Direction Les Baronnies - 42T
+5 Avenues Chartreux
+Chartreux Ecoles
+Place Brossolette
+Chartreux Pierre Roche
+St Just Ivaldi
+St Just Achard
+Les Chartreux
+St Just Raguse
+Daudet St Just
+Daudet Michel
+Malpassé
+La Boudinière
+La Rose Verdière
+La Rose Fuveau
+La Rose Village
+La Grave La Rose
+La Rose Poste
+Métro La Rose 2
+Val Plan
+Barielle
+Langevin Consolation
+Langevin Plank
+Donadille Langevin
+42T - Les Baronnies
+
+[infosystem_trip]
+4204
+Les Baronnies - Métro 5 Avenues
+422
+42
+
+[infosystem_busstop_list]
+27
+42T - Les Baronnies
+Direction 5 Avenues - 42T
+Donadille
+Langevin
+Langevin Plank
+Langevin Consolation
+Barielle
+Val Plan
+Métro La Rose 2
+La Rose Poste
+La Grave La Rose
+La Rose Village
+La Rose Fuveau
+La Rose Verdière
+La Boudinière
+Malpassé
+Daudet Michel
+Moutte Daudet
+Corot Moutte
+St Just Vidal
+St Just Raguse
+Les Chartreux
+St Just Achard
+St Just Ivaldi
+Chartreux Pierre Roche
+Place Brossolette
+42T - Métro 5 Avenues
+
+[infosystem_trip]
+5301
+Métro St Just - Les Flamants
+531
+53
+
+[infosystem_busstop_list]
+18
+53 - Métro St Just
+Direction Les Flamants - 53
+St Just Raguse
+Daudet St Just
+Moutte Daudet
+Corot Moutte
+Corot Lacordaire
+Parc Corot
+Cité St Just
+CFA Corot
+Champfleuri
+Corot Monet
+Mérimée Corot
+Théâtre du Merlan
+Busserine HLM
+Collège Edouard Manet
+Ansaldi La Javie
+53 - Les Flamants
+
+[infosystem_trip]
+5302
+Les Flamants - Métro La Rose
+532
+53
+
+[infosystem_busstop_list]
+17
+53 - Les Flamants
+Direction St Just - 53
+Les Flamants Les Iris
+Braque Les Flamants
+Collège Edouard Manet
+Busserine HLM
+Théâtre du Merlan
+Mérimée Corot
+Corot Monet
+Champfleuri
+Cité St Just
+Parc Corot
+Corot Lacordaire
+Corot Moutte
+St Just Vidal
+St Just Raguse
+53 - Métro St Just
+
+[infosystem_trip]
+8101
+Le Pharo - Métro St Just
+532
+81
+
+[infosystem_busstop_list]
+32
+81 - Le Pharo
+Direction St Just - 81
+Plage des Catalans
+Catalans
+Lycée Colbert
+Place du 4 Septembre
+Corse d'Aurelle
+St Victor
+Petit Chantier
+Place de la Corderie
+Fort Notre Dame
+Place aux Huiles
+Canebière Vieux Port
+Canebière St Ferréol
+Canebière Capucins
+Canebière Garibaldi
+Libération Réformés
+Libération St Vincent de Paul
+Libération Espérendieu
+Libération Dormoy
+Longchamp Montricher
+Place Leverrier
+Flammarion Cassini
+Flammarion Siphon
+Chutes Lavie Dahdah
+Pardigon
+Guigou
+Paulette
+Chutes Lavie
+Raguse Chutes Lavie
+St Just Raguse
+81 - Métro St Just
+
+[infosystem_trip]
+8102
+Métro St Just - Le Pharo
+811
+81
+
+[infosystem_busstop_list]
+31
+81 - Métro St Just
+Direction Le Pharo - 81
+St Just Raguse
+Raguse Luc
+Chutes Lavie Raguse
+Chutes Lavie
+Paulette
+Guigou
+Pardigon
+Chutes Lavie Dahdah
+Flammarion Siphon
+Flammarion Cassini
+Place Leverrier
+Longchamp Montricher
+Longchamp
+National
+Réformés Canebière
+Libération Réformés
+Canebière Garibaldi
+Canebière Capucins
+Canebière St Ferréol
+Canebière Vieux Port
+Vieux Port - Cours Jean Ballard
+Breteuil Puget
+Puget Fortia
+Place de la Corderie
+Petit Chantier
+St Victor
+Corse d'Aurelle
+Corse 4 Septembre
+81 - Le Pharo
+
+[infosystem_trip]
+14201
+Métro La Rose - La Fêve
+142
+142
+
+[infosystem_busstop_list]
+30
+142 - Métro La Rose
+Direction La Fêve - 142
+La Rose Poste
+La Grave La Rose
+La Rose
+La Rose Bd Neuf
+La Croix Rouge Val Plan
+La Bégude
+La Bégude Sud
+La Ravelle
+La Croix Rouge Eglise
+La Croix Rouge
+Bar 1900
+La Cascade
+Les Madets
+Plan de Cuques Cinéma
+Plan de Cuques Félibrige
+Plan de Cuques Eglise
+Les Moisserons
+Les Roubauds
+L'Elysée
+L'Hermitage
+Bon Rencontre
+Les Chanauds
+Le Logis Neuf Centre Médical
+Le Moulin à Huile
+Le Logis Neuf Ecoles
+La Bourdonnière
+Mas des Oliviers
+142 - La Fêve
+
+[infosystem_trip]
+14202
+La Fêve - Métro La Rose
+10
+142
+
+[infosystem_busstop_list]
+28
+142 - La Fêve
+Direction La Rose - 142
+Mas des Oliviers
+La Bourdonnière
+Le Logis Neuf Ecoles
+Le Logis Neuf Centre Médical
+Les Chanauds
+Bon Rencontre
+L'Hermitage
+L'Elysée
+Les Roubauds
+Les Moisserons
+Plan de Cuques Eglise
+Plan de Cuques Félibrige
+Plan de Cuques Cinéma
+Les Madets
+La Cascade
+Bar 1900
+La Croix Rouge
+La Croix Rouge Eglise
+La Ravelle
+La Bégude
+La Croix Rouge Val Plan
+La Rose Bd Neuf
+La Rose
+La Grave La Rose
+La Rose Poste
+142 - Métro La Rose
+
+[infosystem_trip]
+14203
+Métro La Rose - La Fêve par Montade
+144
+142
+
+[infosystem_busstop_list]
+38
+142 - Métro La Rose
+Direction La Fêve - 142
+La Rose Poste
+La Grave La Rose
+La Rose
+La Rose Bd Neuf
+La Croix Rouge Val Plan
+La Bégude
+La Bégude Sud
+La Ravelle
+La Croix Rouge Eglise
+La Croix Rouge
+Bar 1900
+La Cascade
+Les Madets
+Plan de Cuques Cinéma
+Plan de Cuques Félibrige
+Plan de Cuques Eglise
+Les Moisserons
+Pasteur Noria
+Les Vidarès
+Transformateur
+Ecole Maternelle
+La Montade
+Transformateur
+Les Vidarès
+Pasteur Noria
+Les Roubauds
+L'Elysée
+L'Hermitage
+Bon Rencontre
+Les Chanauds
+Le Logis Neuf Centre Médical
+Le Moulin à Huile
+Le Logis Neuf Ecoles
+La Bourdonnière
+Mas des Oliviers
+142 - La Fêve
+
+[infosystem_trip]
+14204
+La Fêve - Métro La Rose par Montade
+143
+142
+
+[infosystem_busstop_list]
+35
+142 - La Fêve
+Mas des Oliviers
+La Bourdonnière
+Le Logis Neuf Ecoles
+Le Logis Neuf Centre Médical
+Les Chanauds
+Bon Rencontre
+L'Hermitage
+L'Elysée
+Les Roubauds
+Pasteur Noria
+Les Vidarès
+Transformateur
+La Montade
+Ecole Maternelle
+Transformateur
+Les Vidarès
+Pasteur Noria
+Les Moisserons
+Plan de Cuques Eglise
+Plan de Cuques Félibrige
+Plan de Cuques Cinéma
+Les Madets
+La Cascade
+Bar 1900
+La Croix Rouge
+La Croix Rouge Eglise
+La Ravelle
+La Bégude
+La Croix Rouge Val Plan
+La Rose Bd Neuf
+La Rose
+La Grave La Rose
+La Rose Poste
+142 - Métro La Rose
+
+[infosystem_trip]
+14205
+Métro La Rose - La Fêve
+142
+142
+
+[infosystem_busstop_list]
+12
+142J - Métro La Rose
+Direction La Fêve - 142J
+Métro La Rose 2
+Einstein Monnet
+Collège Malraux
+Einstein Parking Relais
+Giono Libération
+Plan de Cuques Félibrige
+Plan de Cuques Eglise
+Les Moisserons
+Le Logis Neuf Ecoles
+142J - La Fêve
+
+[infosystem_trip]
+14206
+La Fêve - Métro La Rose
+10
+142
+
+[infosystem_busstop_list]
+11
+142J - La Fêve
+Direction La Rose - 142J
+Le Logis Neuf Ecoles
+Les Moisserons
+Plan de Cuques Eglise
+Plan de Cuques Félibrige
+Giono Libération
+Einstein Parking Relais
+Collège Malraux
+Einstein Monnet
+142J - Métro La Rose
+
+[infosystem_trip]
+14301
+Métro La Rose - La Montade
+145
+143
+
+[infosystem_busstop_list]
+24
+143 - Métro La Rose
+Direction La Montade - 143
+La Rose Poste
+La Grave La Rose
+La Rose
+La Rose Bd Neuf
+La Croix Rouge Val Plan
+La Bégude
+La Bégude Sud
+La Ravelle
+La Croix Rouge Eglise
+La Croix Rouge
+Bar 1900
+La Cascade
+Les Madets
+Plan de Cuques Cinéma
+Plan de Cuques Félibrige
+Plan de Cuques Eglise
+Les Moisserons
+Pasteur Noria
+Les Vidarès
+Transformateur
+Ecole Maternelle
+143 - La Montade
+
+[infosystem_trip]
+14302
+La Montade - Métro La Rose
+10
+143
+
+[infosystem_busstop_list]
+24
+143 - La Montade
+Direction La Rose - 143
+Ecole Maternelle
+Transformateur
+Les Vidarès
+Pasteur Noria
+Les Moisserons
+Plan de Cuques Eglise
+Plan de Cuques Félibrige
+Plan de Cuques Cinéma
+Les Madets
+La Cascade
+Bar 1900
+La Croix Rouge
+La Croix Rouge Eglise
+La Ravelle
+La Bégude Sud
+La Bégude
+La Croix Rouge Val Plan
+La Rose Bd Neuf
+La Rose
+La Grave La Rose
+La Rose Poste
+143 - Métro La Rose
+
+[infosystem_trip]
+14401
+Métro La Rose - Allauch
+146
+144
+
+[infosystem_busstop_list]
+28
+144 - Métro La Rose
+Direction Allauch - 144
+La Rose Poste
+La Grave La Rose
+La Rose
+La Rose Bd Neuf
+La Croix Rouge Val Plan
+La Bégude
+La Bégude Sud
+La Ravelle
+La Croix Rouge Eglise
+La Croix Rouge
+Delprat Vallon Vert
+Les Bartavelles
+La Louise
+La Pounche Les Ourmes
+Quartier de La Pounche
+Les Toits de La Pounche
+Les Ecoles
+Cantons Rouges
+Le Bocage
+La Tirane
+Hôpital Mille Ecus
+Henri Tasso
+Le Grand Puits Pie d'Autry
+Les Cigales
+St Roch
+144 - Allauch
+
+[infosystem_trip]
+14402
+Allauch - Métro La Rose
+10
+144
+
+[infosystem_busstop_list]
+27
+144 - Allauch
+Direction La Rose - 144
+St Roch
+Les Cigales
+Le Grand Puits Pie d'Autry
+Henri Tasso
+Hôpital Mille Ecus
+La Tirane
+Le Bocage
+Cantons Rouges
+Les Ecoles
+Les Toits de La Pounche
+Quartier de La Pounche
+La Pounche Les Ourmes
+La Louise
+Les Bartavelles
+Delprat Vallon Vert
+La Croix Rouge
+La Croix Rouge Eglise
+La Ravelle
+La Bégude
+La Croix Rouge Val Plan
+La Rose Bd Neuf
+La Rose
+La Grave La Rose
+La Rose Poste
+144 - Métro La Rose
+
+[infosystem_trip]
+14403
+Métro La Rose - Allauch par Collège
+141
+144
+
+[infosystem_busstop_list]
+29
+144 - Métro La Rose
+Direction Allauch - 144
+La Rose Poste
+La Grave La Rose
+La Rose
+La Rose Bd Neuf
+La Croix Rouge Val Plan
+La Bégude
+La Bégude Sud
+La Ravelle
+La Croix Rouge Eglise
+La Croix Rouge
+Delprat Vallon Vert
+Les Bartavelles
+La Louise
+La Pounche Les Ourmes
+Quartier de La Pounche
+Les Toits de La Pounche
+Les Ecoles
+Cantons Rouges
+Collège Yves Montand
+Le Bocage
+La Tirane
+Hôpital Mille Ecus
+Henri Tasso
+Le Grand Puits Pie d'Autry
+Les Cigales
+St Roch
+144 - Allauch
+
+[infosystem_trip]
+14404
+Allauch - Métro La Rose par Collège
+10
+144
+
+[infosystem_busstop_list]
+28
+144 - Allauch
+Direction La Rose - 144
+St Roch
+Les Cigales
+Le Grand Puits Pie d'Autry
+Henri Tasso
+Hôpital Mille Ecus
+La Tirane
+Le Bocage
+Collège Yves Montand
+Cantons Rouges
+Les Ecoles
+Les Toits de La Pounche
+Quartier de La Pounche
+La Pounche Les Ourmes
+La Louise
+Les Bartavelles
+Delprat Vallon Vert
+La Croix Rouge
+La Croix Rouge Eglise
+La Ravelle
+La Bégude
+La Croix Rouge Val Plan
+La Rose Bd Neuf
+La Rose
+La Grave La Rose
+La Rose Poste
+144 - Métro La Rose
+
+[infosystem_trip]
+14405
+Métro La Rose - Allauch
+146
+144
+
+[infosystem_busstop_list]
+14
+144J - Métro La Rose
+Direction Allauch - 144J
+Métro La Rose 2
+Einstein Monnet
+Collège Malraux
+Einstein Parking Relais
+Giono Libération
+Rond-Point des Oliviers
+Bougainville
+Les Blacassins
+Canton Vert
+Henri Tasso
+Les Cigales
+144J - Allauch
+
+[infosystem_trip]
+14406
+Allauch - Métro La Rose
+10
+144
+
+[infosystem_busstop_list]
+12
+144J - Allauch
+Direction La Rose - 144J
+Les Cigales
+Henri Tasso
+Les Blacassins
+Bougainville
+Rond-Point des Oliviers
+Giono Libération
+Einstein Parking Relais
+Collège Malraux
+Einstein Monnet
+144J - Métro La Rose
+
+[infosystem_trip]
+14501
+Métro La Rose - Allauch
+146
+145
+
+[infosystem_busstop_list]
+27
+145 - Métro La Rose
+Direction Allauch - 145
+La Rose Poste
+La Grave La Rose
+La Rose
+La Rose Bd Neuf
+La Croix Rouge Val Plan
+La Bégude
+La Bégude Sud
+La Ravelle
+La Croix Rouge Eglise
+La Croix Rouge
+Les Bartavelles
+La Louise
+La Pounche Les Ourmes
+Quartier de La Pounche
+Les Toits de La Pounche
+Les Ecoles
+Cantons Rouges
+Le Bocage
+La Tirane
+Hôpital Mille Ecus
+Henri Tasso
+Le Grand Puits Pie d'Autry
+Les Cigales
+St Roch
+145 - Allauch
+
+[infosystem_trip]
+14502
+Allauch - Métro La Rose
+10
+145
+
+[infosystem_busstop_list]
+42
+145 - Allauch
+Direction La Rose - 145
+St Roch
+Le Logis Neuf Ecoles
+La Bourdonnière
+Mas des Oliviers
+La Fêve
+Mas des Oliviers
+La Bourdonnière
+Le Logis Neuf Ecoles
+Le Logis Neuf Centre Médical
+Les Chanauds
+Bon Rencontre
+L'Hermitage
+L'Elysée
+Les Roubauds
+Pasteur Noria
+Les Vidarès
+Transformateur
+Ecole Maternelle
+La Montade
+Transformateur
+Les Vidarès
+Pasteur Noria
+Les Moisserons
+Plan de Cuques Eglise
+Plan de Cuques Félibrige
+Plan de Cuques Cinéma
+Les Madets
+La Cascade
+Bar 1900
+La Croix Rouge
+La Croix Rouge Eglise
+La Ravelle
+La Bégude Sud
+La Bégude
+La Croix Rouge Val Plan
+La Rose Bd Neuf
+La Rose
+La Grave La Rose
+La Rose Poste
+145 - Métro La Rose
+
+[infosystem_trip]
+13201
+T2 : Arenc Le Silo - La Blancarde
+151
+132
+
+[infosystem_busstop_list]
+15
+T2, T3 - Arenc Le Silo
+T2, T3 - Euroméditerranée Gantès
+T2, T3 - Joliette
+T2, T3 - République Dames
+T2, T3 - Sadi Carnot
+T2, T3 - Belsunce Alcazar
+T2 - Canebière Capucins
+T2 - Canebière Garibaldi
+T2 - Libération Réformés
+T2 - Libération St Vincent de Paul
+T2 - Libération Espérendieu
+T2 - Cinq Avenues
+T2 - Foch Sakakini
+T2 - Foch Boisson
+T2 - La Blancarde
+
+[infosystem_trip]
+13202
+T2 : La Blancarde - Arenc Le Silo
+152
+132
+
+[infosystem_busstop_list]
+15
+T2 - La Blancarde
+T2 - Foch Boisson
+T2 - Foch Sakakini
+T2 - Cinq Avenues
+T2 - Longchamp
+T2 - National
+T2 - Réformés Canebière
+T2 - Canebière Garibaldi
+T2 - Canebière Capucins
+T2, T3 - Belsunce Alcazar
+T2, T3 - Sadi Carnot
+T2, T3 - République Dames
+T2, T3 - Joliette
+T2, T3 - Euroméditerranée Gantès
+T2, T3 - Arenc Le Silo
+
+[infosystem_trip]
+13301
+T3 : Arenc Le Silo - Castellane
+153
+133
+
+[infosystem_busstop_list]
+11
+T2, T3 - Arenc Le Silo
+T2, T3 - Euroméditerranée Gantès
+T2, T3 - Joliette
+T2, T3 - République Dames
+T2, T3 - Sadi Carnot
+T2, T3 - Belsunce Alcazar
+T3 - Cours Saint Louis
+T3 - Rome Davso
+T3 - Place de Rome
+T3 - Rome Dragon
+T3 - Castellane
+
+[infosystem_trip]
+13302
+T3 : Castellane - Arenc Le Silo
+154
+133
+
+[infosystem_busstop_list]
+11
+T3 - Castellane
+T3 - Rome Dragon
+T3 - Place de Rome
+T3 - Rome Davso
+T3 - Cours Saint Louis
+T2, T3 - Belsunce Alcazar
+T2, T3 - Sadi Carnot
+T2, T3 - République Dames
+T2, T3 - Joliette
+T2, T3 - Euroméditerranée Gantès
+T2, T3 - Arenc Le Silo
+

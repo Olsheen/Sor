@@ -1,0 +1,491 @@
+Diese Datei wurde mit der HOF Suite von Rumpelhans geschrieben.
+This file was written with HOF Suite by Rumpelhans.
+
+*****************************************
+* H O F   F i l e   p r o p e r t i e s *
+*****************************************
+
+[name]
+Hutov
+
+[servicetrip]
+Sluzebni jizda
+
+[global_strings]
+6
+
+
+
+
+
+
+
+stringcount_terminus
+26
+
+stringcount_busstop
+9
+
+*****************
+* T e r m i n i *
+*****************
+
+[addterminus_list]
+{ALLEX}	900	Sluzebni jizda	 SLUŽEBNÍ JÍZDA 	 SLUŽEBNÍ JÍZDA 		 SLUŽEBNÍ JÍZDA 		   SLUŽEBNÍ JÍZDA
+{ALLEX}	901	Depo Hutov	   DEPO HUTOV   	   DEPO HUTOV   		   DEPO HUTOV   		   DEPO HUTOV
+	201	Zeleznicni stanice	 ŽELEZ. STANICE 	 ŽELEZ. STANICE 		Želez. stanice  		Želez. stanice
+	202	Autobusove nadrazi	AUTOBUSOVÉ NÁDR 	AUTOBUSOVÉ NÁDR 		Autobusové nádr 		Autobusové nádr
+	203	Stribrna Hora	 STØÍBRNÁ HORA  	 STØÍBRNÁ HORA  		Støíbrná Hora   		Støíbrná Hora
+	204	Moravice, Kaufland	 MORAVICE, KAUF 	 MORAVICE, KAUF 		Moravice, Kauf  		Moravice, Kauf
+	205	Nemocnice	   NEMOCNICE    	   NEMOCNICE    		Nemocnice       		Nemocnice
+	206	Lipkov u Hutova	LIPKOV U HUTOVA 	LIPKOV U HUTOVA 		Lipkov u Hutova 		Lipkov u Hutova
+	207	Horni Hutov	  HORNÍ HUTOV   	  HORNÍ HUTOV   		Horní Hutov     		Horní Hutov
+	208	Mestsky hrbitov	MÌSTSKÝ HØBITOV 	MÌSTSKÝ HØBITOV 		Mìstský høbitov 		Mìstský høbitov
+	209	Obchodni centrum	OBCHODNÍ CENTRUM	OBCHODNÍ CENTRUM		Obchodní centrum		Obchodní centrum
+	210	Kojetin	KOJETÍN         	KOJETÍN         		Kojetín         		Kojetín
+	211	Smrzov	SMRŽOV          	SMRŽOV          		Smržov          		Smržov
+	212	Namesti	NÁMÌSTÍ         	NÁMÌSTÍ         		Námìstí         		Námìstí
+[end]
+
+*******************
+* B u s s t o p s *
+*******************
+
+[addbusstop_list]
+Autobusove nadrazi	AUTOBUSOVÉ NÁDR 	Autobusové nádraží
+Breziny, skola	 BØEZINY, ŠKOLA 	Bøeziny, škola
+Brnenska	    BRNÌNSKÁ    	Brnìnská
+Brnenska, mototechna	 BRNENSKA, MOTO 	Brnenska, mototechna
+Depo Hutov	   DEPO HUTOV   	Depo Hutov
+Dolni Hutov	   DOLNÍ HUTOV  	Dolní Hutov
+DPS Hutov	   DPS HUTOV    	DPS Hutov
+Horni Hutov	   HORNÍ HUTOV  	Horní Hutov
+Horni Hutov, rozcesti	   HORNÍ HUTOV  	Horní Hutov, rozcestí
+Horska	     HORSKÁ     	Horská
+Hutov, GAMA	  HUTOV, GAMA   	Hutov, GAMA
+Chrestany	   CHØEŠANY    	Chøešany
+Chrestany, obratiste	CHØEŠANY, OBRAT	Chøešany, obratištì
+Chrestany, zamek	CHØEŠANY, ZÁMEK	Chøešany, zámek
+Jihlavska	   JIHLAVSKÁ    	Jihlavská
+Jungmannova	  JUNGMANNOVA   	Jungmannova
+Kojetin, smycka	KOJETÍN, SMYÈKA 	Kojetín, smyèka
+Kojetin, sokolovna	 KOJETÍN, SOKOL 	Kojetín, sokolovna
+Lazne Hutov	  LÁZNÌ HUTOV   	Láznì Hutov
+Lipkov u Hutova	LIPKOV U HUTOVA 	Lipkov u Hutova
+Masarykova	   MASARYKOVA   	Masarykova
+Mestsky hrbitov	MÌSTSKÝ HØBITOV 	Mìstský høbitov
+Moravice, Hutovska	MORAVICE, HUTOV.	Moravice, Hutovská
+Moravice, Kaufland	MORAVICE, KAUF  	Moravice, Kaufland
+Moravice, rozcesti	MORAVICE, ROZC  	Moravice, rozcestí
+Moravska	    MORAVSKÁ    	Moravská
+Namesti	    NÁMÌSTÍ     	Námìstí
+Nemocnice	   NEMOCNICE    	Nemocnice
+Obchodni centrum	OBCHODNÍCENTRUM 	Obchodní centrum
+Obchodni centrum, smycka	OBCHODNÍ CENTRUM	Obchodní centrum, smyèka
+Palackeho	   PALACKÉHO    	Palackého
+Palackeho, hlavni	PALACKÉHO, HLAV 	Palackého, hlavní
+Podzimni	    PODZIMNÍ    	Podzimní
+Poliklinika	  POLIKLINIKA   	Poliklinika
+Porici	     POØÍÈÍ     	Poøíèí
+Prazska	    PRAŽSKÁ     	Pražská
+Rybniky	    RYBNÍKY     	Rybníky
+Sadova	  SADOVÁ, COOP  	Sadová, COOP
+Sidliste Breziny	SÍDLIŠTÌ BØEZINY	Sídlištì Bøeziny
+Smrzov	     SMRŽOV     	Smržov
+Smrzov, rozcesti	SMRŽOV, ROZCESTÍ	Smržov, rozcestí
+Stribrna Hora	 STØÍBRNÁ HORA  	Støíbrná Hora
+Tovarny	    TOVÁRNY     	Továrny
+Trida kpt. Huty	TØÍDA KPT. HUTY 	Tøída kpt. Huty
+Trnita	     TRNITÁ     	Trnitá
+Uzka	      ÚZKÁ      	Úzká
+Vyzkumne ustavy	VÝZKUMNÉ ÚSTAVY 	Výzkumné ústavy
+Zavada	 HUTOV, ZÁVADA  	Hutov, Závada
+Zavada, rozcesti	ZÁVADA, ROZCESTÍ	Hutov, Závada, rozcestí
+Zeleznicni stanice	 ŽELEZ.STANICE  	Železnièní stanice
+Zeleznicni stanice, rozcesti	 ŽST, ROZCESTÍ  	Železnièní stanice, rozcestí
+[end]
+
+***************
+* R o u t e s *
+***************
+
+[infosystem_trip]
+33101
+SMR >> SH
+203
+331
+
+[infosystem_busstop_list]
+18
+Smrzov
+Smrzov, rozcesti
+Dolni Hutov
+Horni Hutov, rozcesti
+Horni Hutov
+Chrestany, obratiste
+Chrestany
+Chrestany, zamek
+Moravska
+Masarykova
+Sadova
+Jihlavska
+Autobusove nadrazi
+Namesti
+Podzimni
+Lazne Hutov
+Porici
+Stribrna Hora
+
+[infosystem_trip]
+33102
+SH >> SMR
+211
+331
+
+[infosystem_busstop_list]
+18
+Stribrna Hora
+Lazne Hutov
+Podzimni
+Namesti
+Autobusove nadrazi
+Jihlavska
+Palackeho
+Sadova
+Masarykova
+Moravska
+Chrestany, zamek
+Chrestany
+Chrestany, obratiste
+Horni Hutov
+Horni Hutov, rozcesti
+Dolni Hutov
+Smrzov, rozcesti
+Smrzov
+
+[infosystem_trip]
+33111
+SMR >> AN
+202
+331
+
+[infosystem_busstop_list]
+13
+Smrzov
+Smrzov, rozcesti
+Dolni Hutov
+Horni Hutov, rozcesti
+Horni Hutov
+Chrestany, obratiste
+Chrestany
+Chrestany, zamek
+Moravska
+Masarykova
+Sadova
+Jihlavska
+Autobusove nadrazi
+
+[infosystem_trip]
+33112
+AN >> SMR
+211
+331
+
+[infosystem_busstop_list]
+14
+Autobusove nadrazi
+Jihlavska
+Palackeho
+Sadova
+Masarykova
+Moravska
+Chrestany, zamek
+Chrestany
+Chrestany, obratiste
+Horni Hutov
+Horni Hutov, rozcesti
+Dolni Hutov
+Smrzov, rozcesti
+Smrzov
+
+[infosystem_trip]
+33201
+NEM >> ZST
+201
+332
+
+[infosystem_busstop_list]
+15
+Nemocnice
+Nemocnice
+Trnita
+Horska
+Poliklinika
+Sadova
+Jihlavska
+Autobusove nadrazi
+Trida kpt. Huty
+Namesti
+Prazska
+Sidliste Breziny
+Zavada, rozcesti
+Zeleznicni stanice, rozcesti
+Zeleznicni stanice
+
+[infosystem_trip]
+33202
+ZST >> NEM
+205
+332
+
+[infosystem_busstop_list]
+16
+Zeleznicni stanice
+Zeleznicni stanice
+Zeleznicni stanice, rozcesti
+Zavada, rozcesti
+Sidliste Breziny
+Prazska
+Namesti
+Trida kpt. Huty
+Autobusove nadrazi
+Jihlavska
+Palackeho
+Sadova
+Poliklinika
+Horska
+Trnita
+Nemocnice
+
+[infosystem_trip]
+33401
+HH >> ZST
+201
+334
+
+[infosystem_busstop_list]
+14
+Horni Hutov
+Horni Hutov
+Moravska
+Masarykova
+Sadova
+Jihlavska
+Autobusove nadrazi
+Trida kpt. Huty
+Prazska
+Sidliste Breziny
+Zavada, rozcesti
+Zavada
+Zeleznicni stanice, rozcesti
+Zeleznicni stanice
+
+[infosystem_trip]
+33402
+ZST >> HH
+207
+334
+
+[infosystem_busstop_list]
+15
+Zeleznicni stanice
+Zeleznicni stanice
+Zeleznicni stanice, rozcesti
+Zavada
+Zavada, rozcesti
+Sidliste Breziny
+Prazska
+Trida kpt. Huty
+Autobusove nadrazi
+Jihlavska
+Palackeho
+Sadova
+Masarykova
+Moravska
+Horni Hutov
+
+[infosystem_trip]
+33601
+AN >> LUH
+206
+336
+
+[infosystem_busstop_list]
+8
+Autobusove nadrazi
+Autobusove nadrazi
+Namesti
+Prazska
+Tovarny
+Nemocnice
+Hutov, GAMA
+Lipkov u Hutova
+
+[infosystem_trip]
+33602
+LUH >> AN
+202
+336
+
+[infosystem_busstop_list]
+7
+Lipkov u Hutova
+Hutov, GAMA
+Nemocnice
+Tovarny
+Prazska
+Namesti
+Autobusove nadrazi
+
+[infosystem_trip]
+33701
+NAM >> OC
+209
+337
+
+[infosystem_busstop_list]
+10
+Namesti
+Namesti
+Uzka
+Depo Hutov
+Autobusove nadrazi
+Palackeho, hlavni
+Jungmannova
+Brnenska
+Obchodni centrum
+Obchodni centrum, smycka
+
+[infosystem_trip]
+33702
+OC >> NAM
+212
+337
+
+[infosystem_busstop_list]
+9
+Obchodni centrum, smycka
+Obchodni centrum
+Brnenska
+Jungmannova
+Palackeho, hlavni
+Autobusove nadrazi
+Depo Hutov
+Uzka
+Namesti
+
+[infosystem_trip]
+33901
+MH >> MK
+204
+339
+
+[infosystem_busstop_list]
+11
+Moravice, Kaufland
+Moravice, Kaufland
+Moravice, Hutovska
+Breziny, skola
+DPS Hutov
+Sidliste Breziny
+Prazska
+Namesti
+Podzimni
+Lazne Hutov
+Mestsky hrbitov
+
+[infosystem_trip]
+33902
+MK >> MH
+208
+339
+
+[infosystem_busstop_list]
+10
+Mestsky hrbitov
+Lazne Hutov
+Podzimni
+Namesti
+Prazska
+Sidliste Breziny
+DPS Hutov
+Breziny, skola
+Moravice, Hutovska
+Moravice, Kaufland
+
+[infosystem_trip]
+34001
+KOJ >> ZSR
+201
+340
+
+[infosystem_busstop_list]
+11
+Kojetin, smycka
+Kojetin, smycka
+Kojetin, sokolovna
+Trnita
+Horska
+Tovarny
+Vyzkumne ustavy
+Moravice, Hutovska
+Moravice, Kaufland
+Moravice, rozcesti
+Zeleznicni stanice
+
+[infosystem_trip]
+34002
+ZSR >> KOJ
+210
+340
+
+[infosystem_busstop_list]
+11
+Zeleznicni stanice
+Zeleznicni stanice
+Moravice, rozcesti
+Moravice, Kaufland
+Moravice, Hutovska
+Vyzkumne ustavy
+Tovarny
+Horska
+Trnita
+Kojetin, sokolovna
+Kojetin, smycka
+
+[infosystem_trip]
+34011
+KOJ >> MK
+204
+340
+
+[infosystem_busstop_list]
+9
+Kojetin, smycka
+Kojetin, smycka
+Kojetin, sokolovna
+Trnita
+Horska
+Tovarny
+Vyzkumne ustavy
+Moravice, Hutovska
+Moravice, Kaufland
+
+[infosystem_trip]
+34012
+MK >> KOJ
+210
+340
+
+[infosystem_busstop_list]
+9
+Moravice, Kaufland
+Moravice, Kaufland
+Moravice, Hutovska
+Vyzkumne ustavy
+Tovarny
+Horska
+Trnita
+Kojetin, sokolovna
+Kojetin, smycka
+

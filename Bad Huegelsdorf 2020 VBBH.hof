@@ -1,0 +1,2465 @@
+
+*****************************************
+* H O F   F i l e   p r o p e r t i e s *
+*****************************************
+
+[name]
+Bad Huegelsdorf 2020 VBBH
+
+[servicetrip]
+Betriebsfahrt VBBH
+
+[global_strings]
+6
+Bad_Huegelsdorf_2020_VBBH
+
+
+35
+36
+28
+
+stringcount_terminus
+26
+
+stringcount_busstop
+9
+
+*****************
+* T e r m i n i *
+*****************
+
+[addterminus_list]
+{ALLEX}	0	Empty
+{ALLEX}	1	Leerfahrt		Leerfahrt       	www.VBBH.de
+{ALLEX}	2	Betriebshof VBBH	VBBH            	Betriebshof     	VBBH            			VBBH
+{ALLEX}	3	Betriebshof EUROBUS	EUROBUS         	Betriebshof     	EUROBUS         			EUROBUS
+{ALLEX}	4	VBBH- Ihr Partner...	VBBH-IHR PARTNER	VBBH-Ihr starker	Partner im ÖPNV	VBBH-IHR Partner		VBBH-IHR Partner
+{ALLEX}	5	Eurobus	EUROBUS         	EUROBUS         		EUROBUS         		EUROBUS
+{ALLEX}	6	VBBH	VBBH            	VBBH            		VBBH            		VBBH
+{ALLEX}	7	Messfahrt	MESSFAHRT       	MESSFAHRT       	nicht einsteigen	nicht einsteigen		Messfahrt
+{ALLEX}	8	Werkstattfahrt	WERKSTATTFAHRT  	Werkstattfahrt  				Werkstattfahrt
+{ALLEX}	9	Pause	PAUSE           	Ich habe Pause  	Nicht Stören			Pause
+{ALLEX}	10	Fahrtende, nicht einsteigen	FAHRTENDE       	Fahrtende       	Nicht Einsteigen			FAHRTENDE
+	11	SEV	SEV	SCHIENENERSATZ- 	VERKEHR         	SEV             		SEV
+{ALLEX}	12	Betriebsfahrt	BETRIEBSFAHRT   	Betriebsfahrt   		Betriebsfahrt   		Betriebsfahrt
+	13	Weihnachtsmarkt-Shuttle		Weihnachtsmarkt-	Shuttle
+	14	ZOB	ZOB             	Zentraler       	Omnibusbahnhof  	ZOB             		ZOB
+	15	Schulbus	SCHULBUS	SCHULBUS        				Schulbus
+	16	Kleingartensiedlung                              316K	KLEING.-SIEDLUNG	Kleingarten-    	siedlung        	Kleing.-siedlung		Kleingartensiedlung
+	17	Markgraf-Berthold-Platz                              Ausrueck307Muehl	M.-BERTH.-PLATZ 	MÜHL            	M.-Berth.-Platz 	M.-Berth.-Platz 		M.-Berthold-Platz
+	18	Markgraf-Berthold-Platz                              307	M.-BERTH.-PLATZ 	MÜHL            	M.-Berth.-Platz 	M.-Berth.-Platz 		M.-Berthold-Platz
+	19	Markgraf-Berthold-Platz                              N7	M.-BERTH.-PLATZ 	MÜHL            	M.-Berth.-Platz 	M.-Berth.-Platz 		M.-Berthold-Platz
+	21	Hauptbahnhof                              Ausrueck301HBF	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	22	Hauptbahnhof                              301	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	23	Hauptbahnhof                              304K	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	24	Hauptbahnhof                              304WE	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	25	Hauptbahnhof                              304K2	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	26	Hauptbahnhof                              Ausrueck316HBF	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	27	Hauptbahnhof                              316	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	28	Hauptbahnhof                              316K	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	29	Hauptbahnhof                              390	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	30	Hauptbahnhof                              303	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	31	Hauptbahnhof                              318SO	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	32	Hauptbahnhof                              318	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	33	Hauptbahnhof                              N1	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	34	Hauptbahnhof                              SB1K	HAUPTBAHNHOF    	SCHNELLBUS      	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	35	Hauptbahnhof                              SB1K	HAUPTBAHNHOF    	SCHNELLBUS      	Hauptbahnhof    	Hauptbahnhof    		Hauptbahnhof
+	40	Bismarckplatz                              Ausrueck307Bismarck	BISMARCKPLATZ   	BISMARCKPLATZ   		Bismarckplatz   		Bismarckplatz
+	41	Bismarckplatz                              307	BISMARCKPLATZ   	BISMARCKPLATZ   		Bismarckplatz   		Bismarckplatz
+	42	Stadttheater                              314	STADTTHEATER    	STADTTHEATER    		Stadttheater    		Stadttheater
+	43	Stadttheater                              N14	STADTTHEATER    	STADTTHEATER    		Stadttheater		Stadttheater
+	44	Großweier                              314	GROßWEIER       	GROßWEIER       		Großweier       		Großweier
+	45	Großweier                              314Bombe	GROßWEIER       	GROßWEIER       		Großweier       		Großweier
+	46	Dinopark                              304	DINOPARK        	DINOPARK        		Dinopark        		Dinopark
+	47	Dinopark                              304WE	DINOPARK        	DINOPARK        		Dinopark        		Dinopark
+	49	Baden-Baden                              319	BADEN-BADEN     	Baden-Baden     		Baden-Baden     		Baden-Baden
+	50	Augustaplatz                              Ausrueck306Augusta	AUGUSTAPLATZ    	AUGUSTAPLATZ    		Augustaplatz    		Augustaplatz
+	51	Augustaplatz                              306	AUGUSTAPLATZ    	AUGUSTAPLATZ    		Augustaplatz    		Augustaplatz
+	52	Augustaplatz                              SB1K	AUGUSTAPLATZ    	SCHNELLBUS      	Augustaplatz    	Augustaplatz    		Augustaplatz
+	53	Malger Weg                              Ein316BTH	MALGER WEG      	Lange Straße/   	Malger Weg      	Malger Weg      		Malger Weg
+	54	Malger Weg                              Ein307BTH2	MALGER WEG      	Lange Straße/   	Malger Weg      	Malger Weg      		Malger Weg
+	55	Badener Weg                              314	BADENER WEG     	Lange Straße/   	Badener Weg     	Badener Weg     		Malger Weg
+	56	Malger Weg                              Ein316BTH2	MALGER WEG      	Lange Straße/   	Malger Weg      	Malger Weg      		Malger Weg
+	57	Malger Weg                              Ein307BTH1	MALGER WEG      	MALGER WEG      		Malger Weg      		Malger Weg
+	58	Malger Weg                              Ein316BTH1	MALGER WEG      	MALGER WEG      		Malger Weg      		Malger Weg
+	59	Malger Weg                              N14	MALGER WEG      	MALGER WEG      		Malger Weg      		Malger Weg
+	60	DEVK-Arena                              319	DEVK-ARENA      	DEVK-ARENA      		DEVK-Arena      		DEVK-Arena
+	61	Raststatt	RASTSTATT       	RASTSTATT       		Raststatt       		Raststatt
+	62	Malger Platz                               310	MALGER PLATZ    	MALGER PLATZ    		Malger Platz    		Malger Platz
+	64	Hildegardplatz                              Ausrueck301Hilde	HILDEGARDPLATZ  	HILDEGARDPLATZ  		Hildegardplatz  		Hildegardplatz
+	65	Hildegardplatz                              301	HILDEGARDPLATZ  	HILDEGARDPLATZ  		Hildegardplatz  		Hildegardplatz
+	66	Hildegardplatz                              N1	HILDEGARDPLATZ  	HILDEGARDPLATZ  		Hildegardplatz  		Hildegardplatz
+	67	Hildegardplatz                              SB1	HILDEGARDPLATZ  	SCHNELLBUS      	Hildegardplatz  	Hildegardplatz  		Hildegardplatz
+	68	Altes Schloss                              Ausrueck316Schloss	ALTES SCHLOSS   	ALTES SCHLOSS   		Altes Schloss   		Altes Schloss
+	69	Altes Schloss                              316	ALTES SCHLOSS   	ALTES SCHLOSS   		Altes Schloss   		Altes Schloss
+	70	Sportflugplatz                              318	SPORTFLUGPLATZ  	SPORTFLUGPLATZ  		Sportflugplatz  		Sportflugplatz
+	71	Sportflugplatz                              318SO	SPORTFLUGPLATZ  	SPORTFLUGPLATZ  		Sportflugplatz  		Sportflugplatz
+	72	Shuttle Altstadtforum                              EB	SHUTTLEVERKEHR  	SHUTTLEVERKEHR  	Altstadtforum   	Shuttleverkehr  		Shuttleverkehr
+	73	Shuttle Hauptbahnhof                              EB	SHUTTLEVERKEHR  	SHUTTLEVERKEHR  	Hauptbahnhof    	Shuttleverkehr  		Shuttleverkehr
+	74	Shuttle Hauptbahnhof                              EB	SHUTTLEVERKEHR  	SHUTTLEVERKEHR  	Hauptbahnhof    	Shuttleverkehr  		Shuttleverkehr
+	75	Shuttle Augustaplatz                              EB	SHUTTLEVERKEHR  	SHUTTLEVERKEHR  	Augustaplatz    	Shuttleverkehr  		Shuttleverkehr
+	76	Shuttle Dinopark                              EB	SHUTTLEVERKEHR  	SHUTTLEVERKEHR  	Dinopark    	Shuttleverkehr  		Shuttleverkehr
+	85	Nollingen Bahnhof                              312	NOLLINGEN BF    	NOLLINGEN       	Bahnhof         	Nollingen Bf    		Nollingen Bf
+	87	Gustav Platz                              308	GUSTAV PLATZ    	GUSTAV PLATZ    		Gustav Platz    		Gustav Platz
+	89	Bertholdplatz                              312	BERTHOLDPLATZ   	BERTHOLDPLATZ   		Bertholdplatz   		Bertholdplatz
+	91	Schweigrotherplatz                              N7	SCHWEIGROTHERPL 	Schweigrother-  	platz           	Schweigrotherpl 		Schweigrotherplatz
+	92	Schweigrotherplatz                              308	SCHWEIGROTHERPL 	Schweigrother-  	platz           	Schweigrotherpl 		Schweigrotherplatz
+	93	Auf der Halde                              306K	AUF DER HALDE   	AUF DER HALDE   		Auf der Halde   		Auf der Halde
+	94	Wieseneck Kirche                              303	WIESENECK KIRCHE	WIESENECK       	Kirche          	Wieseneck Kirche		Wieseneck, Kirche
+	95	Wieseneck Kirche                              306K2	WIESENECK KIRCHE	WIESENECK       	Kirche          	Wieseneck Kirche		Wieseneck, Kirche
+	96	Wieseneck Friedhof                              Ausrueck306Friedhof	FRIEDHOF        	WIESENECK       	Friedhof        	Friedhof        		Wieseneck Friedhof
+	97	Wieseneck Friedhof                              306	FRIEDHOF        	WIESENECK       	Friedhof        	Friedhof        		Wieseneck, Friedhof
+	98	Wieseneck Friedhof                              306K	FRIEDHOF        	WIESENECK       	Friedhof        	Friedhof        		Wieseneck, Friedhof
+	99	Wieseneck Friedhof                              303	FRIEDHOF        	WIESENECK       	Friedhof        	Friedhof        		Wieseneck, Friedhof
+	100	Touristenlinie	TOURISTENLINIE  	TOURISTENLINIE  		TOURISTENLINIE  		TOURISTENLINIE
+	101	Sechelsberg Bf                              304	SECHELSBERG BF  	SECHELSBERG     	Bahnhof         	Sechelsberg Bf  		Sechelsberg Bf
+	102	Sechelsberg Bf                              304K2	SECHELSBERG BF  	SECHELSBERG     	Bahnhof         	Sechelsberg Bf  		Sechelsberg Bf
+	103	Sechelsberg Bf                              304K	SECHELSBERG BF  	SECHELSBERG     	Bahnhof         	Sechelsberg Bf  		Sechelsberg Bf
+	104	Sechelsberg Bf                              N14	SECHELSBERG BF  	SECHELSBERG     	Bahnhof         	Sechelsberg Bf  		Sechelsberg Bf
+	105	Sechelsberg Bf                              N14	SECHELSBERG BF  	SECHELSBERG     	Bahnhof         	Sechelsberg Bf  		Sechelsberg Bf
+	111	Kunsthalle                              Ein301Kunsth	KUNSTHALLE      	KUNSTHALLE      		Kunsthalle      		Kunsthalle
+	112	Kunsthalle                              Ein301Kunstv	KUNSTHALLE      	KUNSTHALLE      		Kunsthalle      		Kunsthalle
+	113	Kunsthalle                              Ein306Kunstv	KUNSTHALLE      	KUNSTHALLE      		Kunsthalle      		Kunsthalle
+	114	Kunsthalle                              Ein306Kunsth	KUNSTHALLE      	KUNSTHALLE      		Kunsthalle      		Kunsthalle
+	115	Kunsthalle                              Ein306Kunstv2	KUNSTHALLE      	KUNSTHALLE      		Kunsthalle      		Kunsthalle
+	116	Mühl, Bahnhof                              310	MÜHL, BAHNHOF   	MÜHL            	Bahnhof         	Mühl, Bahnhof   		Mühl, Bahnhof
+	117	Erlengrund                              318	ERLENGRUND  	ERLENGRUND  		Erlengrund  		Erlengrund
+	118	Erlengrund                              318SO	ERLENGRUND  	ERLENGRUND  		Erlengrund  		Erlengrund
+	119	Rastatt                              251	RASTATT  	RASTATT  		Rastatt  		Rastatt
+	120	Gernsbach                              251	GERNSBACH  	GERNSBACH  		Gernsbach  		Gernsbach
+	121	Halloweenlinie	HALLOWEENLINIE  	HALLOWEENLINIE  		HALLOWEENLINIE  		HALLOWEENLINIE
+	1016	Kleingartensiedlung                              316K	KLEING.-SIEDLUNG	      über      	Malg, Larnhalt  	KLEING.-SIEDLUNG		KLEING.-SIEDLUNG
+	1017	Markgraf-Berthold-Platz                              Ausrueck307Muehl	M.-BERTH.-PLATZ 	      über      	 Fachhochschule 	M.-Berth.-Platz 		M.-Berthold-Platz
+	1018	Markgraf-Berthold-Platz                              307	M.-BERTH.-PLATZ 	      über      	 Fachhochschule 	M.-Berth.-Platz 		M.-Berthold-Platz
+	1019	Markgraf-Berthold-Platz                              N7	M.-BERTH.-PLATZ 	   über Malg,   	 Fachhochschule 	M.-Berth.-Platz 		M.-Berthold-Platz
+	1021	Hauptbahnhof                              Ausrueck301HBF	HAUPTBAHNHOF    	      über      	Schweigrotherpl.	Hauptbahnhof    		Hauptbahnhof
+	1022	Hauptbahnhof                              301	HAUPTBAHNHOF    	ü. Augustaplatz,	  Haldengrund   	Hauptbahnhof    		Hauptbahnhof
+	1023	Hauptbahnhof                              304K	HAUPTBAHNHOF    	  mit Halt in   	  Sechelsberg   	Hauptbahnhof    		Hauptbahnhof
+	1025	Hauptbahnhof                              304K2	HAUPTBAHNHOF    	  kein Halt in  	  Sechelsberg   	Hauptbahnhof    		Hauptbahnhof
+	1026	Hauptbahnhof                              Ausrueck316HBF	HAUPTBAHNHOF    	      über      	Schweigrotherpl.	Hauptbahnhof    		Hauptbahnhof
+	1027	Hauptbahnhof                              316	HAUPTBAHNHOF    	      über      	Larnhalt, Malg  	Hauptbahnhof    		Hauptbahnhof
+	1028	Hauptbahnhof                              316K	HAUPTBAHNHOF    	      über      	Larnhalt, Malg  	Hauptbahnhof    		Hauptbahnhof
+	1029	Hauptbahnhof                              390	HAUPTBAHNHOF    	   RINGLINIE    	HBF-Schleife-HBF	Hauptbahnhof    		Hauptbahnhof
+	1030	Hauptbahnhof                              303	HAUPTBAHNHOF    	      über      	Schweigrotherpl.	Hauptbahnhof    		Hauptbahnhof
+	1031	Hauptbahnhof                              318SO	HAUPTBAHNHOF    	      über      	  Falkenstraße  	Hauptbahnhof    		Hauptbahnhof
+	1032	Hauptbahnhof                              318	HAUPTBAHNHOF    	 über Schleife, 	   Auto Minke   	Hauptbahnhof    		Hauptbahnhof
+	1033	Hauptbahnhof                              N1	HAUPTBAHNHOF    	ü. Augustaplatz,	Schweigrotherpl.	Hauptbahnhof    		Hauptbahnhof
+	1040	Bismarckplatz                              Ausrueck307Bismarck	BISMARCKPLATZ   	über Königsring,	Friedrichstraße 	Bismarckplatz   		Bismarckplatz
+	1041	Bismarckplatz                              307	BISMARCKPLATZ   	      über      	 Fachhochschule 	Bismarckplatz   		Bismarckplatz
+	1042	Stadttheater                              314	STADTTHEATER    	ü. Waldkloster, 	Schloss Larnhalt	Stadttheater    		Stadttheater
+	1043	Stadttheater                              N14	STADTTHEATER    	      über      	Schweigrotherpl.	Stadttheater    		Stadttheater
+	1044	Großweier                              314	GROßWEIER       	 über Larnhalt, 	  Waldkloster   	Großweier       		Großweier
+	1045	Großweier                              314Bombe	GROßWEIER       	 über Larnhalt, 	  Waldkloster   	Großweier       		Großweier
+	1046	Dinopark                              304	DINOPARK        	über Kirchplatz,	  Hauptbahnhof  	Dinopark        		Dinopark
+	1049	Baden-Baden                              319	BADEN-BADEN     	über Wörthstr., 	 Altstadtforum  	Baden-Baden     		Baden-Baden
+	1050	Augustaplatz                              Ausrueck306Augusta	AUGUSTAPLATZ    	      über      	 Auf der Halde  	Augustaplatz    		Augustaplatz
+	1051	Augustaplatz                              306	AUGUSTAPLATZ    	      über      	 Auf der Halde  	Augustaplatz    		Augustaplatz
+	1053	Malger Weg                              Ein316BTH	MALGER WEG      	      über      	 Larnhalt, Malg 	Malger Weg      		Malger Weg
+	1054	Malger Weg                              Ein307BTH2	MALGER WEG      	      über      	 Fachhochschule 	Malger Weg      		Malger Weg
+	1055	Badener Weg                              314	BADENER WEG     	ü. Waldkloster, 	Schloss Larnhalt	Badener Weg     		Badener Weg
+	1056	Malger Weg                              Ein316BTH2	MALGER WEG      	      über      	Larnhalt, Malg  	Malger Weg      		Malger Weg
+	1057	Malger Weg                              Ein307BTH1	MALGER WEG      	      über      	Friedrichstraße 	Malger Weg      		Malger Weg
+	1058	Malger Weg                              Ein316BTH1	MALGER WEG      	      über      	Schweigrotherpl.	Malger Weg      		Malger Weg
+	1059	Malger Weg                              N14	MALGER WEG      	      über      	Schweigrotherpl.	Malger Weg      		Malger Weg
+	1060	DEVK-Arena                              319	DEVK-ARENA      	      über      	 Altstadtforum  	DEVK-Arena      		DEVK-Arena
+	1062	Malger Platz                               310	MALGER PLATZ    	      über      	 Fachhochschule 	Malger Platz    		Malger Platz
+	1064	Hildegardplatz                              Ausrueck301Hilde	HILDEGARDPLATZ  	ü. Haldengrund, 	  Augustaplatz  	Hildegardplatz  		Hildegardplatz
+	1065	Hildegardplatz                              301	HILDEGARDPLATZ  	ü. Haldengrund, 	  Augustaplatz  	Hildegardplatz  		Hildegardplatz
+	1066	Hildegardplatz                              N1	HILDEGARDPLATZ  	      über      	Schweigrotherpl.	Hildegardplatz  		Hildegardplatz
+	1068	Altes Schloss                              Ausrueck316Schloss	ALTES SCHLOSS   	      über      	 Malg, Larnhalt 	Altes Schloss   		Altes Schloss
+	1069	Altes Schloss                              316	ALTES SCHLOSS   	      über      	 Malg, Larnhalt 	Altes Schloss   		Altes Schloss
+	1070	Sportflugplatz                              318	SPORTFLUGPLATZ  	über Auto Minke,	    Schleife    	Sportflugplatz  		Sportflugplatz
+	1071	Sportflugplatz                              318SO	SPORTFLUGPLATZ  	      über      	  Falkenstraße  	Sportflugplatz  		Sportflugplatz
+	1085	Nollingen Bahnhof                              312	NOLLINGEN BF    	ü. Haldengrund, 	  Hauptbahnhof  	Nollingen Bf    		Nollingen Bf
+	1087	Gustav Platz                              308	GUSTAV PLATZ    	      über      	 Altstadtforum  	Gustav Platz    		Gustav Platz
+	1089	Bertholdplatz                              312	BERTHOLDPLATZ   	ü. Hauptbahnhof,	  Haldengrund   	Bertholdplatz   		Bertholdplatz
+	1091	Schweigrotherplatz                              N7	SCHWEIGROTHERPL 	   über Mühl,   	   FHS, Malg    	Schweigrotherpl 		Schweigrotherplatz
+	1092	Schweigrotherplatz                              308	SCHWEIGROTHERPL 	      über      	 Altstadtforum  	Schweigrotherpl 		Schweigrotherplatz
+	1093	Auf der Halde                              306K	AUF DER HALDE   	fährt nicht über	  Wörthstraße   	Auf der Halde   		Auf der Halde
+	1094	Wieseneck Kirche                              303	WIESENECK KIRCHE	      über      	  Wörthstraße   	Wieseneck Kirche		Wieseneck, Kirche
+	1095	Wieseneck Kirche                              306K2	WIESENECK KIRCHE	fährt nicht über	  Wörthstraße   	Wieseneck Kirche		Wieseneck, Kirche
+	1096	Wieseneck Friedhof                              Ausrueck306Freidhof	FRIEDHOF        	      über      	  Wörthstraße   	Friedhof        		Wieseneck Friedhof
+	1097	Wieseneck Friedhof                              306	FRIEDHOF        	      über      	  Wörthstraße   	Friedhof        		Wieseneck Friedhof
+	1098	Wieseneck Friedhof                              306K	FRIEDHOF        	fährt nicht über	  Wörthstraße   	Friedhof        		Wieseneck Friedhof
+	1099	Wieseneck Friedhof                              303	FRIEDHOF        	      über      	Schweigrotherpl.	Friedhof        		Wieseneck Friedhof
+	1100	Touristenlinie	TOURISTENLINIE  	  Sightseeing-  	zum Normaltarif	TOURISTENLINIE  		TOURISTENLINIE
+	1101	Sechelsberg Bf                              304	SECHELSBERG BF  	ü. Hauptbahnhof,	  Sechelsberg   	Sechelsberg Bf  		Sechelsberg Bf
+	1102	Sechelsberg Bf                              304K2	SECHELSBERG BF  	  kein Halt in  	  Sechelsberg   	Sechelsberg Bf  		Sechelsberg Bf
+	1103	Sechelsberg Bf                              304K	SECHELSBERG BF  	  mit Halt in   	  Sechelsberg   	Sechelsberg Bf  		Sechelsberg Bf
+	1104	Sechelsberg Bf                              N14	SECHELSBERG BF  	      über      	Schweigrotherpl.	Sechelsberg Bf  		Sechelsberg Bf
+	1105	Sechelsberg Bf                              N14	SECHELSBERG BF  	      über      	Schweigrotherpl.	Sechelsberg Bf  		Sechelsberg Bf
+	1111	Kunsthalle                              Ein301Kunsth	KUNSTHALLE      	ü. Augustaplatz,	  Haldengrund   	Kunsthalle      		Kunsthalle
+	1112	Kunsthalle                              Ein301Kunstv	KUNSTHALLE      	      über      	Schweigrotherpl.	Kunsthalle      		Kunsthalle
+	1113	Kunsthalle                              Ein306Kunstv	KUNSTHALLE      	      über      	  Wörthstraße   	Kunsthalle      		Kunsthalle
+	1114	Kunsthalle                              Ein306Kunsth	KUNSTHALLE      	      über      	 Auf der Halde  	Kunsthalle      		Kunsthalle
+	1115	Kunsthalle                              Ein306Kunstv2	KUNSTHALLE      	fährt nicht über	  Wörthstraße   	Kunsthalle      		Kunsthalle
+	1116	Mühl, Bahnhof                              310	MÜHL, BAHNHOF   	      über      	 Fachhochschule 	Mühl, Bahnhof   		Mühl, Bahnhof
+	1117	Erlengrund                              318	ERLENGRUND  	über Auto Minke,	    Schleife    	Erlengrund  		Erlengrund
+	2117	Erlengrund                              318	ERLENGRUND  	über Sportflugplatz		Erlengrund  		Erlengrund
+	1118	Erlengrund                              318SO	ERLENGRUND  	      über      	  Falkenstraße  	Erlengrund  		Erlengrund
+{ALLEX}	20000	Empty
+{ALLEX}	20001	Leerfahrt		Leerfahrt*I     	www.VBBH.de
+{ALLEX}	20002	Betriebshof VBBH	VBBH            	Betriebshof*I	VBBH            			VBBH
+{ALLEX}	20003	Betriebshof EUROBUS	EUROBUS         	Betriebshof*I   	EUROBUS         			EUROBUS
+{ALLEX}	20004	VBBH- Ihr Partner...	VBBH-IHR PARTNER	VBBH-Ihr starker	Partner im ÖPNV	VBBH-IHR Partner		VBBH-IHR Partner
+{ALLEX}	20005	Eurobus	EUROBUS         	EUROBUS*I       		EUROBUS         		EUROBUS
+{ALLEX}	20006	VBBH	VBBH            	VBBH*I          		VBBH            		VBBH
+{ALLEX}	20007	Messfahrt	MESSFAHRT       	MESSFAHRT *I    	nicht einsteigen	nicht einsteigen		Messfahrt
+{ALLEX}	20008	Werkstattfahrt	WERKSTATTFAHRT  	Werkstattfahrt*I				Werkstattfahrt
+{ALLEX}	20009	Pause	PAUSE           	Ich habe Pause*P	Nicht Stören			Pause
+{ALLEX}	20010	Fahrtende, nicht einsteigen	FAHRTENDE       	Fahrtende*I     	Nicht Einsteigen			FAHRTENDE
+	20011	SEV	SEV	SCHIENENERSATZ- 	VERKEHR*DB      	SEV             		SEV
+{ALLEX}	20012	Betriebsfahrt	BETRIEBSFAHRT   	Betriebsfahrt*I 		Betriebsfahrt   		Betriebsfahrt
+	20013	Weihnachtsmarkt-Shuttle		Weihnachtsmarkt-	Shuttle
+	20014	ZOB	ZOB             	Zentraler       	Omnibusbahnhof  	ZOB             		ZOB
+	20015	Schulbus	SCHULBUS	SCHULBUS*SCH				Schulbus
+	20016	Kleingartensiedlung                              316K	KLEING.-SIEDLUNG	Kleingarten-    	siedlung        	Kleing.-siedlung		Kleingartensiedlung
+	20017	Markgraf-Berthold-Platz                              Ausrueck307Muehl	M.-BERTH.-PLATZ 	MÜHL            	M.-Berth.-Platz 	M.-Berth.-Platz 		M.-Berthold-Platz
+	20018	Markgraf-Berthold-Platz                              307	M.-BERTH.-PLATZ 	MÜHL            	M.-Berth.-Platz 	M.-Berth.-Platz 		M.-Berthold-Platz
+	20019	Markgraf-Berthold-Platz                              N7	M.-BERTH.-PLATZ 	MÜHL*L[N7]            	M.-Berth.-Platz 	M.-Berth.-Platz 		M.-Berthold-Platz
+	20021	Hauptbahnhof                              Ausrueck301HBF	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20022	Hauptbahnhof                              301	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20023	Hauptbahnhof                              304K	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20024	Hauptbahnhof                              304WE	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20025	Hauptbahnhof                              304K2	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20026	Hauptbahnhof                              Ausrueck316HBF	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20027	Hauptbahnhof                              316	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20028	Hauptbahnhof                              316K	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20029	Hauptbahnhof                              390	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20030	Hauptbahnhof                              303	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20031	Hauptbahnhof                              318SO	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20032	Hauptbahnhof                              318	HAUPTBAHNHOF    	BAD HÜGELSDORF  	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20033	Hauptbahnhof                              N1	HAUPTBAHNHOF    	BAD HÜGELSDORF*L[N1]  	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20034	Hauptbahnhof                              SB1K	HAUPTBAHNHOF    	SCHNELLBUS*I*L[SB1]    	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20035	Hauptbahnhof                              SB1K	HAUPTBAHNHOF    	SCHNELLBUS*I*L[SB1]    	Hauptbahnhof *DB	Hauptbahnhof    		Hauptbahnhof
+	20040	Bismarckplatz                              Ausrueck307Bismarck	BISMARCKPLATZ   	BISMARCKPLATZ   		Bismarckplatz   		Bismarckplatz
+	20041	Bismarckplatz                              307	BISMARCKPLATZ   	BISMARCKPLATZ   		Bismarckplatz   		Bismarckplatz
+	20042	Stadttheater                              314	STADTTHEATER    	STADTTHEATER    		Stadttheater    		Stadttheater
+	20043	Stadttheater                              N14	STADTTHEATER    	STADTTHEATER*L[N14]    		Stadttheater		Stadttheater
+	20044	Großweier                              314	GROßWEIER       	GROßWEIER       		Großweier       		Großweier
+	20045	Großweier                              314Bombe	GROßWEIER       	GROßWEIER       		Großweier       		Großweier
+	20046	Dinopark                              304	DINOPARK        	DINOPARK        		Dinopark        		Dinopark
+	20047	Dinopark                              304WE	DINOPARK        	DINOPARK        		Dinopark        		Dinopark
+	20049	Baden-Baden                              319	BADEN-BADEN     	Baden-Baden     		Baden-Baden     		Baden-Baden
+	20050	Augustaplatz                              Ausrueck306Augusta	AUGUSTAPLATZ    	AUGUSTAPLATZ    		Augustaplatz    		Augustaplatz
+	20051	Augustaplatz                              306	AUGUSTAPLATZ    	AUGUSTAPLATZ    		Augustaplatz    		Augustaplatz
+	20052	Augustaplatz                              SB1K	AUGUSTAPLATZ    	SCHNELLBUS*I*L[SB1]    	Augustaplatz    	Augustaplatz    		Augustaplatz
+	20053	Malger Weg                              Ein316BTH	MALGER WEG      	Lange Straße/   	Malger Weg      	Malger Weg      		Malger Weg
+	20054	Malger Weg                              Ein307BTH2	MALGER WEG      	Lange Straße/   	Malger Weg      	Malger Weg      		Malger Weg
+	20055	Badener Weg                              314	BADENER WEG     	Lange Straße/   	Badener Weg     	Badener Weg     		Malger Weg
+	20056	Malger Weg                              Ein316BTH2	MALGER WEG      	Lange Straße/   	Malger Weg      	Malger Weg      		Malger Weg
+	20057	Malger Weg                              Ein307BTH1	MALGER WEG      	MALGER WEG      		Malger Weg      		Malger Weg
+	20058	Malger Weg                              Ein316BTH1	MALGER WEG      	MALGER WEG      		Malger Weg      		Malger Weg
+	20059	Malger Weg                              N14	MALGER WEG      	MALGER WEG*L[N14]      		Malger Weg      		Malger Weg
+	20060	DEVK-Arena                              319	DEVK-ARENA      	DEVK-ARENA      		DEVK-Arena      		DEVK-Arena
+	20061	Raststatt	RASTSTATT       	RASTSTATT       		Raststatt       		Raststatt
+	20062	Malger Platz                               310	MALGER PLATZ    	MALGER PLATZ    		Malger Platz    		Malger Platz
+	20064	Hildegardplatz                              Ausrueck301Hilde	HILDEGARDPLATZ  	HILDEGARDPLATZ  		Hildegardplatz  		Hildegardplatz
+	20065	Hildegardplatz                              301	HILDEGARDPLATZ  	HILDEGARDPLATZ  		Hildegardplatz  		Hildegardplatz
+	20066	Hildegardplatz                              N1	HILDEGARDPLATZ  	HILDEGARDPLATZ*L[N1]  		Hildegardplatz  		Hildegardplatz
+	20067	Hildegardplatz                              SB1	HILDEGARDPLATZ  	SCHNELLBUS*I*L[SB1]    	Hildegardplatz  	Hildegardplatz  		Hildegardplatz
+	20068	Altes Schloss                              Ausrueck316Schloss	ALTES SCHLOSS   	ALTES SCHLOSS   		Altes Schloss   		Altes Schloss
+	20069	Altes Schloss                              316	ALTES SCHLOSS   	ALTES SCHLOSS   		Altes Schloss   		Altes Schloss
+	20070	Sportflugplatz                              318	SPORTFLUGPLATZ  	SPORTFLUGPLATZ*F		Sportflugplatz  		Sportflugplatz
+	20071	Sportflugplatz                              318SO	SPORTFLUGPLATZ  	SPORTFLUGPLATZ*F		Sportflugplatz  		Sportflugplatz
+	20072	Shuttle Altstadtforum                              EB	SHUTTLEVERKEHR  	SHUTTLEVERKEHR*I	Altstadtforum   	Shuttleverkehr  		Shuttleverkehr
+	20073	Shuttle Hauptbahnhof                              EB	SHUTTLEVERKEHR  	SHUTTLEVERKEHR*I	Hauptbahnhof*DB 	Shuttleverkehr  		Shuttleverkehr
+	20074	Shuttle Hauptbahnhof                              EB	SHUTTLEVERKEHR  	SHUTTLEVERKEHR*I	Hauptbahnhof*DB 	Shuttleverkehr  		Shuttleverkehr
+	20075	Shuttle Augustaplatz                              EB	SHUTTLEVERKEHR  	SHUTTLEVERKEHR*I	Augustaplatz    	Shuttleverkehr  		Shuttleverkehr
+	20076	Shuttle Dinopark                              EB	SHUTTLEVERKEHR  	SHUTTLEVERKEHR*I	Dinopark    	Shuttleverkehr  		Shuttleverkehr
+	20085	Nollingen Bahnhof                              312	NOLLINGEN BF    	NOLLINGEN       	Bahnhof*DB      	Nollingen Bf    		Nollingen Bf
+	20087	Gustav Platz                              308	GUSTAV PLATZ    	GUSTAV PLATZ    		Gustav Platz    		Gustav Platz
+	20089	Bertholdplatz                              312	BERTHOLDPLATZ   	BERTHOLDPLATZ   		Bertholdplatz   		Bertholdplatz
+	20091	Schweigrotherplatz                              N7	SCHWEIGROTHERPL 	Schweigrother-*L[N7]  	platz           	Schweigrotherpl 		Schweigrotherplatz
+	20092	Schweigrotherplatz                              308	SCHWEIGROTHERPL 	Schweigrother-  	platz           	Schweigrotherpl 		Schweigrotherplatz
+	20093	Auf der Halde                              306K	AUF DER HALDE   	AUF DER HALDE   		Auf der Halde   		Auf der Halde
+	20094	Wieseneck Kirche                              303	WIESENECK KIRCHE	WIESENECK       	Kirche          	Wieseneck Kirche		Wieseneck, Kirche
+	20095	Wieseneck Kirche                              306K2	WIESENECK KIRCHE	WIESENECK       	Kirche          	Wieseneck Kirche		Wieseneck, Kirche
+	20096	Wieseneck Friedhof                              Ausrueck306Friedhof	FRIEDHOF        	WIESENECK       	Friedhof        	Friedhof        		Wieseneck Friedhof
+	20097	Wieseneck Friedhof                              306	FRIEDHOF        	WIESENECK       	Friedhof        	Friedhof        		Wieseneck, Friedhof
+	20098	Wieseneck Friedhof                              306K	FRIEDHOF        	WIESENECK       	Friedhof        	Friedhof        		Wieseneck, Friedhof
+	20099	Wieseneck Friedhof                              303	FRIEDHOF        	WIESENECK       	Friedhof        	Friedhof        		Wieseneck, Friedhof
+	20100	Touristenlinie	TOURISTENLINIE  	TOURISTENLINIE  		TOURISTENLINIE  		TOURISTENLINIE
+	20101	Sechelsberg Bf                              304	SECHELSBERG BF  	SECHELSBERG     	Bahnhof*DB      	Sechelsberg Bf  		Sechelsberg Bf
+	20102	Sechelsberg Bf                              304K2	SECHELSBERG BF  	SECHELSBERG     	Bahnhof*DB      	Sechelsberg Bf  		Sechelsberg Bf
+	20103	Sechelsberg Bf                              304K	SECHELSBERG BF  	SECHELSBERG     	Bahnhof*DB      	Sechelsberg Bf  		Sechelsberg Bf
+	20104	Sechelsberg Bf                              N14	SECHELSBERG BF  	SECHELSBERG*L[N14]     	Bahnhof*DB      	Sechelsberg Bf  		Sechelsberg Bf
+	20105	Sechelsberg Bf                              N14	SECHELSBERG BF  	SECHELSBERG*L[N14]     	Bahnhof*DB      	Sechelsberg Bf  		Sechelsberg Bf
+	20111	Kunsthalle                              Ein301Kunsth	KUNSTHALLE      	KUNSTHALLE      		Kunsthalle      		Kunsthalle
+	20112	Kunsthalle                              Ein301Kunstv	KUNSTHALLE      	KUNSTHALLE      		Kunsthalle      		Kunsthalle
+	20113	Kunsthalle                              Ein306Kunstv	KUNSTHALLE      	KUNSTHALLE      		Kunsthalle      		Kunsthalle
+	20114	Kunsthalle                              Ein306Kunsth	KUNSTHALLE      	KUNSTHALLE      		Kunsthalle      		Kunsthalle
+	20115	Kunsthalle                              Ein306Kunstv2	KUNSTHALLE      	KUNSTHALLE      		Kunsthalle      		Kunsthalle
+	20116	Mühl, Bahnhof                              310	MÜHL, BAHNHOF   	MÜHL            	Bahnhof*DB      	Mühl, Bahnhof   		Mühl, Bahnhof
+	20117	Erlengrund                              318	ERLENGRUND  	ERLENGRUND		Erlengrund  		Erlengrund
+	20118	Erlengrund                              318SO	ERLENGRUND  	ERLENGRUND		Erlengrund  		Erlengrund
+	21016	Kleingartensiedlung                              316K	KLEING.-SIEDLUNG	      über      	 Malg, Larnhalt 	KLEING.-SIEDLUNG		KLEING.-SIEDLUNG
+	21017	Markgraf-Berthold-Platz                              Ausrueck307Muehl	M.-BERTH.-PLATZ 	      über      	 Fachhochschule 	M.-Berth.-Platz 		M.-Berthold-Platz
+	21018	Markgraf-Berthold-Platz                              307	M.-BERTH.-PLATZ 	      über      	 Fachhochschule 	M.-Berth.-Platz 		M.-Berthold-Platz
+	21019	Markgraf-Berthold-Platz                              N7	M.-BERTH.-PLATZ 	   über Malg,*L[N7]   	 Fachhochschule 	M.-Berth.-Platz 		M.-Berthold-Platz
+	21021	Hauptbahnhof                              Ausrueck301HBF	HAUPTBAHNHOF    	      über      	Schweigrotherpl.	Hauptbahnhof    		Hauptbahnhof
+	21022	Hauptbahnhof                              301	HAUPTBAHNHOF    	ü. Augustaplatz,	  Haldengrund   	Hauptbahnhof    		Hauptbahnhof
+	21023	Hauptbahnhof                              304K	HAUPTBAHNHOF    	  mit Halt in   	  Sechelsberg   	Hauptbahnhof    		Hauptbahnhof
+	21025	Hauptbahnhof                              304K2	HAUPTBAHNHOF    	  kein Halt in  	  Sechelsberg   	Hauptbahnhof    		Hauptbahnhof
+	21026	Hauptbahnhof                              Ausrueck316HBF	HAUPTBAHNHOF    	      über      	Schweigrotherpl.	Hauptbahnhof    		Hauptbahnhof
+	21027	Hauptbahnhof                              316	HAUPTBAHNHOF    	      über      	Larnhalt, Malg  	Hauptbahnhof    		Hauptbahnhof
+	21028	Hauptbahnhof                              316K	HAUPTBAHNHOF    	      über      	Larnhalt, Malg  	Hauptbahnhof    		Hauptbahnhof
+	21029	Hauptbahnhof                              390	HAUPTBAHNHOF    	   RINGLINIE    	HBF-Schleife-HBF	Hauptbahnhof    		Hauptbahnhof
+	21030	Hauptbahnhof                              303	HAUPTBAHNHOF    	      über      	Schweigrotherpl.	Hauptbahnhof    		Hauptbahnhof
+	21031	Hauptbahnhof                              318SO	HAUPTBAHNHOF    	      über      	  Falkenstraße  	Hauptbahnhof    		Hauptbahnhof
+	21032	Hauptbahnhof                              318	HAUPTBAHNHOF    	 über Schleife, 	   Auto Minke   	Hauptbahnhof    		Hauptbahnhof
+	21033	Hauptbahnhof                              N1	HAUPTBAHNHOF    	ü. Augustaplatz,*L[N1]	Schweigrotherpl.	Hauptbahnhof    		Hauptbahnhof
+	21040	Bismarckplatz                              Ausrueck307Bismarck	BISMARCKPLATZ   	über Königsring,	Friedrichstraße 	Bismarckplatz   		Bismarckplatz
+	21041	Bismarckplatz                              307	BISMARCKPLATZ   	      über      	 Fachhochschule 	Bismarckplatz   		Bismarckplatz
+	21042	Stadttheater                              314	STADTTHEATER    	ü. Waldkloster, 	Schloss Larnhalt	Stadttheater    		Stadttheater
+	21043	Stadttheater                              N14	STADTTHEATER    	      über*L[N14]      	Schweigrotherpl.	Stadttheater    		Stadttheater
+	21044	Großweier                              314	GROßWEIER       	 über Larnhalt, 	  Waldkloster   	Großweier       		Großweier
+	21045	Großweier                              314Bombe	GROßWEIER       	 über Larnhalt, 	  Waldkloster   	Großweier       		Großweier
+	21046	Dinopark                              304	DINOPARK        	über Kirchplatz,	  Hauptbahnhof  	Dinopark        		Dinopark
+	21049	Baden-Baden                              319	BADEN-BADEN     	über Wörthstr., 	 Altstadtforum  	Baden-Baden     		Baden-Baden
+	21050	Augustaplatz                              Ausrueck306Augusta	AUGUSTAPLATZ    	      über      	 Auf der Halde  	Augustaplatz    		Augustaplatz
+	21051	Augustaplatz                              306	AUGUSTAPLATZ    	      über      	 Auf der Halde  	Augustaplatz    		Augustaplatz
+	21053	Malger Weg                              Ein316BTH	MALGER WEG      	      über      	 Larnhalt, Malg 	Malger Weg      		Malger Weg
+	21054	Malger Weg                              Ein307BTH2	MALGER WEG      	      über      	 Fachhochschule 	Malger Weg      		Malger Weg
+	21055	Badener Weg                              314	BADENER WEG     	ü. Waldkloster, 	Schloss Larnhalt	Badener Weg     		Badener Weg
+	21056	Malger Weg                              Ein316BTH2	MALGER WEG      	      über      	Larnhalt, Malg  	Malger Weg      		Malger Weg
+	21057	Malger Weg                              Ein307BTH1	MALGER WEG      	      über      	Friedrichstraße 	Malger Weg      		Malger Weg
+	21058	Malger Weg                              Ein316BTH1	MALGER WEG      	      über      	Schweigrotherpl.	Malger Weg      		Malger Weg
+	21059	Malger Weg                              N14	MALGER WEG      	      über*L[N14]      	Schweigrotherpl.	Malger Weg      		Malger Weg
+	21060	DEVK-Arena                              319	DEVK-ARENA      	      über      	 Altstadtforum  	DEVK-Arena      		DEVK-Arena
+	21062	Malger Platz                               310	MALGER PLATZ    	      über      	 Fachhochschule 	Malger Platz    		Malger Platz
+	21064	Hildegardplatz                              Ausrueck301Hilde	HILDEGARDPLATZ  	 ü. Haldengrund 	  Augustaplatz  	Hildegardplatz  		Hildegardplatz
+	21065	Hildegardplatz                              301	HILDEGARDPLATZ  	ü. Haldengrund, 	  Augustaplatz  	Hildegardplatz  		Hildegardplatz
+	21066	Hildegardplatz                              N1	HILDEGARDPLATZ  	      über*L[N1]      	Schweigrotherpl.	Hildegardplatz  		Hildegardplatz
+	21068	Altes Schloss                              Ausrueck316Schloss	ALTES SCHLOSS   	      über      	 Malg, Larnhalt 	Altes Schloss   		Altes Schloss
+	21069	Altes Schloss                              316	ALTES SCHLOSS   	      über      	 Malg, Larnhalt 	Altes Schloss   		Altes Schloss
+	21070	Sportflugplatz                              318	SPORTFLUGPLATZ  	über Auto Minke,	    Schleife    	Sportflugplatz  		Sportflugplatz
+	21071	Sportflugplatz                              318SO	SPORTFLUGPLATZ  	      über      	  Falkenstraße  	Sportflugplatz  		Sportflugplatz
+	21085	Nollingen Bahnhof                              312	NOLLINGEN BF    	ü. Haldengrund, 	  Hauptbahnhof  	Nollingen Bf    		Nollingen Bf
+	21087	Gustav Platz                              308	GUSTAV PLATZ    	      über      	 Altstadtforum  	Gustav Platz    		Gustav Platz
+	21089	Bertholdplatz                              312	BERTHOLDPLATZ   	ü. Hauptbahnhof,	  Haldengrund   	Bertholdplatz   		Bertholdplatz
+	21091	Schweigrotherplatz                              N7	SCHWEIGROTHERPL 	   über Mühl,*L[N7]   	   FHS, Malg    	Schweigrotherpl 		Schweigrotherplatz
+	21092	Schweigrotherplatz                              308	SCHWEIGROTHERPL 	      über      	 Altstadtforum  	Schweigrotherpl 		Schweigrotherplatz
+	21093	Auf der Halde                              306K	AUF DER HALDE   	fährt nicht über	  Wörthstraße   	Auf der Halde   		Auf der Halde
+	21094	Wieseneck Kirche                              303	WIESENECK KIRCHE	      über      	  Wörthstraße   	Wieseneck Kirche		Wieseneck, Kirche
+	21095	Wieseneck Kirche                              306K2	WIESENECK KIRCHE	fährt nicht über	  Wörthstraße   	Wieseneck Kirche		Wieseneck, Kirche
+	21096	Wieseneck Friedhof                              Ausrueck306Freidhof	FRIEDHOF        	      über      	  Wörthstraße   	Friedhof        		Wieseneck Friedhof
+	21097	Wieseneck Friedhof                              306	FRIEDHOF        	      über      	  Wörthstraße   	Friedhof        		Wieseneck Friedhof
+	21098	Wieseneck Friedhof                              306K	FRIEDHOF        	fährt nicht über	  Wörthstraße   	Friedhof        		Wieseneck Friedhof
+	21099	Wieseneck Friedhof                              303	FRIEDHOF        	      über      	Schweigrotherpl.	Friedhof        		Wieseneck Friedhof
+	21100	Touristenlinie	TOURISTENLINIE  	  Sightseeing-  	zum Normaltarif 	TOURISTENLINIE  		TOURISTENLINIE
+	21101	Sechelsberg Bf                              304	SECHELSBERG BF  	ü. Hauptbahnhof,	  Sechelsberg   	Sechelsberg Bf  		Sechelsberg Bf
+	21102	Sechelsberg Bf                              304K2	SECHELSBERG BF  	  kein Halt in  	  Sechelsberg   	Sechelsberg Bf  		Sechelsberg Bf
+	21103	Sechelsberg Bf                              304K	SECHELSBERG BF  	  mit Halt in   	  Sechelsberg   	Sechelsberg Bf  		Sechelsberg Bf
+	21104	Sechelsberg Bf                              N14	SECHELSBERG BF  	      über*L[N14]      	Schweigrotherpl.	Sechelsberg Bf  		Sechelsberg Bf
+	21105	Sechelsberg Bf                              N14	SECHELSBERG BF  	      über*L[N14]      	Schweigrotherpl.	Sechelsberg Bf  		Sechelsberg Bf
+	21111	Kunsthalle                              Ein301Kunsth	KUNSTHALLE      	ü. Augustaplatz,	  Haldengrund   	Kunsthalle      		Kunsthalle
+	21112	Kunsthalle                              Ein301Kunstv	KUNSTHALLE      	      über      	Schweigrotherpl.	Kunsthalle      		Kunsthalle
+	21113	Kunsthalle                              Ein306Kunstv	KUNSTHALLE      	      über      	  Wörthstraße   	Kunsthalle      		Kunsthalle
+	21114	Kunsthalle                              Ein306Kunsth	KUNSTHALLE      	      über      	 Auf der Halde  	Kunsthalle      		Kunsthalle
+	21115	Kunsthalle                              Ein306Kunstv2	KUNSTHALLE      	fährt nicht über	  Wörthstraße   	Kunsthalle      		Kunsthalle
+	21116	Mühl, Bahnhof                              310	MÜHL, BAHNHOF   	      über      	 Fachhochschule 	Mühl, Bahnhof   		Mühl, Bahnhof
+	21117	Erlengrund                              318	ERLENGRUND  	über Auto Minke,	    Schleife,    	Erlengrund  		Erlengrund
+	22117	Erlengrund                              318	ERLENGRUND  	über Sportflugplatz		Erlengrund  		Erlengrund
+	21118	Erlengrund                              318SO	ERLENGRUND  	      über Falkenstraße,	Flughafen  	Erlengrund  		Erlengrund
+[end]
+
+*******************
+* B u s s t o p s *
+*******************
+
+[addbusstop_list]
+Albert-Kunze-Weg	ALBERT-KUNZE-WEG	Albert-Kunze-Weg		Albert-Kunze-Weg
+Alfred-Brunner-Weg	ALFRED-BRUN.-WEG	Alfred-Brunner-Weg		Alfred-Brunner-Weg
+Alfred-Brunner-Weg - 301 316	ALFRED-BRUN.-WEG	Alfred-Brunner-Weg		Alfred-Brunner-Weg
+Alfred-Brunner-Weg - 304	ALFRED-BRUN.-WEG	Alfred-Brunner-Weg		Alfred-Brunner-Weg
+Alte Eiche	ALTE EICHE      	Alte Eiche		Alte Eiche
+Alte Ziegelei	ALTE ZIEGELEI   	Alte Ziegelei		Alte Ziegelei
+Alter Bahnhof - Altstadtforum	ALTSTADTFORUM   	Alter Bahnhof/	Altstadtforum	Altstadtforum
+Alter Weiher	ALTER WEIHER    	Alter Weiher		Alter Weiher
+Altes Schloss	ALTES SCHLOß    	Altes Schloß		Altes Schloß
+Altes Schloss - Pause	ALTES SCHLOSS   	Altes Schloss		Altes Schloss
+Altes Schloss - Terminus	ALTES SCHLOSS   	Altes Schloss		Altes Schloss
+Altstadtring	ALTSTADTRING    	Altstadtring		Altstadtring
+Am Bachlauf	AM BACHLAUF     	Am Bachlauf		Am Bachlauf
+Am Buchenhain	AM BUCHENHAIN   	Am Buchenhain		Am Buchenhain
+Am Buckel	AM BUCKEL       	Am Buckel		Am Buckel
+An der Matte	AN DER MATTE    	An der Matte		An der Matte
+Arbeitersiedlung	ARBEITERSIEDLUNG	Arbeitersiedlung		Arbeitersiedlung
+Auf der Halde	AUF DER HALDE   	Auf der Halde		Auf der Halde
+Auf der Halde Terminus	AUF DER HALDE   	Auf der Halde		Auf der Halde
+Augustaplatz	AUGUSTAPLATZ    	Augustaplatz		Augustaplatz
+Auto Minke	AUTO MINKE      	Auto Minke		Auto Minke
+Barbarossastrasse	BARBAROSSASTRAßE	Barbarossastraße		Barbarossastraße
+Beethovenallee	BEETHOVENALLEE  	Beethovenallee		Beethovenallee
+Bergdorf	BERGDORF        	Bergdorf		Bergdorf
+Bergpfad	BERGPFAD        	Bergpfad		Bergpfad
+Betriebshof Eurobus	BTH EUROBUS     	Betriebshof	EUROBUS	Betriebshof EUROBUS
+Betriebshof VBBH	BETRIEBSHOF VBBH	Betriebshof	VBBH	Betriebshof VBBH
+Bildeiche	BILDEICHE       	Bildeiche		Bildeiche
+Bismarckplatz	BISMARCKPLATZ   	Bismarckplatz		Bismarckplatz
+Bolloghoehe	BOLLOGHÖHE      	Bolloghöhe		Bolloghöhe
+Bucheneck	BUCHENECK        	Bucheneck		Bucheneck
+Buchhaim	BUCHHAIM        	Buchhaim		Buchhaim
+Dinopark	DINOPARK        	Dinopark		Dinopark
+Dinopark-Terminus	DINOPARK        	Dinopark		Dinopark
+Drappstrasse	DRAPPSTRAßE     	Drappstraße		Drappstraße
+Dreieichenkapelle	DREIEICHENKAPELL	Dreieichenkapelle		Dreieichenkapelle
+Einschlag	EINSCHLAG       	Einschlag		Einschlag
+Einschlag - 301	EINSCHLAG       	Einschlag		Einschlag
+Einschlag - 306	EINSCHLAG       	Einschlag		Einschlag
+Entenstallhuette	ENTENSTALLHÜTTE 	Entenstallhütte		Entenstallhütte
+Erlengrund, Rathaus	ERLENGRUND RATH.      	Erlengrund	Rathaus	Erlengrund, Rath.
+Erlengrund, Landstrasse	ERLENGRUND LANDSTR.      	Erlengrund	Landstraße	Erlengrund, Landstr.
+Erlengrund, Kloster	ERLENGRUND KLOSTER      	Erlengrund	Kloster	Erlengrund, Kloster
+Falkenstrasse	FALKENSTRAßE    	Falkenstraße		Falkenstraße
+Fasanenweg	FASANENWEG      	Fasanenweg		Fasanenweg
+Fernung	FERNUNG         	Fernung		Fernung
+Festspielhaus	FESTSPIELHAUS   	Festspielhaus		Festspielhaus
+Finsterberg	FINSTERBERG     	Finsterberg		Finsterberg
+Friedrichstrasse	FRIEDRICHSTRAßE 	Friedrichstraße		Friedrichstraße
+G. Platz	GUSTAV PLATZ    	GUSTAV PLATZ		GUSTAV PLATZ
+G. Platz Start	GUSTAV PLATZ    	GUSTAV PLATZ		GUSTAV PLATZ
+Gasthaus Traube	GASTHAUS TRAUBE 	Gasthaus Traube		Gasthaus Traube
+Gewerbegebiet Hoheberg	GEWERBEGEBIET   	Gewerbegebiet	Hoheberg	Gewerbegebiet
+Goetheallee	GÖTHEALLEE      	Götheallee		Götheallee
+Grosse Dollenstrasse	GROßE DOLLENSTR 	Große Dollenstraße		Große Dollenstraße
+Grosse Dollenstrasse - 301 306	GROßE DOLLENSTR 	Große Dollenstraße		Große Dollenstraße
+Grosse Dollenstrasse - 316	GROßE DOLLENSTR 	Große Dollenstraße		Große Dollenstraße
+Grossweier	GROßWEIER       	Großweier		Großweier
+Haldengrund	HALDENGRUND     	Haldengrund		Haldengrund
+Hardbergweg	HARDBERGWEG     	Hardbergweg		Hardbergweg
+Hauptbahnhof	HAUPTBAHNHOF    	Hauptbahnhof		Hauptbahnhof
+Hauptbahnhof - Bussteig 1	HBF STEIG 1     	Hauptbahnhof		HBF Steig 1
+Hauptbahnhof - Bussteig 1 Terminus	HBF STEIG 1     	Hauptbahnhof		HBF Steig 1
+Hauptbahnhof - Bussteig 1 Terminus.	HBF STEIG 1     	Hauptbahnhof		HBF Steig 1
+Hauptbahnhof - Bussteig 2	HBF STEIG 2     	Hauptbahnhof		HBF Steig 2
+Hauptbahnhof - Bussteig 2 Terminus	HBF STEIG 2     	Hauptbahnhof		HBF Steig 2
+Hauptbahnhof - Bussteig 3	HBF STEIG 3     	Hauptbahnhof		HBF Steig 3
+Hauptbahnhof - Bussteig 3 Terminus	HBF STEIG 3     	Hauptbahnhof		HBF Steig 3
+Hauptbahnhof - Bussteig 4	HBF STEIG 4     	Hauptbahnhof		HBF Steig 4
+Hauptbahnhof - Bussteig 4 Terminus	HBF STEIG 4     	Hauptbahnhof		HBF Steig 4
+Hauptbahnhof - Bussteig 5	HBF STEIG 5     	Hauptbahnhof		HBF Steig 5
+Hauptbahnhof - Bussteig 5 Terminus	HBF STEIG 5     	Hauptbahnhof		HBF Steig 5
+Hauptbahnhof - Bussteig 6	HBF STEIG 6     	Hauptbahnhof		HBF Steig 6
+Hauptbahnhof - Bussteig 6 Terminus	HAUPTBAHNHOF    	Hauptbahnhof		Hauptbahnhof
+Hauptbahnhof - Bussteig 6 Terminus.	HAUPTBAHNHOF    	Hauptbahnhof		Hauptbahnhof
+Haus des Intendanten	HAUS INTENDANTEN	Haus des Intendanten		Haus des Intendanten
+Hildegardklinik	HILDEGARDKLINIK 	Hildegardklinik		Hildegardklinik
+Hildegardplatz	HILDEGARDPLATZ  	Hildegardplatz		Hildegardplatz
+Hindenburgplatz_Stadtbibliothek	STADTBIBLIOTHEK 	Hindenburgplatz/	Stadtbibliothek	Stadtbibliothek
+Homunkelring	HOMUNKELRING    	Homunkelring		Homunkelring
+Im Elend	IM ELEND        	Im Elend		Im Elend
+Im Kraehennest	IM KRÄHENNEST   	Im Krähennest		Im Krähennest
+Kirchplatz	KIRCHPLATZ      	Kirchplatz		Kirchplatz
+Kleine Dollenstrasse	KLEINE DOLLENSTR	Kleine Dollenstraße		Kleine Dollenstraße
+Kleingartensiedlung	KLEINGARTENSIED 	Kleingartensiedlung		Kleingartensiedlung
+Kleingartensiedlung - Terminus	KLEINGARTENSIED.	Kleingartensiedlung		Kleingartensiedlung
+Koenigsring	KÖNIGSRING      	Königsring		Königsring
+Koenigsring - 307	KÖNIGSRING      	Königsring		Königsring
+Koenigsring - 316	KÖNIGSRING      	Königsring		Königsring
+Kornacker	KORNACKER       	Kornacker		Kornacker
+Kraeuterkundler	KRÄUTERKUNDLER  	Kräuterkundler		Kräuterkundler
+Kruzerstrasse	KRUZERSTRAßE    	Kruzerstraße		Kruzerstraße
+Kunsthalle	KUNSTHALLE      	Kunsthalle		Kunsthalle
+Landwirtschaftsmuseum	WIRTSCHAFTSMUSEU	Landwirtschaftsmuseum		Wirtschaftsmuseum
+Lange Strasse - Arbeiterweg	ARBEITERWEG     	Lange Straße/	Arbeiterweg	Arbeiterweg
+Lange Strasse - Badener Weg	BADENER WEG     	Lange Straße/	Badener Weg	Badener Weg
+Lange Strasse - Badener Weg - 307	BADENER WEG     	Lange Straße/	Badener Weg	Badener Weg
+Lange Strasse - Badener Weg - 314	BADENER WEG     	Lange Straße/	Badener Weg	Badener Weg
+Lange Strasse - Badener Weg - 316	BADENER WEG     	Lange Straße/	Badener Weg	Badener Weg
+Lange Strasse - Malger Weg	MALGER WEG      	Lange Straße/	 Malger Weg	Malger Weg
+Larnhalt, Auf der Hoffnung	AUF DER HOFFNUNG	Larnhalt,	Auf der Hoffnung	Auf der Hoffnung
+Larnhalt, Kirche	LARNHALT KIRCHE 	Larnhalt,	Kirche	Larnhalt, Kirche
+Larnhalt, Kirchstrasse	KIRCHSTRAßE     	Larnhalt,	Kirchstraße	Kirchstraße
+Larnhalt, Schlossstrasse	SCHLOßSTRAßE    	Larnhalt,	Schloßstraße	Schloßstraße
+Larnhalt, Schlossstrasse - 314	SCHLOßSTRAßE    	Larnhalt,	Schloßstraße	Schloßstraße
+Larnhalt, Schlossstrasse - 316	SCHLOßSTRAßE    	Larnhalt,	Schloßstraße	Schloßstraße
+Leopoldsplatz-Luisenstrasse	LUISENSTRAßE    	Leopoldsplatz/	Luisenstraße	Luisenstraße
+Leopoldsplatz-Sophienstrasse	SOPHIENSTRAßE   	Leopoldsplatz/	Sophienstraße	Sophienstraße
+Malg, Grundschule	MALG GRUNDSCHULE	Malg,	Grundschule	Malg Grundschule
+Malg, Kirche	MALG KIRCHE     	Malg,	Kirche	Malg Kirche
+Malg, Marktplatz	MALG MARKTPLATZ 	Malg,	Marktplatz	Malg Marktplatz
+Malger Platz	MALGER PLATZ    	Malger Platz		Malger Platz
+Malger Weg	MALGER WEG      	Malger Weg		Malger Weg
+Militaermuseum	MILITÄRMUSEUM   	Militärmuseum		Militärmuseum
+Mozartweg	MOZARTWEG       	Mozartweg		Mozartweg
+Muehl, Albert-Einstein-Gymnasium	ALBERT EINSTEIN 	Mühl,	Albert-Einstein-Gymnasium	Albert-Einstein-Gym
+Muehl, Albert-Einstein-Gymnasium - 307	ALBERT EINSTEIN 	Mühl,	Albert-Einstein-Gymnasium	Albert-Einstein-Gym
+Muehl, Albert-Einstein-Gymnasium - 314	ALBERT EINSTEIN 	Mühl,	Albert-Einstein-Gymnasium	Albert-Einstein-Gym
+Muehl, Alte Muehle	MÜHL, ALTE MÜHLE	Mühl,	Alte Mühle	Mühl, Alte Mühle
+Muehl, Am Block	MÜHL, AM BLOCK  	Mühl,	Am Block	Mühl, Am Block
+Muehl, Am Kirchberg	AM KIRCHBERG    	Mühl,	Am Kirchberg	Am Kirchberg
+Muehl, Bahnhof	MÜHL, BAHNHOF   	Mühl,	Bahnhof	Mühl, Bahnhof
+Muehl, Fachhochschule	FACHHOCHSCHULE  	Mühl,	Fachhochschule	Fachhochschule
+Muehl, IKEA	IKEA            	Mühl,	IKEA	IKEA
+Muehl, Markgraf-Berthold-Platz	M.-BERTH.-PLATZ 	Mühl,	Markgraf-Berthold-Platz	M.-Berthold-Platz
+Muehl, Markgraf-Berthold-Platz - Terminus	M.-BERTH.-PLATZ 	Mühl,	Markgraf-Berthold-Platz	M.-Berthold-Platz
+Muehl, Markgraf-Berthold-Platz Pause	M.-BERTH.-PLATZ 	Mühl,	Markgraf-Berthold-Platz Pause	M.-Berthold-Platz
+Muehl, Schwimmbad	SCHWIMMBAD      	Mühl,	Schwimmbad	Schwimmbad
+Muehl, Sonnenblumenweg	SONNENBLUMENWEG 	Mühl,	Sonnenblumenweg	Sonnenblumenweg
+Nebelheim	NEBELHEIM       	Nebelheim		Nebelheim
+Nurnenwald	NURNENWALD      	Nurnenwald		Nurnenwald
+Oberer Schussbach	OBERER SCHUßBACH	Oberer Schußbach		Oberer Schußbach
+Pecusenweg_Kaeferclub	KÄFERCLUB       	Pecusenweg/	Käferclub	Pecusenweg/Käferclub
+Plateau	PLATEAU         	Plateau		Plateau
+Renes Reiterhof	RENES REITERHOF 	Renes Reiterhof		Renes Reiterhof
+Roemerweg	RÖMERWEG        	Römerweg		Römerweg
+Schillerplatz	SCHILLERPLATZ   	Schillerplatz		Schillerplatz
+Schleife	SCHLEIFE        	Schleife		Schleife
+Schlesier Strasse	SCHLESIER STRAßE	Schlesier Straße		Schlesier Straße
+Schloss Larnhalt	SCHLOß LARNHALT 	Schloß Larnhalt		Schloß Larnhalt
+Schussbachstrasse	SCHUßBACHSTRAßE 	Schußbachstraße		Schußbachstraße
+Schwarzwaldstrasse	SCHWARZWALDSTR. 	Schwarzwaldstraße		Schwarzwaldstraße
+Schweigrotherplatz	SCHWEIGROTHERPL 	Schweigrotherplatz		Schweigrotherplatz
+Schweigrotherplatz - 301 316	SCHWEIGROTHERPL 	Schweigrotherplatz		Schweigrotherplatz
+Schweigrotherplatz - 306	SCHWEIGROTHERPL 	Schweigrotherplatz		Schweigrotherplatz
+Schweigrotherplatz (Nachtlinie)	SCHWEIGROTHERPL 	Schweigrotherplatz		Schweigrotherplatz
+Sechelsberg, Alte Landstrasse	ALTE LANDSTRAßE 	Sechelsberg,	Alte Landstraße	Alte Landstraße
+Sechelsberg, Bahnhof	SECHELSBERG BF  	Sechelsberg,	Bahnhof	Sechelsberg Bahnhof
+Sechelsberg, Buchhaim	BUCHHAIM        	Sechelsberg,	Buchhaim	Buchhaim
+Sechelsberg, Kirche	SECHELSB. KIRCHE	Sechelsberg,	Kirche	Sechelsberg Kirche
+Sechelsberg, Rathaus	SECHELSB. RATH. 	Sechelsberg,	Rathaus	Sechelsberg Rathaus
+Sechelsberg, Untere Dorfstrasse	UNTERE DORFSTR  	Sechelsberg,	Untere Dorfstraße	Untere Dorfstraße
+Sechelsberg, Winzergasse	WINZERGASSE     	Sechelsberg,	Winzergasse	Sechelsb. Winzerg.
+Sintenisscher Kreis	SINTENISS. KREIS	Sintenisscher Kreis		Sintenisscher Kreis
+Sinzheimer Strasse	SINZHEIMER STR  	Sinzheimer Straße		Sinzheimer Straße
+Sportflugplatz	SPORTFLUGPLATZ  	Sportflugplatz		Sportflugplatz
+Sportflugplatz - Terminus	SPORTFLUGPLATZ  	SPORTFLUGPLATZ		Sportflugplatz
+Stadtklinik	STADTKLINIK     	Stadtklinik		Stadtklinik
+Stadtklinik - 307 314	STADTKLINIK     	Stadtklinik		Stadtklinik
+Stadtklinik - 316	STADTKLINIK     	Stadtklinik		Stadtklinik
+Stadttheater	STADTTHEATER    	Stadttheater		Stadttheater
+Stadttheater Terminus	STADTTHEATER    	STADTTHEATER		Stadttheater
+Ukobach	UKOBACH         	Ukobach		Ukobach
+Vulkanberg-Seilbahnstation	SEILBAHNSTATION 	Vulkanberg,	Seilbahnstation	Seilbahnstation
+Vulkanwald	VULKANWALD      	Vulkanwald		Vulkanwald
+Waidmannsheil	WAIDMANNSHEIL   	Waidmannsheil		Waidmannsheil
+Waldeck	WALDECK         	Waldeck		Waldeck
+Waldkloster	WALDKLOSTER     	Waldkloster		Waldkloster
+Waldsee	WALDSEE         	Waldsee		Waldsee
+Waldsee - 307 314	WALDSEE         	Waldsee		Waldsee
+Waldsee - 316	WALDSEE         	Waldsee		Waldsee
+Waldweg	WALDWEG         	Waldweg		Waldweg
+Wanderweg - Schloss Larnhalt	WANDERWEG       	Wanderweg/	Schloss Larnhalt	Wanderweg
+Wieseneck, Ackerweg	ACKERWEG        	Wieseneck,	Ackerweg	Wieseneck, Ackerweg
+Wieseneck, Friedhof	FRIEDHOF        	Wieseneck,	Friedhof	Wieseneck, Friedhof
+Wieseneck, Friedhof Terminus	FRIEDHOF        	Wieseneck,	Friedhof	Wieseneck, Friedhof
+Wieseneck, Grammelweg	GRAMMELWEG      	Wieseneck,	Grammelweg	Wieseneck, Grammelw.
+Wieseneck, Kirche	WIESENECK KIRCHE	Wieseneck,	Kirche	Wieseneck, Kirche
+Woerthstrasse	WÖRTHSTRAßE     	Wörthstraße		Wörthstraße
+Woerthstrasse (Nachtlinie)	WÖRTHSTRAßE     	Wörthstraße		Wörthstraße
+[end]
+
+			##############################
+				Tageslinien
+			##############################
+
+***************
+* R o u t e s *
+***************
+
+[infosystem_trip]
+30101
+Hauptbahnhof - Hildegardplatz
+65
+301
+
+[infosystem_busstop_list]
+22
+Hauptbahnhof - Bussteig 1
+Alfred-Brunner-Weg - 301 316
+Sinzheimer Strasse
+Woerthstrasse
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse - 301 306
+Kunsthalle
+Im Kraehennest
+Einschlag - 301
+Haldengrund
+Plateau
+Festspielhaus
+Hindenburgplatz_Stadtbibliothek
+Leopoldsplatz-Luisenstrasse
+Augustaplatz
+Roemerweg
+Sintenisscher Kreis
+Fasanenweg
+Kruzerstrasse
+Hildegardplatz
+
+[infosystem_trip]
+30102
+Hildegardplatz - Hauptbahnhof
+22
+301
+
+[infosystem_busstop_list]
+24
+Hildegardplatz
+Hildegardklinik
+Hildegardplatz
+Kruzerstrasse
+Fasanenweg
+Sintenisscher Kreis
+Roemerweg
+Augustaplatz
+Leopoldsplatz-Luisenstrasse
+Hindenburgplatz_Stadtbibliothek
+Festspielhaus
+Plateau
+Haldengrund
+Einschlag
+Im Kraehennest
+Kunsthalle
+Grosse Dollenstrasse
+Kleine Dollenstrasse
+Dreieichenkapelle
+Schweigrotherplatz - 301 316
+Woerthstrasse
+Sinzheimer Strasse
+Alfred-Brunner-Weg
+Hauptbahnhof - Bussteig 1 Terminus
+
+[infosystem_trip]
+30103
+Kunsthalle - Hauptbahnhof
+21
+301
+
+[infosystem_busstop_list]
+9
+Kunsthalle
+Grosse Dollenstrasse
+Kleine Dollenstrasse
+Dreieichenkapelle
+Schweigrotherplatz - 301 316
+Woerthstrasse
+Sinzheimer Strasse
+Alfred-Brunner-Weg
+Hauptbahnhof - Bussteig 1 Terminus
+
+[infosystem_trip]
+30104
+Hauptbahnhof - Kunsthalle
+112
+301
+
+[infosystem_busstop_list]
+9
+Hauptbahnhof - Bussteig 1
+Alfred-Brunner-Weg - 301 316
+Sinzheimer Strasse
+Woerthstrasse
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse - 301 306
+Kunsthalle
+
+[infosystem_trip]
+30105
+Kunsthalle - Hildegardplatz
+64
+301
+
+[infosystem_busstop_list]
+14
+Kunsthalle
+Im Kraehennest
+Einschlag - 301
+Haldengrund
+Plateau
+Festspielhaus
+Hindenburgplatz_Stadtbibliothek
+Leopoldsplatz-Luisenstrasse
+Augustaplatz
+Roemerweg
+Sintenisscher Kreis
+Fasanenweg
+Kruzerstrasse
+Hildegardplatz
+
+[infosystem_trip]
+30106
+Hildegardplatz - Kunsthalle
+111
+301
+
+[infosystem_busstop_list]
+16
+Hildegardplatz
+Hildegardklinik
+Hildegardplatz
+Kruzerstrasse
+Fasanenweg
+Sintenisscher Kreis
+Roemerweg
+Augustaplatz
+Leopoldsplatz-Luisenstrasse
+Hindenburgplatz_Stadtbibliothek
+Festspielhaus
+Plateau
+Haldengrund
+Einschlag
+Im Kraehennest
+Kunsthalle
+
+[infosystem_trip]
+30301
+Hauptbahnhof - Wieseneck, Friedhof
+99
+303
+
+[infosystem_busstop_list]
+11
+Hauptbahnhof - Bussteig 6
+Alfred-Brunner-Weg
+Sinzheimer Strasse
+Woerthstrasse
+Schweigrotherplatz
+Oberer Schussbach
+Am Buckel
+Wieseneck, Ackerweg
+Wieseneck, Kirche
+Wieseneck, Grammelweg
+Wieseneck, Friedhof Terminus
+
+[infosystem_trip]
+30302
+Wieseneck, Friedhof - Hauptbahnhof
+30
+303
+
+[infosystem_busstop_list]
+11
+Wieseneck, Friedhof
+Wieseneck, Grammelweg
+Wieseneck, Kirche
+Wieseneck, Ackerweg
+Am Buckel
+Oberer Schussbach
+Schweigrotherplatz
+Woerthstrasse
+Sinzheimer Strasse
+Alfred-Brunner-Weg
+Hauptbahnhof - Bussteig 6 Terminus.
+
+[infosystem_trip]
+30303
+Hauptbahnhof - Wieseneck, Kirche
+94
+303
+
+[infosystem_busstop_list]
+9
+Hauptbahnhof - Bussteig 6
+Alfred-Brunner-Weg - 301 316
+Sinzheimer Strasse
+Woerthstrasse
+Schweigrotherplatz
+Oberer Schussbach
+Am Buckel
+Wieseneck, Ackerweg
+Wieseneck, Kirche
+
+[infosystem_trip]
+30304
+Wieseneck, Kirche - Hauptbahnhof
+30
+303
+
+[infosystem_busstop_list]
+9
+Wieseneck, Kirche
+Wieseneck, Ackerweg
+Am Buckel
+Oberer Schussbach
+Schweigrotherplatz
+Woerthstrasse
+Sinzheimer Strasse
+Alfred-Brunner-Weg
+Hauptbahnhof - Bussteig 6 Terminus.
+
+[infosystem_trip]
+30401
+Sechelsberg, Bahnhof - Dinopark
+46
+304
+
+[infosystem_busstop_list]
+19
+Sechelsberg, Bahnhof
+Sechelsberg, Buchhaim
+Sechelsberg, Untere Dorfstrasse
+Sechelsberg, Kirche
+Sechelsberg, Rathaus
+Sechelsberg, Alte Landstrasse
+Militaermuseum
+Bolloghoehe
+Nurnenwald
+Bildeiche
+Pecusenweg_Kaeferclub
+Kirchplatz
+Mozartweg
+Beethovenallee
+Alfred-Brunner-Weg
+Hauptbahnhof - Bussteig 2
+Falkenstrasse
+Gewerbegebiet Hoheberg
+Dinopark-Terminus
+
+[infosystem_trip]
+30402
+Dinopark - Sechelsberg, Bahnhof
+101
+304
+
+[infosystem_busstop_list]
+18
+Dinopark
+Gewerbegebiet Hoheberg
+Falkenstrasse
+Hauptbahnhof - Bussteig 3
+Alfred-Brunner-Weg - 304
+Beethovenallee
+Mozartweg
+Kirchplatz
+Pecusenweg_Kaeferclub
+Bildeiche
+Nurnenwald
+Bolloghoehe
+Militaermuseum
+Sechelsberg, Rathaus
+Sechelsberg, Kirche
+Sechelsberg, Winzergasse
+Sechelsberg, Buchhaim
+Sechelsberg, Bahnhof
+
+[infosystem_trip]
+30403
+Sechelsberg, Bahnhof - Hauptbahnhof
+23
+304
+
+[infosystem_busstop_list]
+16
+Sechelsberg, Bahnhof
+Sechelsberg, Buchhaim
+Sechelsberg, Untere Dorfstrasse
+Sechelsberg, Kirche
+Sechelsberg, Rathaus
+Sechelsberg, Alte Landstrasse
+Militaermuseum
+Bolloghoehe
+Nurnenwald
+Bildeiche
+Pecusenweg_Kaeferclub
+Kirchplatz
+Mozartweg
+Beethovenallee
+Albert-Kunze-Weg
+Hauptbahnhof - Bussteig 3 Terminus
+
+[infosystem_trip]
+30404
+Hauptbahnhof - Sechelsberg, Bahnhof
+103
+304
+
+[infosystem_busstop_list]
+15
+Hauptbahnhof - Bussteig 3
+Alfred-Brunner-Weg - 304
+Beethovenallee
+Mozartweg
+Kirchplatz
+Pecusenweg_Kaeferclub
+Bildeiche
+Nurnenwald
+Bolloghoehe
+Militaermuseum
+Sechelsberg, Rathaus
+Sechelsberg, Kirche
+Sechelsberg, Winzergasse
+Sechelsberg, Buchhaim
+Sechelsberg, Bahnhof
+
+[infosystem_trip]
+30405
+Sechelsberg, Bahnhof - Hauptbahnhof
+25
+304
+
+[infosystem_busstop_list]
+12
+Sechelsberg, Bahnhof
+Sechelsberg, Alte Landstrasse
+Militaermuseum
+Bolloghoehe
+Nurnenwald
+Bildeiche
+Pecusenweg_Kaeferclub
+Kirchplatz
+Mozartweg
+Beethovenallee
+Alfred-Brunner-Weg
+Hauptbahnhof - Bussteig 3 Terminus
+
+[infosystem_trip]
+30406
+Hauptbahnhof - Sechelsberg, Bahnhof
+102
+304
+
+[infosystem_busstop_list]
+12
+Hauptbahnhof - Bussteig 3
+Alfred-Brunner-Weg - 304
+Beethovenallee
+Mozartweg
+Kirchplatz
+Pecusenweg_Kaeferclub
+Bildeiche
+Nurnenwald
+Bolloghoehe
+Militaermuseum
+Sechelsberg, Alte Landstrasse
+Sechelsberg, Bahnhof
+
+[infosystem_trip]
+30407
+Dionpark - Hauptbahnhof
+24
+304
+
+[infosystem_busstop_list]
+4
+Dinopark
+Gewerbegebiet Hoheberg
+Falkenstrasse
+Hauptbahnhof - Bussteig 2 Terminus
+
+[infosystem_trip]
+30408
+Hauptbahnhof - Dinopark
+47
+304
+
+[infosystem_busstop_list]
+4
+Hauptbahnhof - Bussteig 2
+Falkenstrasse
+Gewerbegebiet Hoheberg
+Dinopark-Terminus
+
+[infosystem_trip]
+30411
+Sechelsberg, Bahnhof - Dinopark
+46
+304
+
+[infosystem_busstop_list]
+22
+Sechelsberg, Bahnhof
+Sechelsberg, Buchhaim
+Sechelsberg, Untere Dorfstrasse
+Sechelsberg, Kirche
+Sechelsberg, Rathaus
+Sechelsberg, Alte Landstrasse
+Militaermuseum
+Bolloghoehe
+Nurnenwald
+Bildeiche
+Pecusenweg_Kaeferclub
+Kirchplatz
+Mozartweg
+Beethovenallee
+Alfred-Brunner-Weg
+Hauptbahnhof - Bussteig 2
+Auto Minke
+Schlesier Strasse
+Albert-Kunze-Weg
+Drappstrasse
+Gewerbegebiet Hoheberg
+Dinopark-Terminus
+
+[infosystem_trip]
+30412
+Dinopark - Sechelsberg, Bahnhof
+101
+304
+
+[infosystem_busstop_list]
+21
+Dinopark
+Gewerbegebiet Hoheberg
+Drappstrasse
+Albert-Kunze-Weg
+Schlesier Strasse
+Auto Minke
+Hauptbahnhof - Bussteig 3
+Alfred-Brunner-Weg - 304
+Beethovenallee
+Mozartweg
+Kirchplatz
+Pecusenweg_Kaeferclub
+Bildeiche
+Nurnenwald
+Bolloghoehe
+Militaermuseum
+Sechelsberg, Rathaus
+Sechelsberg, Kirche
+Sechelsberg, Winzergasse
+Sechelsberg, Buchhaim
+Sechelsberg, Bahnhof
+
+[infosystem_trip]
+30417
+Dionpark - Hauptbahnhof
+24
+304
+
+[infosystem_busstop_list]
+7
+Dinopark
+Gewerbegebiet Hoheberg
+Drappstrasse
+Albert-Kunze-Weg
+Schlesier Strasse
+Auto Minke
+Hauptbahnhof - Bussteig 2 Terminus
+
+[infosystem_trip]
+30418
+Hauptbahnhof - Dinopark
+47
+304
+
+[infosystem_busstop_list]
+7
+Hauptbahnhof - Bussteig 2
+Auto Minke
+Schlesier Strasse
+Albert-Kunze-Weg
+Drappstrasse
+Gewerbegebiet Hoheberg
+Dinopark-Terminus
+
+[infosystem_trip]
+30601
+Augustaplatz - Wieseneck, Friedhof
+97
+306
+
+[infosystem_busstop_list]
+21
+Augustaplatz
+Leopoldsplatz-Luisenstrasse
+Hindenburgplatz_Stadtbibliothek
+Festspielhaus
+Schillerplatz
+Auf der Halde
+Einschlag
+Im Kraehennest
+Kunsthalle
+Grosse Dollenstrasse
+Kleine Dollenstrasse
+Dreieichenkapelle
+Schweigrotherplatz - 306
+Woerthstrasse
+Schussbachstrasse
+Oberer Schussbach
+Am Buckel
+Wieseneck, Ackerweg
+Wieseneck, Kirche
+Wieseneck, Grammelweg
+Wieseneck, Friedhof Terminus
+
+[infosystem_trip]
+30602
+Wieseneck, Friedhof - Augustaplatz
+51
+306
+
+[infosystem_busstop_list]
+21
+Wieseneck, Friedhof
+Wieseneck, Grammelweg
+Wieseneck, Kirche
+Wieseneck, Ackerweg
+Am Buckel
+Oberer Schussbach
+Schussbachstrasse
+Woerthstrasse
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse - 301 306
+Kunsthalle
+Im Kraehennest
+Einschlag - 306
+Auf der Halde
+Schillerplatz
+Festspielhaus
+Hindenburgplatz_Stadtbibliothek
+Leopoldsplatz-Luisenstrasse
+Augustaplatz
+
+[infosystem_trip]
+30603
+Auf der Halde - Wieseneck, Friedhof
+98
+306
+
+[infosystem_busstop_list]
+14
+Auf der Halde
+Einschlag
+Im Kraehennest
+Kunsthalle
+Grosse Dollenstrasse
+Kleine Dollenstrasse
+Dreieichenkapelle
+Schweigrotherplatz - 306
+Oberer Schussbach
+Am Buckel
+Wieseneck, Ackerweg
+Wieseneck, Kirche
+Wieseneck, Grammelweg
+Wieseneck, Friedhof Terminus
+
+[infosystem_trip]
+30604
+Wieseneck, Friedhof - Auf der Halde
+93
+306
+
+[infosystem_busstop_list]
+14
+Wieseneck, Friedhof
+Wieseneck, Grammelweg
+Wieseneck, Kirche
+Wieseneck, Ackerweg
+Am Buckel
+Oberer Schussbach
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse - 301 306
+Kunsthalle
+Im Kraehennest
+Einschlag - 306
+Auf der Halde Terminus
+
+[infosystem_trip]
+30605
+Auf der Halde - Wieseneck, Kirche
+95
+306
+
+[infosystem_busstop_list]
+12
+Auf der Halde
+Einschlag
+Im Kraehennest
+Kunsthalle
+Grosse Dollenstrasse
+Kleine Dollenstrasse
+Dreieichenkapelle
+Schweigrotherplatz - 306
+Oberer Schussbach
+Am Buckel
+Wieseneck, Ackerweg
+Wieseneck, Kirche
+
+[infosystem_trip]
+30606
+Wieseneck, Kirche - Auf der Halde
+93
+306
+
+[infosystem_busstop_list]
+12
+Wieseneck, Kirche
+Wieseneck, Ackerweg
+Am Buckel
+Oberer Schussbach
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse - 301 306
+Kunsthalle
+Im Kraehennest
+Einschlag - 306
+Auf der Halde Terminus
+
+[infosystem_trip]
+30607
+Kunsthalle - Wieseneck, Friedhof
+96
+306
+
+[infosystem_busstop_list]
+13
+Kunsthalle
+Grosse Dollenstrasse
+Kleine Dollenstrasse
+Dreieichenkapelle
+Schweigrotherplatz - 306
+Woerthstrasse
+Schussbachstrasse
+Oberer Schussbach
+Am Buckel
+Wieseneck, Ackerweg
+Wieseneck, Kirche
+Wieseneck, Grammelweg
+Wieseneck, Friedhof Terminus
+
+[infosystem_trip]
+30608
+Wieseneck, Friedhof - Kunsthalle
+113
+306
+
+[infosystem_busstop_list]
+13
+Wieseneck, Friedhof
+Wieseneck, Grammelweg
+Wieseneck, Kirche
+Wieseneck, Ackerweg
+Am Buckel
+Oberer Schussbach
+Schussbachstrasse
+Woerthstrasse
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse - 301 306
+Kunsthalle
+
+[infosystem_trip]
+30609
+Kunsthalle - Augustaplatz
+50
+306
+
+[infosystem_busstop_list]
+9
+Kunsthalle
+Im Kraehennest
+Einschlag - 306
+Auf der Halde
+Schillerplatz
+Festspielhaus
+Hindenburgplatz_Stadtbibliothek
+Leopoldsplatz-Luisenstrasse
+Augustaplatz
+
+[infosystem_trip]
+30610
+Augustaplatz - Kunsthalle
+114
+306
+
+[infosystem_busstop_list]
+9
+Augustaplatz
+Leopoldsplatz-Luisenstrasse
+Hindenburgplatz_Stadtbibliothek
+Festspielhaus
+Schillerplatz
+Auf der Halde
+Einschlag
+Im Kraehennest
+Kunsthalle
+
+[infosystem_trip]
+30611
+Wieseneck, Friedhof - Kunsthalle
+115
+306
+
+[infosystem_busstop_list]
+11
+Wieseneck, Friedhof
+Wieseneck, Grammelweg
+Wieseneck, Kirche
+Wieseneck, Ackerweg
+Am Buckel
+Oberer Schussbach
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse - 301 306
+Kunsthalle
+
+[infosystem_trip]
+30701
+Bismarckplatz - Markgraf-Berthold-Platz
+18
+307
+
+[infosystem_busstop_list]
+20
+Bismarckplatz
+Friedrichstrasse
+Barbarossastrasse
+Koenigsring
+Lange Strasse - Badener Weg
+Lange Strasse - Malger Weg
+Lange Strasse - Arbeiterweg
+Alte Ziegelei
+Stadtklinik - 307 314
+Waldsee - 307 314
+Muehl, Albert-Einstein-Gymnasium - 307
+Muehl, Sonnenblumenweg
+Muehl, Alte Muehle
+Muehl, Am Block
+Muehl, Am Kirchberg
+Muehl, Fachhochschule
+Muehl, IKEA
+Muehl, Schwimmbad
+Muehl, Markgraf-Berthold-Platz - Terminus
+Muehl, Markgraf-Berthold-Platz Pause
+
+[infosystem_trip]
+30702
+Markgraf-Berthold-Platz - Bismarckplatz
+41
+307
+
+[infosystem_busstop_list]
+20
+Muehl, Markgraf-Berthold-Platz Pause
+Muehl, Markgraf-Berthold-Platz
+Muehl, Schwimmbad
+Muehl, IKEA
+Muehl, Fachhochschule
+Muehl, Am Kirchberg
+Muehl, Am Block
+Muehl, Alte Muehle
+Muehl, Sonnenblumenweg
+Muehl, Albert-Einstein-Gymnasium
+Waldsee
+Stadtklinik
+Alte Ziegelei
+Lange Strasse - Arbeiterweg
+Lange Strasse - Malger Weg
+Lange Strasse - Badener Weg - 307
+Koenigsring - 307
+Barbarossastrasse
+Friedrichstrasse
+Bismarckplatz
+
+[infosystem_trip]
+30703
+Betriebshof - Bismarckplatz
+40
+307
+
+[infosystem_busstop_list]
+7
+Betriebshof VBBH
+Malger Weg
+Lange Strasse - Badener Weg - 307
+Koenigsring - 307
+Barbarossastrasse
+Friedrichstrasse
+Bismarckplatz
+
+[infosystem_trip]
+30704
+Bismarckplatz - Betriebshof
+57
+307
+
+[infosystem_busstop_list]
+7
+Bismarckplatz
+Friedrichstrasse
+Barbarossastrasse
+Koenigsring
+Lange Strasse - Badener Weg
+Malger Weg
+Betriebshof VBBH
+
+[infosystem_trip]
+30705
+Betriebshof - Markgraf-Berthold-Platz
+17
+307
+
+[infosystem_busstop_list]
+16
+Betriebshof VBBH
+Lange Strasse - Malger Weg
+Lange Strasse - Arbeiterweg
+Alte Ziegelei
+Stadtklinik - 307 314
+Waldsee - 307 314
+Muehl, Albert-Einstein-Gymnasium - 307
+Muehl, Sonnenblumenweg
+Muehl, Alte Muehle
+Muehl, Am Block
+Muehl, Am Kirchberg
+Muehl, Fachhochschule
+Muehl, IKEA
+Muehl, Schwimmbad
+Muehl, Markgraf-Berthold-Platz - Terminus
+Muehl, Markgraf-Berthold-Platz Pause
+
+[infosystem_trip]
+30706
+Markgraf-Berthold-Platz - Betriebshof
+54
+307
+
+[infosystem_busstop_list]
+16
+Muehl, Markgraf-Berthold-Platz Pause
+Muehl, Markgraf-Berthold-Platz
+Muehl, Schwimmbad
+Muehl, IKEA
+Muehl, Fachhochschule
+Muehl, Am Kirchberg
+Muehl, Am Block
+Muehl, Alte Muehle
+Muehl, Sonnenblumenweg
+Muehl, Albert-Einstein-Gymnasium
+Waldsee
+Stadtklinik
+Alte Ziegelei
+Lange Strasse - Arbeiterweg
+Lange Strasse - Malger Weg
+Betriebshof VBBH
+
+[infosystem_trip]
+31401
+Stadttheater - Großweier
+44
+314
+
+[infosystem_busstop_list]
+21
+Stadttheater
+Stadttheater
+Altstadtring
+Alter Bahnhof - Altstadtforum
+Lange Strasse - Badener Weg
+Lange Strasse - Malger Weg
+Lange Strasse - Arbeiterweg
+Alte Ziegelei
+Stadtklinik - 307 314
+Wanderweg - Schloss Larnhalt
+Waldsee - 307 314
+Muehl, Albert-Einstein-Gymnasium - 314
+Larnhalt, Kirchstrasse
+Larnhalt, Schlossstrasse - 314
+Schloss Larnhalt
+Im Elend
+Bergdorf
+Entenstallhuette
+Waldkloster
+Landwirtschaftsmuseum
+Grossweier
+
+[infosystem_trip]
+31402
+Großweier - Stadttheater
+42
+314
+
+[infosystem_busstop_list]
+19
+Grossweier
+Landwirtschaftsmuseum
+Waldkloster
+Entenstallhuette
+Bergdorf
+Im Elend
+Schloss Larnhalt
+Larnhalt, Kirchstrasse
+Muehl, Albert-Einstein-Gymnasium
+Waldsee
+Wanderweg - Schloss Larnhalt
+Stadtklinik
+Alte Ziegelei
+Lange Strasse - Arbeiterweg
+Lange Strasse - Malger Weg
+Lange Strasse - Badener Weg - 314
+Alter Bahnhof - Altstadtforum
+Altstadtring
+Stadttheater Terminus
+
+[infosystem_trip]
+31405
+Badener Weg - Großweier
+45
+314
+
+[infosystem_busstop_list]
+17
+Lange Strasse - Badener Weg
+Lange Strasse - Malger Weg
+Lange Strasse - Arbeiterweg
+Alte Ziegelei
+Stadtklinik - 307 314
+Wanderweg - Schloss Larnhalt
+Waldsee - 307 314
+Muehl, Albert-Einstein-Gymnasium - 314
+Larnhalt, Kirchstrasse
+Larnhalt, Schlossstrasse - 314
+Schloss Larnhalt
+Im Elend
+Bergdorf
+Entenstallhuette
+Waldkloster
+Landwirtschaftsmuseum
+Grossweier
+
+[infosystem_trip]
+31406
+Großweier - Badener Weg
+55
+314
+
+[infosystem_busstop_list]
+16
+Grossweier
+Landwirtschaftsmuseum
+Waldkloster
+Entenstallhuette
+Bergdorf
+Im Elend
+Schloss Larnhalt
+Larnhalt, Kirchstrasse
+Muehl, Albert-Einstein-Gymnasium
+Waldsee
+Wanderweg - Schloss Larnhalt
+Stadtklinik
+Alte Ziegelei
+Lange Strasse - Arbeiterweg
+Lange Strasse - Malger Weg
+Lange Strasse - Badener Weg - 314
+
+[infosystem_trip]
+31601
+Hauptbahnhof - Altes Schloss
+69
+316
+
+[infosystem_busstop_list]
+30
+Hauptbahnhof - Bussteig 4
+Alfred-Brunner-Weg - 301 316
+Sinzheimer Strasse
+Woerthstrasse
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse - 316
+Haus des Intendanten
+Koenigsring
+Lange Strasse - Badener Weg
+Lange Strasse - Malger Weg
+Arbeitersiedlung
+Alte Ziegelei
+Stadtklinik - 316
+Malg, Marktplatz
+Malg, Grundschule
+Malg, Kirche
+Waldsee - 316
+Bergpfad
+Gasthaus Traube
+Larnhalt, Auf der Hoffnung
+Larnhalt, Kirche
+Finsterberg
+Kleingartensiedlung
+Fernung
+Am Bachlauf
+Waldweg
+Altes Schloss - Terminus
+Altes Schloss - Pause
+
+[infosystem_trip]
+31602
+Altes Schloss - Hauptbahnhof
+27
+316
+
+[infosystem_busstop_list]
+31
+Altes Schloss - Pause
+Altes Schloss
+Waldweg
+Am Bachlauf
+Fernung
+Kleingartensiedlung
+Finsterberg
+Larnhalt, Kirche
+Larnhalt, Schlossstrasse - 316
+Larnhalt, Auf der Hoffnung
+Gasthaus Traube
+Bergpfad
+Waldsee
+Malg, Kirche
+Malg, Grundschule
+Malg, Marktplatz
+Stadtklinik
+Alte Ziegelei
+Arbeitersiedlung
+Lange Strasse - Malger Weg
+Lange Strasse - Badener Weg - 316
+Koenigsring - 316
+Haus des Intendanten
+Grosse Dollenstrasse
+Kleine Dollenstrasse
+Dreieichenkapelle
+Schweigrotherplatz - 301 316
+Woerthstrasse
+Sinzheimer Strasse
+Alfred-Brunner-Weg
+Hauptbahnhof - Bussteig 4 Terminus
+
+[infosystem_trip]
+31603
+Hauptbahnhof - Kleingartensiedlung
+16
+316
+
+[infosystem_busstop_list]
+25
+Hauptbahnhof - Bussteig 4
+Alfred-Brunner-Weg - 301 316
+Sinzheimer Strasse
+Woerthstrasse
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse - 316
+Haus des Intendanten
+Koenigsring
+Lange Strasse - Badener Weg
+Lange Strasse - Malger Weg
+Arbeitersiedlung
+Alte Ziegelei
+Stadtklinik - 316
+Malg, Marktplatz
+Malg, Grundschule
+Malg, Kirche
+Waldsee - 316
+Bergpfad
+Gasthaus Traube
+Larnhalt, Auf der Hoffnung
+Larnhalt, Kirche
+Finsterberg
+Kleingartensiedlung - Terminus
+
+[infosystem_trip]
+31604
+Kleingartensiedlung - Hauptbahnhof
+28
+316
+
+[infosystem_busstop_list]
+27
+Kleingartensiedlung - Terminus
+Kleingartensiedlung
+Finsterberg
+Larnhalt, Kirche
+Larnhalt, Schlossstrasse - 316
+Larnhalt, Auf der Hoffnung
+Gasthaus Traube
+Bergpfad
+Waldsee
+Malg, Kirche
+Malg, Grundschule
+Malg, Marktplatz
+Stadtklinik
+Alte Ziegelei
+Arbeitersiedlung
+Lange Strasse - Malger Weg
+Lange Strasse - Badener Weg - 316
+Koenigsring - 316
+Haus des Intendanten
+Grosse Dollenstrasse
+Kleine Dollenstrasse
+Dreieichenkapelle
+Schweigrotherplatz - 301 316
+Woerthstrasse
+Sinzheimer Strasse
+Alfred-Brunner-Weg
+Hauptbahnhof - Bussteig 4 Terminus
+
+[infosystem_trip]
+31605
+Betriebshof - Hauptbahnhof
+26
+316
+
+[infosystem_busstop_list]
+13
+Betriebshof VBBH
+Malger Weg
+Lange Strasse - Badener Weg - 316
+Koenigsring - 316
+Haus des Intendanten
+Grosse Dollenstrasse
+Kleine Dollenstrasse
+Dreieichenkapelle
+Schweigrotherplatz - 301 316
+Woerthstrasse
+Sinzheimer Strasse
+Alfred-Brunner-Weg
+Hauptbahnhof - Bussteig 4 Terminus
+
+[infosystem_trip]
+31606
+Hauptbahnhof - Betriebshof
+58
+316
+
+[infosystem_busstop_list]
+13
+Hauptbahnhof - Bussteig 4
+Alfred-Brunner-Weg - 301 316
+Sinzheimer Strasse
+Woerthstrasse
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse - 301 306
+Haus des Intendanten
+Koenigsring
+Lange Strasse - Badener Weg
+Malger Weg
+Betriebshof VBBH
+
+[infosystem_trip]
+31607
+Betriebshof - Altes Schloss
+68
+316
+
+[infosystem_busstop_list]
+20
+Betriebshof VBBH
+Lange Strasse - Malger Weg
+Arbeitersiedlung
+Alte Ziegelei
+Stadtklinik - 316
+Malg, Marktplatz
+Malg, Grundschule
+Malg, Kirche
+Waldsee - 316
+Bergpfad
+Gasthaus Traube
+Larnhalt, Auf der Hoffnung
+Larnhalt, Kirche
+Finsterberg
+Kleingartensiedlung
+Fernung
+Am Bachlauf
+Waldweg
+Altes Schloss - Terminus
+Altes Schloss - Pause
+
+[infosystem_trip]
+31608
+Altes Schloss - Betriebshof
+56
+316
+
+[infosystem_busstop_list]
+21
+Altes Schloss - Pause
+Altes Schloss
+Waldweg
+Am Bachlauf
+Fernung
+Kleingartensiedlung
+Finsterberg
+Larnhalt, Kirche
+Larnhalt, Schlossstrasse - 316
+Larnhalt, Auf der Hoffnung
+Gasthaus Traube
+Bergpfad
+Waldsee
+Malg, Kirche
+Malg, Grundschule
+Malg, Marktplatz
+Stadtklinik
+Alte Ziegelei
+Arbeitersiedlung
+Lange Strasse - Malger Weg
+Betriebshof VBBH
+
+[infosystem_trip]
+31609
+Kleingartensiedlung - Betriebshof
+53
+316
+
+[infosystem_busstop_list]
+17
+Kleingartensiedlung - Terminus
+Kleingartensiedlung
+Finsterberg
+Larnhalt, Kirche
+Larnhalt, Schlossstrasse - 316
+Larnhalt, Auf der Hoffnung
+Gasthaus Traube
+Bergpfad
+Waldsee
+Malg, Kirche
+Malg, Grundschule
+Malg, Marktplatz
+Stadtklinik
+Alte Ziegelei
+Arbeitersiedlung
+Lange Strasse - Malger Weg
+Betriebshof VBBH
+
+[infosystem_trip]
+31801
+Hauptbahnhof - Sportflugplatz
+70
+318
+
+[infosystem_busstop_list]
+12
+Hauptbahnhof - Bussteig 6
+Auto Minke
+Schlesier Strasse
+Albert-Kunze-Weg
+Schleife
+Drappstrasse
+Waldeck
+Waidmannsheil
+Renes Reiterhof
+Kraeuterkundler
+An der Matte
+Sportflugplatz - Terminus
+
+[infosystem_trip]
+31802
+Sportflugplatz - Hauptbahnhof
+32
+318
+
+[infosystem_busstop_list]
+12
+Sportflugplatz
+An der Matte
+Kraeuterkundler
+Renes Reiterhof
+Waidmannsheil
+Waldeck
+Drappstrasse
+Schleife
+Albert-Kunze-Weg
+Schlesier Strasse
+Auto Minke
+Hauptbahnhof - Bussteig 6 Terminus
+
+[infosystem_trip]
+31803
+Hauptbahnhof - Erlengrund
+117
+318
+
+[infosystem_busstop_list]
+16
+Hauptbahnhof - Bussteig 6
+Auto Minke
+Schlesier Strasse
+Albert-Kunze-Weg
+Schleife
+Drappstrasse
+Waldeck
+Waidmannsheil
+Renes Reiterhof
+Kraeuterkundler
+An der Matte
+Sportflugplatz
+Bucheneck
+Kornacker
+Erlengrund, Kloster
+Erlengrund, Rathaus
+
+[infosystem_trip]
+31804
+Erlengrund - Hauptbahnhof
+32
+318
+
+[infosystem_busstop_list]
+17
+Erlengrund, Rathaus
+Erlengrund, Landstrasse
+Erlengrund, Kloster
+Kornacker
+Bucheneck
+Sportflugplatz
+An der Matte
+Kraeuterkundler
+Renes Reiterhof
+Waidmannsheil
+Waldeck
+Drappstrasse
+Schleife
+Albert-Kunze-Weg
+Schlesier Strasse
+Auto Minke
+Hauptbahnhof - Bussteig 6 Terminus
+
+[infosystem_trip]
+31805
+Hauptbahnhof - Sportflugplatz
+71
+318
+
+[infosystem_busstop_list]
+8
+Hauptbahnhof - Bussteig 6
+Falkenstrasse
+Waldeck
+Waidmannsheil
+Renes Reiterhof
+Kraeuterkundler
+An der Matte
+Sportflugplatz - Terminus
+
+[infosystem_trip]
+31806
+Sportflugplatz - Hauptbahnhof
+31
+318
+
+[infosystem_busstop_list]
+8
+Sportflugplatz
+An der Matte
+Kraeuterkundler
+Renes Reiterhof
+Waidmannsheil
+Waldeck
+Falkenstrasse
+Hauptbahnhof - Bussteig 6 Terminus
+
+[infosystem_trip]
+31807
+Hauptbahnhof - Erlengrund
+118
+318
+
+[infosystem_busstop_list]
+12
+Hauptbahnhof - Bussteig 6
+Falkenstrasse
+Waldeck
+Waidmannsheil
+Renes Reiterhof
+Kraeuterkundler
+An der Matte
+Sportflugplatz - Terminus
+Bucheneck
+Kornacker
+Erlengrund, Kloster
+Erlengrund, Rathaus
+
+[infosystem_trip]
+31808
+Erlengrund - Hauptbahnhof
+31
+318
+
+[infosystem_busstop_list]
+13
+Erlengrund, Rathaus
+Erlengrund, Landstrasse
+Erlengrund, Kloster
+Kornacker
+Bucheneck
+Sportflugplatz
+An der Matte
+Kraeuterkundler
+Renes Reiterhof
+Waidmannsheil
+Waldeck
+Falkenstrasse
+Hauptbahnhof - Bussteig 6 Terminus
+
+[infosystem_trip]
+39001
+Hauptbahnhof - Hauptbahnhof
+29
+390
+
+[infosystem_busstop_list]
+8
+Hauptbahnhof - Bussteig 2
+Auto Minke
+Schlesier Strasse
+Albert-Kunze-Weg
+Schleife
+Drappstrasse
+Falkenstrasse
+Hauptbahnhof - Bussteig 2 Terminus
+
+
+			##############################
+				Nachtlinien
+			##############################
+
+[infosystem_trip]
+00121
+Hauptbahnhof - Hildegardplatz
+66
+N1
+
+[infosystem_busstop_list]
+24
+Hauptbahnhof - Bussteig 1
+Alfred-Brunner-Weg
+Sinzheimer Strasse
+Woerthstrasse (Nachtlinie)
+Schussbachstrasse
+Oberer Schussbach
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse
+Kunsthalle
+Im Kraehennest
+Einschlag
+Haldengrund
+Plateau
+Festspielhaus
+Hindenburgplatz_Stadtbibliothek
+Leopoldsplatz-Luisenstrasse
+Augustaplatz
+Roemerweg
+Sintenisscher Kreis
+Fasanenweg
+Kruzerstrasse
+Hildegardplatz
+
+[infosystem_trip]
+00122
+Hildegardplatz - Hauptbahnhof
+33
+N1
+
+[infosystem_busstop_list]
+26
+Hildegardplatz
+Hildegardklinik
+Hildegardplatz
+Kruzerstrasse
+Fasanenweg
+Sintenisscher Kreis
+Roemerweg
+Augustaplatz
+Leopoldsplatz-Luisenstrasse
+Hindenburgplatz_Stadtbibliothek
+Festspielhaus
+Plateau
+Haldengrund
+Einschlag
+Im Kraehennest
+Kunsthalle
+Grosse Dollenstrasse
+Kleine Dollenstrasse
+Dreieichenkapelle
+Schweigrotherplatz (Nachtlinie)
+Oberer Schussbach
+Schussbachstrasse
+Woerthstrasse (Nachtlinie)
+Sinzheimer Strasse
+Alfred-Brunner-Weg
+Hauptbahnhof - Bussteig 1 Terminus.
+
+[infosystem_trip]
+00701
+Schweigrotherplatz - Markgraf-Berthold-Platz
+19
+N7
+
+[infosystem_busstop_list]
+28
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse
+Haus des Intendanten
+Barbarossastrasse
+Friedrichstrasse
+Bismarckplatz
+Koenigsring
+Lange Strasse - Badener Weg
+Lange Strasse - Malger Weg
+Lange Strasse - Arbeiterweg
+Alte Ziegelei
+Stadtklinik
+Malg, Marktplatz
+Malg, Grundschule
+Malg, Kirche
+Waldsee
+Muehl, Albert-Einstein-Gymnasium
+Muehl, Sonnenblumenweg
+Muehl, Alte Muehle
+Muehl, Am Block
+Muehl, Am Kirchberg
+Muehl, Fachhochschule
+Muehl, IKEA
+Muehl, Schwimmbad
+Muehl, Markgraf-Berthold-Platz - Terminus
+Muehl, Markgraf-Berthold-Platz Pause
+
+[infosystem_trip]
+00702
+Markgraf-Berthold-Platz - Schweigrotherplatz
+91
+N7
+
+[infosystem_busstop_list]
+28
+Muehl, Markgraf-Berthold-Platz Pause
+Muehl, Markgraf-Berthold-Platz
+Muehl, Schwimmbad
+Muehl, IKEA
+Muehl, Fachhochschule
+Muehl, Am Kirchberg
+Muehl, Am Block
+Muehl, Alte Muehle
+Muehl, Sonnenblumenweg
+Muehl, Albert-Einstein-Gymnasium
+Waldsee
+Malg, Marktplatz
+Malg, Grundschule
+Malg, Kirche
+Stadtklinik
+Alte Ziegelei
+Lange Strasse - Arbeiterweg
+Lange Strasse - Malger Weg
+Lange Strasse - Badener Weg
+Koenigsring
+Bismarckplatz
+Friedrichstrasse
+Barbarossastrasse
+Haus des Intendanten
+Grosse Dollenstrasse
+Kleine Dollenstrasse
+Dreieichenkapelle
+Schweigrotherplatz
+
+[infosystem_trip]
+01401
+Sechelsberg, Bahnhof - Stadttheater
+43
+N14
+
+[infosystem_busstop_list]
+21
+Sechelsberg, Bahnhof
+Sechelsberg, Alte Landstrasse
+Militaermuseum
+Bolloghoehe
+Nurnenwald
+Bildeiche
+Pecusenweg_Kaeferclub
+Kirchplatz
+Mozartweg
+Beethovenallee
+Sinzheimer Strasse
+Woerthstrasse
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse
+Haus des Intendanten
+Koenigsring
+Alter Bahnhof - Altstadtforum
+Altstadtring
+Stadttheater Terminus
+
+[infosystem_trip]
+01402
+Stadttheater - Sechelsberg, Bahnhof
+104
+N14
+
+[infosystem_busstop_list]
+22
+Stadttheater
+Stadttheater
+Altstadtring
+Alter Bahnhof - Altstadtforum
+Koenigsring
+Haus des Intendanten
+Grosse Dollenstrasse
+Kleine Dollenstrasse
+Dreieichenkapelle
+Schweigrotherplatz (Nachtlinie)
+Woerthstrasse
+Sinzheimer Strasse
+Beethovenallee
+Mozartweg
+Kirchplatz
+Pecusenweg_Kaeferclub
+Bildeiche
+Nurnenwald
+Bolloghoehe
+Militaermuseum
+Sechelsberg, Alte Landstrasse
+Sechelsberg, Bahnhof
+
+[infosystem_trip]
+01405
+Sechelsberg, Bahnhof - Malger Weg
+59
+N14
+
+[infosystem_busstop_list]
+21
+Sechelsberg, Bahnhof
+Sechelsberg, Alte Landstrasse
+Militaermuseum
+Bolloghoehe
+Nurnenwald
+Bildeiche
+Pecusenweg_Kaeferclub
+Kirchplatz
+Mozartweg
+Beethovenallee
+Sinzheimer Strasse
+Woerthstrasse
+Schweigrotherplatz
+Dreieichenkapelle
+Kleine Dollenstrasse
+Grosse Dollenstrasse
+Haus des Intendanten
+Koenigsring
+Lange Strasse - Badener Weg
+Malger Weg
+Betriebshof VBBH
+
+[infosystem_trip]
+01406
+Malger Weg - Sechelsberg, Bahnhof
+105
+N14
+
+[infosystem_busstop_list]
+21
+Betriebshof VBBH
+Malger Weg
+Lange Strasse - Badener Weg
+Koenigsring
+Haus des Intendanten
+Grosse Dollenstrasse
+Kleine Dollenstrasse
+Dreieichenkapelle
+Schweigrotherplatz (Nachtlinie)
+Woerthstrasse
+Sinzheimer Strasse
+Beethovenallee
+Mozartweg
+Kirchplatz
+Pecusenweg_Kaeferclub
+Bildeiche
+Nurnenwald
+Bolloghoehe
+Militaermuseum
+Sechelsberg, Alte Landstrasse
+Sechelsberg, Bahnhof
+
+
+			################################
+				Schnellbuslinien
+			################################
+
+[infosystem_trip]
+00101
+Augustaplatz - Hauptbahnhof
+34
+SB1
+
+[infosystem_busstop_list]
+9
+Augustaplatz
+Leopoldsplatz-Luisenstrasse
+Hindenburgplatz_Stadtbibliothek
+Festspielhaus
+Kunsthalle
+Grosse Dollenstrasse
+Schweigrotherplatz
+Woerthstrasse
+Hauptbahnhof - Bussteig 5 Terminus
+
+[infosystem_trip]
+00102
+Hauptbahnhof - Hildegardplatz
+67
+SB1
+
+[infosystem_busstop_list]
+11
+Hauptbahnhof - Bussteig 5
+Woerthstrasse
+Schweigrotherplatz
+Grosse Dollenstrasse
+Kunsthalle
+Festspielhaus
+Hindenburgplatz_Stadtbibliothek
+Leopoldsplatz-Luisenstrasse
+Augustaplatz
+Sintenisscher Kreis
+Hildegardplatz
+
+[infosystem_trip]
+00103
+Hildegardplatz - Hauptbahnhof
+35
+SB1
+
+[infosystem_busstop_list]
+11
+Hildegardplatz
+Sintenisscher Kreis
+Augustaplatz
+Leopoldsplatz-Luisenstrasse
+Hindenburgplatz_Stadtbibliothek
+Festspielhaus
+Kunsthalle
+Grosse Dollenstrasse
+Schweigrotherplatz
+Woerthstrasse
+Hauptbahnhof - Bussteig 5 Terminus
+
+[infosystem_trip]
+00104
+Hauptbahnhof - Augustaplatz
+52
+SB1
+
+[infosystem_busstop_list]
+9
+Hauptbahnhof - Bussteig 5
+Woerthstrasse
+Schweigrotherplatz
+Grosse Dollenstrasse
+Kunsthalle
+Festspielhaus
+Hindenburgplatz_Stadtbibliothek
+Leopoldsplatz-Luisenstrasse
+Augustaplatz
+
+
+			##############################
+				Sonderlinien
+			##############################
+
+[infosystem_trip]
+001
+Hauptbahnhof - Altstadtforum
+72
+EB
+
+[infosystem_busstop_list]
+3
+Hauptbahnhof - Bussteig 5
+Schweigrotherplatz
+Alter Bahnhof - Altstadtforum
+
+[infosystem_trip]
+002
+Altstadtforum - Hauptbahnhof
+73
+EB
+
+[infosystem_busstop_list]
+3
+Alter Bahnhof - Altstadtforum
+Schweigrotherplatz
+Hauptbahnhof - Bussteig 5 Terminus
+
+[infosystem_trip]
+003
+Hauptbahnhof - Augustaplatz
+75
+EB
+
+[infosystem_busstop_list]
+3
+Hauptbahnhof - Bussteig 5
+Schweigrotherplatz
+Augustaplatz
+
+[infosystem_trip]
+004
+Augustaplatz - Hauptbahnhof
+74
+EB
+
+[infosystem_busstop_list]
+3
+Augustaplatz
+Schweigrotherplatz
+Hauptbahnhof - Bussteig 5 Terminus
+
+[infosystem_trip]
+005
+Hauptbahnhof - Augustaplatz
+76
+EB
+
+[infosystem_busstop_list]
+2
+Hauptbahnhof - Bussteig 5
+Dinopark-Terminus
+
+[infosystem_trip]
+006
+Augustaplatz - Hauptbahnhof
+74
+EB
+
+[infosystem_busstop_list]
+2
+Dinopark
+Hauptbahnhof - Bussteig 5 Terminus
+
+[infosystem_trip]
+007
+Halloweenlinie
+121
+EB
+
+[infosystem_busstop_list]
+18
+Hauptbahnhof - Bussteig 2
+Waldeck
+Waidmannsheil
+Kraeuterkundler
+Sportflugplatz
+Kraeuterkundler
+Waidmannsheil
+Waldeck
+Gewerbegebiet Hoheberg
+Dinopark
+Gewerbegebiet Hoheberg
+Hauptbahnhof - Bussteig 5
+Schweigrotherplatz
+Grosse Dollenstrasse
+Koenigsring
+Lange Strasse - Badener Weg
+Malger Weg
+Betriebshof VBBH
+
+
+

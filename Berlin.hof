@@ -1,0 +1,4173 @@
+ 	########################
+		HOF-Datei
+	########################
+
+	Enthält die diversen Informationen zum Einsatz für diesen Hof.
+	Auf diese Weise kann EIN Bus-Modell für verschiedene Einsätze
+	mit verschiedenen Zielen und Haltestellen verwendet werden.
+
+
+
+	Name des Hofes:
+
+[name]
+Berlin
+
+[servicetrip]
+Betriebsfahrt
+
+	Setzen der Anzahl der Strings:
+
+stringcount_terminus
+6
+
+	string0:	IBIS-Display & Rollband-Textur, max. 16 zeichen
+	string1:	Annax (Front, 1. Zeile)
+	string2:	Annax (Front, 2. Zeile)
+	string3:	Annax (SD Seite)
+	string4:	Rollbandtextur
+	string5:	IBIS2-Display (Klarname in Groß-/Kleinschreibung), max 20 Zeichen
+
+stringcount_busstop
+4
+
+
+	Fügt ein Ziel hinzu. Bei "_allexit" handelt es sich um ein Ziel,
+	wo nie Leute einsteigen bzw. wo alle aussteigen. (z.B. Betriebsfahrt)
+
+	[addterminus_{allexit}]
+	{ident}
+	{texture-string}
+	{terminus station}
+	{string0}
+	{string1}
+	{...}
+
+	die Nummer dient der Kodierung, der String der Auswahl der entsprechenden
+	Ziel-Austauschtextur.
+
+
+	Fehlt der Hinweis "allexit", muss zusätzlich in der dritten Zeile die Haltestelle
+	angegeben werden, wo alle aussteigen. Dies meistens der gleiche Sting wie der der
+	Austauschtextur - muss aber nicht sein, falls entweder die Textur oder aber die Haltestelle
+	über weitere Zusätze verfügt - aus diesem Grund gibt es beide Einträge separat.
+
+	Beispiel:
+	
+	[addterminus]				<= Titel
+	3					<= Code
+	SP_Johannesstift			<= Textur-Change-ID
+	Johannesstift				<= Haltestellenbezeichnung der Endhaltestelle
+	JOHANNESSTIFT				<= String 0: IBIS-Anzeige
+	    SPANDAU    				<= String 1: Front-Annax  - obere Zeile
+	 JOHANNESSTIFT				<= String 2: Front-Annax  - untere Zeile
+	 JOHANNESSTIFT				<= String 3: Seiten-Annax beim SD
+	................			<= Hilfslinie
+
+000:
+[addterminus_allexit]
+0
+Empty
+LEERFELD
+
+
+
+Blanko.tga
+Leerfeld
+................
+
+001:
+[addterminus_allexit]
+206
+Schulbus
+SCHULBUS
+                
+    SCHULBUS
+    SCHULBUS
+Schulbus.tga
+Schulbus
+................
+
+002:
+[addterminus_allexit]
+205
+Sonderfahrt
+SONDERFAHRT
+                
+  SONDERFAHRT
+  SONDERFAHRT
+Sonderfahrt.tga
+Sonderfahrt
+................
+
+003:
+[addterminus]
+313
+Waldkrankenhaus
+WALDKRANKENHAUS
+    SPANDAU
+WALDKRANKENHAUS
+WALDKRANKENHAUS
+Bln_Waldkrankenhaus.tga
+Waldkrankenhaus
+................
+
+004:
+[addterminus_allexit]
+49
+Fahrschule
+FAHRSCHULE
+                
+   FAHRSCHULE   
+   FAHRSCHULE   
+Fahrschule.tga
+Fahrschule
+................
+
+005:
+[addterminus]
+223
+Am Omnibushof
+AM OMNIBUSHOF
+    SPANDAU     
+ AM OMNIBUSHOF
+ AM OMNIBUSHOF
+Bln_Spd_Autobusbetriebshof.tga
+Am Omnibushof
+................
+
+006:
+[addterminus_allexit]
+13
+Betriebsfahrt
+BETRIEBSFAHRT
+                
+ BETRIEBSFAHRT
+ BETRIEBSFAHRT
+Betriebsfahrt.tga
+Betriebsfahrt
+................
+
+007:
+[addterminus]
+039
+Golßener Str.
+GOLSSENER STR.
+
+ GOLSSENER STR.
+ GOLSSENER STR.
+Bln_Golssener Str.tga
+Golßener Str.
+................
+
+008:
+[addterminus]
+145
+Messegelaende
+MESSEGELÄNDE
+  MESSEGELÄNDE  
+   JAFFESTR.    
+  MESSEGELÄNDE  
+Bln_Messegelaende.tga
+Messegelände
+................
+
+009:
+[addterminus]
+98
+John-F-Kennedy-Pl
+J.-F-KENNEDY-PL.
+    JOHN-F.-    
+  KENNEDY-PL.
+J.-F-KENNEDY-PL.
+Bln_John F Kennedy Pl.tga
+John-F-Kennedy-Pl.
+................
+
+010:
+[addterminus]
+41
+Deutschlandhalle
+DEUTSCHLANDHALLE
+
+DEUTSCHLANDHALLE
+DEUTSCHLANDHALLE
+Bln_Deutschlandhalle.tga
+Deutschlandhalle
+................
+
+011:
+[addterminus]
+52
+Fehrbelliner Pl
+FEHRBELLINER PL.
+   U-BAHNHOF    
+FEHRBELLINER PL.
+  U FEHRB. PL.
+Bln_Fehrbelliner Pl.tga
+U Fehrbelliner Pl.
+................
+5432109876543210
+
+012:
+[addterminus]
+400
+Cicerostr
+CICEROSTR.
+
+   CICEROSTR.
+   CICEROSTR.
+Bln_Cicerostr.tga
+Cicerostr.
+................
+5432109876543210
+
+013:
+[addterminus]
+165
+Harzer Str
+HARZER STR.
+    NEUKÖLLN
+  HARZER STR.
+  HARZER STR.
+Bln_Harzer Str.tga
+Harzer Str.
+................
+5432109876543210
+
+014:
+[addterminus]
+401
+Boddinstr
+BODDINSTR.
+   U-BAHNHOF
+   BODDINSTR.
+  U BODDINSTR.
+Bln_Boddinstr.tga
+U Boddinstr.
+................
+5432109876543210
+
+015:
+[addterminus]
+167
+Teupitzer Str
+TEUPITZER STR.
+    NEUKÖLLN
+ TEUPITZER STR.
+ TEUPITZER STR.
+Bln_Teupitzer Str.tga
+Teupitzer Str.
+................
+5432109876543210
+
+016:
+[addterminus]
+168
+Brixpl
+BRIXPL.
+  NEU-WESTEND
+   BRIXPLATZ
+   BRIXPLATZ
+Bln_Brixpl.tga
+Brixplatz
+................
+5432109876543210
+
+017:
+[addterminus]
+253
+Theodor-Heuss-Pl
+TH.-HEUSS-PL.
+   U-BAHNHOF
+ TH.-HEUSS-PL.
+U TH.-HEUSS-PL.
+Bln_Theodor-Heuss-Pl.tga
+U Theodor-Heuss-Pl.
+................
+5432109876543210
+
+018:
+[addterminus]
+151
+Masurenallee
+MASURENALLEE
+
+  MASURENALLEE
+  MASURENALLEE
+Bln_Masurenallee.tga
+Masurenallee
+................
+5432109876543210
+
+019:
+[addterminus]
+180
+Pl d Luftbruecke
+PL.D.LUFTBRÜCKE
+   PLATZ DER
+   LUFTBRÜCKE
+PL.D.LUFTBRÜCKE
+Bln_Pl d Luftbruecke.tga
+Pl. d. Luftbrücke
+................
+5432109876543210
+
+020:
+[addterminus]
+018
+Galenstr Bahnhof 
+GALENSTR
+  GALENSTR
+   S BAHNHOF
+GALENSTR BAHNHOF
+Blanko.tga
+Galenstr
+................
+5432109876543210
+
+021:
+[addterminus]
+300
+Heerstr Gymnasium
+HEERSTR GYM.
+   HEERSTR
+  GYMNASIUM
+ HEERSTR GYM.
+Heerstrgym.tga
+Heerstr Gymnasium
+................
+
+022:
+[addterminus]
+259
+Hahneberg
+HAHNEBERG
+    STAAKEN
+   HAHNEBERG
+ HAHNEBERG
+Hahneberg.tga
+Hahneberg
+................
+
+023:
+[addterminus]
+112
+Seeburger Str
+SEEBURGER STR
+   SEEBURGER
+    STRASSE
+ SEEBURGER STR
+seeburgerstr.tga
+Seeburger Str
+................
+
+024:
+[addterminus]
+700
+Gdynia
+DWORZEC PKP
+    GDYNIA
+DWORZEC GL. PKP
+DWORZEC GL. PKP
+Blanko.tga
+Leerfeld
+................
+
+025:
+[addterminus_allexit]
+0
+Empty
+LEERFELD
+
+
+
+Blanko.tga
+Leerfeld
+................
+
+026:
+[addterminus]
+315
+Zoo
+ZOOLOG. GARTEN
+ U+S - BAHNHOF  
+ ZOOLOG. GARTEN 
+    U+S ZOO
+Bln_Zoo.tga
+U+S Zoolog. Garten
+................
+5432109876543210
+
+027:
+[addterminus]
+402
+Savignypl
+SAVIGNYPLATZ
+   S-BAHNHOF
+  SAVIGNYPLATZ
+S SAVIGNYPLATZ
+Bln_Savignypl.tga
+Savignyplatz
+................
+5432109876543210
+
+028:
+[addterminus]
+079
+Reimerweg
+REIMERWEG
+    HEERSTR.
+  E. REIMERWEG
+   REIMERWEG
+Bln_Reimerweg.tga
+Reimerweg
+................
+5432109876543210
+
+029:
+[addterminus]
+078
+Heerstr E Gatower Str
+HEERSTR/GATOWER
+   HEERSTR.
+E. GATOWER STR.
+HEER- E GTW.STR.
+Bln_Heerstr E Gatower Str.tga
+Heerstr./Gatower Str
+................
+5432109876543210
+
+030:
+[addterminus]
+6
+Alt-Pichelsdorf
+ALT-PICHELSDORF
+
+ALT-PICHELSDORF
+ALT-PICHELSDORF
+Bln_Alt-Pichelsdorf.tga
+Alt-Pichelsdorf
+................
+5432109876543210
+
+031:
+[addterminus]
+146
+Messedamm
+MESSEDAMM
+
+   MESSEDAMM
+   MESSEDAMM
+Bln_Messedamm.tga
+Messedamm/ICC
+................
+5432109876543210
+
+032:
+[addterminus]
+307
+Waldbuehne
+WALDBÜHNE
+
+   WALDBÜHNE
+   WALDBÜHNE
+Bln_Waldbuehne.tga
+Waldbühne
+................
+5432109876543210
+
+033:
+[addterminus]
+174
+Olympiastadion
+OLYMPIASTADION
+
+ OLYMPIASTADION
+ OLYMPIASTADION
+Bln_Olympiastadion.tga
+Olympiastadion
+................
+5432109876543210
+
+034:
+[addterminus]
+221
+Johannesstift
+JOHANNESSTIFT
+    SPANDAU     
+ JOHANNESSTIFT
+ JOHANNESSTIFT
+Bln_Johannesstift.tga
+Johannesstift
+................
+5432109876543210
+
+035:
+[addterminus]
+315
+Zoo
+ZOOLOG. GARTEN
+ U+S - BAHNHOF  
+ ZOOLOG. GARTEN 
+    U+S ZOO
+Bln_Zoo.tga
+U+S Zoolog. Garten
+................
+5432109876543210
+
+036:
+[addterminus_allexit]
+13
+Betriebsfahrt
+BETRIEBSFAHRT
+                
+ BETRIEBSFAHRT
+ BETRIEBSFAHRT
+Betriebsfahrt.tga
+Betriebsfahrt
+................
+5432109876543210
+
+037:
+[addterminus]
+223
+Am Omnibushof
+AM OMNIBUSHOF
+    SPANDAU     
+ AM OMNIBUSHOF
+ AM OMNIBUSHOF
+Bln_Spd_Autobusbetriebshof.tga
+Am Omnibushof
+................
+5432109876543210
+
+038:
+[addterminus]
+290
+S Bahnhof Galenstr
+S BAHN GALENSTR
+  S - BAHNHOF
+  GALENSTRASSE
+S BAHNHOF GALENSTR
+bahnhofgalenstr.tga
+S Bahnhof Galenstr
+................
+
+039:
+[addterminus]
+211
+U Rathaus Spandau
+RATHAUS SPANDAU
+   U-BAHNHOF
+RATHAUS SPANDAU
+U RATH. SPANDAU
+Bln_Rathaus Spandau.tga
+U Rathaus Spandau
+................
+5432109876543210
+
+040:
+[addterminus]
+220
+Klinkepl
+KLINKEPLATZ
+    SPANDAU     
+  KLINKEPLATZ
+  KLINKEPLATZ
+Bln_Klinkepl.tga
+Klinkeplatz
+................
+5432109876543210
+
+041:
+[addterminus]
+194
+Machandelweg
+MACHANDELWEG
+    RUHLEBEN
+  MACHANDELWEG
+  MACHANDELWEG
+Bln_Machandelweg.tga
+Machandelweg
+................
+5432109876543210
+
+042:
+[addterminus]
+282
+Ruhleben
+RUHLEBEN
+   U-BAHNHOF
+    RUHLEBEN
+   U RUHLEBEN
+Bln_Ruhleben.tga
+U Ruhleben
+................
+5432109876543210
+
+043:
+[addterminus]
+275
+Richard-Wagner-Pl
+R.-WAGNER-PL.
+   U-BAHNHOF
+ R.-WAGNER-PL.
+U R.-WAGNER-PL.
+Bln_Richard-Wagner-Pl.tga
+U Richard-Wagner-Pl.
+................
+5432109876543210
+
+044:
+[addterminus]
+222
+Wroehmaennerpark
+WRÖHMÄNNERPARK
+    SPANDAU
+ WRÖHMÄNNERPARK
+ WRÖHMÄNNERPARK
+Bln_Wroehmaennerpark.tga
+Wröhmännerpark
+................
+5432109876543210
+
+045:
+[addterminus]
+337
+Klinikum Charlottenburg
+KLINIKUM CHARL.
+    KLINIKUM
+ CHARLOTTENBURG
+KLINIKUM CHARL.
+Bln_Klinikum Charlottenburg.tga
+Klinikum Charlottenb.
+................
+5432109876543210
+
+046:
+[addterminus_allexit]
+0
+Empty
+LEERFELD
+
+
+
+Blanko.tga
+Leerfeld
+................
+
+047:
+[addterminus]
+081
+Stadtgrenze
+STADTGRENZE
+    HEERSTR.
+  STADTGRENZE
+  STADTGRENZE
+Bln_Stadtgrenze.tga
+Heerstr./Stadtgrenze
+................
+5432109876543210
+
+048:
+[addterminus]
+210
+Freudstr
+FREUDSTR.
+    SPANDAU     
+   FREUDSTR.    
+   FREUDSTR.    
+Bln_Freudstr.tga
+Freudstr.
+................
+5432109876543210
+
+049:
+[addterminus]
+007
+Altstadt Spandau
+ALTSTADT SPANDAU
+   U-BAHNHOF
+ALTSTADT SPANDAU
+U ALTST. SPANDAU
+Bln_Altstadt Spandau.tga
+U Altstadt Spandau
+................
+5432109876543210
+
+050:
+[addterminus]
+079
+Reimerweg
+REIMERWEG
+    HEERSTR.
+  E. REIMERWEG
+   REIMERWEG
+Bln_Reimerweg.tga
+Reimerweg
+................
+5432109876543210
+
+051:
+[addterminus]
+214
+Am Kiesteich
+AM KIESTEICH
+    SPANDAU
+  AM KIESTEICH
+  AM KIESTEICH
+Bln_Am Kiesteich.tga
+Am Kiesteich
+................
+5432109876543210
+
+052:
+[addterminus]
+212
+Westerwaldstr
+WESTERWALDSTR
+    SPANDAU     
+ WESTERWALDSTR. 
+ WESTERWALDSTR. 
+Bln_Westerwaldstr.tga
+Westerwaldstr.
+................
+5432109876543210
+
+053:
+[addterminus]
+211
+U Rathaus Spandau
+RATHAUS SPANDAU
+   U-BAHNHOF
+RATHAUS SPANDAU
+U RATH. SPANDAU
+Bln_Rathaus Spandau.tga
+U Rathaus Spandau
+................
+5432109876543210
+
+054:
+[addterminus]
+300
+Heerstr Gymnasium
+HEERSTR GYM.
+   HEERSTR 
+  GYMNASIUM
+ HEERSTR GYM.
+Heerstrgym.tga
+Heerstr Gymnasium
+................
+
+055:
+[addterminus]
+302
+Stadtgrenze Terminus
+STADTGRENZE
+    EXPRESS
+  STADTGRENZE
+ STADTGRENZE
+Bln_Stadtgrenze.tga
+Heerstr./Stadtgrenze
+................
+
+056:
+[addterminus]
+306
+Olympiastadion Terminus
+OLYMPIASTADION
+    EXPRESS
+ OLYMPIASTADION
+OLYMPIASTADION
+Bln_Olympiastadion.tga
+Olympiastadion
+................
+
+057:
+[addterminus]
+062
+Gartenfeld
+GARTENFELD
+
+   GARTENFELD
+   GARTENFELD
+Bln_Gartenfeld.tga
+Gartenfeld
+................
+5432109876543210
+
+058:
+[addterminus]
+211
+U Rathaus Spandau
+RATHAUS SPANDAU
+   U-BAHNHOF
+RATHAUS SPANDAU
+U RATH. SPANDAU
+Bln_Rathaus Spandau.tga
+U Rathaus Spandau
+................
+5432109876543210
+
+059:
+[addterminus]
+325
+Maxim. Kolbe Str
+MAX.-KOLBE-STR.
+  MAXIMILIAN-
+   KOLBE-STR.
+MAX.-KOLBE-STR.
+Bln_Maxim-Kolbe-Str.tga
+Maxim-Kolbe-Str.
+................
+5432109876543210
+
+060:
+[addterminus]
+216
+Weinmeisterhornweg
+WEINM.-HORNWEG
+    SPANDAU
+ WEINM.-HORNWEG
+ WEINM.-HORNWEG
+Bln_Weinmeisterhornweg.tga
+Weinmeisterhornweg
+................
+5432109876543210
+
+061:
+[addterminus]
+001
+Alt-Heiligensee
+ALT-HEILIGENSEE
+
+ALT-HEILIGENSEE
+ALT-HEILIGENSEE
+Bln_Alt-Heiligensee.tga
+Alt-Heiligensee
+................
+5432109876543210
+
+062:
+[addterminus]
+081
+Stadtgrenze
+STADTGRENZE
+    HEERSTR.
+  STADTGRENZE
+  STADTGRENZE
+Bln_Stadtgrenze.tga
+Heerstr./Stadtgrenze
+................
+5432109876543210
+
+063:
+[addterminus]
+223
+Am Omnibushof
+AM OMNIBUSHOF
+    SPANDAU     
+ AM OMNIBUSHOF
+ AM OMNIBUSHOF
+Bln_Spd_Autobusbetriebshof.tga
+Am Omnibushof
+................
+
+064:
+[addterminus]
+017
+Bernauer Str E Neheimer Str
+BERN.E.NEHEIM.
+ BERNAUER STR.
+E. NEHEIMER STR.
+ NEHEIMER STR.
+Bln_Bernauer Str E Neheimer Str.tga
+Bernauer/Neheimer S
+................
+7766554433221100
+
+065:
+[addterminus]
+263
+Tegel
+TEGEL
+   U-BAHNHOF
+     TEGEL
+    U TEGEL
+Bln_Tegel.tga
+U Tegel
+................
+7766554433221100
+
+066:
+[addterminus_allexit]
+13
+Betriebsfahrt
+BETRIEBSFAHRT
+                
+ BETRIEBSFAHRT
+ BETRIEBSFAHRT
+Betriebsfahrt.tga
+Betriebsfahrt
+................
+5432109876543210
+
+067:
+[addterminus]
+272
+Holzhauser Str
+HOLZHAUSER STR.
+   U-BAHNHOF
+HOLZHAUSER STR.
+U HOLZHAUSER STR
+Bln_Holzhauser Str.tga
+U Holzhauser Str
+................
+7766554433221100
+
+068:
+[addterminus]
+116
+Goerzallee
+GOERZALLEE
+  LICHTERFELDE
+   GOERZALLEE
+   GOERZALLEE
+Bln_Goerzallee.tga
+Goerzallee
+................
+7766554433221100
+
+069:
+[addterminus]
+403
+Oskar-Helene-Heim
+OSKAR-HELENE-H.
+   U-BAHNHOF
+OSKAR-HELENE-H.
+U OSKAR-H.-HEIM
+Bln_Oskar-Helene-Heim.tga
+U Oskar-Helene-Heim
+................
+7766554433221100
+
+070:
+[addterminus]
+404
+Rohrdamm
+ROHRDAMM
+   U-BAHNHOF
+    ROHRDAMM
+   U ROHRDAMM
+Bln_Rohrdamm.tga
+U Rohrdamm
+................
+7766554433221100
+
+071:
+[addterminus]
+040
+Clayallee
+CLAYALLEE
+   CLAYALLEE
+E. K.-LUISE-STR.
+   CLAYALLEE
+Bln_Clayallee.tga
+Clayallee
+................
+7766554433221100
+
+072:
+[addterminus]
+115
+Lindenstr
+LINDENSTR.
+  LICHTERFELDE
+   LINDENSTR.
+   LINDENSTR.
+Bln_Lindenstr.tga
+Lindenstr.
+................
+7766554433221100
+
+073:
+[addterminus]
+270
+Kaiserdamm
+KAISERDAMM
+   U-BAHNHOF
+   KAISERDAMM
+  U KAISERDAMM
+Bln_Kaiserdamm.tga
+U Kaiserdamm
+................
+7766554433221100
+
+074:
+[addterminus]
+405
+Rhenaniastr
+RHENANIASTR.
+   HASELHORST
+  RHENANIASTR.
+  RHENANIASTR.
+Bln_Rhenaniastr.tga
+Rhenaniastr
+................
+7766554433221100
+
+075:
+[addterminus]
+080
+Haselhorster Damm
+HASELHORST. DAMM
+  HASELHORSTER
+      DAMM
+HASELHORST. DAMM
+Bln_Haselhorster Damm.tga
+Haselhorster Damm
+................
+7766554433221100
+
+076:
+[addterminus]
+317
+Zehlendorf Rathaus
+ZEHLENDORF RATH.
+   ZEHLENDORF
+    RATHAUS
+ZEHLENDORF RATH.
+Bln_Zehlendorf Rathaus.tga
+Zehlendorf Rathaus
+................
+7766554433221100
+
+077:
+[addterminus]
+027
+Bismarckpl
+BISMARCKPLATZ
+
+ BISMARCKPLATZ
+ BISMARCKPLATZ
+Bln_Bismarckpl.tga
+Bismarckplatz
+................
+7766554433221100
+
+078:
+[addterminus]
+146
+Messedamm
+MESSEDAMM
+
+   MESSEDAMM
+   MESSEDAMM
+Bln_Messedamm.tga
+Messedamm/ICC
+................
+5432109876543210
+
+079:
+[addterminus]
+081
+Stadtgrenze
+STADTGRENZE
+    HEERSTR.
+  STADTGRENZE
+  STADTGRENZE
+Bln_Stadtgrenze.tga
+Heerstr./Stadtgrenze
+................
+5432109876543210
+
+080:
+[addterminus]
+228
+Brunsbuetteler Damm
+BRUNSBÜTTEL. D.
+ BRUNSBÜTTELER
+      DAMM
+BRUNSBÜTTEL. D.
+Bln_Brunsbuetteler Damm.tga
+Brunsbuetteler Damm
+................
+7766554433221100
+
+081:
+[addterminus]
+077
+Hakenfelde
+HAKENFELDE
+
+   HAKENFELDE
+   HAKENFELDE
+Bln_Hakenfelde.tga
+Hakenfelde
+................
+7766554433221100
+
+082:
+[addterminus]
+406
+Hakenfelde ueber Goltzstr
+HAKENF. Ü. GOLTZ
+   HAKENFELDE
+ ÜBER GOLTZSTR.
+HAKENF.Ü.GOLTZS.
+Bln_Hakenfelde ueber Goltzstr.tga
+Hakenf. ü. Goltzstr
+................
+7766554433221100
+
+083:
+[addterminus]
+083
+Aalemannufer
+AALEMANNUFER
+    SPANDAU
+  AALEMANNUFER
+  AALEMANNUFER
+Bln_Aalemannufer.tga
+Aalemannufer
+................
+7766554433221100
+
+084:
+[addterminus]
+066
+Goltzstr E Streitstr
+GOLTZ. E STREIT.
+   GOLTZSTR.
+ E. STREITSTR.
+GOLTZ. E.STREIT.
+Bln_Goltzstr E Streitstr.tga
+Goltzstr./Streitstr.
+................
+7766554433221100
+
+085:
+[addterminus]
+227
+Magistratsweg
+MAGISTRATSWEG
+    STAAKEN
+ MAGISTRATSWEG
+ MAGISTRATSWEG
+Bln_Magistratsweg.tga
+Magistratsweg
+................
+7766554433221100
+
+086:
+[addterminus]
+407
+Kraftwerk Oberhavel
+KRAFTW. OBERHVL.
+   KRAFTWERK
+   OBERHAVEL
+KRAFTW. OBERHVL.
+Bln_Kraftwerk Oberhavel.tga
+Kraftwerk Oberhavel
+................
+7766554433221100
+
+087:
+[addterminus]
+6
+Alt-Pichelsdorf
+ALT-PICHELSDORF
+
+ALT-PICHELSDORF
+ALT-PICHELSDORF
+Bln_Alt-Pichelsdorf.tga
+Alt-Pichelsdorf
+................
+5432109876543210
+
+088:
+[addterminus]
+211
+U Rathaus Spandau
+RATHAUS SPANDAU
+   U-BAHNHOF
+RATHAUS SPANDAU
+U RATH. SPANDAU
+Bln_Rathaus Spandau.tga
+U Rathaus Spandau
+................
+5432109876543210
+
+089:
+[addterminus]
+229
+Spandau Wasserwerk
+WASSERWERK
+    SPANDAU
+   WASSERWERK
+   WASSERWERK
+Bln_Spd_Wasserwerk.tga
+Spandau Wasserwerk
+................
+7766554433221100
+
+090:
+[addterminus]
+067
+Glienicke Gutshof
+GLIENICKE GUTSH.
+   GLIENICKE
+    GUTSHOF
+GLIENICKE GUTSH.
+Bln_Glienicke Gutshof.tga
+Glienicke Gutshof
+................
+7766554433221100
+
+091:
+[addterminus]
+008
+Alt-Gatow
+ALT-GATOW
+   G A T O W
+   ALT-GATOW
+   ALT-GATOW
+Bln_Alt-Gatow.tga
+Alt-Gatow
+................
+7766554433221100
+
+092:
+[addterminus]
+223
+Am Omnibushof
+AM OMNIBUSHOF
+    SPANDAU     
+ AM OMNIBUSHOF
+ AM OMNIBUSHOF
+Bln_Spd_Autobusbetriebshof.tga
+Am Omnibushof
+................
+7766554433221100
+
+093:
+[addterminus]
+222
+Wroehmaennerpark
+WRÖHMÄNNERPARK
+    SPANDAU
+ WRÖHMÄNNERPARK
+ WRÖHMÄNNERPARK
+Bln_Wroehmaennerpark.tga
+Wröhmaennerpark
+................
+5432109876543210
+
+094:
+[addterminus]
+230
+Spandau Friedhof
+SPAND. FRIEDHOF
+    SPANDAU
+    FRIEDHOF
+SPAND. FRIEDHOF
+Bln_Spd_Friedhof.tga
+Spandau Friedhof
+................
+7766554433221100
+
+095:
+[addterminus]
+103
+Kladow Dorfplatz
+KLADOW DORFPLATZ
+     KLADOW
+   DORFPLATZ
+KLADOW DORFPLATZ
+Bln_Kladow Dorfpl.tga
+Kladow Dorfplatz
+................
+7766554433221100
+
+096:
+[addterminus_allexit]
+13
+Betriebsfahrt
+BETRIEBSFAHRT
+                
+ BETRIEBSFAHRT
+ BETRIEBSFAHRT
+Betriebsfahrt.tga
+Betriebsfahrt
+................
+5432109876543210
+
+097:
+[addterminus]
+104
+Krankehaus Hohengatow
+KRANK. HOHENGTW.
+   KRANKEHAUS
+   HOHENGATOW
+KRANK. HOHENGTW.
+Bln_Krankenhaus Hohengatow.tga
+Krkhs. Hohengatow
+................
+7766554433221100
+
+098:
+[addterminus]
+173
+Neukladower Allee
+NEUKLADOWER ALL.
+  NEUKLADOWER
+     ALLEE
+NEUKLADOWER ALL.
+Bln_Neukladower Allee.tga
+Neukladower Allee
+................
+7766554433221100
+
+099:
+[addterminus]
+78
+Heerstr E Gatower Str
+HEERSTR/GATOWER
+   HEERSTR.
+E. GATOWER STR.
+HEER- E GTW.STR.
+Bln_Heerstr E Gatower Str.tga
+Heerstr./Gatower Str
+................
+5432109876543210
+
+100:
+[addterminus]
+227
+Magistratsweg
+MAGISTRATSWEG
+    STAAKEN
+ MAGISTRATSWEG
+ MAGISTRATSWEG
+Bln_Magistratsweg.tga
+Magistratsweg
+................
+7766554433221100
+
+101:
+[addterminus]
+105
+Kladow Hottengrund
+KLADOW HOTTENG.
+     KLADOW
+  HOTTENGRUND
+KLADOW HOTTENG.
+Bln_Kladow Hottengrund.tga
+Kladow Hottengrund
+................
+7766554433221100
+
+102:
+[addterminus]
+282
+Ruhleben
+RUHLEBEN
+   U-BAHNHOF
+    RUHLEBEN
+   U RUHLEBEN
+Bln_Ruhleben.tga
+U Ruhleben
+................
+5432109876543210
+
+103:
+[addterminus]
+231
+Nervenklinik
+NERVENKLINIK
+    SPANDAU
+  NERVENKLINIK
+  NERVENKLINIK
+Bln_Spd_Nervenklinik.tga
+Nervenklinik
+................
+7766554433221100
+
+104:
+[addterminus]
+313
+Waldkrankenhaus
+WALDKRANKENHAUS
+    SPANDAU
+WALDKRANKENHAUS
+WALDKRANKENHAUS
+Bln_Waldkrankenhaus.tga
+Waldkrankenhaus
+................
+7766554433221100
+
+105:
+[addterminus]
+344
+S Bahnhof Staaken
+S BAHN STAAKEN
+  S - BAHNHOF
+    STAAKEN
+S BAHN STAAKEN
+staaken.tga
+S Bahnhof Staaken
+................
+
+106:
+[addterminus]
+232
+Fernbahnhof Spandau
+SPANDAU FERNBHF.
+    SPANDAU
+  FERNBAHNHOF
+SPANDAU FERNBHF.
+Bln_Spd_Fernbahnhof.tga
+Fernbahnhof Spandau
+................
+7766554433221100
+
+107:
+[addterminus]
+233
+Spektefeld
+SPEKTEFELD
+    SPANDAU
+   SPEKTEFELD
+   SPEKTEFELD
+Bln_Spektefeld.tga
+Spektefeld
+................
+7766554433221100
+
+108:
+[addterminus]
+211
+U Rathaus Spandau
+RATHAUS SPANDAU
+   U-BAHNHOF
+RATHAUS SPANDAU
+U RATH. SPANDAU
+Bln_Rathaus Spandau.tga
+U Rathaus Spandau
+................
+5432109876543210
+
+109:
+[addterminus]
+228
+Brunsbuetteler Damm
+BRUNSBÜTTEL. D.
+ BRUNSBÜTTELER
+      DAMM
+BRUNSBÜTTEL. D.
+Bln_Brunsbuetteler Damm.tga
+Brunsbütteler Damm
+................
+7766554433221100
+
+110:
+[addterminus]
+077
+Hakenfelde
+HAKENFELDE
+
+   HAKENFELDE
+   HAKENFELDE
+Bln_Hakenfelde.tga
+Hakenfelde
+................
+7766554433221100
+
+111:
+[addterminus]
+234
+Heidebergplan
+HEIDEBERGPLAN
+    STAAKEN
+ HEIDEBERGPLAN
+ HEIDEBERGPLAN
+Bln_Heidebergplan.tga
+Heidebergplan
+................
+7766554433221100
+
+112:
+[addterminus]
+212
+Westerwaldstr
+WESTERWALDSTR
+    SPANDAU     
+ WESTERWALDSTR. 
+ WESTERWALDSTR. 
+Bln_Westerwaldstr.tga
+Westerwaldstr
+................
+5432109876543210
+7766554433221100
+
+113:
+[addterminus_allexit]
+0
+Empty
+LEERFELD
+
+
+
+Blanko.tga
+Leerfeld
+................
+
+114:
+[addterminus]
+223
+Am Omnibushof
+AM OMNIBUSHOF
+    SPANDAU     
+ AM OMNIBUSHOF
+ AM OMNIBUSHOF
+Bln_Spd_Autobusbetriebshof.tga
+Am Omnibushof
+................
+7766554433221100
+
+115:
+[addterminus]
+307
+Waldbuehne
+WALDBÜHNE
+
+   WALDBÜHNE
+   WALDBÜHNE
+Bln_Waldbuehne.tga
+Waldbühne
+................
+7766554433221100
+
+116:
+[addterminus_allexit]
+13
+Betriebsfahrt
+BETRIEBSFAHRT
+                
+ BETRIEBSFAHRT
+ BETRIEBSFAHRT
+Betriebsfahrt.tga
+Betriebsfahrt
+................
+7766554433221100
+
+117:
+[addterminus]
+174
+Olympiastadion
+OLYMPIASTADION
+
+ OLYMPIASTADION
+ OLYMPIASTADION
+Bln_Olympiastadion.tga
+Olympiastadion
+................
+7766554433221100
+
+118:
+[addterminus]
+315
+Zoo
+ZOOLOG. GARTEN
+ U+S - BAHNHOF  
+ ZOOLOG. GARTEN 
+    U+S ZOO
+Bln_Zoo.tga
+U+S Zoolog. Garten
+................
+7766554433221100
+
+119:
+[addterminus]
+295
+Oktoberfest
+OKTOBERFEST
+  U KAISERDAMM
+  OKTOBERFEST
+  U KAISERDAMM
+Bln_Oktoberfest.tga
+Oktoberfest
+................
+7766554433221100
+
+120:
+[addterminus]
+047
+Eissporthalle
+EISSPORTHALLE
+
+ EISSPORTHALLE
+ EISSPORTHALLE
+Bln_Eissporthalle.tga
+Eissporthalle
+................
+7766554433221100
+
+121:
+[addterminus]
+41
+Deutschlandhalle
+DEUTSCHLANDHALLE
+
+DEUTSCHLANDHALLE
+DEUTSCHLANDHALLE
+Bln_Deutschlandhalle.tga
+Deutschlandhalle
+................
+
+122:
+[addterminus]
+270
+Kaiserdamm
+KAISERDAMM
+   U-BAHNHOF
+   KAISERDAMM
+  U KAISERDAMM
+Bln_Kaiserdamm.tga
+U Kaiserdamm
+................
+7766554433221100
+
+123:
+[addterminus]
+182
+Pfaueninsel
+PFAUENINSEL
+
+  PFAUENINSEL
+  PFAUENINSEL
+Bln_Pfaueninsel.tga
+Pfaueninsel
+................
+7766554433221100
+
+124:
+[addterminus]
+064
+Grunewaldturm
+GRUNEWALDTURM
+
+ GRUNEWALDTURM
+ GRUNEWALDTURM
+Bln_Grunewaldturm.tga
+Grunewaldturm
+................
+7766554433221100
+
+125:
+[addterminus]
+215
+Schildhorn
+SCHILDHORN
+
+   SCHILDHORN
+   SCHILDHORN
+Bln_Schildhorn.tga
+Schildhorn
+................
+7766554433221100
+
+126:
+[addterminus]
+102
+Kongresshalle
+KONGRESSHALLE
+
+ KONGRESSHALLE
+ KONGRESSHALLE
+Bln_Kongresshalle.tga
+Kongreßhalle
+................
+7766554433221100
+
+127:
+[addterminus]
+192
+Reichstag
+REICHSTAG
+
+   REICHSTAG
+   REICHSTAG
+Bln_Reichstag.tga
+Reichstag
+................
+7766554433221100
+
+128:
+[addterminus]
+061
+Wannsee
+WANNSEE
+   S-BAHNHOF
+    WANNSEE
+ S-BHF. WANNSEE
+Bln_Wannsee.tga
+S Wannsee
+................
+7766554433221100
+
+129:
+[addterminus]
+253
+Theodor-Heuss-Pl
+TH.-HEUSS-PL.
+   U-BAHNHOF
+ TH.-HEUSS-PL.
+U TH.-HEUSS-PL.
+Bln_Theodor-Heuss-Pl.tga
+U Theodor-Heuss-Pl.
+................
+5432109876543210
+
+130:
+[addterminus]
+271
+U Ersatzverkehr
+U ERSATZVERKEHR
+    U-BAHN-
+ ERSATZVERKEHR
+U ERSATZVERKEHR
+Ersatzverkehr_U.tga
+U Ersatzverkehr
+................
+7766554433221100
+
+131:
+[addterminus]
+246
+S Ersatzverkehr
+S ERSATZVERKEHR
+    S-BAHN-
+ ERSATZVERKEHR
+S ERSATZVERKEHR
+Ersatzverkehr_S.tga
+S Ersatzverkehr
+................
+7766554433221100
+
+132:
+[addterminus]
+258
+Teufelsberg
+TEUFELSBERG
+
+  TEUFELSBERG
+  TEUFELSBERG
+Bln_Teufelsberg.tga
+Teufelsberg
+................
+7766554433221100
+
+133:
+[addterminus]
+235
+Seegefelder Weg
+SEEGEFELDER WEG
+    SPANDAU
+SEEGEFELDER WEG
+SEEGEFELDER WEG
+Bln_Seegefelder Weg.tga
+Seegefelder Weg
+................
+7766554433221100
+
+134:
+[addterminus]
+106
+Kisselnallee
+KISSELNALLEE
+  KISSELNALLEE
+E. RADELANDSTR.
+  KISSELNALLEE
+Bln_Kisselnallee.tga
+Kisselnallee
+................
+7766554433221100
+
+
+
+135:
+[addterminus]
+500
+Mauerfall
+MAUERFALL
+ JAHRE FALL DER
+BERLINER MAUER!
+JAHRE MAUERFALL!
+
+Mauerfall
+................
+7766554433221100
+
+
+
+136:
+[addterminus]
+999
+Oranienburg
+ORANIENBURG
+ ORANIENBURG
+
+ORANIENBURG
+
+Oranienburg
+................
+7766554433221100
+
+
+
+136:
+[addterminus]
+998
+Ruhleben
+RUHLEBEN
+ RUHLEBEN
+
+RUHLEBEN
+
+Ruhleben
+................
+7766554433221100
+
+
+
+##############################################################################################################################
+##############################################################################################################################
+##############################################################################################################################
+##############################################################################################################################
+
+			Informationssysteme
+
+##############################################################################################################################
+##############################################################################################################################
+##############################################################################################################################
+##############################################################################################################################
+
+
+
+
+[addbusstop]
+U Altstadt Spandau
+U ALTSTADT SPD.
+U Altstadt Spandau
+
+U Altstadt Spandau
+................
+
+[addbusstop]
+Altern Strasse
+ALTERN STRASSE
+Altern Strasse
+
+Altern Strasse
+................
+
+[addbusstop]
+Am Omnibushof
+AM OMNIBUSHOF
+Am Omnibushof
+
+Am Omnibushof
+................
+
+[addbusstop]
+Am Bogen
+AM BOGEN
+Am Bogen
+
+Am Bogen
+................
+
+[addbusstop]
+Am Kiesteich
+AM KIESTEICH
+Am Kiesteich
+
+Am Kiesteich
+................
+
+[addbusstop]
+Askanierring
+ASKANIERRING
+Askanierring
+
+Askanierring
+................
+
+[addbusstop]
+Baluschekweg
+BALUSCHEKWEG
+Baluschekweg
+
+Baluschekweg
+................
+
+[addbusstop]
+Beerwinkel
+BEERWINKEL
+Beerwinkel
+
+Beerwinkel
+................
+
+[addbusstop]
+Blasewitzer Ring
+BLASEWITZER RING
+Blasewitzer Ring
+
+Blasewitzer Ring
+................
+
+[addbusstop]
+Bohse-Onkelz Kirche
+BOHSE-ONKELZ KIRCHE
+Bohse-Onkelz Kirche
+
+Bohse-Onkelz Kirche
+................
+
+[addbusstop]
+Borchertweg
+BORCHERTWEG
+Borchertweg
+
+Borchertweg
+................
+
+
+[addbusstop]
+Brunsbütteler D
+BRUNSBÜTTELER D.
+Brunsbütteler Damm/
+Ruhlebener Str.
+Brunsbütteler Damm
+................
+
+
+[addbusstop]
+Elsflether Weg
+ELSFLETHER WEG
+Elsflether Weg
+
+Elsflether Weg
+................
+
+[addbusstop]
+Falkenseer Ch Freud
+FALKENSEER CH.
+Falkenseer
+Chaussee
+Falkenseer Ch Freud
+................
+
+[addbusstop]
+Falkenseer Ch/Stadtrandstr
+FALKENSEER CH.
+Falkenseer Ch./
+Stadtrandstr.
+Falkenseer Ch.
+................
+
+
+[addbusstop]
+Falkenseer Damm
+FALKENSEER DAMM
+Falkenseer Damm
+
+Falkenseer Damm
+................
+
+
+[addbusstop]
+Falkenseer Pl
+FALKENSEER PL.
+Falkenseer Platz
+
+Falkenseer Platz
+................
+
+[addbusstop]
+Flankenschanze
+FLANKENSCHANZE
+Flankenschanze
+
+Flankenschanze
+................
+
+[addbusstop]
+Frankenwaldstr
+FRANKENWALDSTR.
+Frankenwaldstr.
+
+Frankenwaldstr.
+................
+
+
+[addbusstop]
+Freudstr
+GOLDKÄFERWEG
+Freudstr./
+Goldkäferweg
+Goldkäferweg
+................
+
+[addbusstop]
+Freudstr Falk
+FREUDSTR
+Freudstr.
+
+Freudstr.
+................
+
+[addbusstop]
+Galenstr
+GALENSTR
+Galenstr./
+S Spandau-West
+Galenstr.
+................
+
+[addbusstop]
+Gatower Str/Heerstr
+GATOWER/HEERSTR.
+Gatower Str./
+Heerstr.
+Gatower/Heerstr.
+................
+
+[addbusstop]
+Gatower Str
+GATOWER STR.
+Gatower Str./
+Heerstr.
+Gatower Str.
+................
+
+[addbusstop]
+Heerstr/Magistratsweg
+MAGISTRATSWEG
+Heerstr./
+Magistratsweg
+Magistratsweg
+................
+
+
+[addbusstop]
+Heerstr 438-446
+HEERSTR.438-446
+Heerstr. 438-446
+
+Heerstr 438-446
+................
+
+[addbusstop]
+Heerstr/Sandstr
+HEERSTR./SANDSTR
+Heerstr./
+Sandstr.
+Heerstr./Sandstr.
+................
+
+
+[addbusstop]
+Heerstr/Wilhelmstr
+HEERSTR/WILHELM
+Heerstr./
+Wilhelmstr.
+Heerstr./Wilhelmstr.
+................
+
+
+
+[addbusstop]
+Hochhausweg
+HOCHHAUSWEG
+Hochhausweg
+
+Hochhausweg
+
+................
+
+
+[addbusstop]
+Hohenzollernring
+HOHENZOLLERNRING
+Hohenzollernring
+
+Hohenzollernring
+................
+
+
+
+[addbusstop]
+Hohenzollernring/Galenstr
+HOHENZ./GALENSTR
+Hohenzollernring/
+Galenstr.
+Hohenz./Galenstr
+................
+
+
+[addbusstop]
+Hoher Steinweg
+HOHER STEINWEG
+U Altstadt Spandau/
+Hoher Steinweg
+Hoher Steinweg
+................
+
+
+[addbusstop]
+Im Spektefeld
+IM SPEKTEFELD
+Im Spektefeld
+
+Im Spektefeld
+................
+
+
+[addbusstop]
+Jenneweg
+JENNEWEG
+Jenneweg
+
+Jenneweg
+................
+
+[addbusstop]
+Klosterstr
+KLOSTERSTR.
+Klosterstr.
+
+Klosterstr.
+................
+
+[addbusstop]
+Kolonie Hasenheide
+KOL. HASENHEIDE
+Kolonie
+Hasenheide
+Kolonie Hasenheide
+................
+
+[addbusstop]
+Melanchthonpl
+MELANCHTHONPL.
+Melanchthonplatz
+
+Melanchthonplatz
+................
+
+[addbusstop]
+Metzer Str
+METZER STR.
+Metzer Str.
+
+Metzer Str.
+................
+
+[addbusstop]
+Moritzstr
+MORITZSTR.
+Moritzstr.
+
+Moritzstraße
+................
+
+
+[addbusstop]
+Magistratsweg
+MAGISTRATSWEG
+Magistratsweg
+
+Magistratsweg
+................
+
+[addbusstop]
+Maulbeerallee
+MAULBEERALLEE
+Maulbeerallee
+
+Maulbeerallee
+................
+
+[addbusstop]
+Mülheimer Str
+MÜLHEIMER STR.
+Mülheimer Str.
+
+Mülheimer Str.
+................
+
+
+[addbusstop]
+Obstallee
+OBSTALLEE
+Obstallee
+
+Obstallee
+................
+
+
+
+[addbusstop]
+Paewesiner Weg
+PÄWESINER WEG
+Päwesiner Weg
+
+Päwesiner Weg
+................
+
+
+
+[addbusstop]
+Paul-Gärtner-Ring
+P.-GÄRTNER-RING
+Paul-Gärtner-Ring
+
+Paul-Gärtner-Ring
+................
+
+[addbusstop]
+Pillnitzer Weg
+PILLNITZER WEG
+Pillnitzer Weg
+
+Pillnitzer Weg
+................
+
+[addbusstop]
+Platze
+PLATZE
+Platze
+
+Platze
+................
+
+[addbusstop]
+U Rathaus Spandau
+U RATHAUS SPD.
+U Rathaus Spandau
+
+U Rathaus Spandau
+................
+
+[addbusstop]
+Reichstag
+REICHSTAG
+Reichstag
+
+Reichstag
+................
+
+[addbusstop]
+Reimerweg
+REIMERWEG
+Heerstr./
+Reimerweg
+Reimerweg
+................
+
+
+[addbusstop]
+Ruhlebener Str
+RUHLEBENER STR.
+Ruhlebener Str./
+Brunsbütteler Damm
+Ruhlebener Str.
+................
+
+
+[addbusstop]
+Schm-Knobelsdorf-Str
+SCHM.-KNOBELSD.-STR.
+S.-Knobelsdorf-Str.
+
+Schm-Knobelsdorf-Str
+................
+
+
+[addbusstop]
+Schwimmzentrum Spandau
+SCHWIMMZEN.SPD.
+Schwimmzentrum Spandau
+
+Schwimmzentrum Spandau
+................
+
+
+[addbusstop]
+Seeburger Str
+SEEBURGER STR.
+Seeburger Str.
+
+Seeburger Str.
+................
+
+[addbusstop]
+Seeburger Weg
+SEEBURGER WEG
+Seeburger Weg
+
+Seeburger Weg
+................
+
+[addbusstop]
+Seecktstr
+SEECKTSTR.
+Seecktstr.
+
+Seecktstr.
+................
+
+
+[addbusstop]
+Siegener Str
+SIEGENER STR.
+Siegener Str.
+
+Siegener Str.
+................
+
+[addbusstop]
+Spektefeld Schulzentrum
+SCHULZENTRUM
+Spektefeld
+Schulzentrum
+Spektef. Schulzentr.
+................
+
+[addbusstop]
+Spielstrasse
+SPIELSTRASSE
+Spielstrasse
+
+Spielstrasse
+................
+
+[addbusstop]
+Stadtgrenze
+HEERSTR/STADTGR
+Heerstr./
+Stadtgrenze
+Heerstr./Stadtgrenze
+................
+
+[addbusstop]
+Stadtrandstr
+STADTRANDSTR.
+Stadtrandstr.
+
+Stadtrandstr.
+................
+
+[addbusstop]
+Wasserwerkstr
+WASSERWERKSTR.
+Wasserwerkstr.
+
+Wasserwerkstr.
+................
+
+[addbusstop]
+Westerwaldstr
+WESTERWALDSTR.
+Westerwaldstr.
+
+Westerwaldstr.
+................
+
+[addbusstop]
+Wilhelmstr
+WILHELMSTR.
+Wilhelmstr.
+
+Wilhelmstr.
+................
+
+
+[addbusstop]
+Zeppelinstr
+ZEPPELINSTR.
+Zeppelinstr.
+
+Zeppelinstr.
+................
+
+
+[addbusstop]
+Zeppelinstrasse II
+ZEPPELINSTR. II
+Zeppelinstrasse II
+
+Zeppelinstrasse II
+................
+
+
+[addbusstop]
+Zweibrücker Str
+ZWEIBRÜCKER STR.
+Zweibrücker Str.
+
+Zweibrücker Str.
+................
+
+
+[addbusstop]
+Heerstr Gymnasium
+HEERSTR GYMNASIUM
+Heerstr Gymnasium
+
+Heerstr Gymnasium
+................
+
+
+[addbusstop]
+Lutoner Strasse
+LUTONER STRASSE
+Lutoner Strasse
+
+Lutoner Strasse
+................
+
+
+[addbusstop]
+Lutonerstr Market
+LUTONERSTR MARKET
+Lutonerstr Market
+
+Lutonerstr Market
+................
+
+
+[addbusstop]
+Loschwitzer Weg
+LOSCHWITZER WEG
+Loschwitzer Weg
+
+Loschwitzer Weg
+................
+
+[addbusstop]
+Aalemannufer
+AALEMANNUFER
+Aalemannufer
+
+Aalemannufer
+................
+
+[addbusstop]
+S Bahnhof Galenstr
+GALENSTRASSE
+S Bahnhof
+Galenstrasse
+S Bahnhof Galenstr
+................
+
+[addbusstop]
+Hahneberg
+HAHNEBERG
+Hahneberg
+
+Hahneberg
+................
+
+[addbusstop]
+Hahneberg Grundstuck
+HAHN.GRN.
+Hahneberg\
+Grundstuck
+Hahneberg Grn.
+................
+
+[addbusstop]
+Obstallee II
+OBSTALL. II
+Obstallee II
+
+Obstallee II
+................
+
+[addbusstop]
+Stadtrandstr II
+STADTR.STR. II
+Stadtrandstr II
+
+Stadtrandstr II
+................
+
+[addbusstop]
+Waldkrankenhaus
+WALDKRANK.
+Waldkrankenhaus
+
+Waldkrankenhaus
+................
+
+[addbusstop]
+Zoo
+ZOOLOG. GARTEN
+Zoolog. Garten
+
+Zoolog. Garten
+................
+
+[addbusstop]
+Olympiastadion
+OLYMPIASTAD.
+Olympiastadion
+
+Olympiastadion
+................
+
+[addbusstop]
+Olympiastadion Terminus
+OLYMPIASTAD.
+Olympiastadion
+
+Olympiastadion
+................
+
+[addbusstop]
+Stadtgrenze Terminus
+STADTGRENZE
+Stadtgrenze
+
+Stadtgrenze
+................
+
+[addbusstop]
+Lindtstrasse
+LINDTSTR.
+Lindtstrasse
+
+Lindtstrasse
+................
+
+[addbusstop]
+Lindtstrasse Post
+LINDTSTR. POST
+Lindtstrasse\
+Post
+Lindtstrasse Post
+................
+
+[addbusstop]
+Lindtstrasse BP
+LINDTSTR. BP
+Lindtstrasse\
+BP Tankstelle
+Lindtstrasse BP
+................
+
+[addbusstop]
+Einkaufszentrum
+EINKAUFSZENTRUM
+Einkaufszentrum
+
+Einkaufszentrum
+................
+
+[addbusstop]
+Siegallee
+SIEGALLEE
+Siegallee
+
+Siegallee
+................
+
+[addbusstop]
+Friedhof
+FRIEDHOF
+Friedhof
+
+Friedhof
+................
+
+[addbusstop]
+Fabrik
+FABRIK
+Fabrik
+
+Fabrik
+................
+
+[addbusstop]
+Tenniszentrum
+TENNISZENTRUM
+Tenniszentrum
+
+Tenniszentrum
+................
+
+[addbusstop]
+Wroehmaennerpark
+WROEH. PARK
+Wroehmaennerpark
+
+Wroehmaennerpark
+................
+
+[addbusstop]
+Wendelstrasse
+WENDELSTR.
+Wendelstrasse
+
+Wendelstr.
+................
+
+[addbusstop]
+Falkenseer Chaussee
+FALKENSEER CH.
+Falkenseer Ch.
+
+Falkenseer Ch.
+................
+
+[addbusstop]
+Heerstr E Gatower Str
+HEERSTR E GATOWER
+Heerstr E Gatower Str
+
+Heerstr E Gatower Str
+................
+
+[addbusstop]
+Friedhoferstr
+FRIEDHOFERSTR
+Friedhoferstrasse
+
+Friedhoferstr
+................
+
+[addbusstop]
+Spandau Friedhof
+SPD. FRIEDHOF
+Spandau Friedhof
+
+Spandau Friedhof
+................
+		
+
+[addbusstop]
+Friedhof Terminus
+TERMINUS
+Friedhof Terminus
+
+Friedhof Terminus
+................
+		
+
+[addbusstop]
+Potsdamer Chaussee
+POTSDAMER CH.
+Potsdamer Ch.
+
+Potsdamer Ch.
+................
+
+
+[addbusstop]
+Maxim. Kolbe Str
+MAX.-KOLBE STR.
+Maximilian-Kolbe
+Strasse
+Max.-Kolbe Str.
+................
+
+
+[addbusstop]
+Heerstr/Wilhelmstr
+HEERSTR/WILHELM.
+Heerstrasse/
+Wilhelmstrasse
+Heerstr/Wilhelmstr
+................	
+
+
+[addbusstop]
+Westerwaldstr. Schule
+WESTERWALDSTR. SCHULE
+Westerwaldstrasse\
+Schule
+Westerwaldstr. Schule
+................	
+
+[addbusstop]
+Maxim. Kolbe Strasse
+MAX.-KOLBE STR.
+Maximilian-Kolbe
+Strasse
+Max.-Kolbe Str.
+................
+
+[addbusstop]
+Kraeplinweg
+KRAEPLINWEG
+Kraeplinweg
+
+Kraeplinweg
+................
+
+[addbusstop]
+Am Hullepfuhl
+AM HULLEPFUHL
+Am Hullepfuhl
+
+Am Hullepfuhl
+................
+
+[addbusstop]
+Am Kirchenland
+AM KIRCHENLAND
+Am Kirchenland
+
+Am Kirchenland
+................
+
+[addbusstop]
+Feldgrabensteig
+FELDGRABENSTEIG
+Feldgrabensteig
+
+Feldgrabensteig
+................
+
+[addbusstop]
+Nauener Str
+NAUENER STR.
+Nauener Strasse
+
+Nauener Str
+................
+
+[addbusstop]
+S Bahnhof Staaken
+S BAHN STAAKEN
+S - Bahnhof
+  Staaken
+S Bahnhof Staaken
+................
+
+[addbusstop]
+Zweiwinkelweg
+ZWEIWINKELWEG
+Zweiwinkelweg
+
+Zweiwinkelweg
+................
+
+[addbusstop]
+Am Kurzen Weg
+AM KURZEN WEG
+Am Kurzen Weg
+
+Am Kurzen Weg
+................
+
+		
+	[infosystem_trip]
+	{routecode} (z.B. '540001', integer)
+	{routestring} (ggf. für IBIS-Gerät oder vieleicht später auch zum Setzen)
+	{terminuscode}
+	{line string} (z.B. '54 ')
+
+	[infosystem_busstop]
+	{string0: IBIS-Name}
+	{string1: LCD 1. Zeile links}
+	{string2: LCD 1. Zeile rechts}
+	{string3: LCD 2. Zeile links}
+	{string4: LCD 2. Zeile rechts}
+	
+
+
+
+===============================================================================
+	92:
+===============================================================================
+
+	Freudstraße - Stadtgrenze
+-----------------------------------
+
+[infosystem_trip]
+9201
+FREUDSTR.-STADTGRENZE
+081
+92
+
+................
+
+[infosystem_busstop_list]
+30
+Freudstr
+Falkenseer Ch Freud
+Stadtrandstr
+Am Bogen
+Beerwinkel
+Am Kiesteich
+Mülheimer Str
+Siegener Str
+Zeppelinstr
+Zweibrücker Str
+Hohenzollernring
+Askanierring
+Flankenschanze
+Falkenseer Pl
+U Altstadt Spandau
+Hoher Steinweg
+Moritzstr
+U Rathaus Spandau
+Brunsbütteler D
+Seeburger Str
+Seecktstr
+Paewesiner Weg
+Schm-Knobelsdorf-Str
+Maulbeerallee
+Obstallee
+Heerstr/Sandstr
+Heerstr/Magistratsweg
+Heerstr 438-446
+Pillnitzer Weg
+Stadtgrenze
+
+	Stadtgrenze - Freudstraße
+-----------------------------------
+
+[infosystem_trip]
+9202
+STADTGRENZE-FREUDSTR.
+210
+92
+
+................
+
+[infosystem_busstop_list]
+30
+Stadtgrenze
+Pillnitzer Weg
+Heerstr 438-446
+Heerstr/Magistratsweg
+Heerstr/Sandstr
+Blasewitzer Ring
+Seeburger Weg
+Seeburger Str
+Paewesiner Weg
+Seecktstr
+Klosterstr
+Ruhlebener Str
+U Rathaus Spandau
+Moritzstr
+U Altstadt Spandau
+Hoher Steinweg
+Falkenseer Damm
+Flankenschanze
+Askanierring
+Hohenzollernring
+Zweibrücker Str
+Zeppelinstr
+Westerwaldstr
+Frankenwaldstr
+Wasserwerkstr
+Beerwinkel
+Am Bogen
+Stadtrandstr
+Freudstr Falk
+Freudstr
+
+
+
+
+
+
+
+
+
+
+===============================================================================
+	13N:
+===============================================================================
+
+
+
+
+	U Rathaus Spandau - Stadtgrenze
+-----------------------------------
+
+[infosystem_trip]
+1310
+U RATHAUS SPANDAU-STADTGRENZE
+081
+13N
+
+................
+
+[infosystem_busstop_list]
+13
+U Rathaus Spandau
+Brunsbütteler D
+Seeburger Str
+Seecktstr
+Paewesiner Weg
+Schm-Knobelsdorf-Str
+Maulbeerallee
+Obstallee
+Heerstr/Sandstr
+Heerstr/Magistratsweg
+Heerstr 438-446
+Pillnitzer Weg
+Stadtgrenze
+
+	Stadtgrenze - U Rathaus Spandau
+-----------------------------------
+
+[infosystem_trip]
+1311
+STADTGRENZE-U RATHAUS SPANDAU
+211
+13N
+
+................
+
+[infosystem_busstop_list]
+13
+Stadtgrenze
+Pillnitzer Weg
+Heerstr 438-446
+Heerstr/Magistratsweg
+Heerstr/Sandstr
+Blasewitzer Ring
+Seeburger Weg
+Seeburger Str
+Paewesiner Weg
+Seecktstr
+Klosterstr
+Ruhlebener Str
+U Rathaus Spandau
+
+
+
+===============================================================================
+	31:
+===============================================================================
+
+
+
+ 
+
+        Reimerweg - Galenstrasse
+-----------------------------------
+
+[infosystem_trip]
+3101
+REIMERWEG - GALENSTR
+290
+31
+
+................
+
+[infosystem_busstop_list]
+17
+Reimerweg
+Pillnitzer Weg
+Heerstr 438-446
+Magistratsweg
+Maulbeerallee
+Baluschekweg
+Seeburger Weg
+Seeburger Str
+Kolonie Hasenheide
+Melanchthonpl
+Schwimmzentrum Spandau
+Bohse-Onkelz Kirche
+Altern Strasse
+Seeburger Str
+Ruhlebener Str
+U Rathaus Spandau
+S Bahnhof Galenstr
+
+	
+        Galenstrasse - Reimerweg
+-----------------------------------
+
+[infosystem_trip]
+3102
+GALENSTR - REIMERWEG
+079
+31
+
+................
+
+[infosystem_busstop_list]
+17
+Galenstr
+U Rathaus Spandau
+Brunsbütteler D
+Seeburger Str
+Altern Strasse
+Bohse-Onkelz Kirche
+Schwimmzentrum Spandau
+Melanchthonpl
+Kolonie Hasenheide
+Schm-Knobelsdorf-Str
+Maulbeerallee
+Baluschekweg
+Maulbeerallee
+Heerstr/Magistratsweg
+Heerstr 438-446
+Pillnitzer Weg
+Reimerweg
+
+===============================================================================
+	100:
+===============================================================================
+
+
+
+
+	Stadtgrenze - Olympiastadion
+-----------------------------------
+
+[infosystem_trip]
+10001
+STADTGRENZE - OLYMPIASTADION TERMINUS
+306
+10000
+
+................
+
+[infosystem_busstop_list]
+13
+Stadtgrenze
+Heerstr/Magistratsweg
+Heerstr/Sandstr
+Wilhelmstr
+Am Omnibushof
+Melanchthonpl
+Seeburger Str
+U Rathaus Spandau
+Platze
+Zeppelinstr
+Westerwaldstr
+Am Kiesteich
+Olympiastadion
+
+
+
+
+	Olympiastadion - Stadtgrenze
+-----------------------------------
+
+[infosystem_trip]
+10002
+OLYMPIASTADION - STADTGRENZE TERMINUS
+302
+10000
+................
+
+[infosystem_busstop_list]
+13
+Olympiastadion
+Am Kiesteich
+Siegener Str
+Zeppelinstr
+Platze
+U Rathaus Spandau
+Seeburger Str
+Melanchthonpl
+Am Omnibushof
+Wilhelmstr
+Heerstr/Sandstr
+Heerstr/Magistratsweg
+Stadtgrenze
+
+===============================================================================
+	63:
+===============================================================================
+
+
+
+
+	Am Omnibushof - Olympiastadion
+-----------------------------------
+
+[infosystem_trip]
+6301
+AM OMNIBUSHOF - OLYMPIASTADION
+174
+63
+
+................
+
+[infosystem_busstop_list]
+19
+Am Omnibushof
+Reichstag
+Melanchthonpl
+Metzer Str
+Seeburger Str
+Ruhlebener Str
+U Rathaus Spandau
+Moritzstr
+Hohenzollernring/Galenstr
+Jenneweg
+Borchertweg
+Hohenzollernring
+Zweibrücker Str
+Zeppelinstr
+Westerwaldstr
+Frankenwaldstr
+Am Kiesteich
+Im Spektefeld
+Olympiastadion
+
+
+
+
+	Olympiastadion - Am Omnibushof
+-----------------------------------
+
+[infosystem_trip]
+6302
+OLYMPIASTADION - AM OMNIBUSHOF
+223
+63
+................
+
+[infosystem_busstop_list]
+19
+Olympiastadion
+Im Spektefeld
+Am Kiesteich
+Mülheimer Str
+Siegener Str
+Zeppelinstr
+Zweibrücker Str
+Hohenzollernring
+Borchertweg
+Jenneweg
+Hohenzollernring/Galenstr
+Moritzstr
+U Rathaus Spandau
+Brunsbütteler D
+Seeburger Str
+Metzer Str
+Melanchthonpl
+Reichstag
+Am Omnibushof
+
+
+===============================================================================
+	5:
+===============================================================================
+
+
+
+
+	U Rathaus Spandau - Freudstr.
+-----------------------------------
+
+[infosystem_trip]
+0501
+U RATHAUS SPANDAU - FREUDSTR.
+210
+ 5
+
+................
+
+[infosystem_busstop_list]
+17
+U Rathaus Spandau
+Galenstr
+Spielstrasse
+Platze
+Zeppelinstrasse II
+Zeppelinstr
+Westerwaldstr
+Frankenwaldstr
+Am Kiesteich
+Im Spektefeld
+Paul-Gärtner-Ring
+Spektefeld Schulzentrum
+Hochhausweg
+Am Kirchenland
+Am Hullepfuhl
+Freudstr Falk
+Freudstr
+
+
+
+
+	Freudstr. - U Rathaus Spandau
+-----------------------------------
+
+[infosystem_trip]
+0502
+FREUDSTR. - U RATHAUS SPANDAU
+211
+ 5
+................
+
+[infosystem_busstop_list]
+18
+Freudstr
+Falkenseer Ch Freud
+Am Hullepfuhl
+Am Kirchenland
+Hochhausweg
+Spektefeld Schulzentrum
+Paul-Gärtner-Ring
+Im Spektefeld
+Am Kiesteich
+Mülheimer Str
+Siegener Str
+Zeppelinstr
+Zeppelinstrasse II
+Platze
+Spielstrasse
+Galenstr
+U Rathaus Spandau
+U Rathaus Spandau
+
+
+===============================================================================
+	94:
+===============================================================================
+
+
+
+
+	Heerstr Gymnasium - Aalemanuffer
+-----------------------------------
+
+[infosystem_trip]
+9401
+HEERSTR GYMNASIUM - AALEMANUFFER
+083
+94
+
+................
+
+[infosystem_busstop_list]
+20
+Heerstr Gymnasium
+Stadtgrenze
+Pillnitzer Weg
+Loschwitzer Weg
+Lutonerstr Market
+Lutoner Strasse
+Seeburger Str
+Paewesiner Weg
+Seecktstr
+Klosterstr
+Ruhlebener Str
+U Rathaus Spandau
+Moritzstr
+U Altstadt Spandau
+Hoher Steinweg
+Falkenseer Damm
+Flankenschanze
+Askanierring
+Aalemannufer
+Aalemannufer
+
+
+
+	Aalemanuffer - Heerstr Gymnasium
+-----------------------------------
+
+[infosystem_trip]
+9402
+AALEMANUFFER - HEERSTR GYMNASIUM
+300
+94
+................
+
+[infosystem_busstop_list]
+19
+Aalemannufer
+Askanierring
+Flankenschanze
+Falkenseer Pl
+U Altstadt Spandau
+Hoher Steinweg
+Moritzstr
+U Rathaus Spandau
+Brunsbütteler D
+Seeburger Str
+Seecktstr
+Paewesiner Weg
+Schm-Knobelsdorf-Str
+Lutoner Strasse
+Lutonerstr Market
+Loschwitzer Weg
+Pillnitzer Weg
+Stadtgrenze
+Heerstr Gymnasium
+
+
+===============================================================================
+	13:
+===============================================================================
+
+
+
+
+	Hahneberg - Maxim. Kolbe Str
+-----------------------------------
+
+[infosystem_trip]
+1301
+HAHNEBERG - MAXIM. KOLBE STR
+325
+13
+
+................
+
+[infosystem_busstop_list]
+18
+Hahneberg
+Hahneberg Grundstuck
+Pillnitzer Weg
+Heerstr 438-446
+Magistratsweg
+Obstallee
+Blasewitzer Ring
+Seeburger Weg
+Seeburger Str
+Kolonie Hasenheide
+Melanchthonpl
+Reichstag
+Am Omnibushof
+Wilhelmstr
+Heerstr/Wilhelmstr
+Potsdamer Chaussee
+Maxim. Kolbe Strasse
+Maxim. Kolbe Str
+
+
+	Maxim. Kolbe Str - Hahneberg
+-----------------------------------
+
+[infosystem_trip]
+1302
+MAXIM. KOLBE STR - HAHNEBERG
+259
+13
+................
+
+[infosystem_busstop_list]
+17
+Maxim. Kolbe Str
+Potsdamer Chaussee
+Heerstr/Wilhelmstr
+Wilhelmstr
+Am Omnibushof
+Reichstag
+Melanchthonpl
+Kolonie Hasenheide
+Schm-Knobelsdorf-Str
+Maulbeerallee
+Obstallee
+Obstallee II
+Heerstr/Magistratsweg
+Heerstr 438-446
+Pillnitzer Weg
+Hahneberg Grundstuck
+Hahneberg
+
+
+===============================================================================
+	54:
+===============================================================================
+
+
+
+
+	Aalemannufer - Waldkrankenhaus
+-----------------------------------
+
+[infosystem_trip]
+5401
+AALEMANNUER - WALDKRANKENHAUS
+313
+54
+
+................
+
+[infosystem_busstop_list]
+24
+Aalemannufer
+Askanierring
+Askanierring
+Hohenzollernring
+Zweibrücker Str
+Falkenseer Chaussee
+Einkaufszentrum
+Lindtstrasse Post
+Zoo
+Lindtstrasse
+Mülheimer Str
+Wasserwerkstr
+Beerwinkel
+Am Bogen
+Feldgrabensteig
+Im Spektefeld
+Hochhausweg
+Am Kirchenland
+Am Hullepfuhl
+Freudstr Falk
+Kraeplinweg
+Stadtrandstr II
+Wendelstrasse
+Waldkrankenhaus
+
+	Waldkrankenhaus - Aalemannufer
+-----------------------------------
+
+[infosystem_trip]
+5402
+WALDKRANKENHAUS - AALEMANNUFER
+083
+54
+................
+
+[infosystem_busstop_list]
+25
+Waldkrankenhaus
+Wendelstrasse
+Stadtrandstr II
+Kraeplinweg
+Falkenseer Ch Freud
+Am Hullepfuhl
+Am Kirchenland
+Hochhausweg
+Im Spektefeld
+Feldgrabensteig
+Am Bogen
+Beerwinkel
+Am Kiesteich
+Mülheimer Str
+Lindtstrasse
+Zoo
+Lindtstrasse BP
+Einkaufszentrum
+Zeppelinstr
+Zweibrücker Str
+Hohenzollernring
+Askanierring
+Askanierring
+Aalemannufer
+Aalemannufer
+
+
+
+===============================================================================
+	97:
+===============================================================================
+
+
+
+
+	Heerstr Gymnasium - Zoolog. Garten
+-----------------------------------
+
+[infosystem_trip]
+9701
+HEERSTR GYMNASIUM - ZOOLOG. GARTEN
+315
+97
+
+................
+
+[infosystem_busstop_list]
+24
+Heerstr Gymnasium
+Stadtgrenze
+Pillnitzer Weg
+Heerstr 438-446
+Heerstr/Magistratsweg
+Heerstr/Sandstr
+Wilhelmstr
+Gatower Str/Heerstr
+Am Omnibushof
+Reichstag
+Melanchthonpl
+Metzer Str
+Seeburger Str
+Ruhlebener Str
+U Rathaus Spandau
+Moritzstr
+Wroehmaennerpark
+Tenniszentrum
+Fabrik
+Friedhof
+Siegallee
+Einkaufszentrum
+Lindtstrasse Post
+Zoo
+
+	Zoolog. Garten - Heerstr Gymnasium
+-----------------------------------
+
+[infosystem_trip]
+9702
+ZOOLOG. GARTEN - HEERSTR GYMNASIUM 
+300
+97
+................
+
+[infosystem_busstop_list]
+24
+Zoo
+Lindtstrasse BP
+Einkaufszentrum
+Siegallee
+Friedhof
+Fabrik
+Tenniszentrum
+Wroehmaennerpark
+Moritzstr
+U Rathaus Spandau
+Brunsbütteler D
+Seeburger Str
+Metzer Str
+Melanchthonpl
+Reichstag
+Am Omnibushof
+Gatower Str
+Wilhelmstr
+Heerstr/Sandstr
+Heerstr/Magistratsweg
+Heerstr 438-446
+Pillnitzer Weg
+Stadtgrenze
+Heerstr Gymnasium
+
+
+===============================================================================
+	34:
+===============================================================================
+
+
+
+
+	Zoolog. Garten - Galenstrasse
+-----------------------------------
+
+[infosystem_trip]
+3401
+ZOOLOG. GARTEN - GALENSTR
+290
+34
+
+................
+
+[infosystem_busstop_list]
+16
+Zoo
+Lindtstrasse
+Lindtstrasse BP
+Einkaufszentrum
+Siegallee
+Friedhof
+Fabrik
+Tenniszentrum
+Wroehmaennerpark
+U Altstadt Spandau
+Hoher Steinweg
+Moritzstr
+Hohenzollernring/Galenstr
+Galenstr
+S Bahnhof Galenstr
+Galenstr Bahnhof
+
+	Galenstrasse - Zoolog. Garten
+-----------------------------------
+
+[infosystem_trip]
+3402
+GALENSTR - ZOOLOG. GARTEN
+315
+34
+................
+
+[infosystem_busstop_list]
+15
+Galenstr
+Galenstr
+Hohenzollernring/Galenstr
+Moritzstr
+U Altstadt Spandau
+Hoher Steinweg
+Wroehmaennerpark
+Tenniszentrum
+Fabrik
+Friedhof
+Siegallee
+Einkaufszentrum
+Lindtstrasse Post
+Lindtstrasse
+Zoo
+
+
+===============================================================================
+	35:
+===============================================================================
+
+
+
+
+	Heerstr E Gatower Str - Friedhof Spandau
+-----------------------------------
+
+[infosystem_trip]
+3501
+HEERSTR E GATOWER STR - FRIEDHOF SPANDAU
+230
+35
+
+................
+
+[infosystem_busstop_list]
+20
+Heerstr E Gatower Str
+Gatower Str/Heerstr
+Am Omnibushof
+Reichstag
+Melanchthonpl
+Schwimmzentrum Spandau
+Bohse-Onkelz Kirche
+Altern Strasse
+Seeburger Str
+Ruhlebener Str
+U Rathaus Spandau
+Moritzstr
+Aalemannufer
+Flankenschanze
+Askanierring
+Hohenzollernring
+Hohenzollernring
+Friedhoferstr
+Spandau Friedhof
+Friedhof Terminus
+
+	Friedhof Spandau - Heerstr E Gatower Str
+-----------------------------------
+
+[infosystem_trip]
+3502
+FRIEDHOF SPANDAU - HEERSTR E GATOWER STR
+078
+35
+................
+
+[infosystem_busstop_list]
+19
+Spandau Friedhof
+Friedhoferstr
+Hohenzollernring
+Hohenzollernring
+Askanierring
+Flankenschanze
+Aalemannufer
+Moritzstr
+U Rathaus Spandau
+Brunsbütteler D
+Seeburger Str
+Altern Strasse
+Bohse-Onkelz Kirche
+Schwimmzentrum Spandau
+Melanchthonpl
+Reichstag
+Am Omnibushof
+Gatower Str/Heerstr
+Heerstr E Gatower Str
+
+
+===============================================================================
+	56:
+===============================================================================
+
+
+
+
+	Maxim. Kolbe Str - Zoolog. Garten
+-----------------------------------
+
+[infosystem_trip]
+5601
+MAXIM. KOLBE STR - ZOOLOG. GARTEN
+315
+56
+
+................
+
+[infosystem_busstop_list]
+22
+Maxim. Kolbe Str
+Potsdamer Chaussee
+Heerstr E Gatower Str
+Gatower Str/Heerstr
+Am Omnibushof
+Reichstag
+Melanchthonpl
+Metzer Str
+Seeburger Str
+Ruhlebener Str
+U Rathaus Spandau
+Moritzstr
+Falkenseer Damm
+Flankenschanze
+Askanierring
+Hohenzollernring
+Zweibrücker Str
+Zeppelinstr
+Westerwaldstr
+Westerwaldstr. Schule
+Lindtstrasse
+Zoo
+
+	Zoolog. Garten - Maxim. Kolbe Str
+-----------------------------------
+
+[infosystem_trip]
+5602
+ZOOLOG. GARTEN - MAXIM. KOLBE STR
+325
+56
+................
+
+[infosystem_busstop_list]
+23
+Zoo
+Lindtstrasse
+Westerwaldstr. Schule
+Siegener Str
+Zeppelinstr
+Zweibrücker Str
+Hohenzollernring
+Askanierring
+Flankenschanze
+Falkenseer Pl
+Moritzstr
+U Rathaus Spandau
+Brunsbütteler D
+Seeburger Str
+Metzer Str
+Melanchthonpl
+Reichstag
+Am Omnibushof
+Gatower Str/Heerstr
+Heerstr E Gatower Str
+Potsdamer Chaussee
+Maxim. Kolbe Strasse
+Maxim. Kolbe Str
+
+
+===============================================================================
+	5N:
+===============================================================================
+
+
+
+
+	Waldkrankenhaus - Seeburger Str
+-----------------------------------
+
+[infosystem_trip]
+0510
+WALDKRANKENHAUS - SEEBURGER STR
+112
+ 5N
+
+................
+
+[infosystem_busstop_list]
+22
+Waldkrankenhaus
+Wendelstrasse
+Stadtrandstr II
+Stadtrandstr
+Am Bogen
+Beerwinkel
+Am Kiesteich
+Mülheimer Str
+Westerwaldstr
+Westerwaldstr. Schule
+Lindtstrasse
+Zoo
+Lindtstrasse BP
+Einkaufszentrum
+Zeppelinstr
+Zeppelinstrasse II
+Platze
+Spielstrasse
+Galenstr
+U Rathaus Spandau
+Brunsbütteler D
+Seeburger Str
+
+	Seeburger Str - Waldkrankenhaus
+-----------------------------------
+
+[infosystem_trip]
+0511
+SEEBURGER STR - WALDKRANKENHAUS
+313
+ 5N
+................
+
+[infosystem_busstop_list]
+22
+Seeburger Str
+Ruhlebener Str
+U Rathaus Spandau
+Galenstr
+Spielstrasse
+Platze
+Zeppelinstrasse II
+Falkenseer Chaussee
+Einkaufszentrum
+Lindtstrasse Post
+Zoo
+Lindtstrasse
+Westerwaldstr. Schule
+Westerwaldstr
+Frankenwaldstr
+Wasserwerkstr
+Beerwinkel
+Am Bogen
+Stadtrandstr
+Stadtrandstr II
+Wendelstrasse
+Waldkrankenhaus
+
+
+===============================================================================
+	91:
+===============================================================================
+
+
+
+
+	Reimerweg - Waldkrankenhaus
+-----------------------------------
+
+[infosystem_trip]
+9101
+REIMERWEG - WALDKRANKENHAUS
+313
+91
+
+................
+
+[infosystem_busstop_list]
+28
+Reimerweg
+Pillnitzer Weg
+Heerstr 438-446
+Magistratsweg
+Maulbeerallee
+Lutonerstr Market
+Lutoner Strasse
+Seeburger Str
+Kolonie Hasenheide
+Melanchthonpl
+Metzer Str
+Seeburger Str
+Ruhlebener Str
+U Rathaus Spandau
+Galenstr
+Spielstrasse
+Platze
+Zeppelinstrasse II
+Zeppelinstr
+Westerwaldstr
+Frankenwaldstr
+Wasserwerkstr
+Beerwinkel
+Am Bogen
+Stadtrandstr
+Stadtrandstr II
+Wendelstrasse
+Waldkrankenhaus
+
+	Waldkrankenhaus - Reimerweg
+-----------------------------------
+
+[infosystem_trip]
+9102
+WALDKRANKENHAUS - REIMERWEG
+079
+91
+................
+
+[infosystem_busstop_list]
+28
+Waldkrankenhaus
+Wendelstrasse
+Stadtrandstr II
+Stadtrandstr
+Am Bogen
+Beerwinkel
+Am Kiesteich
+Mülheimer Str
+Siegener Str
+Zeppelinstr
+Zeppelinstrasse II
+Platze
+Spielstrasse
+Galenstr
+U Rathaus Spandau
+Brunsbütteler D
+Seeburger Str
+Metzer Str
+Melanchthonpl
+Kolonie Hasenheide
+Schm-Knobelsdorf-Str
+Lutoner Strasse
+Lutonerstr Market
+Maulbeerallee
+Heerstr/Magistratsweg
+Heerstr 438-446
+Pillnitzer Weg
+Reimerweg
+
+
+
+===============================================================================
+	97N:
+===============================================================================
+
+
+
+
+	Heerstr E Gatower Str - Zoolog. Garten
+-----------------------------------
+
+[infosystem_trip]
+9710
+HEERSTR E GATOWER STR - ZOOLOG. GARTEN
+315
+97N
+
+................
+
+[infosystem_busstop_list]
+19
+Heerstr E Gatower Str
+Heerstr/Wilhelmstr
+Wilhelmstr
+Am Omnibushof
+Reichstag
+Melanchthonpl
+Metzer Str
+Seeburger Str
+Ruhlebener Str
+U Rathaus Spandau
+Moritzstr
+Wroehmaennerpark
+Tenniszentrum
+Fabrik
+Friedhof
+Siegallee
+Einkaufszentrum
+Lindtstrasse Post
+Zoo
+
+	Zoolog. Garten - Heerstr E Gatower Str
+-----------------------------------
+
+[infosystem_trip]
+9711
+ZOOLOG. GARTEN - HEERSTR E GATOWER STR 
+078
+97N
+................
+
+[infosystem_busstop_list]
+19
+Zoo
+Lindtstrasse BP
+Einkaufszentrum
+Siegallee
+Friedhof
+Fabrik
+Tenniszentrum
+Wroehmaennerpark
+Moritzstr
+U Rathaus Spandau
+Brunsbütteler D
+Seeburger Str
+Metzer Str
+Melanchthonpl
+Reichstag
+Am Omnibushof
+Wilhelmstr
+Heerstr/Wilhelmstr
+Heerstr E Gatower Str
+
+
+
+===============================================================================
+	34N:
+===============================================================================
+
+
+
+
+	S Bahnhof Galenstr.  - Olympiastadion
+-----------------------------------
+
+[infosystem_trip]
+3410
+S BAHNHOF GALENSTR - OLYMPIASTADION
+174
+34N
+................
+
+[infosystem_busstop_list]
+23
+Galenstr
+Galenstr
+Hohenzollernring/Galenstr
+Moritzstr
+U Altstadt Spandau
+Hoher Steinweg
+Falkenseer Damm
+Flankenschanze
+Askanierring
+Hohenzollernring
+Zweibrücker Str
+Zeppelinstr
+Westerwaldstr
+Frankenwaldstr
+Wasserwerkstr
+Beerwinkel
+Am Bogen
+Falkenseer Ch/Stadtrandstr
+Hochhausweg
+Spektefeld Schulzentrum
+Paul-Gärtner-Ring
+Im Spektefeld
+Olympiastadion
+
+
+	Olympiastadion - S Bahnhof Galenstr.
+-----------------------------------
+
+[infosystem_trip]
+3411
+OLYMPIASTADION - S BAHNHOF GALENSTR
+290
+34N
+................
+
+[infosystem_busstop_list]
+24
+Olympiastadion
+Im Spektefeld
+Paul-Gärtner-Ring
+Spektefeld Schulzentrum
+Hochhausweg
+Stadtrandstr
+Am Bogen
+Beerwinkel
+Am Kiesteich
+Mülheimer Str
+Siegener Str
+Zeppelinstr
+Zweibrücker Str
+Hohenzollernring
+Askanierring
+Flankenschanze
+Falkenseer Pl
+U Altstadt Spandau
+Hoher Steinweg
+Moritzstr
+Hohenzollernring/Galenstr
+Galenstr
+S Bahnhof Galenstr
+Galenstr Bahnhof
+
+
+
+===============================================================================
+	80:
+===============================================================================
+
+
+
+
+	Zoolog. Garten - S Bahnhof Staaken
+-----------------------------------
+
+[infosystem_trip]
+8001
+ZOOLOG. GARTEN - S BAHNHOF STAAKEN
+344
+80
+................
+
+[infosystem_busstop_list]
+18
+Zoo
+Lindtstrasse
+Lindtstrasse BP
+Einkaufszentrum
+Zeppelinstr
+Zweibrücker Str
+Hohenzollernring
+Borchertweg
+Jenneweg
+Galenstr
+U Rathaus Spandau
+Brunsbütteler D
+Elsflether Weg
+Nauener Str
+Zweiwinkelweg
+Paewesiner Weg
+Am Kurzen Weg
+S Bahnhof Staaken
+
+	S Bahnhof Staaken - Zoolog. Garten
+-----------------------------------
+
+[infosystem_trip]
+8002
+S BAHNHOF STAAKEN - ZOOLOG. GARTEN
+315
+80
+................
+
+[infosystem_busstop_list]
+18
+S Bahnhof Staaken
+Am Kurzen Weg
+Paewesiner Weg
+Zweiwinkelweg
+Nauener Str
+Elsflether Weg
+Ruhlebener Str
+U Rathaus Spandau
+Galenstr
+Jenneweg
+Borchertweg
+Hohenzollernring
+Zweibrücker Str
+Falkenseer Chaussee
+Einkaufszentrum
+Lindtstrasse Post
+Lindtstrasse
+Zoo

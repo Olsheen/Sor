@@ -1,0 +1,743 @@
+Diese Datei wurde mit der HOF Suite von Rumpelhans geschrieben.
+
+[name]
+GPM InterEssonne
+
+[servicetrip]
+Sans voyageur
+
+[global_strings]
+6
+Grand Paris-Moulon
+Grand Paris-Moulon
+Grand Paris-Moulon
+
+
+
+
+stringcount_terminus
+23
+
+stringcount_busstop
+9
+
+[addterminus_list]
+{ALLEX}	000	Vide	Vide				Blanko.tga	Vide																	
+{ALLEX}	900	Mise en Service	Mise en Service		Mise en Service	Mise en Service		Mise en Service		Grand Paris-Moulon\Mobitec_InterEssonne_GB\HLP_MES.png				Grand Paris-Moulon\Mobitec_InterEssonne_GB\900.png	Grand Paris-Moulon\Mobitec_InterEssonne_GB\900.png										
+{ALLEX}	901	Retour depot	RETOUR DEPOT		RETOUR DEPOT	RETOUR DEPOT	Blanko.tga	Retour depot		Grand Paris-Moulon\Mobitec_InterEssonne_GB\HLP_RetourDepot.png				Grand Paris-Moulon\Mobitec_InterEssonne_GB\901.png	Grand Paris-Moulon\Mobitec_InterEssonne_GB\901.png										
+{ALLEX}	902	Sans voyageur	Sans voyageur		Sans voyageur	Sans voyageur	Blanko.tga	Sans voyageur		Grand Paris-Moulon\Mobitec_InterEssonne_GB\HLP_SV.png															
+{ALLEX}	903	Service Special	SERVICE SPECIAL		SERVICE SPECIAL	SERVICE SPECIAL	Blanko.tga	SERVICE SPECIAL		Grand Paris-Moulon\Mobitec_InterEssonne_GB\HLP_SP.png															
+	031	91.03 MASSY Gare	MASSY GARE      	LIGNE 91.03     	MASSY Gare      	MASSY Gare      	Blanko.tga	MASSY Gare          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9103_Massy.png															
+	1031	91.03 MASSY Gare	MASSY GARE      	LIGNE 91.03     	MASSY Gare      	MASSY Gare      	Blanko.tga	MASSY Gare          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9103_viaGareAuto.png															
+	032	91.03 CHOISEL Gare	CHOISEL GARE    	LIGNE 91.03     	CHOISEL Gare    	CHOISEL Gare    	Blanko.tga	CHOISEL Gare        		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9103_Choisel.png															
+	1032	91.03 CHOISEL Gare	CHOISEL GARE    	LIGNE 91.03     	CHOISEL Gare    	CHOISEL Gare    	Blanko.tga	CHOISEL Gare        		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9103_viaGareAuto.png															
+	904	Formation	Formation		Formation	Formation	Blanko.tga	Formation		Grand Paris-Moulon\Mobitec_InterEssonne_GB\HLP_Formation.png															
+	051	91.05 MASSY Gare	MASSY GARE      	LIGNE 91.05     	MASSY Gare      	MASSY Gare      	Blanko.tga	MASSY Gare          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9105_Massy.png															
+	052	91.05 EVRAY CC	EVRAY CC        	LIGNE 91.05     	ENVRAY Ctr Cial 	EVRAY CC        	Blanko.tga	EVRAY CC            		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9105_Envray.png															
+	061	91.06A MASSY Gare	MASSY GARE      	LIGNE 91.06A    	MASSY Gare      	MASSY Gare      	Blanko.tga	91.06A MASSY-PALAISEAU Gare          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9106A_Massy.png					Grand Paris-Moulon\Mobitec_InterEssonne_GB\61.png										
+	062	91.06A CORMEILLES Gare	CORMEILLES GARE 	LIGNE 91.06A    	CORMEILLES Gare 	CORMEILLES Gare 	Blanko.tga	91.06A CORMEILLES Gare     		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9106A_Cormeilles.png					Grand Paris-Moulon\Mobitec_InterEssonne_GB\62.png										
+	063	91.06B MASSY Gare	MASSY GARE      	LIGNE 91.06B    	MASSY Gare      	MASSY Gare      	Blanko.tga	91.06B MASSY-PALAISEAU Gare          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9106B_Massy.png					Grand Paris-Moulon\Mobitec_InterEssonne_GB\63.png										
+	064	91.06B CORMEILLES Gare	CORMEILLES GARE 	LIGNE 91.06B    	CORMEILLES Gare 	CORMEILLES Gare 	Blanko.tga	91.06B CORMEILLES Gare     		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9106B_Cormeilles.png					Grand Paris-Moulon\Mobitec_InterEssonne_GB\64.png										
+	065	91.06C MASSY Gare	MASSY GARE      	LIGNE 91.06C    	MASSY Gare      	MASSY Gare      	Blanko.tga	91.06C MASSY-PALAISEAU Gare          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9106C_Massy.png					Grand Paris-Moulon\Mobitec_InterEssonne_GB\65.png										
+	1065	91.06C MASSY Gare	MASSY GARE      	LIGNE 91.06C    	MASSY Gare      	MASSY Gare      	Blanko.tga	91.06C MASSY-PALAISEAU Gare          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9106C_Validation.png					Grand Paris-Moulon\Mobitec_InterEssonne_GB\masque.png										
+	066	91.06C MOULON	PLATEAU MOULON  	LIGNE 91.06C    	Plt. du Moulon  	PLATEAU MOULON  	Blanko.tga	91.06C MOULON Plateau du Moulon      		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9106C_Moulon.png					Grand Paris-Moulon\Mobitec_InterEssonne_GB\66.png										
+	1066	91.06C MOULON	PLATEAU MOULON  	LIGNE 91.06C    	Plt. du Moulon  	PLATEAU MOULON  	Blanko.tga	91.06C MOULON Plateau du Moulon      		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9106C_Validation.png					Grand Paris-Moulon\Mobitec_InterEssonne_GB\masque.png										
+	067	91.06D MASSY Gare	MASSY GARE      	LIGNE 91.06D    	MASSY Gare      	MASSY Gare      	Blanko.tga	91.06D MASSY-PALAISEAU Gare          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9106D_Massy.png					Grand Paris-Moulon\Mobitec_InterEssonne_GB\67.png										
+	1067	91.06D MASSY Gare	MASSY GARE      	LIGNE 91.06D    	MASSY Gare      	MASSY Gare      	Blanko.tga	91.06D MASSY-PALAISEAU Gare          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9106D_Validation.png					Grand Paris-Moulon\Mobitec_InterEssonne_GB\masque.png										
+	068	91.06D MOULON	PLATEAU MOULON  	LIGNE 91.06D    	Plt. du Moulon  	PLATEAU MOULON  	Blanko.tga	91.06D MOULON Plateau du Moulon      		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9106D_Moulon.png					Grand Paris-Moulon\Mobitec_InterEssonne_GB\68.png										
+	1068	91.06D MOULON	PLATEAU MOULON  	LIGNE 91.06D    	Plt. du Moulon  	PLATEAU MOULON  	Blanko.tga	91.06D MOULON Plateau du Moulon      		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9106D_Validation.png					Grand Paris-Moulon\Mobitec_InterEssonne_GB\masque.png							LIGNE 91.06D	Dir. Plateau du MOULON	
+	071	91.07 MASSY Gare	MASSY GARE      	LIGNE 91.07     	MASSY Gare      	MASSY Gare      	Blanko.tga	MASSY Gare          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9107_Massy.png															
+	072	91.07 ST LOGES	ST LOGES        	LIGNE 91.07     	ST LOGES Centre 	ST LOGES        	Blanko.tga	ST LOGES            		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9107_StLoges.png															
+	101	91.10 MOULON	MOULON          	LIGNE 91.10     	Plateau Moulon  	MOULON          	Blanko.tga	91.10 MOULON Plateau du Moulon              		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9110_Moulon.png															
+	1101	91.10 MOULON	MOULON          	LIGNE 91.10     	Plateau Moulon  	MOULON          	Blanko.tga	91.10 MOULON Plateau du Moulon              		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9110_viaMassy.png															
+	102	91.10 ORLY T2	ORLY            	LIGNE 91.10     	Aeroport ORLY T2	ORLY            	Blanko.tga	91.10 ORLY Aerport Orly T2               		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9110_Orly.png															
+	1102	91.10 ORLY T2	ORLY            	LIGNE 91.02     	Aeroport ORLY T2	ORLY            	Blanko.tga	91.10 ORLY Aerport Orly T2                		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9110_viaMassy.png															
+	701	DM11 MASSY Gare	MASSY GARE      	LIGNE DM11      	MASSY Gare SNCF 	MASSY Gare      	Blanko.tga	MASSY Gare          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\DM11_Massy.png															
+	702	DM11 LONGJUMEAU	LONGJUMEAU      	LIGNE DM11      	LONGJUMEAU      	LONGJUMEAU      	Blanko.tga	LONGJUMEAU          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\DM11_Longjumeau.png															
+	703	DM14 MASSY Gare	MASSY GARE      	LIGNE DM14      	MASSY Gare SNCF 	MASSY Gare      	Blanko.tga	MASSY Gare          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\DM14_Massy.png															
+	704	DM14 IGNY PL AC	IGNY PL AC      	LIGNE DM14      	IGNY Pl A. Camus	IGNY PL AC      	Blanko.tga	IGNY PL AC          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\DM14_Igny.png															
+	710	91.02 MASSY Gare	MASSY GARE      	   LIGNE 91.02  	   MASSY Gare   	MASSY Gare      	Blanko.tga	MASSY Gare          		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9102_Massy.png															
+	711	91.02 STE GENEVIEVE	STE GENEVIEVE   	   LIGNE 91.02  	STE GENEVIEVE   	STE GENEVIEVE   	Blanko.tga	STE GENEVIEVE       		Grand Paris-Moulon\Mobitec_InterEssonne_GB\9102_SteGen.png															
+	989	PILOTAGE A DISTANCE	PILOTAGE A DISTANCE	PILOTAGE A DISTANCE       	PILOTAGE A DISTANCE     	PILOTAGE A DISTANCE     		PILOTAGE A DISTANCE         		Grand Paris-Moulon\Mobitec_InterEssonne_GB\remoteDest.png															
+	1989	PILOTAGE A DISTANCE	PILOTAGE A DISTANCE	PILOTAGE A DISTANCE       	PILOTAGE A DISTANCE     	PILOTAGE A DISTANCE     		PILOTAGE A DISTANCE         		Grand Paris-Moulon\Mobitec_InterEssonne_GB\remoteDest.png															
+	99991	ANNONCES SONORE	Bienvenue a bord	bienvenu.wav	Prochain Arret Terminus	PATerminus.wav	Merci de valider votre titre de transport	TTObligatoire.wav	libérer les portes	LibPortes.wav
+	99992	ANNONCES SONORE	Imobilisation Momentatné	ImobMom.wav	Merci de plier vos poussettes	poussettes.wav	Assurez vous de n'avoir rien n'oublier à bord	oublierAbord.wav	Merci d'avancer vers le fond du véhicule	fondDuVhc.wav
+[end]
+
+[addbusstop_list]
+KEM - Depot Noisy-le-Bacle	Stop Codes							
+Ferme Neuve	Stop Codes							
+Haut-Pre	Stop Codes							
+Noisy le Bacle	Stop Codes							
+Fauvettes	Stop Codes							
+Rucheres	Stop Codes							
+Petit plan	Stop Codes							
+Route de Chevreuse	Stop Codes							
+Jules Verne	Stop Codes							
+Mairie de Nozay	Stop Codes							
+Petit bois	Stop Codes							
+Bievres Gare	Stop Codes							
+Val de Grace	Stop Codes							
+Clos Normand	Stop Codes							
+Villeras	Stop Codes							
+Gare de Vauboyen	Stop Codes							
+Petit Viltain	Stop Codes							
+PAUSE PV1	Stop Codes							
+PAUSE KEM - Depot Noisy-le-Bacle	Stop Codes							
+PAUSE PV2	Stop Codes							
+Pause Jules Verne	Stop Codes							
+College Jean Mace	Stop Codes							
+Rond-Point de Chateaufort	Stop Codes							
+Haie Bergerie	Stop Codes							
+Prieure	Stop Codes							
+La Gandonnerie	Stop Codes							
+Robert Capa	Stop Codes							
+Les Hauts du Moulin	Stop Codes							
+PAUSE RD98	Stop Codes							
+SACM - Depot Marcoussis	Stop Codes							
+Bois Persan	Stop Codes							
+Launay	Stop Codes							
+Quartier residentiel	Stop Codes							
+La Martiniere	Stop Codes							
+Laboratoires	Stop Codes							
+Pylanderies	Stop Codes							
+Etoiles	Stop Codes							
+Villarceaux	Stop Codes							
+Paris-Sud XI	Stop Codes							
+Chateau	Stop Codes							
+Orsay-Ville Gare	Stop Codes							
+PAUSE ORSAY 7	Stop Codes							
+PAUSE BP1	Stop Codes							
+Mare du Vivier	Stop Codes							
+PAUSE O1	Stop Codes							
+Residence Emilie du Chatelet	Stop Codes							
+Polytech Paris-Moulon	Stop Codes							
+La Huniere - ONERA	Stop Codes							
+Fresnel	Stop Codes							
+La Vauve	Stop Codes							
+PAUSE VAUVE 1	Stop Codes							
+Pause QR	Stop Codes							
+Fonceaux	Stop Codes							
+Le Rocher	Stop Codes							
+Rond-Point Curie	Stop Codes							
+Lycee Camille Claudel	Stop Codes							
+Campus Paris-Moulon	Stop Codes							
+Parc Omega	Stop Codes							
+Grand Dome	Stop Codes							
+Hub Hotels	Stop Codes							
+PAUSE BP2	Stop Codes							
+PAUSE ORSAY 14	Stop Codes							
+PMSud - Thales	Stop Codes							
+EDF Emeraude Opale	Stop Codes							
+EDF Campus Paris Moulon	Stop Codes							
+PAUSE EDF1	Stop Codes							
+PMSud Thales	Stop Codes							
+PAUSE EDF2	Stop Codes							
+PAUSE O2	Stop Codes							
+PAUSE VAUVE 2	Stop Codes							
+Gymnase Georges Castaing	Stop Codes							
+Foncaux	Stop Codes							
+CC Les Ulis 2	Stop Codes							
+MASSY-PALAISEAU Gare	Stop Codes							
+Place de l'Europe	Stop Codes							
+Fontaine de Jouvance	Stop Codes							
+Choisel Gare	Stop Codes							
+SACV - Depot de Cormeilles	Stop Codes							
+CORMEILLES Gare	Stop Codes							
+Dome	Stop Codes							
+Les Gobelins	Stop Codes							
+Division Leclerc	Stop Codes							
+Avenue Cormeilles Sud	Stop Codes							
+Genevieve Aube	Stop Codes							
+Jean Mace	Stop Codes							
+Petit Plan	Stop Codes							
+Place du village	Stop Codes							
+Croix Pasquier	Stop Codes							
+Plateau du Moulon	Stop Codes							
+Les Algorithmes	Stop Codes							
+Les Tuileries	Stop Codes							
+EDF Campus Paris-Moulon	Stop Codes							
+Les Joncherettes	Stop Codes							
+ENSTA - Moulon Sud	Stop Codes							
+Marguerite Perey	Stop Codes							
+Groupe Airbus	Stop Codes							
+Residence La Vallee	Stop Codes							
+Palaiseau Ville	Stop Codes							
+MASSY-PALAISEAU Gare RER	Stop Codes							
+Pause CORMEILLES 1	Stop Codes							
+ENSTA - Moulon Sud 	Stop Codes							
+PAUSE MASSY 2	Stop Codes							
+PAUSE MASSY 3	Stop Codes							
+Pause CORMEILLES 2	Stop Codes							
+PAUSE PM1	Stop Codes							
+PAUSE MASSY 1	Stop Codes							
+PAUSE PM4	Stop Codes							
+PAUSE MASSY 4	Stop Codes							
+CEA Moulon quai 34 terminus	Stop Codes							
+CEA Moulon quai 34	Stop Codes							
+Doseo quai A2	Stop Codes							
+Synchrotron	Stop Codes							
+Digiteo	Stop Codes							
+---------------									
+DEPARTS :									
+LIGNE 91.06 :									
+06A_MG_Dep_Cormeilles Gare	DEPART 06A CG   	Ligne 91.06A	Massy Gare	Depart 06A CG					
+06B_MG_Dep_Cormeilles Gare	DEPART 06B CG   	Ligne 91.06B	Massy Gare	Depart 06B CG					
+06C_MG_Dep_Plateau du Moulon	DEPART 06C PM   	Ligne 91.06C	Massy Gare	Depart 06C PM					
+06D_MG_Dep_Plateau du Moulon	DEPART 06D PM   	Ligne 91.06D	Massy Gare	Depart 06D PM					
+06A_CG_Dep_Massy Gare	DEPART 06A MG   	Ligne 91.06A	Cormeilles Gare	Depart 06A MG					
+06B_CG_Dep_Massy Gare	DEPART 06B MG   	Ligne 91.06B	Cormeilles Gare	Depart 06B MG					
+06C_PM_Dep_Massy Gare	DEPART 06C MG   	Ligne 91.06C	Plateau du Moulon	Depart 06C MG					
+06D_PM_Dep_Massy Gare	DEPART 06D MG   	Ligne 91.06D	Plateau du Moulon	Depart 06D MG					
+---------------									
+TERMINUS :									
+LIGNE 91.06 :									
+06_A_Massy Gare	MASSY GARE TERM 	Massy Gare	TERMINUS	Massy Gare TERMINUS					
+06_A_Plateau du Moulon	PL MOULON TERM  	Plateau du Moulon	TERMINUS	Pl. Moulon TERMINUS					
+06_A_Cormeilles Gare	CORMEILLES TERM 	Cormeilles Gare	TERMINUS	Cormeilles Gare Term					
+---------------									
+PROCHAIN ARRET :									
+LIGNE 91.06 :									
+06_PA_Massy Gare	MASSY GARE      	Prochain arret	Massy Gare	Massy Gare					
+06_PA_Palaiseau ville	PALAISEAU VILLE 	Prochain arret	Palaiseau ville	Palaiseau ville					
+06_PA_Résidence La Vallée	RESIDENCE LA VAL	Prochain arret	Residence La Vallee	Residence La Vallee					
+06_PA_Lycée Camille Claudel	CAMILLE CLAUDEL 	Prochain arret	Lycee Camille Claudel	Camille Claudel					
+06_PA_Campus Paris-Moulon	CAMPUS PM       	Prochain arret	Campus Paris-Moulon	Campus Paris-Moulon					
+06_PA_Groupe Airbus	GROUPE AIRBUS   	Prochain arret	Groupe Airbus	Groupe Airbus					
+06_PA_Danone Research	DANONE RESEARCH 	Prochain arret	Danone Research	Danone Research					
+06_PA_ENSTA Moulon Sud	ENSTA MOULON SUD	Prochain arret	ENSTA Moulon Sud	ENSTA Moulon Sud					
+06_PA_Les Joncherettes	LES JONCHERETTES	Prochain arret	Les Joncherettes	Les Joncherettes					
+06_PA_PMSud Thalès	PMSUD THALES    	Prochain arret	PMSud Thales	PMSud Thales					
+06_PA_Orme des Merisiers	ORME DES MERISIE	Prochain arret	Campus EDF	Campus EDF					
+06_PA_Les Tuileries	LES TUILERIES   	Prochain arret	Les Tuileries	Les Tuileries					
+06_PA_Les Algorithmes	LES ALGORITHMES 	Prochain arret	Les Algorithmes	Les Algorithmes					
+06_PA_Mare du Vivier	MARE DU VIVIER  	Prochain arret	Mare du Vivier	Mare du Vivier					
+06_PA_La Martinière	LA MARTINIERE   	Prochain arret	La Martiniere	La Martiniere					
+06_PA_Plateau du MoulonT	PL MOULON TERM  	Prochain arret	Plateau du Moulon	Plateau du Moulon T					
+06_PA_Plateau du Moulon	PL MOULON       	Prochain arret	Plateau du Moulon	Plateau du Moulon					
+06_PA_Croix Pasquier	CROIX PASQUIER  	Prochain arret	Croix Pasquier	Croix Pasquier					
+06_PA_Place du Village	PLACE DU VILLAGE	Prochain arret	Place du Village	Place du Village					
+06_PA_Noisy le Bâcle	NOISY LE BACLE  	Prochain arret	Noisy le Bacle	Noisy le Bacle					
+06_PA_Fauvettes	FAUVETTES       	Prochain arret	Fauvettes	Fauvettes					
+06_PA_Ruchères	RUCHERES        	Prochain arret	Rucheres	Rucheres					
+06_PA_Petit Plan	PETIT PLAN      	Prochain arret	Petit Plan	Petit Plan					
+06_PA_Jules Verne	JULES VERNE     	Prochain arret	Jules Verne	Jules Verne					
+06_PA_Rond-point	ROND-POINT      	Prochain arret	Rond-point	Rond-point					
+06_PA_Jean Macé	JEAN MACE       	Prochain arret	Jean Mace	Jean Mace					
+06_PA_Geneviève Aubé	GENEVIEVE AUBE  	Prochain arret	Genevieve Aube	Genevieve Aube					
+06_PA_Avenue Cormeilles Sud	CORMEILLES SUD  	Prochain arret	Avenue Cormeilles Sud	Avenue CormeillesSud					
+06_PA_Division Leclerc	DIVISION LECLERC	Prochain arret	Division Leclerc	Division Leclerc					
+06_PA_Les Gobelins	LES GOBELINS    	Prochain arret	Les Gobelins	Les Gobelins					
+06_PA_Dôme	DOME            	Prochain arret	Dome	Dome					
+06_PA_Cormeilles Gare	CORMEILLES GARE 	Prochain arret	Cormeilles Gare	Cormeilles Gare					
+---------------									
+ARRET :									
+>>>>>>>91.06A<<<<<<									
+-----------------> Cormeilles gare									
+06A_CG_A_Dome	DOME            	Dome	91.06A Cormeilles Gare	Dome					
+06A_CG_A_Les Gobelins	LES GOBELINS    	Les Gobelins	91.06A Cormeilles Gare	Les Gobelins					
+06A_CG_A_Division Leclerc	DIVISION LECLERC	Division Leclerc	91.06A Cormeilles Gare	Division Leclerc					
+06A_CG_A_Avenue Cormeilles Sud	CORMEILLES SUD  	Avenue Cormeilles Sud	91.06A Cormeilles Gare	Avenue CormeillesSud					
+06A_CG_A_Geneviève Aubé	GENEVIEVE AUBE  	Genevieve Aube	91.06A Cormeilles Gare	Genevieve Aube					
+06A_CG_A_Jean Macé	JEAN MACE       	Jean Mace	91.06A Cormeilles Gare	Jean Mace					
+06A_CG_A_Rond-point	ROND-POINT      	Rond-point	91.06A Cormeilles Gare	Rond-point					
+06A_CG_A_Jules Verne	JULES VERNE     	Jules Verne	91.06A Cormeilles Gare	Jules Verne					
+06A_CG_A_Petit plan	PETIT PLAN      	Petit plan	91.06A Cormeilles Gare	Petit plan					
+06A_CG_A_Ruchères	RUCHERES        	Rucheres	91.06A Cormeilles Gare	Rucheres					
+06A_CG_A_Fauvettes	FAUVETTES       	Fauvettes	91.06A Cormeilles Gare	Fauvettes					
+06A_CG_A_Noisy le Bâcle	NOISY LE BACLE  	Noisy le Bacle	91.06A Cormeilles Gare	Noisy le Bacle					
+06A_CG_A_Place du Village	PLACE DU VILLAGE	Place du Village	91.06A Cormeilles Gare	Place du Village					
+06A_CG_A_Croix Pasquier	CROIX PASQUIER  	Croix Pasquier	91.06A Cormeilles Gare	Croix Pasquier					
+06A_CG_A_Plateau du Moulon	PLATEAU MOULON  	Plateau du Moulon	91.06A Cormeilles Gare	Plateau du Moulon					
+06A_CG_A_La Martinière	LA MARTINIERE   	La Martiniere	91.06A Cormeilles Gare	La Martiniere					
+06A_CG_A_Lycée Camille Claudel	CAMILLE CLAUDEL 	Lycee Camille Claudel	91.06A Cormeilles Gare	Camille Claudel					
+06A_CG_A_Résidence La Vallée	RÉSIDENCE LA VAL	Residence La Vallee	91.06A Cormeilles Gare	Résidence La Vallee					
+06A_CG_A_Palaiseau ville	PALAISEAU VILLE 	Palaiseau ville	91.06A Cormeilles Gare	Palaiseau ville					
+-----------------> Massy gare									
+06A_MG_A_Dome	DOME            	Dome	91.06A Massy Gare	Dome					
+06A_MG_A_Les Gobelins	LES GOBELINS    	Les Gobelins	91.06A Massy Gare	Les Gobelins					
+06A_MG_A_Division Leclerc	DIVISION LECLERC	Division Leclerc	91.06A Massy Gare	Division Leclerc					
+06A_MG_A_Avenue Cormeilles Sud	CORMEILLES SUD  	Avenue Cormeilles Sud	91.06A Massy Gare	Avenue CormeillesSud					
+06A_MG_A_Genevieve Aube	GENEVIEVE AUBE  	Genevieve Aube	91.06A Massy Gare	Genevieve Aube					
+06A_MG_A_Jean Macé	JEAN MACE       	Jean Mace	91.06A Massy Gare	Jean Mace					
+06A_MG_A_Rond-point	ROND-POINT      	Rond-point	91.06A Massy Gare	Rond-point					
+06A_MG_A_Jules Verne	JULES VERNE     	Jules Verne	91.06A Massy Gare	Jules Verne					
+06A_MG_A_Petit plan	PETIT PLAN      	Petit plan	91.06A Massy Gare	Petit plan					
+06A_MG_A_Ruchères	RUCHERES        	Rucheres	91.06A Massy Gare	Rucheres					
+06A_MG_A_Fauvettes	FAUVETTES       	Fauvettes	91.06A Massy Gare	Fauvettes					
+06A_MG_A_Noisy le Bâcle	NOISY LE BACLE  	Noisy le Bacle	91.06A Massy Gare	Noisy le Bacle					
+06A_MG_A_Place du Village	PLACE DU VILLAGE	Place du Village	91.06A Massy Gare	Place du Village					
+06A_MG_A_Croix Pasquier	CROIX PASQUIER  	Croix Pasquier	91.06A Massy Gare	Croix Pasquier					
+06A_MG_A_Plateau du Moulon	PLATEAU MOULON  	Plateau du Moulon	91.06A Massy Gare	Plateau du Moulon					
+06A_MG_A_La Martinière	LA MARTINIERE   	La Martiniere	91.06A Massy Gare	La Martiniere					
+06A_MG_A_Lycée Camille Claudel	CAMILLE CLAUDEL 	Lycee Camille Claudel	91.06A Massy Gare	Camille Claudel					
+06A_MG_A_Résidence La Vallée	RÉSIDENCE LA VAL	Residence La Vallee	91.06A Massy Gare	Résidence La Vallee					
+06A_MG_A_Palaiseau ville	PALAISEAU VILLE 	Palaiseau ville	91.06A Massy Gare	Palaiseau ville					
+									
+>>>>>>>91.06B<<<<<<									
+-----------------> Cormeilles gare									
+06B_CG_A_Dome	DOME            	Dome	91.06B Cormeilles Gare	Dome					
+06B_CG_A_Les Gobelins	LES GOBELINS    	Les Gobelins	91.06B Cormeilles Gare	Les Gobelins					
+06B_CG_A_Division Leclerc	DIVISION LECLERC	Division Leclerc	91.06B Cormeilles Gare	Division Leclerc					
+06B_CG_A_Avenue Cormeilles Sud	CORMEILLES SUD  	Avenue Cormeilles Sud	91.06B Cormeilles Gare	Avenue CormeillesSud					
+06B_CG_A_Geneviève Aubé	GENEVIEVE AUBE  	Genevieve Aube	91.06B Cormeilles Gare	Genevieve Aube					
+06B_CG_A_Jean Macé	JEAN MACE       	Jean Mace	91.06B Cormeilles Gare	Jean Mace					
+06B_CG_A_Rond-point	ROND-POINT      	Rond-point	91.06B Cormeilles Gare	Rond-point					
+06B_CG_A_Jules Verne	JULES VERNE     	Jules Verne	91.06B Cormeilles Gare	Jules Verne					
+06B_CG_A_Petit plan	PETIT PLAN      	Petit plan	91.06B Cormeilles Gare	Petit plan					
+06B_CG_A_Ruchères	RUCHERES        	Rucheres	91.06B Cormeilles Gare	Rucheres					
+06B_CG_A_Fauvettes	FAUVETTES       	Fauvettes	91.06B Cormeilles Gare	Fauvettes					
+06B_CG_A_Noisy le Bâcle	NOISY LE BACLE  	Noisy le Bacle	91.06B Cormeilles Gare	Noisy le Bacle					
+06B_CG_A_Place du Village	PLACE DU VILLAGE	Place du Village	91.06B Cormeilles Gare	Place du Village					
+06B_CG_A_Croix Pasquier	CROIX PASQUIER  	Croix Pasquier	91.06B Cormeilles Gare	Croix Pasquier					
+06B_CG_A_Plateau du Moulon	PLATEAU MOULON  	Plateau du Moulon	91.06B Cormeilles Gare	Plateau du Moulon					
+06B_CG_A_Lycée Camille Claudel	CAMILLE CLAUDEL 	Lycee Camille Claudel	91.06B Cormeilles Gare	Camille Claudel					
+06B_CG_A_Résidence La Vallée	RÉSIDENCE LA VAL	Residence La Vallee	91.06B Cormeilles Gare	Résidence La Vallee					
+06B_CG_A_Palaiseau ville	PALAISEAU VILLE 	Palaiseau ville	91.06B Cormeilles Gare	Palaiseau ville					
+06B_CG_A_Mare du Vivier	MARE DU VIVIER  	Mare du Vivier	91.06B Cormeilles Gare	Mare du Vivier					
+06B_CG_A_Les Algorithmes	LES ALGORITHMES 	Les Algorithmes	91.06B Cormeilles Gare	Les Algorithmes					
+06B_CG_A_Les Tuileries	LES TUILERIES   	Les Tuileries	91.06B Cormeilles Gare	Les Tuileries					
+06B_CG_A_Orme des Merisiers	ORME DES MERISIE	Campus EDF	91.06B Cormeilles Gare	Campus EDF					
+06B_CG_A_PMSud Thalès	PMSUD THALES    	PMSud Thales	91.06B Cormeilles Gare	PMSud Thales					
+06B_CG_A_Les Joncherettes	LES JONCHERETTES	Les Joncherettes	91.06B Cormeilles Gare	Les Joncherettes					
+06B_CG_A_ENSTA Moulon Sud	ENSTA MOULON SUD	ENSTA Moulon Sud	91.06B Cormeilles Gare	ENSTA Moulon Sud					
+06B_CG_A_Danone Research	DANONE RESEARCH 	Danone Research	91.06B Cormeilles Gare	Danone Research					
+06B_CG_A_Groupe Airbus	GROUPE AIRBUS   	Groupe Airbus	91.06B Cormeilles Gare	Groupe Airbus					
+06B_CG_A_Campus Paris-Moulon	CAMPUS PM       	Campus Paris-Moulon	91.06B Cormeilles Gare	Campus Paris-Moulon					
+-----------------> Massy gare									
+06B_MG_A_Dome	DOME            	Dome	91.06B Massy Gare	Dome					
+06B_MG_A_Les Gobelins	LES GOBELINS    	Les Gobelins	91.06B Massy Gare	Les Gobelins					
+06B_MG_A_Division Leclerc	DIVISION LECLERC	Division Leclerc	91.06B Massy Gare	Division Leclerc					
+06B_MG_A_Avenue Cormeilles Sud	CORMEILLES SUD  	Avenue Cormeilles Sud	91.06B Massy Gare	Avenue CormeillesSud					
+06B_MG_A_Geneviève Aubé	GENEVIEVE AUBE  	Genevieve Aube	91.06B Massy Gare	Genevieve Aube					
+06B_MG_A_Jean Macé	JEAN MACE       	Jean Mace	91.06B Massy Gare	Jean Mace					
+06B_MG_A_Rond-point	ROND-POINT      	Rond-point	91.06B Massy Gare	Rond-point					
+06B_MG_A_Jules Verne	JULES VERNE     	Jules Verne	91.06B Massy Gare	Jules Verne					
+06B_MG_A_Petit plan	PETIT PLAN      	Petit plan	91.06B Massy Gare	Petit plan					
+06B_MG_A_Ruchères	RUCHERES        	Rucheres	91.06B Massy Gare	Rucheres					
+06B_MG_A_Fauvettes	FAUVETTES       	Fauvettes	91.06B Massy Gare	Fauvettes					
+06B_MG_A_Noisy le Bâcle	NOISY LE BACLE  	Noisy le Bacle	91.06B Massy Gare	Noisy le Bacle					
+06B_MG_A_Place du Village	PLACE DU VILLAGE	Place du Village	91.06B Massy Gare	Place du Village					
+06B_MG_A_Croix Pasquier	CROIX PASQUIER  	Croix Pasquier	91.06B Massy Gare	Croix Pasquier					
+06B_MG_A_Plateau du Moulon	PLATEAU MOULON  	Plateau du Moulon	91.06B Massy Gare	Plateau du Moulon					
+06B_MG_A_Lycée Camille Claudel	CAMILLE CLAUDEL 	Lycee Camille Claudel	91.06B Massy Gare	Camille Claudel					
+06B_MG_A_Résidence La Vallée	RÉSIDENCE LA VAL	Residence La Vallee	91.06B Massy Gare	Résidence La Vallee					
+06B_MG_A_Palaiseau ville	PALAISEAU VILLE 	Palaiseau ville	91.06B Massy Gare	Palaiseau ville					
+06B_MG_A_Mare du Vivier	MARE DU VIVIER  	Mare du Vivier	91.06B Massy Gare	Mare du Vivier					
+06B_MG_A_Les Algorithmes	LES ALGORITHMES 	Les Algorithmes	91.06B Massy Gare	Les Algorithmes					
+06B_MG_A_Les Tuileries	LES TUILERIES   	Les Tuileries	91.06B Massy Gare	Les Tuileries					
+06B_MG_A_Orme des Merisiers	ORME DES MERISIE	Campus EDF	91.06B Massy Gare	Campus EDF					
+06B_MG_A_PMSud Thalès	PMSUD THALES    	PMSud Thales	91.06B Massy Gare	PMSud Thales					
+06B_MG_A_Les Joncherettes	LES JONCHERETTES	Les Joncherettes	91.06B Massy Gare	Les Joncherettes					
+06B_MG_A_ENSTA Moulon Sud	ENSTA MOULON SUD	ENSTA Moulon Sud	91.06B Massy Gare	ENSTA Moulon Sud					
+06B_MG_A_Danone Research	DANONE RESEARCH 	Danone Research	91.06B Massy Gare	Danone Research					
+06B_MG_A_Groupe Airbus	GROUPE AIRBUS   	Groupe Airbus	91.06B Massy Gare	Groupe Airbus					
+06B_MG_A_Campus Paris-Moulon	CAMPUS PM       	Campus Paris-Moulon	91.06B Massy Gare	Campus Paris-Moulon					
+									
+>>>>>>>91.06C<<<<<<									
+-----------------> Plateau du Moulon									
+06C_PM_A_Plateau du Moulon	PLATEAU MOULON  	Plateau du Moulon	91.06C Pl. Moulon	Plateau du Moulon					
+06C_PM_A_Lycée Camille Claudel	CAMILLE CLAUDEL 	Lycee Camille Claudel	91.06C Pl. Moulon	Camille Claudel					
+06C_PM_A_Résidence La Vallée	RÉSIDENCE LA VAL	Residence La Vallee	91.06C Pl. Moulon	Résidence La Vallee					
+06C_PM_A_Palaiseau ville	PALAISEAU VILLE 	Palaiseau ville	91.06C Pl. Moulon	Palaiseau ville					
+06C_PM_A_Mare du Vivier	MARE DU VIVIER  	Mare du Vivier	91.06C Pl. Moulon	Mare du Vivier					
+06C_PM_A_Les Algorithmes	LES ALGORITHMES 	Les Algorithmes	91.06C Pl. Moulon	Les Algorithmes					
+06C_PM_A_Les Tuileries	LES TUILERIES   	Les Tuileries	91.06C Pl. Moulon	Les Tuileries					
+06C_PM_A_Orme des Merisiers	ORME DES MERISIE	Campus EDF	91.06C Pl. Moulon	Campus EDF					
+06C_PM_A_PMSud Thalès	PMSUD THALES    	PMSud Thales	91.06C Pl. Moulon	PMSud Thales					
+06C_PM_A_Les Joncherettes	LES JONCHERETTES	Les Joncherettes	91.06C Pl. Moulon	Les Joncherettes					
+06C_PM_A_ENSTA Moulon Sud	ENSTA MOULON SUD	ENSTA Moulon Sud	91.06C Pl. Moulon	ENSTA Moulon Sud					
+06C_PM_A_Danone Research	DANONE RESEARCH 	Danone Research	91.06C Pl. Moulon	Danone Research					
+06C_PM_A_Groupe Airbus	GROUPE AIRBUS   	Groupe Airbus	91.06C Pl. Moulon	Groupe Airbus					
+06C_PM_A_Campus Paris-Moulon	CAMPUS PM       	Campus Paris-Moulon	91.06C Pl. Moulon	Campus Paris-Moulon					
+-----------------> Massy gare									
+06C_MG_A_Plateau du Moulon	PLATEAU MOULON  	Plateau du Moulon	91.06C Massy Gare	Plateau du Moulon					
+06C_MG_A_Lycée Camille Claudel	CAMILLE CLAUDEL 	Lycee Camille Claudel	91.06C Massy Gare	Camille Claudel					
+06C_MG_A_Résidence La Vallée	RÉSIDENCE LA VAL	Residence La Vallee	91.06C Massy Gare	Résidence La Vallee					
+06C_MG_A_Palaiseau ville	PALAISEAU VILLE 	Palaiseau ville	91.06C Massy Gare	Palaiseau ville					
+06C_MG_A_Mare du Vivier	MARE DU VIVIER  	Mare du Vivier	91.06C Massy Gare	Mare du Vivier					
+06C_MG_A_Les Algorithmes	LES ALGORITHMES 	Les Algorithmes	91.06C Massy Gare	Les Algorithmes					
+06C_MG_A_Les Tuileries	LES TUILERIES   	Les Tuileries	91.06C Massy Gare	Les Tuileries					
+06C_MG_A_Orme des Merisiers	ORME DES MERISIE	Campus EDF	91.06C Massy Gare	Campus EDF					
+06C_MG_A_PMSud Thalès	MGSUD THALES    	PMSud Thales	91.06C Massy Gare	PMSud Thales					
+06C_MG_A_Les Joncherettes	LES JONCHERETTES	Les Joncherettes	91.06C Massy Gare	Les Joncherettes					
+06C_MG_A_ENSTA Moulon Sud	ENSTA MOULON SUD	ENSTA Moulon Sud	91.06C Massy Gare	ENSTA Moulon Sud					
+06C_MG_A_Danone Research	DANONE RESEARCH 	Danone Research	91.06C Massy Gare	Danone Research					
+06C_MG_A_Groupe Airbus	GROUPE AIRBUS   	Groupe Airbus	91.06C Massy Gare	Groupe Airbus					
+06C_MG_A_Campus Paris-Moulon	CAMPUS MG       	Campus Paris-Moulon	91.06C Massy Gare	Campus Paris-Moulon					
+									
+>>>>>>>91.06D<<<<<<									
+-----------------> Plateau du Moulon									
+06D_PM_A_Plateau du Moulon	PLATEAU MOULON  	Plateau du Moulon	91.06D Pl. Moulon	Plateau du Moulon					
+06D_PM_A_La Martinière	LA MARTINIERE   	La Martiniere	91.06D Pl. Moulon	La Martiniere					
+06D_PM_A_Lycée Camille Claudel	CAMILLE CLAUDEL 	Lycee Camille Claudel	91.06D Pl. Moulon	Camille Claudel					
+06D_PM_A_Résidence La Vallée	RÉSIDENCE LA VAL	Residence La Vallee	91.06D Pl. Moulon	Résidence La Vallee					
+06D_PM_A_Palaiseau ville	PALAISEAU VILLE 	Palaiseau ville	91.06D Pl. Moulon	Palaiseau ville					
+-----------------> Massy gare									
+06D_MG_A_Plateau du Moulon	PLATEAU MOULON  	Plateau du Moulon	91.06D Massy Gare	Plateau du Moulon					
+06D_MG_A_La Martinière	LA MARTINIERE   	La Martiniere	91.06D Massy Gare	La Martiniere					
+06D_MG_A_Lycée Camille Claudel	CAMILLE CLAUDEL 	Lycee Camille Claudel	91.06D Massy Gare	Camille Claudel					
+06D_MG_A_Résidence La Vallée	RÉSIDENCE LA VAL	Residence La Vallee	91.06D Massy Gare	Résidence La Vallee					
+06D_MG_A_Palaiseau ville	PALAISEAU VILLE 	Palaiseau ville	91.06D Massy Gare	Palaiseau ville					
+[end]
+
+[infosystem_trip]
+001
+91.06A -> MASSY GARE
+61
+0
+
+[infosystem_busstop_list]
+42
+06A_MG_Dep_Cormeilles Gare
+06A_MG_Dep_Cormeilles Gare
+06_PA_Dôme
+06A_MG_A_Dome
+06_PA_Les Gobelins
+06A_MG_A_Les Gobelins
+06_PA_Division Leclerc
+06A_MG_A_Division Leclerc
+06_PA_Avenue Cormeilles Sud
+06A_MG_A_Avenue Cormeilles Sud
+06_PA_Geneviève Aubé
+06A_MG_A_Genevieve Aube
+06_PA_Jean Macé
+06A_MG_A_Jean Macé
+06_PA_Rond-point
+06A_MG_A_Rond-point
+06_PA_Jules Verne
+06A_MG_A_Jules Verne
+06_PA_Petit Plan
+06A_MG_A_Petit plan
+06_PA_Ruchères
+06A_MG_A_Ruchères
+06_PA_Fauvettes
+06A_MG_A_Fauvettes
+06_PA_Noisy le Bâcle
+06A_MG_A_Noisy le Bâcle
+06_PA_Place du Village
+06A_MG_A_Place du Village
+06_PA_Croix Pasquier
+06A_MG_A_Croix Pasquier
+06_PA_Plateau du Moulon
+06A_MG_A_Plateau du Moulon
+06_PA_La Martinière
+06A_MG_A_La Martinière
+06_PA_Lycée Camille Claudel
+06A_MG_A_Lycée Camille Claudel
+06_PA_Résidence La Vallée
+06A_MG_A_Résidence La Vallée
+06_PA_Palaiseau ville
+06A_MG_A_Palaiseau ville
+06_PA_Massy Gare
+06_A_Massy Gare
+
+[infosystem_trip]
+002
+91.06A -> CORMEILLES GARE
+62
+0
+
+[infosystem_busstop_list]
+42
+06A_CG_Dep_Massy Gare
+06A_CG_Dep_Massy Gare
+06_PA_Palaiseau ville
+06A_CG_A_Palaiseau ville
+06_PA_Résidence La Vallée
+06A_CG_A_Résidence La Vallée
+06_PA_Lycée Camille Claudel
+06A_CG_A_Lycée Camille Claudel
+06_PA_La Martinière
+06A_CG_A_La Martinière
+06_PA_Plateau du Moulon
+06A_CG_A_Plateau du Moulon
+06_PA_Croix Pasquier
+06A_CG_A_Croix Pasquier
+06_PA_Place du Village
+06A_CG_A_Place du Village
+06_PA_Noisy le Bâcle
+06A_CG_A_Noisy le Bâcle
+06_PA_Fauvettes
+06A_CG_A_Fauvettes
+06_PA_Ruchères
+06A_CG_A_Ruchères
+06_PA_Petit Plan
+06A_CG_A_Petit plan
+06_PA_Jules Verne
+06A_CG_A_Jules Verne
+06_PA_Rond-point
+06A_CG_A_Rond-point
+06_PA_Jean Macé
+06A_CG_A_Jean Macé
+06_PA_Geneviève Aubé
+06A_CG_A_Geneviève Aubé
+06_PA_Avenue Cormeilles Sud
+06A_CG_A_Avenue Cormeilles Sud
+06_PA_Division Leclerc
+06A_CG_A_Division Leclerc
+06_PA_Les Gobelins
+06A_CG_A_Les Gobelins
+06_PA_Dôme
+06A_CG_A_Dome
+06_PA_Cormeilles Gare
+06_A_Cormeilles Gare
+
+[infosystem_trip]
+003
+91.06B -> MASSY GARE
+63
+0
+
+[infosystem_busstop_list]
+60
+06B_MG_Dep_Cormeilles Gare
+06B_MG_Dep_Cormeilles Gare
+06_PA_Dôme
+06B_MG_A_Dome
+06_PA_Les Gobelins
+06B_MG_A_Les Gobelins
+06_PA_Division Leclerc
+06B_MG_A_Division Leclerc
+06_PA_Avenue Cormeilles Sud
+06B_MG_A_Avenue Cormeilles Sud
+06_PA_Geneviève Aubé
+06B_MG_A_Geneviève Aubé
+06_PA_Jean Macé
+06B_MG_A_Jean Macé
+06_PA_Rond-point
+06B_MG_A_Rond-point
+06_PA_Jules Verne
+06B_MG_A_Jules Verne
+06_PA_Petit Plan
+06B_MG_A_Petit plan
+06_PA_Ruchères
+06B_MG_A_Ruchères
+06_PA_Fauvettes
+06B_MG_A_Fauvettes
+06_PA_Noisy le Bâcle
+06B_MG_A_Noisy le Bâcle
+06_PA_Place du Village
+06B_MG_A_Place du Village
+06_PA_Croix Pasquier
+06B_MG_A_Croix Pasquier
+06_PA_Plateau du Moulon
+06B_MG_A_Plateau du Moulon
+06_PA_Mare du Vivier
+06B_MG_A_Mare du Vivier
+06_PA_Les Algorithmes
+06B_MG_A_Les Algorithmes
+06_PA_Les Tuileries
+06B_MG_A_Les Tuileries
+06_PA_Orme des Merisiers
+06B_MG_A_Orme des Merisiers
+06_PA_PMSud Thalès
+06B_MG_A_PMSud Thalès
+06_PA_Les Joncherettes
+06B_MG_A_Les Joncherettes
+06_PA_ENSTA Moulon Sud
+06B_MG_A_ENSTA Moulon Sud
+06_PA_Danone Research
+06B_MG_A_Danone Research
+06_PA_Groupe Airbus
+06B_MG_A_Groupe Airbus
+06_PA_Campus Paris-Moulon
+06B_MG_A_Campus Paris-Moulon
+06_PA_Lycée Camille Claudel
+06B_MG_A_Lycée Camille Claudel
+06_PA_Résidence La Vallée
+06B_MG_A_Résidence La Vallée
+06_PA_Palaiseau ville
+06B_MG_A_Palaiseau ville
+06_PA_Massy Gare
+06_A_Massy Gare
+
+[infosystem_trip]
+004
+91.06B -> CORMEILLES GARE
+64
+0
+
+[infosystem_busstop_list]
+60
+06B_CG_Dep_Massy Gare
+06B_CG_Dep_Massy Gare
+06_PA_Palaiseau ville
+06B_CG_A_Palaiseau ville
+06_PA_Résidence La Vallée
+06B_CG_A_Résidence La Vallée
+06_PA_Lycée Camille Claudel
+06B_CG_A_Lycée Camille Claudel
+06_PA_Campus Paris-Moulon
+06B_CG_A_Campus Paris-Moulon
+06_PA_Groupe Airbus
+06B_CG_A_Groupe Airbus
+06_PA_Danone Research
+06B_CG_A_Danone Research
+06_PA_ENSTA Moulon Sud
+06B_CG_A_ENSTA Moulon Sud
+06_PA_Les Joncherettes
+06B_CG_A_Les Joncherettes
+06_PA_PMSud Thalès
+06B_CG_A_PMSud Thalès
+06_PA_Orme des Merisiers
+06B_CG_A_Orme des Merisiers
+06_PA_Les Tuileries
+06B_CG_A_Les Tuileries
+06_PA_Les Algorithmes
+06B_CG_A_Les Algorithmes
+06_PA_Mare du Vivier
+06B_CG_A_Mare du Vivier
+06_PA_Plateau du Moulon
+06B_CG_A_Plateau du Moulon
+06_PA_Croix Pasquier
+06B_CG_A_Croix Pasquier
+06_PA_Place du Village
+06B_CG_A_Place du Village
+06_PA_Noisy le Bâcle
+06B_CG_A_Noisy le Bâcle
+06_PA_Fauvettes
+06B_CG_A_Fauvettes
+06_PA_Ruchères
+06B_CG_A_Ruchères
+06_PA_Petit Plan
+06B_CG_A_Petit plan
+06_PA_Jules Verne
+06B_CG_A_Jules Verne
+06_PA_Rond-point
+06B_CG_A_Rond-point
+06_PA_Jean Macé
+06B_CG_A_Jean Macé
+06_PA_Geneviève Aubé
+06B_CG_A_Geneviève Aubé
+06_PA_Avenue Cormeilles Sud
+06B_CG_A_Avenue Cormeilles Sud
+06_PA_Division Leclerc
+06B_CG_A_Division Leclerc
+06_PA_Les Gobelins
+06B_CG_A_Les Gobelins
+06_PA_Dôme
+06B_CG_A_Dome
+06_PA_Cormeilles Gare
+06_A_Cormeilles Gare
+
+[infosystem_trip]
+005
+91.06C -> MASSY GARE
+65
+0
+
+[infosystem_busstop_list]
+30
+06C_MG_Dep_Plateau du Moulon
+06C_MG_Dep_Plateau du Moulon
+06_PA_Mare du Vivier
+06C_MG_A_Mare du Vivier
+06_PA_Les Algorithmes
+06C_MG_A_Les Algorithmes
+06_PA_Les Tuileries
+06C_MG_A_Les Tuileries
+06_PA_Orme des Merisiers
+06C_MG_A_Orme des Merisiers
+06_PA_PMSud Thalès
+06C_MG_A_PMSud Thalès
+06_PA_Les Joncherettes
+06C_MG_A_Les Joncherettes
+06_PA_ENSTA Moulon Sud
+06C_MG_A_ENSTA Moulon Sud
+06_PA_Danone Research
+06C_MG_A_Danone Research
+06_PA_Groupe Airbus
+06C_MG_A_Groupe Airbus
+06_PA_Campus Paris-Moulon
+06C_MG_A_Campus Paris-Moulon
+06_PA_Lycée Camille Claudel
+06C_MG_A_Lycée Camille Claudel
+06_PA_Résidence La Vallée
+06C_MG_A_Résidence La Vallée
+06_PA_Palaiseau ville
+06C_MG_A_Palaiseau ville
+06_PA_Massy Gare
+06_A_Massy Gare
+
+[infosystem_trip]
+006
+91.06C -> PLATEAU DU MOULON
+66
+0
+
+[infosystem_busstop_list]
+30
+06C_PM_Dep_Massy Gare
+06C_PM_Dep_Massy Gare
+06_PA_Palaiseau ville
+06C_PM_A_Palaiseau ville
+06_PA_Résidence La Vallée
+06C_PM_A_Résidence La Vallée
+06_PA_Lycée Camille Claudel
+06C_PM_A_Lycée Camille Claudel
+06_PA_Campus Paris-Moulon
+06C_PM_A_Campus Paris-Moulon
+06_PA_Groupe Airbus
+06C_PM_A_Groupe Airbus
+06_PA_Danone Research
+06C_PM_A_Danone Research
+06_PA_ENSTA Moulon Sud
+06C_PM_A_ENSTA Moulon Sud
+06_PA_Les Joncherettes
+06C_PM_A_Les Joncherettes
+06_PA_PMSud Thalès
+06C_PM_A_PMSud Thalès
+06_PA_Orme des Merisiers
+06C_PM_A_Orme des Merisiers
+06_PA_Les Tuileries
+06C_PM_A_Les Tuileries
+06_PA_Les Algorithmes
+06C_PM_A_Les Algorithmes
+06_PA_Mare du Vivier
+06C_PM_A_Mare du Vivier
+06_PA_Plateau du MoulonT
+06_A_Plateau du Moulon
+
+[infosystem_trip]
+007
+91.06D -> MASSY GARE
+67
+0
+
+[infosystem_busstop_list]
+12
+06D_MG_Dep_Plateau du Moulon
+06D_MG_Dep_Plateau du Moulon
+06_PA_La Martinière
+06D_MG_A_La Martinière
+06_PA_Lycée Camille Claudel
+06D_MG_A_Lycée Camille Claudel
+06_PA_Résidence La Vallée
+06D_MG_A_Résidence La Vallée
+06_PA_Palaiseau ville
+06D_MG_A_Palaiseau ville
+06_PA_Massy Gare
+06_A_Massy Gare
+
+[infosystem_trip]
+008
+91.06D -> PLATEAU DU MOULON
+68
+0
+
+[infosystem_busstop_list]
+12
+06D_PM_Dep_Massy Gare
+06D_PM_Dep_Massy Gare
+06_PA_Palaiseau ville
+06D_PM_A_Palaiseau ville
+06_PA_Résidence La Vallée
+06D_PM_A_Résidence La Vallée
+06_PA_Lycée Camille Claudel
+06D_PM_A_Lycée Camille Claudel
+06_PA_La Martinière
+06D_PM_A_La Martinière
+06_PA_Plateau du MoulonT
+06_A_Plateau du Moulon
+

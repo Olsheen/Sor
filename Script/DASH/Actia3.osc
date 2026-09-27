@@ -1,0 +1,849 @@
+'###############
+'Actia Dashboard
+'###############
+
+' Actia Dashboard script
+
+'     09.11.2020 Fourkane Mhoma (TheFMrr)
+'	  14.08.2022 NEROSY (Réécriture)
+
+'Script Version: 2.0
+'Omsi Release: 2.3.004
+
+'Needs:
+'- antrieb
+'- engine
+'- bremse
+'- lights
+'- doors
+'- elec
+
+'Revision History
+
+'- Fourkane Mhoma   09.11.2020    Created
+'- Fourkane Mhoma   24.12.2020    Fixed Red Light and dash sound
+'- Acrotere Design  30.11.2021  [Irisbus Citybus Family] tweaks
+'- NEROSY			12.10.2022	[Iveco Citybus Family] Adaptation du tableau de bord pour la marque Iveco
+'- NEROSY			12.10.2022	[Iveco Citybus Family] Ajout d'un frein d'arrêt alternatif 
+'								(setvar "Self_mode" sur 0 : Arrêt d'exploitation classique, sur 1 : Arrêt d'exploitation différencié de l'arrêt hors exploitation)
+
+'--------------------------------------------------------------------------------
+
+'#### NOTES
+' 2.3
+' 3.75
+'150
+'### END NOTES
+
+'----------------------
+' Triggers
+'----------------------
+
+' /// INFO MODES NAVIGATION ///
+{trigger:Actia_Dash_changemode_up}
+' > Go into informations mode, from main mode
+  (L.L.Actia_DISPLAY_mode) 1 =
+  {if}
+    2.1 (S.L.Actia_DISPLAY_mode_GoTo)
+  {else}
+' > Navigate between informations mode
+    (L.L.Actia_DISPLAY_mode) 2.1 = {if} 2.2 (S.L.Actia_DISPLAY_mode_GoTo) {endif}
+    (L.L.Actia_DISPLAY_mode) 2.2 = {if} 2.3 (S.L.Actia_DISPLAY_mode_GoTo) {endif}
+    (L.L.Actia_DISPLAY_mode) 2.3 =
+    {if}
+      (L.L.Actia_DASH_STOP_active)
+      {if}
+        3 (S.L.Actia_DISPLAY_mode_GoTo)
+      {else}
+        (L.L.Actia_DASH_WARNING_active)
+        {if}
+          4 (S.L.Actia_DISPLAY_mode_GoTo)
+        {else}
+          1 (S.L.Actia_DISPLAY_mode_GoTo)
+        {endif}
+      {endif}
+    {endif}
+  {endif}
+
+  (L.L.Actia_Display_mode) trunc 3 =
+  {if}
+    (L.L.Actia_DISPLAY_mode) 0.1 + (S.L.Actia_DISPLAY_mode_GoTo)
+  {endif}
+
+  (L.L.Actia_DISPLAY_mode) 4 =
+  {if}
+    (L.L.Actia_DASH_STOP_active)
+    {if}
+      3 (S.L.Actia_DISPLAY_mode_GoTo)
+    {else}
+      1 (S.L.Actia_DISPLAY_mode_GoTo)
+    {endif}
+  {endif}
+
+  1 (S.L.Actia_BTN_chmod_up)
+  (L.S.GetTime) (S.L.Actia_InfoMode_RedirectTimer)
+  (T.L.ev_Actia_BTN_misc_pushed)
+{end}
+
+{trigger:Actia_Dash_changemode_up_off}
+  0 (S.L.Actia_BTN_chmod_up)
+  (T.L.ev_Actia_BTN_misc_released)
+{end}
+
+{trigger:Actia_Dash_changemode_down}
+  1 (S.L.Actia_BTN_chmod_down)
+  (T.L.ev_Actia_BTN_misc_pushed)
+{end}
+
+{trigger:Actia_Dash_changemode_down_off}
+  0 (S.L.Actia_BTN_chmod_down)
+  (T.L.ev_Actia_BTN_misc_released)
+{end}
+
+{trigger:Actia_Dash_alphascale_up}
+  (L.L.Actia_DASH_on)
+  {if}
+    (L.L.Actia_DASH_alphascale) 0.1 - 0 max (S.L.Actia_DASH_alphascale)
+  {endif}
+{end}
+
+{trigger:Actia_Dash_alphascale_dn}
+  (L.L.Actia_DASH_on)
+  {if}
+    (L.L.Actia_DASH_alphascale) 0.1 + 0.8 min (S.L.Actia_DASH_alphascale)
+  {endif}
+{end}
+
+{trigger:Actia_Dash_ResetKm}
+  (L.L.Actia_DASH_on)
+  {if}
+    (L.L.kmcounter_km) (S.L.Actia_DASH_kmcount_last)
+  {endif}
+{end}
+
+'----------------------
+' Init
+'----------------------
+
+{macro:Actia_Dash_init}
+
+  0 (S.L.Actia_DASH_alphascale)
+  0 (S.L.Actia_DASH_alphascale)
+  0 (S.L.Actia_DASH_alphascale)
+  0 (S.L.Actia_DASH_alphascale)
+
+{end}
+
+'----------------------
+' Frame
+'----------------------
+
+{macro:Actia_Dash_frame}
+  (M.L.Actia_Dash_lights)
+  (M.L.Actia_Dash_sounds)
+  (M.L.Actia_Dash_display)
+{end}
+
+' >>> Sound Management <<
+{macro:Actia_Dash_sounds}
+
+  (L.L.Actia_INT_startuptimer) s0 7.9 >= l0 8.35 < &&
+  (L.L.Actia_DASH_STOP_active_timer) s1 0 > l1 3 < && ||
+  (L.L.Actia_DASH_Lights_motortest) ||
+  {if}
+    3
+  {else}
+  (L.L.doorfront_emergency) (L.L.doorback23_emergency) || (L.L.doorback45_emergency) || (L.L.doorback67_emergency) || (L.S.GetTime) 1 % 0.5 < && (L.L.Actia_INT_startuptimer) 8.35 > &&
+  (L.L.Actia_INT_startuptimer) s0 7.45 >= l0 7.9 < && ||
+  (L.L.Actia_DASH_WARNING_active_timer) s2 0 > l2 3 < && ||
+  (L.L.Actia_DASH_on) (L.L.Actia_SND_doorOK_timer) s1 0.5 > l1 0.7 < && && ||
+  (L.L.Actia_DASH_on) (L.L.Actia_SND_bremseOK_timer) s3 0.2 > l3 0.5 < && && ||
+  {if}
+    2
+  {else}
+  (L.L.Actia_DASH_on) ! (L.L.Actia_INT_startuptimer) 7 < && (L.L.bremse_feststell) ! (L.L.Actia_energy_last) && &&
+  (L.L.Actia_INT_startuptimer) 7 >= l0 7.45 < && ||
+  {if}
+    1
+  {else}
+    0
+  {endif}
+  {endif}
+  {endif}
+  (S.L.Actia_SND_warn)
+
+' Gong
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) >
+  (L.L.Actia_BTN_gong) &&
+  (S.L.Actia_SND_gong)
+
+' Motor started indicator
+
+  (L.L.Actia_engine_on_timer_allowed)
+  {if}
+    (L.L.Actia_engine_on_timer) (L.L.elec_busbar_main) (C.L.elec_busbar_minV) < 10 * + (L.S.Timegap) + 10 min s0
+  {else}
+    0
+  {endif}
+  (S.L.Actia_engine_on_timer)
+
+  (L.L.engine_on)
+  {if}
+    1 (S.L.Actia_engine_on_timer_allowed)
+    l0 5 > l0 8 < && (S.L.Actia_DASH_Lights_motortest)
+  {else}
+    0 (S.L.Actia_engine_on_timer) (S.L.Actia_engine_on_timer_allowed) (S.L.Actia_DASH_Lights_motortest)
+  {endif}
+
+{end}
+
+' >>> BoardComputer <<<
+{macro:Actia_DASH_display} 1 (S.L.Refresh_Strings)
+
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) >
+  {if}
+
+'   ~~~ Startup ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    (L.L.Actia_DASH_on) !
+    {if}
+      (L.L.Actia_INT_startuptimer) (L.S.Timegap) + (S.L.Actia_INT_startuptimer) s0 (L.L.Actia_DISPLAY_mode) s1
+      l0 0.2 >= l0 3 < && (S.L.Actia_DASH_Lights_initcheck) {if} "Actia_DISPLAY\Actia_DISPLAY_startuplogo.tga" (S.$.Actia_BoardComputer) 1 (S.L.Actia_DISPLAY_backlight) 0 (S.L.Actia_DISPLAY_chmod_loadingtimer) 1 (S.L.Actia_DASH_kmcounter_on) {endif}
+      l0 3 >= l0 3.1 < && l1 2.1 = ! && {if} 2.1 (S.L.Actia_DISPLAY_mode_GoTo) {endif}
+      l0 9 >= l0 9.1 < && l1 2.2 = ! && {if} 2.2 (S.L.Actia_DISPLAY_mode_GoTo) {endif}
+      l0 12 > l0 12.1 < && {if} (L.L.Actia_DASH_STOP_active) {if} 4 (S.L.Actia_DISPLAY_mode_GoTo) 1 (S.L.Actia_DASH_on) {else} (L.L.Actia_DASH_WARNING_active) {if} 3 (S.L.Actia_DISPLAY_mode_GoTo) {else} 1 (S.L.Actia_DISPLAY_mode_GoTo) (S.L.Actia_DASH_on)  {endif} {endif} {endif}
+      l0 14 > {if} 1 (S.L.Actia_DISPLAY_mode_GoTo) (S.L.Actia_DASH_on) {endif}
+    {endif}
+
+    1 (S.L.Actia_energy_last)
+
+'   ~~~ Modes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+'   1 : Main Screen
+'   2 : Informations (Water temp, air pressure...)
+'   3 : ALERT Screen (yellow light indic)
+'   4 : STOP Screen (red light indic)
+
+    (L.L.Actia_DISPLAY_mode) 1 =
+    {if}
+	
+'	Récupération des données : JJ/MM/AA -> Actia_DISPLAY_driving_date
+		(L.S.Day) "02" $IntToStrEnh "/" $+
+		(L.S.Month) "02" $IntToStrEnh $+ "/" $+
+		(L.S.Year) $IntToStr 2 $SetLengthR $+
+		(S.$.Actia_DISPLAY_driving_date)
+'	Récupération des données : HH:MM -> Actia_DISPLAY_driving_time
+		(L.S.Time) 3600 / s6 trunc s7 "02" $IntToStrEnh ":" $+
+		l6 l7 - 60 * trunc "02" $IntToStrEnh $+
+		(S.$.Actia_DISPLAY_driving_time)
+' 	Récupération des données : TT°C -> Actia_DISPLAY_driving_temp
+		(L.S.Weather_Temperature) s0 trunc " 3" $IntToStrEnh "C" $+
+		(S.$.Actia_DISPLAY_driving_temp)
+
+        (L.L.Actia_DISPLAY_chmod_loadingtimer) (L.S.Timegap) + 6 min (S.L.Actia_DISPLAY_chmod_loadingtimer) s0
+        0.125 > l0 5 < &&
+        {if}
+		  0 (S.L.MessIncendie)
+          (L.L.bremse_halte) (L.L.bremse_halte_sw) || (L.L.bremse_feststell) || s1
+          {if}
+            "Actia_DISPLAY\Actia_DISPLAY_main_stop" "3" $+ ".tga" $+ (S.$.Actia_BoardComputer)
+          {else}
+            "Actia_DISPLAY\Actia_DISPLAY_main.tga" (S.$.Actia_BoardComputer)
+			l1 !
+          {endif}
+          5 (S.L.Actia_DISPLAY_chmod_loadingtimer)
+        {else}
+          l0 0.125 < 
+		  {if} 
+		  "Actia_DISPLAY\Actia_DISPLAY_empty.tga" (S.$.Actia_BoardComputer) 
+		  {endif}
+        {endif}
+
+        (L.L.bremse_halte) (L.L.bremse_halte_sw) || (L.L.bremse_feststell) || s1
+        (L.L.Actia_DISPLAY_mo1_MUXInfos) = (L.L.Actia_DISPLAY_chmod_loadingtimer) 5.125 >= && s2
+'       > Bremse halte / Parking brake indicator
+           l2 (L.L.bremse_feststell) (L.L.bremse_halte) || && (S.L.Actia_DISPLAY_ICO_bremsehalte)
+'		> Diesel tank indicator
+		(L.L.bremse_halte) (L.L.bremse_halte_sw) || (L.L.bremse_feststell) || 
+		{if} 
+		0 (S.L.Actia_DISPLAY_Gauge_fuel) (S.L.Actia_DISPLAY_Gauge_AdBlue)
+		1 (S.L.Actia_DISPLAY_ICO_bremsehalte)
+		{else} 
+		0 (S.L.Actia_DISPLAY_ICO_bremsehalte)
+		l2 (L.L.Actia_DISPLAY_mode) && (S.L.Actia_DISPLAY_Gauge_fuel) (S.L.Actia_DISPLAY_Gauge_AdBlue)
+		{endif}
+'		> Kneeling indicator
+        l1 l2 && (L.L.anheben_sw) && (S.L.Actia_DISPLAY_ICO_Lift2)
+'       > Brakevalve indicator
+        l1 l2 && (L.L.bremse_halte) && (S.L.Actia_DISPLAY_ICO_BremseHalte)
+'       > Stop request indicator
+        l1 l2 && (C.L.Actia_DASH_HtwIconAsBrHIndic) s3 (L.L.bremse_halte_sw) && l3 ! (L.L.haltewunsch) && || && (S.L.Actia_DISPLAY_ICO_haltewunsch)
+'       > Automatic doors indicator
+        l1 l2 && (L.L.DEV) && (S.L.Actia_DISPLAY_ICO_DEV)
+'       > DISABLED command indicator
+        l1 l2 && (L.L.door_DISABLED_Req) && (S.L.Actia_DISPLAY_ICO_DISABLED)
+'       > Doors icons
+        l1 l2 &&
+        {if}
+          (L.L.Actia_DISPLAY_ICO_doorfront0_mode) (S.L.Actia_DISPLAY_ICO_door0)
+          (L.L.Actia_DISPLAY_ICO_doorfront1_mode) (S.L.Actia_DISPLAY_ICO_door1)
+          (L.L.Actia_DISPLAY_ICO_doorback23_mode) (S.L.Actia_DISPLAY_ICO_door23)
+          (L.L.Actia_DISPLAY_ICO_doorback45_mode) (S.L.Actia_DISPLAY_ICO_door45)
+          (L.L.Actia_DISPLAY_ICO_doorback67_mode) (S.L.Actia_DISPLAY_ICO_door67)
+        {else}
+          0 (S.L.Actia_DISPLAY_ICO_door0) (S.L.Actia_DISPLAY_ICO_door1)
+          0 (S.L.Actia_DISPLAY_ICO_door23) (S.L.Actia_DISPLAY_ICO_door45) (S.L.Actia_DISPLAY_ICO_door67)
+        {endif}
+
+'       Retarder / SECU off / ADAD main icons
+        l1 !
+        {if}
+          l2
+          {if}
+			1 (S.L.Actia_DISPLAY_Driving_infos)
+			(C.L.Actia_DASH_HtwIconAsBrHIndic) s3 (L.L.bremse_halte_sw) && l3 ! (L.L.haltewunsch) && || && (S.L.Actia_DISPLAY_ICO_haltewunsch2)
+			(L.L.lights_fern) (S.L.Actia_DISPLAY_ICO_Fernlights)
+            (L.L.cp_retarder_sw_disable) {if} 1 {else} (L.L.antrieb_retarder) {if} 2 {endif} {endif} (S.L.Actia_DISPLAY_ICO_Retarder)
+            (L.L.door_SECU_off) (S.L.Actia_DISPLAY_ICO_SECU)
+			(L.L.Actia_DASH_Indic_WARNING) (S.L.Actia_DASH_Indic_WARNING_OnScreen)
+			(L.L.anheben_sw) (S.L.Actia_DISPLAY_ICO_Lift)
+          {endif}
+        {else}
+          0 (S.L.Actia_DISPLAY_ICO_Retarder) (S.L.Actia_DISPLAY_ICO_SECU) (S.L.Actia_DISPLAY_ICO_haltewunsch2) (S.L.Actia_DISPLAY_ICO_Lift) (S.L.Actia_DISPLAY_ICO_Fernlights)
+			(S.L.Actia_DASH_Indic_WARNING_OnScreen) (S.L.Actia_DISPLAY_Driving_infos)
+        {endif}
+
+'       Reload the screen when the vehicle state has changed
+        l1 (L.L.Actia_DISPLAY_mo1_MUXInfos) = ! (L.L.Actia_DISPLAY_chmod_loadingtimer) 5 >= &&
+        {if}
+          l1 (S.L.Actia_DISPLAY_mo1_MUXInfos)
+          1 (S.L.Actia_DISPLAY_mode_GoTo)
+          0 (S.L.Actia_DISPLAY_chmod_loadingtimer)
+        {endif}
+
+    {else}
+      0 (S.L.Actia_DISPLAY_ICO_door0) (S.L.Actia_DISPLAY_ICO_door1) (S.L.Actia_DISPLAY_ICO_door23) (S.L.Actia_DISPLAY_ICO_door45) (S.L.Actia_DISPLAY_ICO_door67)
+        (S.L.Actia_DISPLAY_ICO_parkingbrake) (S.L.Actia_DISPLAY_ICO_bremsehalte) (S.L.Actia_DISPLAY_ICO_haltewunsch) (S.L.Actia_DISPLAY_ICO_haltewunsch2)
+        (S.L.Actia_DISPLAY_ICO_DEV) (S.L.Actia_DISPLAY_ICO_DISABLED) (S.L.Actia_DISPLAY_ICO_Retarder) (S.L.Actia_DISPLAY_ICO_SECU) (S.L.Actia_DISPLAY_ICO_Lift) (S.L.Actia_DISPLAY_ICO_Lift2) (S.L.Actia_DISPLAY_ICO_Fernlights)
+		(S.L.Actia_DASH_Indic_WARNING_OnScreen) (S.L.Actia_DISPLAY_Driving_infos)
+    {endif}
+
+    (L.L.Actia_DISPLAY_mode) trunc 2 =
+    {if}
+
+'     > Air pressure
+      (L.L.Actia_DISPLAY_mode) 2.1 =
+      {if}
+        (L.L.Actia_DISPLAY_chmod_loadingtimer) (L.S.Timegap) + 5 min (S.L.Actia_DISPLAY_chmod_loadingtimer) s0
+        (L.L.Actia_DISPLAY_mode_initcheck) ! l0 0.125 > &&
+        (L.L.Actia_DISPLAY_mode_initcheck) l0 0.0625 > && ||
+        {if}
+          (L.L.Actia_DISPLAY_mode_initcheck) !
+          {if}
+            "Actia_DISPLAY\Actia_DISPLAY_Init_levels.tga" (S.$.Actia_BoardComputer)
+          {else}
+            "Actia_DISPLAY\Actia_DISPLAY_Init_levels.tga" (S.$.Actia_BoardComputer)
+          {endif}
+          1 (S.L.Actia_DISPLAY_Gauge_airpressure)
+        {else}
+          (L.L.Actia_DISPLAY_mode_initcheck) !
+          {if}
+            "Actia_DISPLAY\Actia_DISPLAY_empty.tga" (S.$.Actia_BoardComputer)
+          {else}
+            "Actia_DISPLAY\Actia_DISPLAY_empty_n.tga" (S.$.Actia_BoardComputer)
+          {endif}
+          0 (S.L.Actia_DISPLAY_Gauge_airpressure)
+        {endif}
+      {else}
+        0 (S.L.Actia_DISPLAY_Gauge_airpressure)
+      {endif}
+
+'     Fuel / AdBlue
+      (L.L.Actia_DISPLAY_mode) 2.2 =
+      {if}
+        (L.L.Actia_DISPLAY_chmod_loadingtimer) (L.S.Timegap) + 5 min (S.L.Actia_DISPLAY_chmod_loadingtimer)
+        0.125 >
+        {if}
+		(C.L.Actia_DASH_HtwIconAsBrHIndic) s3 (L.L.bremse_halte_sw) && l3 ! (L.L.haltewunsch) && || && (S.L.Actia_DISPLAY_ICO_haltewunsch2)
+		(L.L.lights_fern) (S.L.Actia_DISPLAY_ICO_Fernlights)
+        (L.L.cp_retarder_sw_disable) {if} 1 {else} (L.L.antrieb_retarder) {if} 2 {endif} {endif} (S.L.Actia_DISPLAY_ICO_Retarder)
+        (L.L.door_SECU_off) (S.L.Actia_DISPLAY_ICO_SECU)
+		(L.L.Actia_DASH_Indic_WARNING) (S.L.Actia_DASH_Indic_WARNING_OnScreen)
+		(L.L.anheben_sw) (S.L.Actia_DISPLAY_ICO_Lift)
+		1 (S.L.Actia_DISPLAY_Gauge_fuel) (S.L.Actia_DISPLAY_Gauge_AdBlue) (S.L.MessIncendie)
+          "Actia_DISPLAY\Actia_DISPLAY_main.tga" (S.$.Actia_BoardComputer)
+        {else}
+		0 (S.L.MessIncendie) (S.L.Actia_DISPLAY_Gauge_fuel) (S.L.Actia_DISPLAY_Gauge_AdBlue) (S.L.Actia_DISPLAY_ICO_Retarder) (S.L.Actia_DISPLAY_ICO_SECU) (S.L.Actia_DISPLAY_ICO_haltewunsch2) (S.L.Actia_DISPLAY_ICO_Lift) (S.L.Actia_DISPLAY_ICO_Fernlights)
+		(S.L.Actia_DASH_Indic_WARNING_OnScreen) (S.L.Actia_DISPLAY_Driving_infos)
+          "Actia_DISPLAY\Actia_DISPLAY_main.tga" (S.$.Actia_BoardComputer)
+        {endif}
+		{else}
+		0 (S.L.Actia_DISPLAY_ICO_Retarder) (S.L.Actia_DISPLAY_ICO_SECU) (S.L.Actia_DISPLAY_ICO_haltewunsch2) (S.L.Actia_DISPLAY_ICO_Lift) (S.L.Actia_DISPLAY_ICO_Fernlights)
+		(S.L.Actia_DASH_Indic_WARNING_OnScreen) (S.L.Actia_DISPLAY_Driving_infos) (S.L.MessIncendie) (S.L.Actia_DISPLAY_Gauge_fuel) (S.L.Actia_DISPLAY_Gauge_AdBlue)
+      {endif}
+
+      (L.L.Actia_DISPLAY_mode) 2.3 =
+      {if}
+        (L.L.Actia_DISPLAY_chmod_loadingtimer) (L.S.Timegap) + 5 min (S.L.Actia_DISPLAY_chmod_loadingtimer)
+        0.125 >
+        {if}
+          "Actia_DISPLAY\Actia_DISPLAY_AirPressure.tga" (S.$.Actia_BoardComputer)
+          1 (S.L.Actia_DISPLAY_OnBoard_AirPressure)
+        {else}
+          "Actia_DISPLAY\Actia_DISPLAY_empty.tga" (S.$.Actia_BoardComputer)
+          0 (S.L.Actia_DISPLAY_OnBoard_AirPressure)
+        {endif}
+      {else}
+        0 (S.L.Actia_DISPLAY_OnBoard_AirPressure)
+      {endif}
+
+    {else}
+      0 (S.L.Actia_DISPLAY_Gauge_airpressure) (S.L.Actia_DISPLAY_Gauge_watertemp)
+    {endif}
+
+'    (L.L.Actia_DISPLAY_mode) 4 =
+'    {if}
+'      (L.L.Actia_DISPLAY_chmod_loadingtimer) (L.S.Timegap) + 5 min (S.L.Actia_DISPLAY_chmod_loadingtimer)
+'        0.125 >
+'        {if}
+'          "Actia_DISPLAY\Actia_DISPLAY_Error_bremse.tga" (S.$.Actia_BoardComputer)
+'        {else}
+'          "Actia_DISPLAY\Actia_DISPLAY_empty.tga" (S.$.Actia_BoardComputer)
+'        {endif}
+'
+'
+'    {endif}
+
+'   Redirect to mode, restart the timer
+    (L.L.Actia_DISPLAY_mode_GoTo) 0 >=
+    {if}
+      0 (S.L.Actia_DISPLAY_chmod_loadingtimer)
+      (L.L.Actia_DISPLAY_mode_GoTo) (S.L.Actia_DISPLAY_mode)
+      -1 (S.L.Actia_DISPLAY_mode_GoTo)
+    {endif}
+
+'   > Redirect from Info mode to Main Screen / STOP mode
+    (L.L.Actia_InfoMode_RedirectTimer) s0
+    {if}
+      (L.L.Actia_DISPLAY_mode) trunc 2 =
+      (L.S.GetTime) l0 - 5 >= &&
+      {if}
+        (L.L.Actia_DASH_STOP_active)
+        {if}
+          4 (S.L.Actia_DISPLAY_mode_GoTo)
+        {else}
+          1 (S.L.Actia_DISPLAY_mode_GoTo)
+        {endif}
+        0 (S.L.Actia_InfoMode_RedirectTimer)
+      {endif}
+    {endif}
+
+'   ~~~ Doors: Display the correct ICO according to their state ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+'     ** s0 : contains the information that the air pressure isn't low **
+      (L.L.bremse_p_tank01) (C.L.Actia_DASH_LowAirValue) > (L.L.bremse_p_tank02) (C.L.Actia_DASH_LowAirValue) > && s0
+'      > Door 0
+      (L.L.door_0) 0 <= (L.L.doorfront_emergency) || {if} (L.L.doorfront_emergency) (L.S.GetTime) 1 % 0.5 < && (L.L.doorfront_emergency) ! || (L.L.Actia_BTN_door0_block) (L.L.doorfront_emergency) (L.S.GetTime) 1 % 0.5 < && ! && 2 * + (S.L.Actia_DISPLAY_ICO_doorfront0_mode)
+      {else}
+      l0 ! (L.S.GetTime) 1 % 0.5 < && l0 || 2 * (S.L.Actia_DISPLAY_ICO_doorfront0_mode)
+      {endif}
+'      > Door 1
+      (L.L.door_1) 0 <= (L.L.doorfront_emergency) || {if} (L.L.doorfront_emergency) (L.S.GetTime) 1 % 0.5 < && (L.L.doorfront_emergency) ! || (S.L.Actia_DISPLAY_ICO_doorfront1_mode)
+      {else}
+      l0 ! (L.S.GetTime) 1 % 0.5 < && l0 || 2 * (S.L.Actia_DISPLAY_ICO_doorfront1_mode)
+      {endif}
+'      > Doorback 2-3
+      (L.L.door_2) 0 <= (L.L.door_3) 0 <= && (L.L.doorback23_emergency) || {if} (L.L.doorback23_emergency) (L.S.GetTime) 1 % 0.5 < && (L.L.doorback23_emergency) ! (S.L.Actia_DISPLAY_ICO_doorback23_mode)
+      {else}
+      l0 ! (L.S.GetTime) 1 % 0.5 < && l0 || 2 * (S.L.Actia_DISPLAY_ICO_doorback23_mode)
+      {endif}
+'      > Doorback 4-5
+      (L.L.door_4) 0 <= (L.L.door_5) 0 <= && (L.L.doorback45_emergency) || {if} (L.L.doorback45_emergency) (L.S.GetTime) 1 % 0.5 < && (L.L.doorback45_emergency) ! (S.L.Actia_DISPLAY_ICO_doorback45_mode)
+      {else}
+      l0 ! (L.S.GetTime) 1 % 0.5 < && l0 || 2 * (S.L.Actia_DISPLAY_ICO_doorback45_mode)
+      {endif}
+'      > Doorback 6-7
+      (L.L.door_6) 0 <= (L.L.door_7) 0 <= && (L.L.doorback67_emergency) || {if} (L.L.doorback67_emergency) (L.S.GetTime) 1 % 0.5 < && (L.L.doorback67_emergency) ! (S.L.Actia_DISPLAY_ICO_doorback67_mode)
+      {else}
+      l0 ! (L.S.GetTime) 1 % 0.5 < && l0 || 2 * (S.L.Actia_DISPLAY_ICO_doorback67_mode)
+      {endif}
+
+'   ~~~ Assign ICO textures to a string to be able to place them in the Actia_DISPLAY folder ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_door0_locked" "3" $+ ".tga" $+ (S.$.Actia_DISPLAY_ICO_door0_locked)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_door0_opened" "3" $+ ".tga" $+ (S.$.Actia_DISPLAY_ICO_door0_opened)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_door0_closed" "3" $+ ".tga" $+ (S.$.Actia_DISPLAY_ICO_door0_closed)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_door1_opened" "3" $+ ".tga" $+ (S.$.Actia_DISPLAY_ICO_door1_opened)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_door1_closed" "3" $+ ".tga" $+ (S.$.Actia_DISPLAY_ICO_door1_closed)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_door23_opened" "3" $+ ".tga" $+ (S.$.Actia_DISPLAY_ICO_door23_opened)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_door23_closed" "3" $+ ".tga" $+ (S.$.Actia_DISPLAY_ICO_door23_closed)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_door45_opened" "3" $+ ".tga" $+ (S.$.Actia_DISPLAY_ICO_door45_opened)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_door45_closed" "3" $+ ".tga" $+ (S.$.Actia_DISPLAY_ICO_door45_closed)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_door67_opened" "3" $+ ".tga" $+ (S.$.Actia_DISPLAY_ICO_door67_opened)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_door67_closed" "3" $+ ".tga" $+ (S.$.Actia_DISPLAY_ICO_door67_closed)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_ramp_target" "3" $+ ".tga" $+ (S.$.Actia_DISPLAY_ICO_ramp)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_bremsehalte" "3" $+ ".tga" $+ (S.$.Actia_DISPLAY_ICO_bremsehalte)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_fuel_low.tga" (S.$.Actia_DISPLAY_ICO_fuel)
+      "Actia_DISPLAY\Actia_DISPLAY_ICO_adblue_low.tga" (S.$.Actia_DISPLAY_ICO_AdBlue)
+      "Actia_DISPLAY\Actia_DISPLAY_ICOs.png" (S.$.Actia_BoardComputer_ICOs)
+
+'   ~~~ Informations Mode Gauges ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+'  > Fuel
+     "|" (L.L.engine_tank_content) 1.016 * 254 min trunc $* (S.$.Actia_DISPLAY_Gauge_fuel)
+'  > AdBlue
+     "|" (L.L.engine_adblue_content) 2.822222222222222 * 254 min trunc $* (S.$.Actia_DISPLAY_Gauge_AdBlue)
+'  > Bremse tank 01
+     (L.L.Actia_DISPLAY_mode_initcheck) ! {if} "|" {else} "!" {endif} (L.L.bremse_p_tank01) (F.L.Actia_DISPLAY_Gauge_airpressure_translate) 232 min trunc $* (S.$.Actia_DISPLAY_Gauge_airpressure_tank01)
+'  > Bremse tank 02
+     (L.L.Actia_DISPLAY_mode_initcheck) ! {if} "|" {else} "!" {endif} (L.L.bremse_p_tank02) (F.L.Actia_DISPLAY_Gauge_airpressure_translate) 232 min trunc $* (S.$.Actia_DISPLAY_Gauge_airpressure_tank02)
+'  > Water temp
+     "|" (L.L.engine_temperature) (F.L.Actia_DISPLAY_Gauge_watertemp_translate) 254 min trunc $* (S.$.Actia_DISPLAY_Gauge_watertemp)
+
+'   ~~~ Errors ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+'   > WARNING ERROR (Yellow)
+    (L.L.engine_tank_content) 20 <=
+	(L.L.engine_adblue_content) 20 <= ||
+    (S.L.Actia_DASH_WARNING_active)
+
+'   > STOP ERROR (Red)
+    (L.L.bremse_p_tank01) (C.L.Actia_DASH_LowAirValue) <
+    (L.L.bremse_p_tank02) (C.L.Actia_DASH_LowAirValue) < ||
+    (L.L.Actia_DASH_on) &&
+    (S.L.Actia_DASH_STOP_active)
+    ! (L.L.Actia_DISPLAY_mode) 4 = &&
+    {if}
+      1 (S.L.Actia_DISPLAY_mode_GoTo)
+    {endif}
+
+'   ~~~ Odometr ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   (L.L.Actia_DASH_kmcount_last) ! {if} (L.L.kmcounter_km) (S.L.Actia_DASH_kmcount_last) {endif}
+   (L.L.kmcounter_km) (L.L.Actia_DASH_kmcount_last) - " 7" $IntToStrEnh "@" $+
+   (L.L.kmcounter_km) " 7" $IntToStrEnh $+
+   (S.$.Actia_DASH_kmcount)
+
+'   Closed doors/Kneel done/DISABLED-Command done sound trigger:
+    (L.L.door_2) ! (L.L.door_3) ! &&
+    (L.L.door_4) ! (L.L.door_5) ! && &&
+    (L.L.DEV) ! &&
+    (L.L.ramp_target) ! &&
+    (L.L.DEBUG_Kneel) ! &&
+    (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+    {if}
+      (L.L.Actia_DASH_on) ! {if} 2 {else} (L.L.Actia_SND_doorOK_timer) (L.S.Timegap) + 2 min {endif} (S.L.Actia_SND_doorOK_timer)
+    {else}
+      (L.L.Actia_SND_doorOK_timer) 1 >= (L.L.elec_busbar_main) (C.L.elec_busbar_minV) < ||
+      {if}
+        0 (S.L.Actia_SND_doorOK_timer)
+      {endif}
+    {endif}
+
+'   Bremse_halte indicator sound trigger:
+    (L.L.bremse_halte)
+    (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+    {if}
+      (L.L.Actia_DASH_on) ! {if} 2 {else} (L.L.Actia_SND_bremseOK_timer) (L.S.Timegap) + 2 min {endif} (S.L.Actia_SND_bremseOK_timer)
+    {else}
+      (L.L.Actia_SND_bremseOK_timer) 1 >= (L.L.elec_busbar_main) (C.L.elec_busbar_minV) < ||
+      {if}
+        0 (S.L.Actia_SND_bremseOK_timer)
+      {endif}
+    {endif}
+
+'	Alert open gate parking brake released (WIP)
+'	(L.L.bremse_feststell_sw) 0 = (L.L.cp_fahrertuer_pos) 0 > &&
+'	(L.L.elec_busbar_main) (C.L.elec_busbar_minV) > && &&
+'	{if}
+'		1 (S.L.portillon_alert)
+'	{else}
+'		0 (S.L.portillon_alert)
+'	{endif}
+	
+  {else}
+
+'   >>> Off <<<
+    0
+    (S.L.Actia_DISPLAY_backlight) (S.L.Actia_DISPLAY_mode) (S.L.Actia_DISPLAY_mode_initcheck) (S.L.Actia_DISPLAY_mode_last) (S.L.Actia_DISPLAY_chmod_loadingtimer)
+    (S.L.Actia_DISPLAY_mode_GoTo) (S.L.Actia_DISPLAY_Gauge_airpressure) (S.L.Actia_DISPLAY_Gauge_fuel)  (S.L.Actia_DISPLAY_Gauge_watertemp) (S.L.Actia_DISPLAY_Gauge_AdBlue) (S.L.Actia_DISPLAY_ICO_Lift2)
+    (S.L.Actia_DISPLAY_ICO_doorfront0_mode) (S.L.Actia_DISPLAY_ICO_doorfront1_mode) (S.L.Actia_DISPLAY_ICO_doorback23_mode) (S.L.Actia_DISPLAY_ICO_doorback45_mode) (S.L.Actia_DISPLAY_ICO_doorback67_mode) (S.L.Actia_DISPLAY_ICO_door0) (S.L.Actia_DISPLAY_ICO_door1)
+    (S.L.Actia_DISPLAY_ICO_door23) (S.L.Actia_DISPLAY_ICO_door45) (S.L.Actia_DISPLAY_ICO_parkingbrake) (S.L.Actia_DISPLAY_ICO_bremsehalte) (S.L.Actia_DISPLAY_ICO_haltewunsch) (S.L.Actia_DISPLAY_ICO_haltewunsch2) (S.L.Actia_DISPLAY_ICO_disabled) (S.L.Actia_DISPLAY_ICO_DEV)
+    (S.L.Actia_DISPLAY_ICO_Retarder) (S.L.Actia_DISPLAY_ICO_SECU) (S.L.Actia_DASH_Lights_motortest)
+    (S.L.Actia_DASH_On) (S.L.Actia_DASH_WARNING_active_timer) (S.L.Actia_DASH_STOP_active_timer)
+    (S.L.Actia_INT_startuptimer) (S.L.Actia_SND_doorOK_timer) (S.L.Actia_InfoMode_RedirectTimer)
+    "Actia_DISPLAY\Actia_DISPLAY_INT_off.tga" (S.$.Actia_BoardComputer)
+
+    (L.L.elec_busbar_main) (C.L.elec_busbar_minV) <
+    {if}
+      (L.L.Actia_energy_last_timer) (L.S.Timegap) + (S.L.Actia_energy_last_timer) (C.L.Actia_TimeOn) >= (L.L.elec_failure_general) ||
+      {if}
+        0 (S.L.Actia_energy_last) (S.L.Actia_energy_last_timer) (L.L.kmcounter_km) (S.L.Actia_DASH_kmcount_last) (S.L.Actia_DASH_kmcounter_on) (S.L.Actia_DASH_alphascale)
+      {endif}
+    {endif}
+
+  {endif}
+
+{end}
+
+' >>> Lights <<<
+{macro:Actia_DASH_lights}
+
+' *********************************
+'            Indicators
+' *********************************
+
+' Motor failure (not assigned)
+  (L.L.Actia_DASH_Lights_initcheck)
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_motorfailure)
+
+' Parking brake
+  (L.L.bremse_feststell) (L.L.Actia_INT_startuptimer) 3 > &&
+  (L.L.Actia_DASH_Lights_initcheck) ||
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_parkingbrake)
+
+' Brake system failure (not assigned)
+  (L.L.Actia_DASH_Lights_initcheck)
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_brakefailure)
+
+' Motor off, Anti-emission system failure
+  (L.L.engine_on) ! (L.L.engine_n) (C.L.engine_governed_idle_RPM) < && (L.L.Actia_INT_startuptimer) 3 > &&
+  (L.L.Actia_DASH_Lights_initcheck) ||
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_motor)
+
+' Motor ico 2 (not assigned)
+  (L.L.Actia_DASH_Lights_initcheck)
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_motor2)
+
+' Warning
+  (L.L.Actia_DASH_WARNING_active) (L.L.Actia_INT_startuptimer) 3 > &&
+  (L.L.Actia_DASH_Lights_motortest) ||
+  (L.L.Actia_DASH_Lights_initcheck) ||
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_WARNING)
+
+' Stop request
+  (L.L.haltewunsch) (L.L.Actia_INT_startuptimer) 3 > &&
+  (L.L.Actia_DASH_Lights_initcheck) ||
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_haltewunsch)
+
+' STOP
+  (L.L.Actia_DASH_STOP_active) (L.L.Actia_INT_startuptimer) 3 > &&
+  (L.L.Actia_DASH_Lights_motortest) ||
+  (L.L.Actia_DASH_Lights_initcheck) ||
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_STOP)
+
+' High beam
+  (L.L.lights_fern) (L.L.Actia_INT_startuptimer) 3 > &&
+  (L.L.Actia_DASH_Lights_initcheck) ||
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_HighBeam)
+
+' DISABLED-Request
+  (L.L.door_DISABLED_Req) (L.L.Actia_INT_startuptimer) 3 > &&
+  (L.L.Actia_DASH_Lights_initcheck) ||
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_RampRequest)
+
+' ABS
+  (L.L.bremse_ABS_eingriff) (L.L.Actia_INT_startuptimer) 3 > &&
+  (L.L.Actia_DASH_Lights_initcheck) ||
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_ABS)
+
+' Low beam
+  (L.L.lights_abbl) (L.L.Actia_INT_startuptimer) 3 > &&
+  (L.L.Actia_DASH_Lights_initcheck) ||
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_LowBeam)
+
+' Fog
+  (L.L.lights_nebel) (L.L.Actia_INT_startuptimer) 3 > &&
+  (L.L.Actia_DASH_Lights_initcheck) ||
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_FogLights)
+
+' Tacho (not assigned)
+  (L.L.Actia_DASH_Lights_initcheck)
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  (S.L.Actia_DASH_Indic_Tacho)
+
+' Blinker L
+  (L.L.lights_blinker_l) s0 (L.L.Actia_INT_startuptimer) 3 > &&
+  l0 ! (L.L.Actia_DASH_Lights_initcheck) && ||
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  l0 (L.L.lights_sw_warnblinker) &&
+  (L.L.elec_busbar_avail) && ||
+  (S.L.Actia_DASH_Indic_BlinkerL)
+
+' Blinker R
+  (L.L.lights_blinker_r) s0 (L.L.Actia_INT_startuptimer) 3 > &&
+  l0 ! (L.L.Actia_DASH_Lights_initcheck) && ||
+  (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+  l0 (L.L.lights_sw_warnblinker) &&
+  (L.L.elec_busbar_avail) && ||
+  (S.L.Actia_DASH_Indic_BlinkerR)
+
+' *********************************
+'          BUTTONS LIGHTS
+' *********************************
+
+' // On an ACTIA dashboard, there is two light modes:
+'   The "active" mode : when the button is pressed or the when the command is active
+'   The "passive" mode : when the Dashboard is powered on //
+
+' > Doorfront
+   (L.L.doorfront_emergency) s0 (L.S.GetTime) 1 % 0.5 < &&
+   l0 ! (L.L.bremse_p_tank01) (C.L.Actia_DASH_LowAirValue) < (L.L.bremse_p_tank02) (C.L.Actia_DASH_LowAirValue) < || && s1 (L.S.GetTime) 1 % 0.5 < && ||
+   l0 ! l1 ! && (L.L.door_0) (L.L.door_1) || && ||
+   (L.L.Actia_INT_startuptimer) 3 > (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > && &&
+   (S.L.Actia_DASH_Light_doorfront_active)
+
+' > Doorback 2-3
+   (L.L.doorback23_emergency) s0 (L.S.GetTime) 1 % 0.5 < &&
+   l0 ! (L.L.bremse_p_tank01) (C.L.Actia_DASH_LowAirValue) < (L.L.bremse_p_tank02) (C.L.Actia_DASH_LowAirValue) < || && s1 (L.S.GetTime) 1 % 0.5 < && ||
+   l0 ! l1 ! && (L.L.door_2) (L.L.door_3) || && ||
+   (L.L.Actia_INT_startuptimer) 3 > (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > && &&
+   (S.L.Actia_DASH_Light_doorback23_active)
+
+' > Doorback 4-5
+   (L.L.doorback45_emergency) s0 (L.S.GetTime) 1 % 0.5 < &&
+   l0 ! (L.L.bremse_p_tank01) (C.L.Actia_DASH_LowAirValue) < (L.L.bremse_p_tank02) (C.L.Actia_DASH_LowAirValue) < || && s1 (L.S.GetTime) 1 % 0.5 < && ||
+   l0 ! l1 ! && (L.L.door_4) (L.L.door_5) || && ||
+   (L.L.Actia_INT_startuptimer) 3 > (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > && &&
+   (S.L.Actia_DASH_Light_doorback45_active)
+
+' > Doorback 6-7
+   (L.L.doorback67_emergency) s0 (L.S.GetTime) 1 % 0.5 < &&
+   l0 ! (L.L.bremse_p_tank01) (C.L.Actia_DASH_LowAirValue) < (L.L.bremse_p_tank02) (C.L.Actia_DASH_LowAirValue) < || && s1 (L.S.GetTime) 1 % 0.5 < && ||
+   l0 ! l1 ! && (L.L.door_6) (L.L.door_7) || && ||
+   (L.L.Actia_INT_startuptimer) 3 > (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > && &&
+   (S.L.Actia_DASH_Light_doorback67_active)
+
+' > Battery toggle
+   (L.L.elec_busbar_main_sw) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_battery_active)
+
+' > Engine off toggle
+   (L.L.cp_taster_motorabstellung) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_engine_off_active)
+
+' > Engine on toggle
+   (L.L.cp_taster_anlasser) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_engine_on_active)
+
+' > Retarder off toggle
+   (L.L.cp_retarder_sw_disable) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_retarder_active)
+
+' > Actia Dash chmod up
+   (L.L.Actia_BTN_chmod_up) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_chmodu_active)
+
+' > Actia Dash chmod down
+   (L.L.Actia_BTN_chmod_down) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_chmodd_active)
+
+' > Driver light
+   (L.L.cp_fahrerlicht_sw) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_driverlight_active)
+
+' > Interior lights toggle 1
+   (L.L.cp_licht_oberdeck_sw) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_interiorlight_1_active)
+
+' > Interior lights toggle 2
+   (L.L.cp_licht_unterdeck_sw) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_interiorlight_2_active)
+
+' > Kneel down
+   (L.L.cp_kneel_down_mode) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_kneel_down_active)
+
+' > Kneel up
+   (L.L.cp_kneel_up_mode) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_kneel_up_active)
+
+' > DEV
+   (L.L.DEV) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_DEV_active)
+
+' > DISABLED command up
+   (L.L.DEBUG_PMRU) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_PMR_up_active)
+
+' > DISABLED command down
+   (L.L.DEBUG_PMRD) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_PMR_down_active)
+
+' > Door blocked
+   (L.L.Actia_BTN_door0_block) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_doorb_active)
+
+' > Door rearm
+   (L.L.Actia_BTN_rearm) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_doorRearm_active)
+
+' > Lift
+   (L.L.actia_lift_sw) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_lift_active)
+
+' > Heating
+   (L.L.cp_heizluefter_sw) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_heating_active)
+
+' > Warning lights
+   (L.L.cp_taster_warnblinker) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_warninglight_active)
+
+' > Gearbox D
+   (L.L.Actia_INT_startuptimer) s0 0 > l0 10 < && (L.S.GetTime) 1 % 0.5 < &&
+   (L.L.antrieb_getr_gangwahl) 4 = (L.L.Actia_INT_startuptimer) 10 > && ||
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_gangD_active)
+
+' > Gearbox N
+   (L.L.Actia_INT_startuptimer) s0 0 > l0 10 < && (L.S.GetTime) 1 % 0.5 < &&
+   (L.L.antrieb_getr_gangwahl) 1 = (L.L.Actia_INT_startuptimer) 10 > && ||
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_gangN_active)
+
+' > Gearbox R
+   (L.L.Actia_INT_startuptimer) s0 0 > l0 10 < && (L.S.GetTime) 1 % 0.5 < &&
+   (L.L.antrieb_getr_gangwahl) 0 = (L.L.Actia_INT_startuptimer) 10 > && ||
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_gangR_active)
+
+' > GLOBAL : "passive" mode
+   (L.L.Actia_DASH_Lights_initcheck) (L.L.Actia_INT_startuptimer) 3 > &&
+   (L.L.Actia_DISPLAY_backlight) ||
+   (L.L.elec_busbar_main) (C.L.elec_busbar_minV) > &&
+   (S.L.Actia_DASH_Light_GLOBAL_passive)
+
+{end}

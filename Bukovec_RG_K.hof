@@ -1,0 +1,409 @@
+Diese Datei wurde mit der HOF Suite von Rumpelhans geschrieben.
+This file was written with HOF Suite by Rumpelhans.
+
+*****************************************
+* H O F   F i l e   p r o p e r t i e s *
+*****************************************
+
+[name]
+Bukovec RG Kruger+ +
+
+[servicetrip]
+Sluzebni jizda
+
+[global_strings]
+6
+Bukovec_RG
+
+Bukovec_RG
+4
+
+
+
+
+
+
+stringcount_terminus
+26
+
+stringcount_busstop
+9
+
+*****************
+* T e r m i n i *
+*****************
+
+[addterminus_list]
+	000
+	010	Na Vyhlidce	NA VYHLÍDCE	Na Vyhlídce				Na Vyhlídce		Bukovec\Kruger+\010.bmp																								
+	110	Autobusove nadrazi 10	AUTOBUSOVÉ NÁDRAŽÍ	Autobusové nádraží				Autobusové nádraží		Bukovec\Kruger+\110.bmp																								
+	210	Vozovna Razicka	VOZOVNA RAŽICKÁ	Vozovna Ražická				Vozovna Ražická		Bukovec\Kruger+\210.bmp																								
+	011	Nemocnice 11	NEMOCNICE, AREÁL	Nemocnice, areál				Nemocnice, areál		Bukovec\Kruger+\011.bmp																								
+	111	Kosmonautu 11	KOSMONAUTÙ	Kosmonautù				Kosmonautù		Bukovec\Kruger+\111.bmp																								
+	012	Fibichova ctvrt 12	FIBICHOVA ÈTVR	Fibichova ètvr				Fibichova ètvr		Bukovec\Kruger+\012.bmp																								
+	112	Masokombinat Tocna	MASOKOMBINÁT TOÈNA	Masokombinát, toèna				Masokombinát, toèna		Bukovec\Kruger+\112.bmp																								
+	212	Nadrazi 12	NÁDRAŽÍ	Nádraží				Nádraží		Bukovec\Kruger+\212.bmp																								
+	013	Stop Shop 13	STOP SHOP	Stop Shop				Stop Shop		Bukovec\Kruger+\013.bmp																								
+	113	PZ VW	PZ VW	Prùmyslová zóna, VW				Prùmyslová zóna, VW		Bukovec\Kruger+\113.bmp																								
+	014	Autobusove nadrazi 14	AUTOBUSOVÉ NÁDRAŽÍ	Autobusové nádraží				Autobusové nádraží		Bukovec\Kruger+\014.bmp																								
+	114	Srnci dul 14	SRNÈÍ DÙL	Srnèí dùl				Srnèí dùl		Bukovec\Kruger+\114.bmp																								
+	015	Cimerice 15	ÈÍMÌØICE, ŽST	Èímìøice, žel. stanice				Èímìøice, žel. stanice		Bukovec\Kruger+\015.bmp																								
+	115	Konetopy 15	KONÌTOPY, TOÈNA	Konìtopy, toèna				Konìtopy, toèna		Bukovec\Kruger+\115.bmp																								
+	215	Jiraskovy sady 15	JIRÁSKOVY SADY	Jiráskovy sady				Jiráskovy sady		Bukovec\Kruger+\215.bmp																								
+	016	Autobusove nadrazi 16	AUTOBUSOVÉ NÁDRAŽÍ	Autobusové nádraží				Autobusové nádraží		Bukovec\Kruger+\016.bmp																								
+	116	Vidlakova Lhota 16	VIDLÁKOVA LHOTA	Vidlákova Lhota				Vidlákova Lhota		Bukovec\Kruger+\116.bmp																								
+	017	Autobusove nadrazi 17	AUTOBUSOVÉ NÁDRAŽÍ	Autobusové nádraží				Autobusové nádraží		Bukovec\Kruger+\017.bmp																								
+	117	Kosmonautu 17	KOSMONAUTÙ	Kosmonautù				Kosmonautù		Bukovec\Kruger+\117.bmp																								
+	417	ZOO 17	ZOO, ST. HOMOLE	ZOO Stará Homole				ZOO Stará Homole		Bukovec\Kruger+\417.bmp																								
+	018	Autobusove nadrazi 18	AUTOBUSOVÉ NÁDRAŽÍ	Autobusové nádraží				Autobusové nádraží		Bukovec\Kruger+\018.bmp																								
+	118	Vlci hrdlo 18	VLÈÍ HRDLO	Vlèí hrdlo				Vlèí hrdlo		Bukovec\Kruger+\118.bmp																								
+	019	Nadrazi 19	NÁDRAŽÍ	Nádraží				Nádraží		Bukovec\Kruger+\019.bmp																								
+	119	Novy hrbitov 19	NOVÝ HØBITOV	Nový høbitov				Nový høbitov		Bukovec\Kruger+\119.bmp																								
+	020	Autobusove nadrazi 20	AUTOBUSOVÉ NÁDRAŽÍ	Autobusové nádraží				Autobusové nádraží		Bukovec\Kruger+\020.bmp																								
+	120	Stop Shop 20	STOP SHOP	Stop Shop				Stop Shop		Bukovec\Kruger+\120.bmp																								
+	220	Fibichova ctvrt 20	FIBICHOVA ÈTVR	Fibichova ètvr				Fibichova ètvr		Bukovec\Kruger+\220.bmp																								
+	021	Hurka 21	HÙRKA	Hùrka				Hùrka		Bukovec\Kruger+\021.bmp																								
+	121	Hradecke predmesti 21	HRADECKÉ PØEDMÌSTÍ	Hradecké pøedmìstí				Hradecké pøedmìstí		Bukovec\Kruger+\121.bmp																								
+	022	Autobusove nadrazi 22	AUTOBUSOVÉ NÁDRAŽÍ	Autobusové nádraží				Autobusové nádraží		Bukovec\Kruger+\022.bmp																								
+	122	Namesti Republiky 22	NÁMÌSTÍ REPUBLIKY	Námìstí Republiky				Námìstí Republiky		Bukovec\Kruger+\122.bmp																								
+	050	Fibichova ctvrt 50	FIBICHOVA ÈTVR	Fibichova ètvr				Fibichova ètvr		Bukovec\Kruger+\050.bmp																								
+	150	Hurka 50	HÙRKA	Hùrka				Hùrka		Bukovec\Kruger+\150.bmp																								
+	051	DPS 51	DÙM PEÈ. SLUŽBY	Dùm peèovatelské služby				Dùm peè. služby		Bukovec\Kruger+\051.bmp																								
+	151	Vlci hrdlo 51	VLÈÍ HRDLO	Vlèí hrdlo				Vlèí hrdlo		Bukovec\Kruger+\151.bmp																								
+	351	Jiraskovy sady 51	JIRÁSKOVY SADY	Jiráskovy sady				Jiráskovy sady		Bukovec\Kruger+\351.bmp																								
+{ALLEX}	980	Sluzebni jizda	SLUŽEBNÍ JÍZDA	Služební jízda				Služební jízda		Bukovec\Kruger+\SJ1.bmp																								
+{ALLEX}	988	Prestavka - kava	Pøestávka	Pøestávka				Pøestávka		Bukovec\Kruger+\PP.bmp																								
+	20151	Vlci hrdlo 51	VLÈÍ HRDLO	Vlèí hrdlo				Vlèí hrdlo		Bukovec\Kruger+\151.bmp																								
+	21151	Vlci hrdlo 51	VLÈÍ HRDLO	Vlèí hrdlo				Vlèí hrdlo		Bukovec\Kruger+\1151.bmp																								
+	20051	DPS 51	DÙM PEÈ. SLUŽBY	Dùm peèovatelské služby				Dùm peè. služby		Bukovec\Kruger+\051.bmp																								
+	21051	DPS 51	DÙM PEÈ. SLUŽBY	Dùm peèovatelské služby				Dùm peè. služby		Bukovec\Kruger+\1051.bmp																								
+{ALLEX}	20980	Sluzebni jizda	SLUŽEBNÍ JÍZDA	Služební jízda				Služební jízda		Bukovec\Kruger+\SJ1.bmp																								
+{ALLEX}	21980	Sluzebni jizda	SLUŽEBNÍ JÍZDA	Služební jízda				Služební jízda		Bukovec\Kruger+\SJ2.bmp																								
+[end]
+
+*******************
+* B u s s t o p s *
+*******************
+
+
+[addbusstop_list]
+Na Vyhlidce1	Na Vyhlídce	Na Vyhlídce	 2	Na Vyhlídce	
+Na VyhlidceKZ	Na Vyhlídce	Na Vyhlídce	 2	Na Vyhlídce	KZ  
+Harantova1	Harantova	Harantova	 2	Harantova	ZZ
+Harantova2	Harantova	Harantova	 2	Harantova	ZZ
+SidlMiru1	Sídlištì Míru	Sídlištì Míru	 2	Sídl. Míru	
+SidlMiru2	Sídlištì Míru	Sídlištì Míru	 2	Sídl. Míru	
+SidlMiru4	Sídlištì Míru	Sídlištì Míru	 2	Sídl. Míru	
+DPS1	Dùm peèovatelské služby	Dùm peèovatelské služby	 2	Dùm peè. služby	
+DPS2	Dùm peèovatelské služby	Dùm peèovatelské služby	 2	Dùm peè. služby	
+DPSKZ	Dùm peèovatelské služby	Dùm peèovatelské služby	 2	Dùm peè. služby	KZ
+VozovnaRazicka1	Vozovna Ražická	Vozovna Ražická	 2	Vozovna Ražická	ZZ
+VozovnaRazicka2	Vozovna Ražická	Vozovna Ražická	 2	Vozovna Ražická	ZZ
+VozovnaRazickaKZ	Vozovna Ražická	Vozovna Ražická	 2	Vozovna Ražická	KZ
+Razicka1	Ražická	Ražická	 2	Ražická	
+Razicka2	Ražická	Ražická	 2	Ražická	
+NamTBati1	Nám. Tomáše Bati	Nám. Tomáše Bati	 2	Nám. T. Bati	
+NamTBati2	Nám. Tomáše Bati	Nám. Tomáše Bati	 2	Nám. T. Bati
+NamTBati4	Nám. Tomáše Bati	Nám. Tomáše Bati	 2	Nám. T. Bati	
+ChynovskaMost1	Chýnovská most	Chýnovská most	 2	Chýnovská most	ZZ
+ChynovskaMost2	Chýnovská most	Chýnovská most	 2	Chýnovská most	ZZ
+ChynovskaMost3	Chýnovská most	Chýnovská most	 2	Chýnovská most	ZZ
+28rijna1	28. øíjna	28. øíjna	 2	28. øíjna	ZZ
+28rijna2	28. øíjna	28. øíjna	 2	28. øíjna	ZZ
+28rijna4	28. øíjna	28. øíjna	 2	28. øíjna	ZZ
+Nadrazi2	Nádraží	Nádraží	 2	Nádraží	
+Nadrazi1	Nádraží	Nádraží	 2	Nádraží	
+NadraziKZ	Nádraží	Nádraží	 2	Nádraží	KZ  
+Poliklinika1	Poliklinika	Poliklinika	 2	Poliklinika	
+Poliklinika2	Poliklinika	Poliklinika	 2	Poliklinika	
+NamSv1	Námìstí Svobody	Námìstí Svobody	 2	Nám. Svobody	
+NamSv2	Námìstí Svobody	Námìstí Svobody	 2	Nám. Svobody	
+NamSv4	Námìstí Svobody	Námìstí Svobody	 2	Nám. Svobody	
+Husova1	Husova	Husova	 2	Husova	
+Husova2	Husova	Husova	 2	Husova	
+AutNKZ	Autobusové nádraží	Autobusové nádraží	 2	Autobusové nádraží	KZ
+AutN1	Autobusové nádraží	Autobusové nádraží	 2	Autobusové nádraží
+AutN2	Autobusové nádraží	Autobusové nádraží	 2	Autobusové nádraží
+SidlMiruStred1	Sídlištì Míru støed	Sídlištì Míru støed	 2	Sídl. M. støed	
+SidlMiruStred2	Sídlištì Míru støed	Sídlištì Míru støed	 2	Sídl. M. støed	
+SidlMiruStred4	Sídlištì Míru støed	Sídlištì Míru støed	 2	Sídl. M. støed	
+Trebonska1	Tøeboòská	Tøeboòská	 2	Tøeboòská	
+Trebonska2	Tøeboòská	Tøeboòská	 2	Tøeboòská	
+MasoZ1	Masokombinát, závod	Masokombinát, závod	 2	Masokomb. závod	
+MasoZ2	Masokombinát, závod	Masokombinát, závod	 2	Masokomb. závod	
+MasoT1	Masokombinát, toèna	Masokombinát, toèna	 2	Masokomb. toèna	
+MasoTKZ	Masokombinát, toèna	Masokombinát, toèna	 2	Masokomb. toèna	KZ
+KosmonatuKZ	Kosmonautù	Kosmonautù	 2	Kosmonautù	KZ
+Kosmonatu1	Kosmonautù	Kosmonautù	 2	Kosmonautù	
+PolitVezn1	Politických vìzòù	Politických vìzòù	 2	Politických vìzòù	ZZ
+PolitVezn2	Politických vìzòù	Politických vìzòù	 2	Politických vìzòù	ZZ
+Budapest1	Budapešská	Budapešská	 2	Budapešská	
+Budapest2	Budapešská	Budapešská	 2	Budapešská	
+Bratisl1	Bratislavská	Bratislavská	 2	Bratislavská	
+Bratisl2	Bratislavská	Bratislavská	 2	Bratislavská	
+Bratisl3	Bratislavská	Bratislavská	 2	Bratislavská	
+Bratisl4	Bratislavská	Bratislavská	 2	Bratislavská	
+ElMU1	Ellerova - MÚ	Ellerova - MÚ	 2	Eller-MÚ	
+ElMU2	Ellerova - MÚ	Ellerova - MÚ	 2	Eller-MÚ	
+ElMU4	Ellerova - MÚ	Ellerova - MÚ	 2	Eller-MÚ	
+Prazska1	Pražská	Pražská	 2	Pražská	ZZ
+Prazska2	Pražská	Pražská	 2	Pražská	ZZ
+ZizkovoNam1	Žižkovo námìstí	Žižkovo námìstí	 2	Žižkovo nám.	
+ZizkovoNam2	Žižkovo námìstí	Žižkovo námìstí	 2	Žižkovo nám.	
+Jirsady1	Jiráskovy sady	Jiráskovy sady	 2	Jir. sady	
+Jirsady2	Jiráskovy sady	Jiráskovy sady	 2	Jir. sady	
+JirsadyKZ	Jiráskovy sady	Jiráskovy sady	 2	Jir. sady	KZ
+Evropska1	Evropská	Evropská	 2	Evropská	ZZ
+Evropska2	Evropská	Evropská	 2	Evropská	ZZ
+NemAr2	Nemocnice, areál	Nemocnice, areál	 2	Nem., areál	
+NemArKZ	Nemocnice, areál	Nemocnice, areál	 2	Nem., areál	KZ
+Budov1	Budovatelská	Budovatelská	 2	Budovatelská	
+Budov2	Budovatelská	Budovatelská	 2	Budovatelská	
+SkolaSNP1	Škola SNP	Škola SNP	 2	Škola SNP	
+SkolaSNP2	Škola SNP	Škola SNP	 2	Škola SNP	
+[end]
+
+***************
+* R o u t e s *
+***************
+
+[infosystem_trip]
+01001
+Na Vyhlidce1  >>  AutNKZ
+110
+10
+
+[infosystem_busstop_list]
+14
+Na Vyhlidce1
+Harantova1
+SidlMiru1
+DPS1
+VozovnaRazicka1
+Razicka1
+NamTBati1
+ChynovskaMost1
+28rijna1
+Nadrazi1
+Poliklinika1
+NamSv1
+Husova1
+AutNKZ
+
+[infosystem_trip]
+01002
+AutN2  >>  Na VyhlidceKZ
+010
+10
+
+[infosystem_busstop_list]
+14
+AutN2
+Husova2
+NamSv2
+Poliklinika2
+Nadrazi2
+28rijna2
+ChynovskaMost2
+NamTBati2
+Razicka2
+VozovnaRazicka2
+DPS2
+SidlMiru2
+Harantova2
+Na VyhlidceKZ
+
+
+[infosystem_trip]
+01004
+Nadrazi2  >>  Za VozovnaRazickaKZ
+210
+10
+
+[infosystem_busstop_list]
+10
+AutN2
+Husova2
+NamSv2
+Poliklinika2
+Nadrazi2
+28rijna2
+ChynovskaMost2
+NamTBati2
+Razicka2
+VozovnaRazickaKZ
+
+[infosystem_trip]
+01101
+Kosmo  >>  Nem
+011
+11
+
+[infosystem_busstop_list]
+12
+Kosmonatu1
+PolitVezn1
+Budapest1
+Bratisl1
+28rijna1
+Nadrazi1
+Poliklinika1
+ElMU1
+Prazska1
+ZizkovoNam1
+Jirsady1
+Evropska1
+NemArKZ
+
+
+[infosystem_trip]
+01102
+Nem  >>  Kosmo
+111
+11
+
+[infosystem_busstop_list]
+13
+NemAr2
+Evropska2
+Jirsady2
+ZizkovoNam2
+Prazska2
+ElMU2
+Poliklinika2
+Nadrazi2
+28rijna4
+Bratisl2
+Budapest2
+PolitVezn2
+KosmonatuKZ
+
+
+[infosystem_trip]
+01201
+MasoT1  >>  NadraziKZ
+212
+12
+
+[infosystem_busstop_list]
+8
+MasoT1
+MasoZ1
+SidlMiruStred1
+Trebonska1
+NamTBati1
+ChynovskaMost1
+28rijna1
+NadraziKZ
+
+[infosystem_trip]
+01202
+Nadrazi2  >>  MasoTKZ
+112
+12
+
+[infosystem_busstop_list]
+9
+Nadrazi2
+Nadrazi2
+28rijna2
+ChynovskaMost2
+NamTBati4
+Trebonska2
+SidlMiruStred2
+MasoZ2
+MasoTKZ
+
+[infosystem_trip]
+01701
+Nadrazi2  >>  MasoTKZ
+017
+17
+
+[infosystem_busstop_list]
+7
+Kosmonatu1
+PolitVezn1
+Budapest1
+Bratisl3
+Budov1
+SkolaSNP1
+AutNKZ
+
+[infosystem_trip]
+01702
+Nadrazi2  >>  MasoTKZ
+117
+17
+
+[infosystem_busstop_list]
+7
+AutN1
+SkolaSNP2
+Budov2
+Bratisl2
+Budapest2
+PolitVezn2
+KosmonatuKZ
+
+[infosystem_trip]
+05101
+DPS  >>  JirSady
+351
+51
+
+[infosystem_busstop_list]
+22
+DPS2
+SidlMiru4
+SidlMiruStred1
+Trebonska1
+NamTBati1
+ChynovskaMost3
+Bratisl2
+Budapest2
+PolitVezn2
+Kosmonatu1
+PolitVezn1
+Budapest1
+Bratisl3
+Budov1
+SkolaSNP1
+AutN2
+Husova2
+NamSv4
+ElMU1
+Prazska1
+ZizkovoNam1
+JirsadyKZ
+
+[infosystem_trip]
+05102
+JirSady  >>  DPS
+051
+51
+
+[infosystem_busstop_list]
+22
+Jirsady2
+ZizkovoNam2
+Prazska2
+ElMU4
+NamSv1
+Husova1
+AutN1
+SkolaSNP2
+Budov2
+Bratisl2
+Budapest2
+PolitVezn2
+Kosmonatu1
+PolitVezn1
+Budapest1
+Bratisl4
+ChynovskaMost2
+NamTBati4
+Trebonska2
+SidlMiruStred4
+SidlMiru1
+DPSKZ

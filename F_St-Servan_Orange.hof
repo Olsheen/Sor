@@ -1,0 +1,1818 @@
+Diese Datei wurde mit der HOF Suite von Rumpelhans geschrieben.
+This file was written with HOF Suite by Rumpelhans.
+
+*****************************************
+* H O F   F i l e   p r o p e r t i e s *
+*****************************************
+
+[HOF_SUITE_DIRECTORIES]
+Heuliez Bus GX327
+Irisbus_Citelis
+PDO_Citaro Facelift
+[HOF_SUITE_DIRECTORIES_END]
+
+[name]
+St-Servan V2 Orange
+
+[servicetrip]
+Sans Voyageur SV
+
+[global_strings]
+6
+St-Servan
+St-Servan
+St-Servan
+00
+00
+00
+
+stringcount_terminus
+26
+
+stringcount_busstop
+9
+
+*****************
+* T e r m i n i *
+*****************
+
+[addterminus_list]
+{ALLEX}	0	Empty
+{ALLEX}	999	Sans Voyageur SV		 SANS VOYAGEURS 		 SANS VOYAGEURS 		Sans Voyageurs (HLP)		Customs\Orange\Commun\sv.png
+{ALLEX}	1999	Sans Voyageur SV		 SANS VOYAGEURS 		 SANS VOYAGEURS 		Sans Voyageurs (HLP)		Customs\Orange\Commun\sv.png					Customs\Orange\Commun\sv2.png
+{ALLEX}	2999	Sans Voyageur SV		 SANS VOYAGEURS 		 SANS VOYAGEURS 		Sans Voyageurs (HLP)		Customs\Orange\Commun\sv.png					Customs\Orange\Commun\sv2.png
+{ALLEX}	3999	Sans Voyageur SV		 SANS VOYAGEURS 		 SANS VOYAGEURS 		Sans Voyageurs (HLP)		Customs\Orange\Commun\sv.png					Customs\Orange\Commun\sv2.png
+{ALLEX}	4999	Sans Voyageur SV		 SANS VOYAGEURS 		 SANS VOYAGEURS 		Sans Voyageurs (HLP)		Customs\Orange\Commun\sv.png					Customs\Orange\Commun\sv2.png
+{ALLEX}	1	Sans Voyageur		 SANS VOYAGEURS 		 SANS VOYAGEURS 		Sans Voyageurs (HLP)		Customs\Orange\Commun\sv.png
+{ALLEX}	1001	Sans Voyageur		 SANS VOYAGEURS 		 SANS VOYAGEURS 		Sans Voyageurs (HLP)		Customs\Orange\Commun\sv.png					Customs\Orange\Commun\Sansvoyageurs.png
+{ALLEX}	2001	Sans Voyageur		 SANS VOYAGEURS 		 SANS VOYAGEURS 		Sans Voyageurs (HLP)		Customs\Orange\Commun\sv.png					Customs\Orange\Commun\Sansvoyageurs.png
+{ALLEX}	3001	Sans Voyageur		 SANS VOYAGEURS 		 SANS VOYAGEURS 		Sans Voyageurs (HLP)		Customs\Orange\Commun\sv.png					Customs\Orange\Commun\Sansvoyageurs.png
+{ALLEX}	4001	Sans Voyageur		 SANS VOYAGEURS 		 SANS VOYAGEURS 		Sans Voyageurs (HLP)		Customs\Orange\Commun\sv.png					Customs\Orange\Commun\Sansvoyageurs.png
+{ALLEX}	2	AURAY VOYAGES	 AURAY VOYAGES  	 AURAY VOYAGES  		 AURAY VOYAGES  		   AURAY VOYAGES    		Customs\Orange\Commun\artesiens.png					Customs\Orange\Commun\Transdevartesiens.png
+	14	14 Monfort Centre	 MONFORT CENTRE 	 MONFORT CENTRE 	 MONFORT CENTRE 	 MONFORT CENTRE 		 MONFORT CENTRE     		Customs\Orange\St-Servan\14_Monfort_Centre.png
+	141	14 Les ilots Lillebonne	   LILLIBONNE   	    LES ILOTS   	   LILLIBONNE   	   LILLIBONNE   		   LILLIBONNE       		Customs\Orange\St-Servan\14_Les îlots Lillebonne.png					Customs\Orange\St-Servan\Lillibonne.png
+	15	15 Hotel de Ville	 HOTEL DE VILLE 	 Hotel de Ville 	 Hotel de Ville 	 Hotel de Ville 		   Hotel de Ville   		Customs\Orange\St-Servan\15_Hotel_de_ville.png
+	151	15 Stade de Verfontaine	 STADE DE VERFO 	    Stade de    	  Verfontaine   	 STADE DE VERFO 		 STADE DE VERFO     		Customs\Orange\St-Servan\15_Stade de Verfontaine.png					Customs\Orange\St-Servan\Stade de Verfo.png
+	21	2 SALERIN	   GRAUDEGNAN   	   GRAUDEGNAN   		   GRAUDEGNAN   		Graudegnan          		Customs\Orange\St-Servan\2_Graudegnan.png					Customs\Orange\St-Servan\2_Graudegnan.png
+	1021	2 SALERIN	   GRAUDEGNAN   	   GRAUDEGNAN   		   GRAUDEGNAN   		Graudegnan          		Customs\Orange\St-Servan\2_Graudegnan.png					Customs\Orange\St-Servan\2_Graudegnan.png
+	2021	2 SALERIN	   GRAUDEGNAN   	   GRAUDEGNAN   		   GRAUDEGNAN   		Graudegnan          		Customs\Orange\St-Servan\2_Graudegnan.png					Customs\Orange\St-Servan\2_Graudegnan.png
+	3021	2 SALERIN	   GRAUDEGNAN   	   GRAUDEGNAN   		   GRAUDEGNAN   		Graudegnan          		Customs\Orange\St-Servan\2_valide.png
+	22	2 Campus Beaulieu	BEAULIEU R PARKS	BEAULIEU R PARKS		BEAULIEU R PARKS		BEAULIEU ROSA PARKS 		Customs\Orange\St-Servan\2_Beaulieu.png					Customs\Orange\St-Servan\2_Beaulieu.png
+	1022	2 Campus Beaulieu	BEAULIEU R PARKS	BEAULIEU R PARKS		BEAULIEU R PARKS		BEAULIEU ROSA PARKS 		Customs\Orange\St-Servan\2_Beaulieu.png					Customs\Orange\St-Servan\2_Beaulieu.png
+	2022	2 Campus Beaulieu	BEAULIEU R PARKS	BEAULIEU R PARKS		BEAULIEU R PARKS		BEAULIEU ROSA PARKS 		Customs\Orange\St-Servan\2_Beaulieu.png					Customs\Orange\St-Servan\2_Beaulieu.png
+	3022	2 Campus Beaulieu	BEAULIEU R PARKS	BEAULIEU R PARKS		BEAULIEU R PARKS		BEAULIEU ROSA PARKS 		Customs\Orange\St-Servan\2_valide.png
+	23	2 Verfontaine	  VERFONTAINE   	  VERFONTAINE   		  VERFONTAINE   		VERFONTAINE         		Customs\Orange\St-Servan\2_Verfontaine.png
+	1023	2 Verfontaine	  VERFONTAINE   	  VERFONTAINE   		  VERFONTAINE   		VERFONTAINE         		Customs\Orange\St-Servan\2_valide.png
+	200	20Jardin des Valaques	JARDIN DES VAL. 	JARDIN DES VAL. 		JARDIN DES VAL. 		JARDIN DES VALAQUES 		Customs\Orange\St-Servan\C20_Jardin.png					Customs\Orange\St-Servan\JDValaques.png
+	1200	20Jardin des Valaques	JARDIN DES VAL. 	JARDIN DES VAL. 		JARDIN DES VAL. 		JARDIN DES VALAQUES 		Customs\Orange\St-Servan\C20_Jardin.png					Customs\Orange\St-Servan\JDValaques.png
+	2200	20Jardin des Valaques	JARDIN DES VAL. 	JARDIN DES VAL. 		JARDIN DES VAL. 		JARDIN DES VALAQUES 		Customs\Orange\St-Servan\C20_Jardin.png					Customs\Orange\St-Servan\JDValaques.png
+	3200	20Jardin des Valaques	JARDIN DES VAL. 	JARDIN DES VAL. 		JARDIN DES VAL. 		JARDIN DES VALAQUES 		Customs\Orange\St-Servan\C20_valide.png
+	201	20 Kerfaience	   KERFAIENCE   	   KERFAIENCE   		   KERFAIENCE   		     KERFAIENCE     		Customs\Orange\St-Servan\C20_Kerfaience.png
+	1201	20 Kerfaience	   KERFAIENCE   	   KERFAIENCE   		   KERFAIENCE   		     KERFAIENCE     		Customs\Orange\St-Servan\C20_Kerfaience.png
+	2201	20 Kerfaience	   KERFAIENCE   	   KERFAIENCE   		   KERFAIENCE   		     KERFAIENCE     		Customs\Orange\St-Servan\C20_Valide.png
+	210	21 Thiers	THIERS V. - HUGO	     THIERS     	  VICTOR HUGO   	THIERS - V. HUGO		THIERS - VICTOR HUGO		Customs\Orange\St-Servan\21_Thiers.png					Customs\Orange\St-Servan\21_Thiers.png
+	1210	21 Thiers	THIERS V. - HUGO	     THIERS     	  VICTOR HUGO   	THIERS - V. HUGO		THIERS - VICTOR HUGO		Customs\Orange\St-Servan\21_Thiers.png					Customs\Orange\St-Servan\21_Thiers.png
+	2210	21 Thiers	THIERS V. - HUGO	     THIERS     	  VICTOR HUGO   	THIERS - V. HUGO		THIERS - VICTOR HUGO		Customs\Orange\St-Servan\21_Thiers.png					Customs\Orange\St-Servan\21_Thiers.png
+	3210	21 Thiers	THIERS V. - HUGO	     THIERS     	  VICTOR HUGO   	THIERS - V. HUGO		THIERS - VICTOR HUGO		Customs\Orange\St-Servan\21_valide.png
+	211	21 P+R Ronoe	   P+R RONOE    	   P+R RONOE    		   P+R RONOE    		     P+R RONOE      		Customs\Orange\St-Servan\21_Ronoe.png					Customs\Orange\St-Servan\21_prRonoe.png
+	1211	21 P+R Ronoe	   P+R RONOE    	   P+R RONOE    		   P+R RONOE    		     P+R RONOE      		Customs\Orange\St-Servan\21_Ronoe.png					Customs\Orange\St-Servan\21_prRonoe.png
+	2211	21 P+R Ronoe	   P+R RONOE    	   P+R RONOE    		   P+R RONOE    		     P+R RONOE      		Customs\Orange\St-Servan\21_Ronoe.png					Customs\Orange\St-Servan\21_prRonoe.png
+	3211	21 P+R Ronoe	   P+R RONOE    	   P+R RONOE    		   P+R RONOE    		     P+R RONOE      		Customs\Orange\St-Servan\21_valide.png
+	230	23Jardin des Valaques	JARDIN DES VAL. 	JARDIN DES VAL. 		JARDIN DES VAL. 		JARDIN DES VALAQUES 		Customs\Orange\St-Servan\C23_Jardin.png					Customs\Orange\St-Servan\JDValaques.png
+	1230	23Jardin des Valaques	JARDIN DES VAL. 	JARDIN DES VAL. 		JARDIN DES VAL. 		JARDIN DES VALAQUES 		Customs\Orange\St-Servan\C23_Jardin.png					Customs\Orange\St-Servan\JDValaques.png
+	2230	23Jardin des Valaques	JARDIN DES VAL. 	JARDIN DES VAL. 		JARDIN DES VAL. 		JARDIN DES VALAQUES 		Customs\Orange\St-Servan\C23_Jardin.png					Customs\Orange\St-Servan\JDValaques.png
+	3230	23Jardin des Valaques	JARDIN DES VAL. 	JARDIN DES VAL. 		JARDIN DES VAL. 		JARDIN DES VALAQUES 		Customs\Orange\St-Servan\C23_Valide.png
+	231	23 SALERIN Mendes-Fr	 MENDES-FRANCE  	 MENDES-FRANCE  	 MENDES-FRANCE  	 MENDES-FRANCE  		   MENDES-FRANCE    		Customs\Orange\St-Servan\C23_Mendes.png					Customs\Orange\St-Servan\23_Mendes.png
+	1231	23 SALERIN Mendes-Fr	 MENDES-FRANCE  	 MENDES-FRANCE  	 MENDES-FRANCE  	 MENDES-FRANCE  		   MENDES-FRANCE    		Customs\Orange\St-Servan\C23_Mendes.png					Customs\Orange\St-Servan\23_Mendes.png
+	2231	23 SALERIN Mendes-Fr	 MENDES-FRANCE  	 MENDES-FRANCE  	 MENDES-FRANCE  	 MENDES-FRANCE  		   MENDES-FRANCE    		Customs\Orange\St-Servan\C23_Mendes.png					Customs\Orange\St-Servan\23_Mendes.png
+	3231	23 SALERIN Mendes-Fr	 MENDES-FRANCE  	 MENDES-FRANCE  	 MENDES-FRANCE  	 MENDES-FRANCE  		   MENDES-FRANCE    		Customs\Orange\St-Servan\C23_Valide.png
+	232	PORT SALERIN Mendes-France	 MENDES-FRANCE  	 MENDES-FRANCE  		 MENDES-FRANCE  		   MENDES-FRANCE    		St-Servan\PORT.png
+	244	24 CHU Pasteur Cornouaille	C24 CHU PASTEUR 	   CHU Pasteur  	   CHU Pasteur  	   CHU Pasteur  		   C24 CHU PASTEUR  		Customs\Orange\St-Servan\C24_CHU PASTEUR.png					Customs\Orange\St-Servan\C24_CHU PASTEUR.png
+	245	24 CHU Pasteur Cornouaille	C24 CHU PASTEUR 	   CHU Pasteur  	   CHU Pasteur  	   CHU Pasteur  		   C24 CHU PASTEUR  		Customs\Orange\St-Servan\C24_Valide.png
+	246	24 VERFONTAINE	C24 VERFONTAINE 	  VERFONTAINE   	  VERFONTAINE   	  VERFONTAINE   		   C24 VERFONTAINE  		Customs\Orange\St-Servan\C24_Verfo.png
+	247	24 VERFONTAINE	C24 VERFONTAINE 	  VERFONTAINE   	  VERFONTAINE   	  VERFONTAINE   		   C24 VERFONTAINE  		Customs\Orange\St-Servan\C24_Valide.png
+	250	25 Verfontaine	  VERFONTAINE   	  VERFONTAINE   		  VERFONTAINE   		    VERFONTAINE     		Customs\Orange\St-Servan\25_Verfontaine.png
+	1250	25 Verfontaine	  VERFONTAINE   	  VERFONTAINE   		  VERFONTAINE   		    VERFONTAINE     		Customs\Orange\St-Servan\25_Valide.png
+	251	25 SALERIN Leclerc Graudegnan	   GRAUDEGNAN   	   GRAUDEGNAN   		   GRAUDEGNAN   		     GRAUDEGNAN     		Customs\Orange\St-Servan\25_Graudegnan.png					Customs\Orange\St-Servan\25_SALERIN.png
+	1251	25 SALERIN Leclerc Graudegnan	   GRAUDEGNAN   	   GRAUDEGNAN   		   GRAUDEGNAN   		     GRAUDEGNAN     		Customs\Orange\St-Servan\25_Graudegnan.png					Customs\Orange\St-Servan\25_SALERIN.png
+	2251	25 SALERIN Leclerc Graudegnan	   GRAUDEGNAN   	   GRAUDEGNAN   		   GRAUDEGNAN   		     GRAUDEGNAN     		Customs\Orange\St-Servan\25_Graudegnan.png					Customs\Orange\St-Servan\25_SALERIN.png
+	3251	25 SALERIN Leclerc Graudegnan	   GRAUDEGNAN   	   GRAUDEGNAN   		   GRAUDEGNAN   		     GRAUDEGNAN     		Customs\Orange\St-Servan\25_Valide.png
+	252	25 Conleau	    CONLEAU     	    CONLEAU     		    CONLEAU     		      CONLEAU       		Customs\Orange\St-Servan\25_Conleau.png					Customs\Orange\St-Servan\LE_ROC_SAINT_ANDRE.png
+	1252	25 Conleau	    CONLEAU     	    CONLEAU     		    CONLEAU     		      CONLEAU       		Customs\Orange\St-Servan\25_Conleau.png					Customs\Orange\St-Servan\LE_ROC_SAINT_ANDRE.png
+	2252	25 Conleau	    CONLEAU     	    CONLEAU     		    CONLEAU     		      CONLEAU       		Customs\Orange\St-Servan\25_Conleau.png					Customs\Orange\St-Servan\LE_ROC_SAINT_ANDRE.png
+	3252	25 Conleau	    CONLEAU     	    CONLEAU     		    CONLEAU     		      CONLEAU       		Customs\Orange\St-Servan\25_Valide.png
+	240	204 Maison Blanche	 MAISON BLANCHE 	 MAISON BLANCHE 		 MAISON BLANCHE 		   MAISON BLANCHE   		Customs\Orange\St-Servan\204_Maison Blanche.png
+	241	204 CFA	      CFA       	      CFA       		      CFA       		        CFA         		Customs\Orange\St-Servan\204_CFA.png					Customs\Orange\St-Servan\CFA.png
+	242	204 Verfontaine	  VERFONTAINE   	  VERFONTAINE   		  VERFONTAINE   		    VERFONTAINE     		Customs\Orange\St-Servan\204_Verfo.png
+	243	204 Hecheno	    HECHENO     	    HECHENO     		    HECHENO     		      HECHENO       		Customs\Orange\St-Servan\204_Hecheno.png
+	260	U RU	RESTAURANT UNIV.	RESTAURANT UNIV.		RESTAURANT UNIV.		  RESTAURANT UNIV.  		Customs\Orange\St-Servan\U_Restaurant.png					Customs\Orange\St-Servan\U_P+R Jardins.png
+	261	U Maison Blanche	 MAISON BLANCHE 	 MAISON BLANCHE 		 MAISON BLANCHE 		   MAISON BLANCHE   		Customs\Orange\St-Servan\U_MBlanche.png
+	270	200 College Dreyfus	COLLEGE DREYFUS 	COLLEGE DREYFUS 		COLLEGE DREYFUS 		  COLLEGE DREYFUS   		Customs\Orange\St-Servan\200_College Dreyfus.png
+	271	200 SALERIN Graudegnan	   GRAUDEGNAN   	   GRAUDEGNAN   		   GRAUDEGNAN   		     GRAUDEGNAN     		Customs\Orange\St-Servan\200_College Dreyfus.png					Customs\Orange\St-Servan\25_SALERIN.png
+	272	201 College Dreyfus	COLLEGE DREYFUS 	COLLEGE DREYFUS 		COLLEGE DREYFUS 		  COLLEGE DREYFUS   		Customs\Orange\St-Servan\201_College Dreyfus.png
+	273	201 Verfontaine	  VERFONTAINE   		  VERFONTAINE   	  VERFONTAINE   		    VERFONTAINE     		Customs\Orange\St-Servan\201_Verfo.png
+	290	NJardin des Valaques	JARDIN DES VAL. 	JARDIN DES VAL. 		JARDIN DES VAL. 		JARDIN DES VALAQUES 		Customs\Orange\St-Servan\N2_Maison Blanche.png					Customs\Orange\St-Servan\JDValaques.png
+	291	N2 Maison Blanche	 MAISON BLANCHE 	 MAISON BLANCHE 		 MAISON BLANCHE 		   MAISON BLANCHE   		Customs\Orange\St-Servan\N2_Maison Blanche.png
+[end]
+
+*******************
+* B u s s t o p s *
+*******************
+
+[addbusstop_list]
+Jardin des Valaques	JARDIN DES VAL. 	Jardin des Valaques		Jardin des Valaques
+Resistance	RESISTANCE	Resistance		Resistance
+Joliot Curie	JOLIOT-CURIE    	Joliot Curie		Joliot Curie
+Republique	REPUBLIQUE	Republique		Republique
+Francois Mitterrand	F. MITTERRAND   	Francois Mitterrand		Francois Mitterrand
+Roosevelt	F. ROOSEVELT    	Roosevelt		Roosevelt
+Hotel de Ville	HOTEL DE VILLE	Hotel de Ville		Hotel de Ville
+Tribunal	TRIBUNAL	Tribunal		Tribunal
+Banques	BANQUES	Banques		Banques
+Oceane	OCEANE	Oceane		Oceane
+Pont du Gard	PONT DU GARD    	Joffre	Pont du Gard	Joffre-Pont du Gard
+Capitainerie	CAPITAINERIE	Capitainerie		Capitainerie
+Restaurant Universitaire	RESTAU. UNIV.   	Restaurant	Universitaire	Restaurant Univ.
+Parc Relais des Jardins	P+R JARDINS     	P+R Jardins		P+R Jardins
+Ajoncs	AJONCS	Ajoncs		Ajoncs
+UJM	UJM	Universite	Jean Moulin	Universite J. Moulin
+La Marne	LA MARNE	La Marne		La Marne
+Urbania	URBANIA	Urbania		Urbania
+Lillebonne	LILLEBONNE	Lillebonne		Lillebonne
+Les ilots Lillebonne	   LILLEBONNE   	Prochaine arret	LILLEBONNE	Lillebonne
+Stade Salif Keita	STADE S. KEITA  	Stade Salif Keita		Stade Salif Keita
+De Coubertin	DE COUBERTIN	De Coubertin		De Coubertin
+Route de Vannes	ROUTE DE VANNES	Route de Vannes		Route de Vannes
+Fariand	FARIAND	Fariand	Stade de Verfontaine	Fariand-Stade de V.
+Robert Schumann	ROBERT SCHUMANN	Robert Schumann		Robert Schumann
+Robert Schuman	ROBERT SCHUMANN	Robert Schumann		Robert Schumann
+Petit Kerfaience	PETIT KERFAIENCE	Petit Kerfaience		Petit Kerfaience
+Kerfaience	KERFAIENCE	Kerfaience		Kerfaience
+Carnot	CARNOT	Carnot		Carnot
+Cours Victor Hugo	COURS V. HUGO   	Cours Victor Hugo		Cours Victor Hugo
+College Dreyfus	COLLEGE DREYFUS	College Dreyfus		College Dreyfus
+Espace CDM	ESPACE CDM	Espace CDM		Espace CDM
+Mediatheque	MEDIATHEQUE	Mediatheque		Mediatheque
+Foch Galarne	FOCH-GALARNE    	Foch-Galarne		Foch-Galarne
+Avenue de Thaulan	AV. DE THAULAN  	Avenue de Thaulan		Avenue de Thaulan
+Thaulan - Ville	THAULAN-VILLE   	Thaulan-Ville		Thaulan-Ville
+Lyautey	LYAUTEY	Lyautey		Lyautey
+Glaieuls	GLAIEULS	Glaieuls		Glaieuls
+Resedas	RESEDAS	Resedas		Resedas
+Radieuse	RADIEUSE	Radieuse		Radieuse
+Renaudot	RENAUDOT-EHPAD  	Renaudot-EHPAD		Renaudot-EHPAD
+St-Lazare	ST-LAZARE	St-Lazare		St-Lazare
+Blvd. du Ronoe	BLVD. DU RONOE	Blvd. du Ronoe		Blvd. du Ronoe
+P+R Ronoe	P+R RONOE	P+R Ronoe		P+R Ronoe
+Mathilde	MATHILDE	Mathilde		Mathilde
+Patton	PATTON	Patton		Patton
+Marcel Cachin	MARCEL CACHIN	Marcel Cachin		Marcel Cachin
+Ambroise Croizat	AMBROISE CROIZAT	Ambroise Croizat		Ambroise Croizat
+Les Etangs	LES ETANGS	Les Etangs		Les Etangs
+Docks	DOCKS	Docks		Docks
+Darse 12	DARSE 12	Darse 12		Darse 12
+Mendes-France	MENDES-FRANCE	Mendes-France		Mendes-France
+Leclerc Graudegnan		Leclerc Graudegnan		Leclerc Graudegnan
+Leon Blum	LEON BLUM	Leon Blum		Leon Blum
+Bellevue	BELLEVUE	Bellevue		Bellevue
+Conleau	CONLEAU	Conleau		Conleau
+Digue	DIGUE	Digue		Digue
+Le Dome	LE DOME	Le Dome		Le Dome
+5 aout 1944	5 AOUT 1944	5 Aout 1944		5 Aout 1944
+LE ROC Mairie	LE ROC MAIRIE	LE ROC Mairie		LE ROC Mairie
+Les Forges	LES FORGES	Les Forges		Les Forges
+Freres Rey	FRERES REY	Freres Rey		Freres Rey
+Ancienne gare	ANCIENNE GARE	Ancienne Gare		Ancienne Gare
+Le Hameau	LE HAMEAU	Le Hameau		Le Hameau
+Monfort Centre	MONFORT CENTRE	MONFORT Centre		MONFORT Centre
+Rue Nationale	RUE NATIONALE	Rue Nationale		Rue Nationale
+Route du Roc	ROUTE DU ROC	Route du Roc		Route du Roc
+Lande du Miaque	LANDE DU MIAQUE	Lande du Miaque		Lande du Miaque
+Simone Veil	SIMONE VEIL	Simone Veil		Simone Veil
+Belle-Ile	BELLE-ILE	Belle-Ile		Belle-Ile
+Verfontaine	VERFONTAINE	Verfontaine		Verfontaine
+Prise de Service	PRISE DE SERVICE	Prise de Service		Prise de Service
+Maison Blanche	MAISON BLANCHE	Maison Blanche		Maison Blanche
+Retour Depot	RETOUR DEPOT	Retour Depot		Retour Depot
+Genets	GENETS	Genets		Genets
+La Bollardiere	LA BOLLARDIERE	La Bollardiere		La Bollardiere
+Stade de Verfontaine		Stade de Verfontaine		Stade de Verfontaine
+Maurice Ravel	MAURICE RAVEL	Maurice Ravel		Maurice Ravel
+College Alfred Dreyfus	COLLEGE DREYFUS 	College Dreyfus		College Dreyfus
+Blvd. Leclerc	BLVD. LECLERC	Blvd. Leclerc		Blvd. Leclerc
+Descartes	DESCARTES	Descartes		Descartes
+Plaisance	PLAISANCE	Plaisance		Plaisance
+Croix Blanche	CROIX BLANCHE	Croix Blanche		Croix Blanche
+Landes	LANDES	Landes		Landes
+Releve Auray Voyages	 AURAY VOYAGES  	Releve Auray Voyages		Releve Auray Voyages
+Kersec	KERSEC	Kersec		Kersec
+CFA	CFA	CFA		CFA
+Hecheno	HECHENO	Hecheno		Hecheno
+Giraud	GIRAUD	Giraud		Giraud
+Grador	GRADOR	Grador		Grador
+4 Chemins	4 CHEMINS	4 Chemins		4 Chemins
+Grand Moustoir	GRAND MOUSTOIR	Grand Moustoir		Grand Moustoir
+Beaulieu Rosa Parks	BEAULIEU R PARKS	Beaulieu Rosa Parks		Beaulieu Rosa Parks
+Beaulieu Mohamed Ali	BEAULIEU M. ALI 	Beaulieu Mohamed Ali		Beaulieu Mohamed Ali
+Madeleine	MADELEINE	Madeleine		Madeleine
+Rouille	ROUILLE	Rouille		Rouille
+Pasteur	PASTEUR	Pasteur		Pasteur
+Camelias	CAMELIAS	Camelias		Camelias
+Claudel Cite U	CLAUDEL CITE U  	Claudel Cite U		Claudel Cite U
+De Beauvoir	DE BEAUVOIR	De Beauvoir		De Beauvoir
+Cormorans	CORMORANS	Cormorans		Cormorans
+Becquerel	BECQUEREL	Becquerel		Becquerel
+Kerviler	KERVILER	Kerviler		Kerviler
+Graudegnan Cineville	GRAUDEGNAN CINE.	Graudegnan Cineville		Graudegnan Cineville
+Graudegnan	GRAUDEGNAN	Graudegnan		Graudegnan
+Boedic	BOEDIC	Boedic		Boedic
+Ile aux Moines	ILE AUX MOINES	Ile aux Moines		Ile aux Moines
+Gavrinis	GAVRINIS	Gavrinis		Gavrinis
+Hoedic	HOEDIC	Hoedic		Hoedic
+Houat	HOUAT	Houat		Houat
+Kerlann	KERLANN	Kerlann		Kerlann
+Aquavesc	AQUAVESC	Aquavesc		Aquavesc
+College Notre-Dame	NOTRE-DAME      	College Notre-Dame		College Notre-Dame
+Penhouet	PENHOUET	Penhouet		Penhouet
+Combronde	COMBRONDE	Combronde		Combronde
+Marie Ducas	MARIE DUCAS	Marie Ducas		Marie Ducas
+Cherrier	CHERRIER	Cherrier		Cherrier
+Moulin a Vent	MOULIN A VENT	Moulin a Vent		Moulin a Vent
+La Roche	LA ROCHE	La Roche		La Roche
+Piano	PIANO	Piano		Piano
+Archives Litteraires Municipales	ALM             	Archives Litt.	Municipales	ALM
+CHU Pasteur - Zola	CHU - ZOLA      	CHU Pasteur - Zola		CHU Pasteur - Zola
+CHU Pasteur - Cornouaille	CHU-CORNOUAILLE 	CHU - Cornouaille		CHU - Cornouaille
+Place dArmes	PLACE DARMES	Place dArmes		Place dArmes
+Place d'Armes	PLACE DARMES    	Place dArmes		Place dArmes
+19 Mars 1962	19 MARS 1962	19 Mars 1962		19 Mars 1962
+Ormont	ORMONT	Ormont		Ormont
+Le Pailleret	LE PAILLERET	Le Pailleret		Le Pailleret
+Saint-Exupery	SAINT-EXUPERY	Saint-Exupery		Saint-Exupery
+Lamartine	LAMARTINE	Lamartine		Lamartine
+Maury	MAURY	Maury		Maury
+Bir-Hakeim	BIR-HAKEIM	Bir-Hakeim		Bir-Hakeim
+Colombier	COLOMBIER	Colombier		Colombier
+Thiers - Victor Hugo	THIERS - V. HUGO	Thiers - Victor Hugo		Thiers - Victor Hugo
+EndOfTrip_TerminusCode	001
+LumiTFT_Global_AdName	GestesBarrieres.dds
+LumiTFT_Line_76_AdName	G\LumiTFT_Ad1.dds	G\LumiTFT_Ad2.dds
+Strasbourg	STRASBOURG      	Prochaine arret	Strasbourg	    Strasbourg
+Sembat	SEMBAT          	Prochaine arret	Sembat	Sembat
+Musee de la Mer	MUSEE DE LA MER 	Prochaine arret	Musee de la Mer	Musee de la Mer
+Bruants	     BRUANTS    	Prochaine arret	Bruants	Bruants
+Tadornes	    TADORNES    	Prochaine arret	Tadornes	       Tadornes
+Noroit	    NOROIT      	Prochaine arret	Noroit	      Noroit
+Tabarly	     TABARLY    	Prochaine arret	Tabarly	      Tabarly
+[end]
+
+***************
+* R o u t e s *
+***************
+
+[infosystem_trip]
+205
+2_boucle-CB
+999
+2
+
+[infosystem_busstop_list]
+2
+Beaulieu Rosa Parks
+Beaulieu Rosa Parks
+
+[infosystem_trip]
+206
+2_boucle-Verfo_D1-A3
+999
+2
+
+[infosystem_busstop_list]
+2
+Verfontaine
+Verfontaine
+
+[infosystem_trip]
+201
+2_SAL-CB
+22
+2
+
+[infosystem_busstop_list]
+16
+Graudegnan
+Graudegnan
+Graudegnan Cineville
+Leon Blum
+Patton
+Kerviler
+Becquerel
+Cormorans
+Belle-Ile
+Verfontaine
+De Beauvoir
+Robert Schuman
+Fariand
+Route de Vannes
+Claudel Cite U
+Beaulieu Rosa Parks
+
+[infosystem_trip]
+202
+2_CB-SAL
+21
+2
+
+[infosystem_busstop_list]
+16
+Beaulieu Rosa Parks
+Claudel Cite U
+Route de Vannes
+Fariand
+Robert Schuman
+De Beauvoir
+Verfontaine
+Belle-Ile
+Cormorans
+Becquerel
+Kerviler
+Patton
+Leon Blum
+Graudegnan Cineville
+Graudegnan
+Graudegnan
+
+[infosystem_trip]
+203
+2_Verfo-CB
+22
+2
+
+[infosystem_busstop_list]
+6
+Verfontaine
+De Beauvoir
+Fariand
+Route de Vannes
+Claudel Cite U
+Beaulieu Rosa Parks
+
+[infosystem_trip]
+204
+2_CB-Verfo
+23
+2
+
+[infosystem_busstop_list]
+6
+Beaulieu Rosa Parks
+Claudel Cite U
+Route de Vannes
+Fariand
+De Beauvoir
+Verfontaine
+
+[infosystem_trip]
+2001
+20_Kerfa-JVal
+200
+20
+
+[infosystem_busstop_list]
+27
+Kerfaience
+Kerfaience
+Petit Kerfaience
+Robert Schumann
+Fariand
+Route de Vannes
+De Coubertin
+Stade Salif Keita
+Lillebonne
+Urbania
+La Marne
+UJM
+Ajoncs
+Parc Relais des Jardins
+Restaurant Universitaire
+Capitainerie
+Pont du Gard
+Oceane
+Banques
+Tribunal
+Hotel de Ville
+Roosevelt
+Francois Mitterrand
+Republique
+Joliot Curie
+Resistance
+Jardin des Valaques
+
+[infosystem_trip]
+2003
+20_Kerfa-JVal1
+200
+20
+
+[infosystem_busstop_list]
+27
+Kerfaience
+Kerfaience
+Petit Kerfaience
+Robert Schumann
+Fariand
+Route de Vannes
+De Coubertin
+Stade Salif Keita
+Lillebonne
+Urbania
+La Marne
+UJM
+Ajoncs
+Parc Relais des Jardins
+Restaurant Universitaire
+Capitainerie
+Pont du Gard
+Oceane
+Banques
+Tribunal
+Hotel de Ville
+Roosevelt
+Francois Mitterrand
+Republique
+Joliot Curie
+Resistance
+Jardin des Valaques
+
+[infosystem_trip]
+2004
+20_Kerfa-JVal2
+200
+20
+
+[infosystem_busstop_list]
+27
+Kerfaience
+Kerfaience
+Petit Kerfaience
+Robert Schumann
+Fariand
+Route de Vannes
+De Coubertin
+Stade Salif Keita
+Lillebonne
+Urbania
+La Marne
+UJM
+Ajoncs
+Parc Relais des Jardins
+Restaurant Universitaire
+Capitainerie
+Pont du Gard
+Oceane
+Banques
+Tribunal
+Hotel de Ville
+Roosevelt
+Francois Mitterrand
+Republique
+Joliot Curie
+Resistance
+Jardin des Valaques
+
+[infosystem_trip]
+2002
+20_Jval-Kerfa
+201
+20
+
+[infosystem_busstop_list]
+27
+Jardin des Valaques
+Jardin des Valaques
+Resistance
+Joliot Curie
+Republique
+Francois Mitterrand
+Roosevelt
+Hotel de Ville
+Tribunal
+Banques
+Oceane
+Pont du Gard
+Capitainerie
+Restaurant Universitaire
+Parc Relais des Jardins
+Ajoncs
+UJM
+La Marne
+Urbania
+Lillebonne
+Stade Salif Keita
+De Coubertin
+Route de Vannes
+Fariand
+Robert Schumann
+Petit Kerfaience
+Kerfaience
+
+[infosystem_trip]
+2005
+20_JVal2-Kerfa
+201
+20
+
+[infosystem_busstop_list]
+27
+Jardin des Valaques
+Jardin des Valaques
+Resistance
+Joliot Curie
+Republique
+Francois Mitterrand
+Roosevelt
+Hotel de Ville
+Tribunal
+Banques
+Oceane
+Pont du Gard
+Capitainerie
+Restaurant Universitaire
+Parc Relais des Jardins
+Ajoncs
+UJM
+La Marne
+Urbania
+Lillebonne
+Stade Salif Keita
+De Coubertin
+Route de Vannes
+Fariand
+Robert Schumann
+Petit Kerfaience
+Kerfaience
+
+[infosystem_trip]
+2101
+21_PR-Thiers
+210
+21
+
+[infosystem_busstop_list]
+30
+P+R Ronoe
+Blvd. du Ronoe
+Combronde
+Marie Ducas
+Cherrier
+Verfontaine
+Moulin a Vent
+La Roche
+Petit Kerfaience
+Stade de Verfontaine
+Maurice Ravel
+Maison Blanche
+Beaulieu Rosa Parks
+Beaulieu Mohamed Ali
+Madeleine
+Rouille
+Pasteur
+Piano
+Archives Litteraires Municipales
+CHU Pasteur - Zola
+CHU Pasteur - Cornouaille
+Place d'Armes
+19 Mars 1962
+Ormont
+Le Pailleret
+Saint-Exupery
+Lamartine
+Maury
+Bir-Hakeim
+Thiers - Victor Hugo
+
+[infosystem_trip]
+2111
+21_Thiers-PR
+211
+21
+
+[infosystem_busstop_list]
+30
+Thiers - Victor Hugo
+Thiers - Victor Hugo
+Colombier
+Maury
+Lamartine
+Saint-Exupery
+Le Pailleret
+Ormont
+19 Mars 1962
+Place dArmes
+CHU Pasteur - Cornouaille
+CHU Pasteur - Zola
+Archives Litteraires Municipales
+Piano
+Pasteur
+Madeleine
+Beaulieu Mohamed Ali
+Beaulieu Rosa Parks
+Maison Blanche
+Maurice Ravel
+Stade de Verfontaine
+Petit Kerfaience
+La Roche
+Moulin a Vent
+Verfontaine
+Cherrier
+Marie Ducas
+Combronde
+Blvd. du Ronoe
+P+R Ronoe
+
+[infosystem_trip]
+2301
+23_SAL-Jval
+230
+23
+
+[infosystem_busstop_list]
+32
+Mendes-France
+Darse 12
+Docks
+Les Etangs
+Ambroise Croizat
+Marcel Cachin
+Patton
+Mathilde
+P+R Ronoe
+Blvd. du Ronoe
+St-Lazare
+Renaudot
+Radieuse
+Resedas
+Glaieuls
+Ajoncs
+Lyautey
+Capitainerie
+Pont du Gard
+Oceane
+Thaulan - Ville
+Avenue de Thaulan
+Hotel de Ville
+Foch Galarne
+Mediatheque
+Espace CDM
+College Dreyfus
+Cours Victor Hugo
+Carnot
+Joliot Curie
+Resistance
+Jardin des Valaques
+
+[infosystem_trip]
+2304
+23_SAL-JVal2
+230
+23
+
+[infosystem_busstop_list]
+32
+Mendes-France
+Darse 12
+Docks
+Les Etangs
+Ambroise Croizat
+Marcel Cachin
+Patton
+Mathilde
+P+R Ronoe
+Blvd. du Ronoe
+St-Lazare
+Renaudot
+Radieuse
+Resedas
+Glaieuls
+Ajoncs
+Lyautey
+Capitainerie
+Pont du Gard
+Oceane
+Thaulan - Ville
+Avenue de Thaulan
+Hotel de Ville
+Foch Galarne
+Mediatheque
+Espace CDM
+College Dreyfus
+Cours Victor Hugo
+Carnot
+Joliot Curie
+Resistance
+Jardin des Valaques
+
+[infosystem_trip]
+2305
+23_JVal2-SAL
+231
+23
+
+[infosystem_busstop_list]
+33
+Jardin des Valaques
+Jardin des Valaques
+Resistance
+Joliot Curie
+Carnot
+Cours Victor Hugo
+College Dreyfus
+Espace CDM
+Mediatheque
+Foch Galarne
+Hotel de Ville
+Avenue de Thaulan
+Thaulan - Ville
+Oceane
+Pont du Gard
+Capitainerie
+Lyautey
+Ajoncs
+Glaieuls
+Resedas
+Radieuse
+Renaudot
+St-Lazare
+Blvd. du Ronoe
+P+R Ronoe
+Mathilde
+Patton
+Marcel Cachin
+Ambroise Croizat
+Les Etangs
+Docks
+Darse 12
+Mendes-France
+
+[infosystem_trip]
+2302
+23_Jval-SAL
+231
+23
+
+[infosystem_busstop_list]
+33
+Jardin des Valaques
+Jardin des Valaques
+Resistance
+Joliot Curie
+Carnot
+Cours Victor Hugo
+College Dreyfus
+Espace CDM
+Mediatheque
+Foch Galarne
+Hotel de Ville
+Avenue de Thaulan
+Thaulan - Ville
+Oceane
+Pont du Gard
+Capitainerie
+Lyautey
+Ajoncs
+Glaieuls
+Resedas
+Radieuse
+Renaudot
+St-Lazare
+Blvd. du Ronoe
+P+R Ronoe
+Mathilde
+Patton
+Marcel Cachin
+Ambroise Croizat
+Les Etangs
+Docks
+Darse 12
+Mendes-France
+
+[infosystem_trip]
+2303
+PORT_Verfo-SAL
+232
+23
+
+[infosystem_busstop_list]
+4
+Verfontaine
+Docks
+Darse 12
+Mendes-France
+
+[infosystem_trip]
+2501
+25_SAL-Verfo
+250
+25
+
+[infosystem_busstop_list]
+27
+Leclerc Graudegnan
+Leon Blum
+Marcel Cachin
+Ambroise Croizat
+Les Etangs
+Docks
+Darse 12
+Mendes-France
+Bellevue
+Conleau
+Digue
+Le Dome
+5 aout 1944
+LE ROC Mairie
+Les Forges
+Freres Rey
+Ancienne gare
+Le Hameau
+Monfort Centre
+College Notre-Dame
+Penhouet
+Route du Roc
+Lande du Miaque
+P+R Ronoe
+Simone Veil
+Belle-Ile
+Verfontaine
+
+[infosystem_trip]
+2502
+25_Verfo-SAL
+251
+25
+
+[infosystem_busstop_list]
+27
+Verfontaine
+Belle-Ile
+Simone Veil
+P+R Ronoe
+Lande du Miaque
+Route du Roc
+Penhouet
+College Notre-Dame
+Monfort Centre
+Le Hameau
+Ancienne gare
+Freres Rey
+Les Forges
+LE ROC Mairie
+5 aout 1944
+Le Dome
+Conleau
+Digue
+Bellevue
+Mendes-France
+Darse 12
+Docks
+Les Etangs
+Ambroise Croizat
+Marcel Cachin
+Leon Blum
+Leclerc Graudegnan
+
+[infosystem_trip]
+2503
+25DIM_Conleau-Verfo
+250
+25
+
+[infosystem_busstop_list]
+19
+Conleau
+Conleau
+Digue
+Le Dome
+5 aout 1944
+LE ROC Mairie
+Les Forges
+Freres Rey
+Ancienne gare
+Le Hameau
+Monfort Centre
+College Notre-Dame
+Penhouet
+Route du Roc
+Lande du Miaque
+P+R Ronoe
+Simone Veil
+Belle-Ile
+Verfontaine
+
+[infosystem_trip]
+2504
+25DIM_Verfo-Conleau
+252
+25
+
+[infosystem_busstop_list]
+17
+Verfontaine
+Belle-Ile
+Simone Veil
+P+R Ronoe
+Lande du Miaque
+Route du Roc
+Penhouet
+College Notre-Dame
+Monfort Centre
+Le Hameau
+Ancienne gare
+Freres Rey
+Les Forges
+LE ROC Mairie
+5 aout 1944
+Le Dome
+Conleau
+
+[infosystem_trip]
+101
+HLP_Depot-25GRAU
+999
+1
+
+[infosystem_busstop_list]
+2
+Prise de Service
+Leclerc Graudegnan
+
+[infosystem_trip]
+102
+HLP_Depot-Jval
+999
+1
+
+[infosystem_busstop_list]
+2
+Prise de Service
+Jardin des Valaques
+
+[infosystem_trip]
+103
+HLP_Depot-Jval1
+999
+1
+
+[infosystem_busstop_list]
+2
+Prise de Service
+Jardin des Valaques
+
+[infosystem_trip]
+104
+HLP_Depot-Kerfa
+999
+1
+
+[infosystem_busstop_list]
+2
+Prise de Service
+Kerfaience
+
+[infosystem_trip]
+105
+HLP_Depot-Le Roc
+999
+1
+
+[infosystem_busstop_list]
+2
+Prise de Service
+Conleau
+
+[infosystem_trip]
+106
+HLP_Depot-MB
+999
+1
+
+[infosystem_busstop_list]
+2
+Prise de Service
+Maison Blanche
+
+[infosystem_trip]
+107
+HLP_Depot-P+R Ron
+999
+1
+
+[infosystem_busstop_list]
+2
+Prise de Service
+P+R Ronoe
+
+[infosystem_trip]
+108
+HLP_Depot-SAL
+999
+1
+
+[infosystem_busstop_list]
+2
+Prise de Service
+Mendes-France
+
+[infosystem_trip]
+109
+HLP_Depot-Verfontaine
+999
+1
+
+[infosystem_busstop_list]
+2
+Prise de Service
+Verfontaine
+
+[infosystem_trip]
+110
+HLP_Jval-Depot
+999
+1
+
+[infosystem_busstop_list]
+2
+Jardin des Valaques
+Retour Depot
+
+[infosystem_trip]
+111
+HLP_Kerfa-Depot
+999
+1
+
+[infosystem_busstop_list]
+2
+Kerfaience
+Retour Depot
+
+[infosystem_trip]
+112
+HLP_Kerfa-SAL
+999
+1
+
+[infosystem_busstop_list]
+2
+Kerfaience
+Mendes-France
+
+[infosystem_trip]
+113
+HLP_Le Roc-Depot
+999
+1
+
+[infosystem_busstop_list]
+2
+Conleau
+Retour Depot
+
+[infosystem_trip]
+114
+HLP_LG-Depot
+999
+1
+
+[infosystem_busstop_list]
+2
+Leclerc Graudegnan
+Retour Depot
+
+[infosystem_trip]
+115
+HLP_MB-Depot
+999
+1
+
+[infosystem_busstop_list]
+2
+Maison Blanche
+Retour Depot
+
+[infosystem_trip]
+116
+HLP_P+R Ron-Depot
+999
+1
+
+[infosystem_busstop_list]
+2
+P+R Ronoe
+Retour Depot
+
+[infosystem_trip]
+117
+HLP_SAL-Depot
+999
+1
+
+[infosystem_busstop_list]
+2
+Mendes-France
+Retour Depot
+
+[infosystem_trip]
+118
+HLP_SAL-Kerfa
+999
+1
+
+[infosystem_busstop_list]
+2
+Mendes-France
+Kerfaience
+
+[infosystem_trip]
+202
+N2_MBlanche-Jval
+290
+2
+
+[infosystem_busstop_list]
+33
+Maison Blanche
+Maurice Ravel
+Stade de Verfontaine
+Petit Kerfaience
+Robert Schumann
+Fariand
+Route de Vannes
+De Coubertin
+Stade Salif Keita
+Lillebonne
+Urbania
+La Marne
+La Bollardiere
+Genets
+Glaieuls
+Ajoncs
+Parc Relais des Jardins
+Restaurant Universitaire
+Capitainerie
+Pont du Gard
+Oceane
+Thaulan - Ville
+Avenue de Thaulan
+Hotel de Ville
+Foch Galarne
+Mediatheque
+Espace CDM
+College Dreyfus
+Cours Victor Hugo
+Carnot
+Joliot Curie
+Resistance
+Jardin des Valaques
+
+[infosystem_trip]
+201
+N2_Jval-MBlanche
+291
+2
+
+[infosystem_busstop_list]
+34
+Jardin des Valaques
+Jardin des Valaques
+Resistance
+Joliot Curie
+Carnot
+Cours Victor Hugo
+College Dreyfus
+Espace CDM
+Mediatheque
+Foch Galarne
+Hotel de Ville
+Avenue de Thaulan
+Thaulan - Ville
+Oceane
+Pont du Gard
+Capitainerie
+Restaurant Universitaire
+Parc Relais des Jardins
+Ajoncs
+Glaieuls
+Genets
+La Bollardiere
+La Marne
+Urbania
+Lillebonne
+Stade Salif Keita
+De Coubertin
+Route de Vannes
+Fariand
+Robert Schumann
+Petit Kerfaience
+Stade de Verfontaine
+Maurice Ravel
+Maison Blanche
+
+[infosystem_trip]
+20001
+200_SAL-Dreyfus
+270
+200
+
+[infosystem_busstop_list]
+9
+Leclerc Graudegnan
+Verfontaine
+St-Lazare
+Parc Relais des Jardins
+Croix Blanche
+Plaisance
+Descartes
+Blvd. Leclerc
+College Alfred Dreyfus
+
+[infosystem_trip]
+20002
+200_Dreyfus-SAL
+271
+200
+
+[infosystem_busstop_list]
+9
+College Alfred Dreyfus
+Blvd. Leclerc
+Descartes
+Plaisance
+Croix Blanche
+Landes
+St-Lazare
+Verfontaine
+Leclerc Graudegnan
+
+[infosystem_trip]
+20101
+201_Verfo-Dreyfus
+272
+201
+
+[infosystem_busstop_list]
+11
+Verfontaine
+St-Lazare
+Glaieuls
+La Bollardiere
+UJM
+Parc Relais des Jardins
+Croix Blanche
+Plaisance
+Descartes
+Blvd. Leclerc
+College Alfred Dreyfus
+
+[infosystem_trip]
+20102
+201_Dreyfus-Verfo
+273
+201
+
+[infosystem_busstop_list]
+11
+College Alfred Dreyfus
+Blvd. Leclerc
+Descartes
+Plaisance
+Croix Blanche
+Parc Relais des Jardins
+UJM
+La Bollardiere
+Glaieuls
+St-Lazare
+Verfontaine
+
+[infosystem_trip]
+20401
+204_CFA-MB
+240
+204
+
+[infosystem_busstop_list]
+9
+CFA
+Kersec
+Hecheno
+Giraud
+Grador
+Kerfaience
+Stade de Verfontaine
+Maurice Ravel
+Maison Blanche
+
+[infosystem_trip]
+20402
+204_MB-CFA
+241
+204
+
+[infosystem_busstop_list]
+10
+Maison Blanche
+Maison Blanche
+Maurice Ravel
+Stade de Verfontaine
+Kerfaience
+Grador
+Giraud
+Hecheno
+Kersec
+CFA
+
+[infosystem_trip]
+20403
+204-Verfo_MB
+240
+204
+
+[infosystem_busstop_list]
+12
+Verfontaine
+Grand Moustoir
+4 Chemins
+CFA
+Kersec
+Hecheno
+Giraud
+Grador
+Kerfaience
+Stade de Verfontaine
+Maurice Ravel
+Maison Blanche
+
+[infosystem_trip]
+20404
+204-MB_Verfo
+242
+204
+
+[infosystem_busstop_list]
+13
+Maison Blanche
+Maison Blanche
+Maurice Ravel
+Stade de Verfontaine
+Kerfaience
+Grador
+Giraud
+Hecheno
+Kersec
+CFA
+4 Chemins
+Grand Moustoir
+Verfontaine
+
+[infosystem_trip]
+20405
+204_Hecheno-MB
+240
+204
+
+[infosystem_busstop_list]
+7
+Hecheno
+Giraud
+Grador
+Kerfaience
+Stade de Verfontaine
+Maurice Ravel
+Maison Blanche
+
+[infosystem_trip]
+20406
+204_MB-Hecheno
+243
+204
+
+[infosystem_busstop_list]
+8
+Maison Blanche
+Maison Blanche
+Maurice Ravel
+Stade de Verfontaine
+Kerfaience
+Grador
+Giraud
+Hecheno
+
+[infosystem_trip]
+20407
+204_Auray-CFA
+241
+204
+
+[infosystem_busstop_list]
+3
+Releve Auray Voyages
+Kersec
+CFA
+
+[infosystem_trip]
+20408
+204_MB-Auray
+241
+204
+
+[infosystem_busstop_list]
+9
+Maison Blanche
+Maison Blanche
+Maurice Ravel
+Stade de Verfontaine
+Kerfaience
+Grador
+Giraud
+Hecheno
+Releve Auray Voyages
+
+[infosystem_trip]
+20409
+204_Verfo-CFA
+241
+204
+
+[infosystem_busstop_list]
+4
+Verfontaine
+Grand Moustoir
+4 Chemins
+CFA
+
+[infosystem_trip]
+20410
+204_CFA-Verfo
+242
+204
+
+[infosystem_busstop_list]
+4
+CFA
+4 Chemins
+Grand Moustoir
+Verfontaine
+
+[infosystem_trip]
+2601
+U_MB-RU
+260
+26
+
+[infosystem_busstop_list]
+12
+Maison Blanche
+Beaulieu Rosa Parks
+Beaulieu Mohamed Ali
+Madeleine
+Rouille
+Pasteur
+Urbania
+La Marne
+UJM
+Ajoncs
+Parc Relais des Jardins
+Restaurant Universitaire
+
+[infosystem_trip]
+2602
+U_RU-MB
+261
+26
+
+[infosystem_busstop_list]
+13
+Restaurant Universitaire
+Restaurant Universitaire
+Lyautey
+Camelias
+Ajoncs
+UJM
+La Marne
+Urbania
+Pasteur
+Madeleine
+Beaulieu Mohamed Ali
+Beaulieu Rosa Parks
+Maison Blanche
+
+[infosystem_trip]
+120
+HLP_Auray-Hecheno
+2
+1
+
+[infosystem_busstop_list]
+2
+Releve Auray Voyages
+Hecheno
+
+[infosystem_trip]
+121
+HLP_Auray-MB
+2
+1
+
+[infosystem_busstop_list]
+7
+Releve Auray Voyages
+Hecheno
+Giraud
+Grador
+Stade de Verfontaine
+Maurice Ravel
+Maison Blanche
+
+[infosystem_trip]
+122
+HLP_CFA-Auray
+2
+1
+
+[infosystem_busstop_list]
+3
+CFA
+Kersec
+Releve Auray Voyages
+
+[infosystem_trip]
+123
+HLP_Hecheno-Auray
+2
+1
+
+[infosystem_busstop_list]
+2
+Hecheno
+Releve Auray Voyages
+
+[infosystem_trip]
+124
+HLP_MB-Auray
+2
+1
+
+[infosystem_busstop_list]
+8
+Maison Blanche
+Maison Blanche
+Maurice Ravel
+Stade de Verfontaine
+Grador
+Giraud
+Hecheno
+Releve Auray Voyages
+
+[infosystem_trip]
+124
+HLP_2SAL-Depot
+999
+1
+
+[infosystem_busstop_list]
+2
+Graudegnan
+Retour Depot
+
+[infosystem_trip]
+125
+HLP_Depot-2SAL
+999
+1
+
+[infosystem_busstop_list]
+2
+Prise de Service
+Graudegnan
+
+[infosystem_trip]
+126
+HLP_Depot-VerfoA3
+999
+1
+
+[infosystem_busstop_list]
+2
+Prise de Service
+Verfontaine
+
+[infosystem_trip]
+127
+HLP_VerfoD1-Depot
+999
+1
+
+[infosystem_busstop_list]
+2
+Verfontaine
+Retour Depot
+
+[infosystem_trip]
+2401
+24_Verfo-CHU
+244
+24
+
+[infosystem_busstop_list]
+34
+Verfontaine
+Belle-Ile
+Simone Veil
+Blvd. du Ronoe
+St-Lazare
+Renaudot
+Radieuse
+Resedas
+Glaieuls
+Genets
+La Bollardiere
+La Marne
+La Marne
+UJM
+Ajoncs
+Camelias
+Lyautey
+Capitainerie
+Pont du Gard
+Strasbourg
+Sembat
+Banques
+Tribunal
+Hotel de Ville
+Musee de la Mer
+Blvd. Leclerc
+Espace CDM
+Colombier
+Saint-Exupery
+Le Pailleret
+Ormont
+19 Mars 1962
+Place dArmes
+CHU Pasteur - Cornouaille
+
+[infosystem_trip]
+2402
+24_CHU-Verfo
+246
+24
+
+[infosystem_busstop_list]
+34
+CHU Pasteur - Cornouaille
+Place dArmes
+19 Mars 1962
+Ormont
+Le Pailleret
+Saint-Exupery
+Colombier
+Espace CDM
+Blvd. Leclerc
+Musee de la Mer
+Hotel de Ville
+Tribunal
+Banques
+Sembat
+Strasbourg
+Pont du Gard
+Capitainerie
+Lyautey
+Camelias
+Ajoncs
+UJM
+La Marne
+La Marne
+La Bollardiere
+Genets
+Glaieuls
+Resedas
+Radieuse
+Renaudot
+St-Lazare
+Blvd. du Ronoe
+Simone Veil
+Belle-Ile
+Verfontaine
+
+[infosystem_trip]
+1401
+14_Les ilots-Mft Centre
+141
+14
+
+[infosystem_busstop_list]
+22
+Monfort Centre
+Penhouet
+Mathilde
+Noroit
+Tadornes
+Bruants
+Belle-Ile
+Verfontaine
+De Beauvoir
+Robert Schumann
+Fariand
+Route de Vannes
+Claudel Cite U
+Maison Blanche
+Beaulieu Rosa Parks
+Beaulieu Mohamed Ali
+Madeleine
+Rouille
+Pasteur
+Urbania
+Lillebonne
+Les ilots Lillebonne
+
+[infosystem_trip]
+1402
+14_Mft Centre-Les ilots
+141
+14
+
+[infosystem_busstop_list]
+18
+Lillebonne
+Pasteur
+Madeleine
+Beaulieu Mohamed Ali
+Beaulieu Rosa Parks
+Maison Blanche
+Route de Vannes
+Fariand
+Robert Schumann
+De Beauvoir
+Verfontaine
+Belle-Ile
+Bruants
+Tadornes
+Noroit
+Mathilde
+College Notre-Dame
+Monfort Centre
+
+[infosystem_trip]
+1501
+15_Htd V-Sdt Verfo
+0
+15
+
+[infosystem_busstop_list]
+19
+Hotel de Ville
+Tribunal
+Plaisance
+Tabarly
+Croix Blanche
+Parc Relais des Jardins
+Ajoncs
+UJM
+La Marne
+Urbania
+Lillebonne
+Stade Salif Keita
+De Coubertin
+Route de Vannes
+Beaulieu Mohamed Ali
+Beaulieu Rosa Parks
+Maison Blanche
+Maurice Ravel
+Stade de Verfontaine
+
+[infosystem_trip]
+1501
+15_Sdt Verfo-Htd V
+0
+15
+
+[infosystem_busstop_list]
+18
+Stade de Verfontaine
+Maurice Ravel
+Maison Blanche
+Beaulieu Rosa Parks
+Beaulieu Mohamed Ali
+Route de Vannes
+De Coubertin
+Stade Salif Keita
+Lillebonne
+Urbania
+La Marne
+UJM
+Ajoncs
+Parc Relais des Jardins
+Croix Blanche
+Tabarly
+Plaisance
+Hotel de Ville
+

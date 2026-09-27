@@ -1,0 +1,1118 @@
+Diese Datei wurde mit der HOF Suite von Rumpelhans geschrieben.
+This file was written with HOF Suite by Rumpelhans.
+
+*****************************************
+* H O F   F i l e   p r o p e r t i e s *
+*****************************************
+
+[HOF_SUITE_DIRECTORIES]
+AB_S400LE_Series
+CW_IRISBUS_LOWENTRY_FAMILY
+CW_IVECOBUS_LOWENTRY_FAMILY
+Irisbus Axer 2p
+Irisbus Citelis CNG
+Irisbus_Citybus_18M
+Irisbus_citybus_family
+Iveco Crossway LE
+IvecoBus_citybus_family
+Karosa B961
+Karosa B961E
+Karosa CX34
+Karosa_B93X
+Karosa_B941E
+Karosa_B951E_DPP
+Karosa_B951_DPP
+KAROSA_B952E_ASK
+Karosa_B952E_ORIG
+Karosa_B961E_Uher
+Karosa_C954E
+NAI_Solaris_Urbino_III
+N_Solaris_III_Gen_Pack_Sobol
+REN_Citybus_DPP
+SOR
+SOR C12 2007
+SOR C12 2007 Synergy
+SOR C12 2010-2014
+SOR LCG12
+SOR-Ekobus C12 CNG 5A5 7747
+SOR-Ekobus C12 CNG 5A5 7748
+SOR_BN12_PRAHA_NEW
+SOR_CN12_IDOL
+SOR_XN12
+SOR_XN12_AI
+SOR_XN_XX_pack_by_CBCZ
+[HOF_SUITE_DIRECTORIES_END]
+
+[name]
+Vysocina
+
+[servicetrip]
+Sluzebni jizda
+
+[global_strings]
+6
+
+
+
+
+
+
+
+stringcount_terminus
+26
+
+stringcount_busstop
+9
+
+*****************
+* T e r m i n i *
+*****************
+
+[addterminus_list]
+	201	Trnove pole	TRNOVÉ POLE,ROZ.	TRNOVÉ POLE,    	rozcestí        	Trnové Pole,roz.		Trnové Pole,rozcestí
+	202	Pryskerov	 PRYSKÉØOV,ŽST  	PRYSKÉØOV,      	Železnièní st.  	 Pryskéøov,ŽST  		Pryskéøov,želez. st.
+	203	Snezne	     SNÌŽNÉ     	     SNÌŽNÉ     		     Snìžné     		       Snìžné
+	204	Pryskerov Lisna	PRYSKÉØOV,LÍŠNÁ 	PRYSKÉØOV,      	Líšná           	PRYSKÉØOV,LÍŠNÁ 		  Pryskéøov,Líšná
+	205	Pryskerov prumyslova	PRYSKÉØOV PRÙM. 	PRYSKÉØOV,      	Prùmyslová      	PRYSKÉØOV PRÙM. 		  PRYSKÉØOV PRÙM.
+	206	Lisek	   LÍSEK,ŽST    	LÍSEK,          	Železnièní st.  	Lísek,želez. st.		Lísek,železnièní st.
+	207	Stara Ves u Skalice	   STARÁ VES    	STARÁ VES       	u Skalice       	   Stará Ves    		Stará Ves u Skalice
+	208	Stara Ves u Skalice Ski resort	 STARÁ VES,SKI  	STARÁ VES,      	Ski resort      	 Stará Ves,Ski  		Stará Ves,ski resort
+	209	Skalice nemocnice	  SKALICE, NEM  	SKALICE,        	nemocnice       	  SKALICE, NEM  		 SKALICE,nemocnice
+	210	Moravka	MORÁVKA,JEDNOTA 	MORÁVKA,        	jednota         	MORÁVKA,JEDNOTA 		  MORÁVKA,JEDNOTA
+	211	Melkovice	   MÌLKOVICE    	MÌLKOVICE       		Mìlkovice       		     MÌLKOVICE
+	212	Vir namesti	  VÍR,NÁÌMSTÍ   	VÍR             	námìstí         	  VÍR,námìstí   		    VÍR,NÁMÌSTÍ     
+	213	Letiste Vir	  LETIŠTÌ VÍR   	LETIŠTÌ         	Vír             	  LETIŠTÌ VÍR   		    LETIŠTÌ VÍR     
+{ALLEX}	900	Sluzebni jizda	 SLUŽEBNÍ JÍZDA 	SLUŽEBNÍ        	JÍZDA           	 SLUŽEBNÍ JÍZDA 		   SLUŽEBNÍ JÍZDA
+{ALLEX}	901	Manipulacni jizda	MANIPULAÈNÍ JÍZ.	MANIPULAÈNÍ     	JÍZDA           	MANIPULAÈNÍ JÍZ.		Manipulaèní jízda
+{ALLEX}	902	Pauza	PAUZA           	PAUZA           		PAUZA           		Pauza
+[end]
+
+*******************
+* B u s s t o p s *
+*******************
+
+[addbusstop_list]
+Vir, samota (x)	VÍR,SAMOTA      	Vír,samota	zastávka na znamení	Vír,samota
+Lisek ZST	LÍSEK,ŽST       	Lísek, železnièní stanice	pøíští zastávka	Lísek,želez. stanice
+Lisek	LÍSEK           	Lísek	pøíští zastávka	Lísek
+Lomna	LOMNÁ           	Lomná	pøíští zastávka	Lomná
+Lomna, pozarni stanice	LOMNÁ,POŽÁR. ST.	Lomná, požární stanice	pøíští zastávka	Lomná, požár.stanice
+Melkovice	MÌLKOVICE       	Mìlkovice	pøíští zastávka	Mìlkovice
+Pryskerov, DIAMO (x)	PRYSKÉØOV,DIAMO 	Pryskéøov,Diamo	zastávka na znamení	Pryskéøov,Diamo
+Melkovice, hotel Vysocanka (x)	MÌLKOVICE, HOTEL	Mìlkovice, hotel Vysoèanka	zastávka na znamení	Mìlkovice, Vysoèanka
+Pryskerov, rozcesti DIAMO (x)	P.,ROZC.,DIAMO  	Pryskéøov,rozcestí Diamo	zastávka na znamení	Pryskéøov,rozcestí
+Melkovice, Sedliste (x)	M.,SEDLIŠTÌ     	Mìlkovice, Sedlištì	zastávka na znamení	Mìlkovice, Sedlištì
+Melkovice, zahradnictvi	MÌLKOVICE,ZAHRAD	Mìlkovice,zahradnictví	pøíští zastávka	Mìlkovice,zahrad.
+Moravka, hostinec U Vasku (x)	MORÁVKA,HOSTINEC	Morávka,hostinec U Vaškù	zastávka na znamení	Morávka,hostinec
+Moravka, jednota	MORÁVKA,JEDNOTA 	Morávka,jednota	pøíští zastávka	Morávka,jednota
+Pryskerov,centrum	PRYKÉØOV,CENTRUM	Pryskéøov,centrum	pøíští zastávka	Pryskéøov,centrum
+Pryskerov, Podoli	PRYSKÉØOV,PODOLÍ	Pryskéøov,Podolí	pøíští zastávka	Pryskéøov,Podolí
+Pryskerov zst	PRYSKÉØOV,ŽST   	Pryskéøov železnièní stanice	pøíští zastávka	Pryskéøov,želez. st.
+Pryskerov, prumyslova (x)	PRYKÉØOV,PRÙMYSL	Prykéøov,prùmyslová	zastávka na znamení	Prykéøov,prùmyslová
+Pryskerov, zamek (x)	PRYKÉØOV,ZÁMEK  	Prykéøov,zámek	zastávka na znamení	Prykéøov,zámek
+Skalice AN	SKALICE,AUT. ST.	Skalice,Autobusová stanice	pøíští zastávka	Skalice,aut. st.
+Skalice, Hrabuvka (x)	SKALICE,HRABÙVKA	Skalice,Hrabùvka	zastávka na znamení	Skalice,Hrabùvka
+Skalice, nove domky (x)	SKALICE,DOMKY   	Skalice,nové domky	zastávka na znamení	Skalice,nové domky
+Skalice, rybnik (x)	SKALICE,RYBNÍK  	Skalice,rybník	zastávka na znamení	Skalice,rybník
+Skalice, sidliste (x)	SKALICE,SÍDLIŠTÌ	Skalice,sídlištì	zastávka na znamení	Skalice,sídlištì
+Skalice, Trhonice (x)	SKALICE,TRHONICE	Skalice,Trhonice	zastávka na znamení	Skalice,Trhonice
+Snezne	SNÌŽNÉ          	Snìžné	pøíští zastávka	Snìžné
+Stara Ves u Skalice	STARÁ VES U SKAL	Stará Ves u Skalice	pøíští zastávka	Stará Ves u Skalice
+Stara Ves u Skalice, naves	STARÁ VES,NÁVES 	Stará Ves u Skalice,náves	pøíští zastávka	Stará Ves u Skalice
+Stara Ves u Skalice, ski resort	STARÁ VES,SKI   	Stará Ves u Skalice,ski resort	pøíští zastávka	Stará Ves u Skalice
+Snezne, rozcesti	SNÌŽNÉ,ROZCESTÍ 	Snìžné,rozcestí	pøíští zastávka	Snìžné,rozcestí
+Snezne, SÚS (x)	SNÌŽNÉ,SÚS      	Snìžné, Správa údržby silnic	zastávka na znamení	Snìžné,SÚS
+Sulkovec, kulturni dum	SULKOVEC, KULTUR	Sulkovec, kulturní dùm	pøíští zastávka	Sulkovec, kult. dùm
+Sulkovec, pod dalnici (x)	SULKOVEC,DÁLNICE	Sulkovec,pod dálnicí	zastávka na znamení	Sulkovec,pod dálnicí
+Sulkovec, sokolovna	SULKOVEC,SOKOL  	Sulkovec,sokolovna	pøíští zastávka	Sulkovec,sokolovna
+Trnove Pole	TRNOVÉ POLE     	Trnové Pole	pøíští zastávka	Trnové Pole
+Trnove Pole, rozcesti	TRNOVÉ POLE,ROZC	Trnové Pole,rozcestí	pøíští zastávka	Trnové Pole,rozc.
+Trnove Pole, TPS (x)	TRNOVE POLE,TPS 	Trnove Pole,Trnovopolská strojírna	zastávka na znamení	Trnove Pole,TPS
+Vir, namesti	VÍR,NÁMÌSTÍ     	Vír,námìstí	pøíští zastávka	Vír,námšstí
+Vir, stavebniny (x)	VÍR,STAVEBNINY  	Vír,stavebniny	zastávka na znamení	Vír,stavebniny
+Pryskerov, Lisna	PRYSKÉØOV,LÍŠNÁ 	Pryskéøov,Líšná	pøíští zastávka	Pryskéøov,Líšná
+Pryskerov, hrbitov (x)	PRYSKÉØOV,HØBIT.	Pryskéøov,høbitov	zastávka na znamení	Pryskéøov,høbitov
+Pryskerov, Na Vysine (x)	P.,NA VÝŠINÌ    	Pryskéøov,Na Výšinì	zastávka na znamení	Pryskéøov,Na Výšinì
+Maly  Lisek	MALÝ LÍSEK      	Malý Lísek	pøíští zastávka	Malý Lísek
+Moravka, rozcesti (x)	MORÁVKA,ROZCESTÍ	Morávka,rozcestí	zastávka na znamení	Morávka,rozcestí
+Lisek, Lhotka (x)	LÍSEK,LHOTKA    	Lísek,Lhotka	zastávka na znamení	Lísek,Lhotka
+Lisek, Lhota	LÍSEK,LHOTA     	Lísek,Lhota	pøíští zastávka	Lísek,Lhota
+Lisek, Lhota, hajek (x)	L.,LHOTA,HÁJEK  	Lísek,Lhota,hájek	zastávka na znamení	Lísek,Lhota,hájek
+Skalice,nemocnice	SKALICE,NEM.    	Skalice,nemocnice	pøíští zastávka	Skalice,nemocnice
+Skalice,RHS	SKALICE,RHS     	Skalice,RHS	pøíští zastávka	Skalice,RHS
+Stara Ves u Skalice, rozvodna (x)	STARÁ VES,ROZVOD	Stará Ves u Skalice, rozvodna	zastávka na znamení	Stará Ves u Skalice
+Letiste Vir	LETIŠTÌ VÍR     	Letištì Vír	pøíští zastávka	Letištì Vír         
+Hrusovany	HRUŠOVANY       	Hrušovany	pøíští zastávka	Hrušovany           
+Rokytno	ROKYTNO         	Rokytno	pøíští zastávka	Rokytno             
+Vir, sidliste	VÍR,SÍDLIŠTÌ    	Vír,sídlištì	pøíští zastávka	Vír,sídlištì        
+Vir, Rokytna	VÍR,ROKYTNÁ     	Vír,Rokytná	pøíští zastávka	Vír,Rokytná         
+Letiste Vir, benzina (x)	LETIŠTÌ, BENZINA	Letištì Vír,benzina	zastávka na znamení	Letištì Vír,benzina 
+Vir, u mostu (x)	VÍR,U MOSTU     	Vír,u mostu	zastávka na znamení	Vír,u mostu         
+Rokytno, kemp (x)	ROKYTNO,KEMP    	Rokytno,kemp	zastávka na znamení	Rokytno,kemp        
+[end]
+
+***************
+* R o u t e s *
+***************
+
+[infosystem_trip]
+33601
+PRY >> TP
+201
+336
+
+[infosystem_busstop_list]
+25
+Pryskerov zst
+Pryskerov, zamek (x)
+Pryskerov,centrum
+Pryskerov, prumyslova (x)
+Pryskerov, Podoli
+Pryskerov, rozcesti DIAMO (x)
+Melkovice
+Melkovice, zahradnictvi
+Melkovice, Sedliste (x)
+Snezne
+Snezne, rozcesti
+Snezne, SÚS (x)
+Vir, stavebniny (x)
+Vir, namesti
+Vir, samota (x)
+Sulkovec, pod dalnici (x)
+Sulkovec, sokolovna
+Sulkovec, kulturni dum
+Skalice, Hrabuvka (x)
+Skalice, sidliste (x)
+Skalice AN
+Skalice, Trhonice (x)
+Trnove Pole, TPS (x)
+Trnove Pole
+Trnove Pole, rozcesti
+
+[infosystem_trip]
+33602
+TP >> PRY
+202
+336
+
+[infosystem_busstop_list]
+25
+Trnove Pole, rozcesti
+Trnove Pole
+Trnove Pole, TPS (x)
+Skalice, Trhonice (x)
+Skalice AN
+Skalice, sidliste (x)
+Skalice, Hrabuvka (x)
+Sulkovec, kulturni dum
+Sulkovec, sokolovna
+Sulkovec, pod dalnici (x)
+Vir, samota (x)
+Vir, namesti
+Vir, stavebniny (x)
+Snezne, SÚS (x)
+Snezne, rozcesti
+Snezne
+Melkovice, Sedliste (x)
+Melkovice, zahradnictvi
+Melkovice
+Pryskerov, rozcesti DIAMO (x)
+Pryskerov, Podoli
+Pryskerov, prumyslova (x)
+Pryskerov,centrum
+Pryskerov, zamek (x)
+Pryskerov zst
+
+[infosystem_trip]
+33603
+SNE >> TP
+201
+336
+
+[infosystem_busstop_list]
+16
+Snezne
+Snezne, rozcesti
+Snezne, SÚS (x)
+Vir, stavebniny (x)
+Vir, namesti
+Vir, samota (x)
+Sulkovec, pod dalnici (x)
+Sulkovec, sokolovna
+Sulkovec, kulturni dum
+Skalice, Hrabuvka (x)
+Skalice, sidliste (x)
+Skalice AN
+Skalice, Trhonice (x)
+Trnove Pole, TPS (x)
+Trnove Pole
+Trnove Pole, rozcesti
+
+[infosystem_trip]
+33604
+TP >> SNE
+203
+336
+
+[infosystem_busstop_list]
+16
+Trnove Pole, rozcesti
+Trnove Pole
+Trnove Pole, TPS (x)
+Skalice, Trhonice (x)
+Skalice AN
+Skalice, sidliste (x)
+Skalice, Hrabuvka (x)
+Sulkovec, kulturni dum
+Sulkovec, sokolovna
+Sulkovec, pod dalnici (x)
+Vir, samota (x)
+Vir, namesti
+Vir, stavebniny (x)
+Snezne, SÚS (x)
+Snezne, rozcesti
+Snezne
+
+[infosystem_trip]
+33605
+PRY >> SNE
+203
+336
+
+[infosystem_busstop_list]
+10
+Pryskerov zst
+Pryskerov, zamek (x)
+Pryskerov,centrum
+Pryskerov, prumyslova (x)
+Pryskerov, Podoli
+Pryskerov, rozcesti DIAMO (x)
+Melkovice
+Melkovice, zahradnictvi
+Melkovice, Sedliste (x)
+Snezne
+
+[infosystem_trip]
+33606
+SNE >> PRY
+202
+336
+
+[infosystem_busstop_list]
+10
+Pryskerov zst
+Pryskerov, zamek (x)
+Pryskerov,centrum
+Pryskerov, prumyslova (x)
+Pryskerov, Podoli
+Pryskerov, rozcesti DIAMO (x)
+Melkovice
+Melkovice, zahradnictvi
+Melkovice, Sedliste (x)
+Snezne
+
+[infosystem_trip]
+33607
+PRY >D> TP
+201
+336
+
+[infosystem_busstop_list]
+26
+Pryskerov zst
+Pryskerov, zamek (x)
+Pryskerov,centrum
+Pryskerov, prumyslova (x)
+Pryskerov, Podoli
+Pryskerov, DIAMO (x)
+Pryskerov, rozcesti DIAMO (x)
+Melkovice
+Melkovice, zahradnictvi
+Melkovice, Sedliste (x)
+Snezne
+Snezne, rozcesti
+Snezne, SÚS (x)
+Vir, stavebniny (x)
+Vir, namesti
+Vir, samota (x)
+Sulkovec, pod dalnici (x)
+Sulkovec, sokolovna
+Sulkovec, kulturni dum
+Skalice, Hrabuvka (x)
+Skalice, sidliste (x)
+Skalice AN
+Skalice, Trhonice (x)
+Trnove Pole, TPS (x)
+Trnove Pole
+Trnove Pole, rozcesti
+
+[infosystem_trip]
+33602
+TP >D> PRY
+202
+336
+
+[infosystem_busstop_list]
+26
+Trnove Pole, rozcesti
+Trnove Pole
+Trnove Pole, TPS (x)
+Skalice, Trhonice (x)
+Skalice AN
+Skalice, sidliste (x)
+Skalice, Hrabuvka (x)
+Sulkovec, kulturni dum
+Sulkovec, sokolovna
+Sulkovec, pod dalnici (x)
+Vir, samota (x)
+Vir, namesti
+Vir, stavebniny (x)
+Snezne, SÚS (x)
+Snezne, rozcesti
+Snezne
+Melkovice, Sedliste (x)
+Melkovice, zahradnictvi
+Melkovice
+Pryskerov, DIAMO (x)
+Pryskerov, rozcesti DIAMO (x)
+Pryskerov, Podoli
+Pryskerov, prumyslova (x)
+Pryskerov,centrum
+Pryskerov, zamek (x)
+Pryskerov zst
+
+[infosystem_trip]
+31301
+TP >> LIS
+206
+313
+
+[infosystem_busstop_list]
+7
+Trnove Pole, rozcesti
+Trnove Pole
+Trnove Pole, TPS (x)
+Skalice, Trhonice (x)
+Skalice AN
+Lomna
+Lisek ZST
+
+[infosystem_trip]
+31302
+LIS >> TP
+201
+313
+
+[infosystem_busstop_list]
+7
+Lisek ZST
+Lomna
+Skalice AN
+Skalice, Trhonice (x)
+Trnove Pole, TPS (x)
+Trnove Pole
+Trnove Pole, rozcesti
+
+[infosystem_trip]
+31401
+SVUS >> LIS
+206
+314
+
+[infosystem_busstop_list]
+6
+Stara Ves u Skalice
+Skalice, rybnik (x)
+Skalice, nove domky (x)
+Skalice AN
+Lomna
+Lisek ZST
+
+[infosystem_trip]
+31402
+LIS >> SVUS
+207
+314
+
+[infosystem_busstop_list]
+6
+Lisek ZST
+Lomna
+Skalice AN
+Skalice, nove domky (x)
+Skalice, rybnik (x)
+Stara Ves u Skalice
+
+[infosystem_trip]
+31403
+LIS >> SVUSSR
+208
+314
+
+[infosystem_busstop_list]
+8
+Lisek ZST
+Lomna
+Skalice AN
+Skalice, nove domky (x)
+Skalice, rybnik (x)
+Stara Ves u Skalice
+Stara Ves u Skalice, naves
+Stara Ves u Skalice, ski resort
+
+[infosystem_trip]
+31404
+SVUSSR >> LIS
+206
+314
+
+[infosystem_busstop_list]
+8
+Stara Ves u Skalice, ski resort
+Stara Ves u Skalice, naves
+Stara Ves u Skalice
+Skalice, rybnik (x)
+Skalice, nove domky (x)
+Skalice AN
+Lomna
+Lisek ZST
+
+[infosystem_trip]
+31405
+SKA >> LIS
+206
+314
+
+[infosystem_busstop_list]
+4
+Skalice,nemocnice
+Skalice AN
+Lomna
+Lisek ZST
+
+[infosystem_trip]
+31406
+LIS >> SKA
+209
+314
+
+[infosystem_busstop_list]
+4
+Lisek ZST
+Lomna
+Skalice AN
+Skalice,nemocnice
+
+[infosystem_trip]
+31407
+LIS >RHS> SVUSSR
+208
+314
+
+[infosystem_busstop_list]
+9
+Lisek ZST
+Lomna
+Skalice AN
+Skalice, nove domky (x)
+Skalice,RHS
+Skalice, rybnik (x)
+Stara Ves u Skalice
+Stara Ves u Skalice, naves
+Stara Ves u Skalice, ski resort
+
+[infosystem_trip]
+31408
+SVUSSR >RHS> LIS
+206
+314
+
+[infosystem_busstop_list]
+9
+Stara Ves u Skalice, ski resort
+Stara Ves u Skalice, naves
+Stara Ves u Skalice
+Skalice, rybnik (x)
+Skalice,RHS
+Skalice, nove domky (x)
+Skalice AN
+Lomna
+Lisek ZST
+
+[infosystem_trip]
+72201
+PRY >> PRL
+204
+722
+
+[infosystem_busstop_list]
+4
+Pryskerov,centrum
+Pryskerov, hrbitov (x)
+Pryskerov, Na Vysine (x)
+Pryskerov, Lisna
+
+[infosystem_trip]
+72202
+PRL >> PRY
+202
+722
+
+[infosystem_busstop_list]
+4
+Pryskerov, Lisna
+Pryskerov, Na Vysine (x)
+Pryskerov, hrbitov (x)
+Pryskerov,centrum
+
+[infosystem_trip]
+72203
+PRP >> PRL
+204
+722
+
+[infosystem_busstop_list]
+6
+Pryskerov, prumyslova (x)
+Pryskerov, zamek (x)
+Pryskerov,centrum
+Pryskerov, hrbitov (x)
+Pryskerov, Na Vysine (x)
+Pryskerov, Lisna
+
+[infosystem_trip]
+72204
+PRL >> PRY
+202
+722
+
+[infosystem_busstop_list]
+6
+Pryskerov, Lisna
+Pryskerov, Na Vysine (x)
+Pryskerov, hrbitov (x)
+Pryskerov,centrum
+Pryskerov, zamek (x)
+Pryskerov, prumyslova (x)
+
+[infosystem_trip]
+33401
+PRY >> LIS
+206
+334
+
+[infosystem_busstop_list]
+15
+Pryskerov zst
+Pryskerov, zamek (x)
+Pryskerov,centrum
+Pryskerov, prumyslova (x)
+Pryskerov, Podoli
+Pryskerov, rozcesti DIAMO (x)
+Melkovice
+Melkovice, hotel Vysocanka (x)
+Moravka, hostinec U Vasku (x)
+Moravka, jednota
+Moravka, rozcesti (x)
+Lisek, Lhotka (x)
+Lisek, Lhota, hajek (x)
+Lisek, Lhota
+Lisek ZST
+
+[infosystem_trip]
+33402
+LIS >> PRY
+202
+334
+
+[infosystem_busstop_list]
+15
+Lisek ZST
+Lisek, Lhota
+Lisek, Lhota, hajek (x)
+Lisek, Lhotka (x)
+Moravka, rozcesti (x)
+Moravka, jednota
+Moravka, hostinec U Vasku (x)
+Melkovice, hotel Vysocanka (x)
+Melkovice
+Pryskerov, rozcesti DIAMO (x)
+Pryskerov, Podoli
+Pryskerov, prumyslova (x)
+Pryskerov,centrum
+Pryskerov, zamek (x)
+Pryskerov zst
+
+[infosystem_trip]
+33403
+PRY >ML> LIS
+206
+334
+
+[infosystem_busstop_list]
+16
+Pryskerov zst
+Pryskerov, zamek (x)
+Pryskerov,centrum
+Pryskerov, prumyslova (x)
+Pryskerov, Podoli
+Pryskerov, rozcesti DIAMO (x)
+Melkovice
+Melkovice, hotel Vysocanka (x)
+Moravka, hostinec U Vasku (x)
+Moravka, jednota
+Moravka, rozcesti (x)
+Maly  Lisek
+Lisek, Lhotka (x)
+Lisek, Lhota, hajek (x)
+Lisek, Lhota
+Lisek ZST
+
+[infosystem_trip]
+33404
+LIS >ML> PRY
+202
+334
+
+[infosystem_busstop_list]
+16
+Lisek ZST
+Lisek, Lhota
+Lisek, Lhota, hajek (x)
+Lisek, Lhotka (x)
+Maly  Lisek
+Moravka, rozcesti (x)
+Moravka, jednota
+Moravka, hostinec U Vasku (x)
+Melkovice, hotel Vysocanka (x)
+Melkovice
+Pryskerov, rozcesti DIAMO (x)
+Pryskerov, Podoli
+Pryskerov, prumyslova (x)
+Pryskerov,centrum
+Pryskerov, zamek (x)
+Pryskerov zst
+
+[infosystem_trip]
+33405
+PRY >D-ML> LIS
+206
+334
+
+[infosystem_busstop_list]
+17
+Pryskerov zst
+Pryskerov, zamek (x)
+Pryskerov,centrum
+Pryskerov, prumyslova (x)
+Pryskerov, Podoli
+Pryskerov, DIAMO (x)
+Pryskerov, rozcesti DIAMO (x)
+Melkovice
+Melkovice, hotel Vysocanka (x)
+Moravka, hostinec U Vasku (x)
+Moravka, jednota
+Moravka, rozcesti (x)
+Maly  Lisek
+Lisek, Lhotka (x)
+Lisek, Lhota, hajek (x)
+Lisek, Lhota
+Lisek ZST
+
+[infosystem_trip]
+33406
+LIS >ML-D> PRY
+202
+334
+
+[infosystem_busstop_list]
+17
+Lisek ZST
+Lisek, Lhota
+Lisek, Lhota, hajek (x)
+Lisek, Lhotka (x)
+Maly  Lisek
+Moravka, rozcesti (x)
+Moravka, jednota
+Moravka, hostinec U Vasku (x)
+Melkovice, hotel Vysocanka (x)
+Melkovice
+Pryskerov, DIAMO (x)
+Pryskerov, rozcesti DIAMO (x)
+Pryskerov, Podoli
+Pryskerov, prumyslova (x)
+Pryskerov,centrum
+Pryskerov, zamek (x)
+Pryskerov zst
+
+[infosystem_trip]
+33501
+PRY >> LIS
+206
+335
+
+[infosystem_busstop_list]
+14
+Pryskerov zst
+Pryskerov, zamek (x)
+Pryskerov,centrum
+Pryskerov, prumyslova (x)
+Pryskerov, Podoli
+Pryskerov, rozcesti DIAMO (x)
+Melkovice
+Melkovice, hotel Vysocanka (x)
+Moravka, hostinec U Vasku (x)
+Moravka, jednota
+Lisek
+Lomna, pozarni stanice
+Lomna
+Lisek ZST
+
+[infosystem_trip]
+33502
+LIS >> PRY
+202
+335
+
+[infosystem_busstop_list]
+14
+Lisek ZST
+Lomna
+Lomna, pozarni stanice
+Lisek
+Moravka, jednota
+Moravka, hostinec U Vasku (x)
+Melkovice, hotel Vysocanka (x)
+Melkovice
+Pryskerov, rozcesti DIAMO (x)
+Pryskerov, Podoli
+Pryskerov, prumyslova (x)
+Pryskerov,centrum
+Pryskerov, zamek (x)
+Pryskerov zst
+
+[infosystem_trip]
+33503
+PRY >D> LIS
+206
+335
+
+[infosystem_busstop_list]
+16
+Pryskerov zst
+Pryskerov, zamek (x)
+Pryskerov,centrum
+Pryskerov, prumyslova (x)
+Pryskerov, Podoli
+Pryskerov, DIAMO (x)
+Pryskerov, rozcesti DIAMO (x)
+Melkovice
+Melkovice, hotel Vysocanka (x)
+Moravka, hostinec U Vasku (x)
+Moravka, jednota
+Lisek
+Lomna, pozarni stanice
+Lomna
+Lisek ZST
+Pryskerov, DIAMO (x)
+
+[infosystem_trip]
+33504
+LIS >D> PRY
+202
+335
+
+[infosystem_busstop_list]
+15
+Lisek ZST
+Lomna
+Lomna, pozarni stanice
+Lisek
+Moravka, jednota
+Moravka, hostinec U Vasku (x)
+Melkovice, hotel Vysocanka (x)
+Melkovice
+Pryskerov, DIAMO (x)
+Pryskerov, rozcesti DIAMO (x)
+Pryskerov, Podoli
+Pryskerov, prumyslova (x)
+Pryskerov,centrum
+Pryskerov, zamek (x)
+Pryskerov zst
+
+[infosystem_trip]
+98001
+TP >> SVUSSR
+208
+980
+
+[infosystem_busstop_list]
+5
+Trnove Pole
+Trnove Pole
+Stara Ves u Skalice, rozvodna (x)
+Stara Ves u Skalice, naves
+Stara Ves u Skalice, ski resort
+
+[infosystem_trip]
+98002
+SVUSSR >> TP
+201
+980
+
+[infosystem_busstop_list]
+5
+Stara Ves u Skalice, ski resort
+Stara Ves u Skalice, naves
+Stara Ves u Skalice, rozvodna (x)
+Trnove Pole
+Trnove Pole
+
+[infosystem_trip]
+13301
+SN >> MOR
+210
+133
+
+[infosystem_busstop_list]
+7
+Skalice,nemocnice
+Skalice AN
+Lisek, Lhota
+Lisek, Lhota, hajek (x)
+Lisek, Lhotka (x)
+Moravka, rozcesti (x)
+Moravka, jednota
+
+[infosystem_trip]
+13302
+MOR >> SN
+209
+133
+
+[infosystem_busstop_list]
+7
+Moravka, jednota
+Moravka, rozcesti (x)
+Lisek, Lhotka (x)
+Lisek, Lhota, hajek (x)
+Lisek, Lhota
+Skalice AN
+Skalice,nemocnice
+
+[infosystem_trip]
+12901
+SVUS >> MEL
+211
+129
+
+[infosystem_busstop_list]
+18
+Stara Ves u Skalice
+Skalice, rybnik (x)
+Skalice, nove domky (x)
+Skalice AN
+Skalice, sidliste (x)
+Skalice, Hrabuvka (x)
+Sulkovec, kulturni dum
+Sulkovec, sokolovna
+Sulkovec, pod dalnici (x)
+Vir, samota (x)
+Vir, namesti
+Vir, stavebniny (x)
+Snezne, SÚS (x)
+Snezne, rozcesti
+Snezne
+Melkovice, Sedliste (x)
+Melkovice, zahradnictvi
+Melkovice
+
+[infosystem_trip]
+12902
+MEL >> SVUS
+207
+129
+
+[infosystem_busstop_list]
+18
+Melkovice
+Melkovice, zahradnictvi
+Melkovice, Sedliste (x)
+Snezne
+Snezne, rozcesti
+Snezne, SÚS (x)
+Vir, stavebniny (x)
+Vir, namesti
+Vir, samota (x)
+Sulkovec, pod dalnici (x)
+Sulkovec, sokolovna
+Sulkovec, kulturni dum
+Skalice, Hrabuvka (x)
+Skalice, sidliste (x)
+Skalice AN
+Skalice, nove domky (x)
+Skalice, rybnik (x)
+Stara Ves u Skalice
+
+[infosystem_trip]
+12801
+TP >> PRY
+202
+128
+
+[infosystem_busstop_list]
+18
+Trnove Pole, rozcesti
+Trnove Pole
+Trnove Pole, TPS (x)
+Skalice, Trhonice (x)
+Skalice AN
+Lomna
+Lomna, pozarni stanice
+Lisek
+Moravka, jednota
+Moravka, hostinec U Vasku (x)
+Melkovice, hotel Vysocanka (x)
+Melkovice
+Pryskerov, rozcesti DIAMO (x)
+Pryskerov, Podoli
+Pryskerov, prumyslova (x)
+Pryskerov,centrum
+Pryskerov, zamek (x)
+Pryskerov zst
+
+[infosystem_trip]
+12802
+PRY >> TP
+201
+128
+
+[infosystem_busstop_list]
+18
+Pryskerov zst
+Pryskerov, zamek (x)
+Pryskerov,centrum
+Pryskerov, prumyslova (x)
+Pryskerov, Podoli
+Pryskerov, rozcesti DIAMO (x)
+Melkovice
+Melkovice, hotel Vysocanka (x)
+Moravka, hostinec U Vasku (x)
+Moravka, jednota
+Lisek
+Lomna, pozarni stanice
+Lomna
+Skalice AN
+Skalice, Trhonice (x)
+Trnove Pole, TPS (x)
+Trnove Pole
+Trnove Pole, rozcesti
+
+[infosystem_trip]
+33001
+LIS >> LET
+213
+330
+
+[infosystem_busstop_list]
+14
+Lisek ZST
+Lisek
+Moravka, jednota
+Moravka, hostinec U Vasku (x)
+Rokytno
+Rokytno, kemp (x)
+Hrusovany
+Vir, u mostu (x)
+Vir, Rokytna
+Vir, sidliste
+Vir, namesti
+Vir, stavebniny (x)
+Letiste Vir, benzina (x)
+Letiste Vir
+
+[infosystem_trip]
+33002
+LET >> LIS
+206
+330
+
+[infosystem_busstop_list]
+14
+Letiste Vir
+Letiste Vir, benzina (x)
+Vir, stavebniny (x)
+Vir, namesti
+Vir, sidliste
+Vir, Rokytna
+Vir, u mostu (x)
+Hrusovany
+Rokytno, kemp (x)
+Rokytno
+Moravka, hostinec U Vasku (x)
+Moravka, jednota
+Lisek
+Lisek ZST
+
+[infosystem_trip]
+33003
+LIS >> VIR
+212
+330
+
+[infosystem_busstop_list]
+11
+Lisek ZST
+Lisek
+Moravka, jednota
+Moravka, hostinec U Vasku (x)
+Rokytno
+Rokytno, kemp (x)
+Hrusovany
+Vir, u mostu (x)
+Vir, Rokytna
+Vir, sidliste
+Vir, namesti
+
+[infosystem_trip]
+33004
+VIR >> LIS
+206
+330
+
+[infosystem_busstop_list]
+11
+Vir, namesti
+Vir, sidliste
+Vir, Rokytna
+Vir, u mostu (x)
+Hrusovany
+Rokytno, kemp (x)
+Rokytno
+Moravka, hostinec U Vasku (x)
+Moravka, jednota
+Lisek
+Lisek ZST
+
+[infosystem_trip]
+10001
+LET >> VIR
+212
+100
+
+[infosystem_busstop_list]
+2
+Letiste Vir
+Vir, namesti
+
+[infosystem_trip]
+10001
+VIR >> LET
+213
+100
+
+[infosystem_busstop_list]
+2
+Vir, namesti
+Letiste Vir
+

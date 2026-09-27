@@ -1,0 +1,429 @@
+Diese Datei wurde mit der HOF Suite von Rumpelhans geschrieben.
+This file was written with HOF Suite by Rumpelhans.
+
+*****************************************
+* H O F   F i l e   p r o p e r t i e s *
+*****************************************
+
+[name]
+Grundorf
+
+[servicetrip]
+
+
+[global_strings]
+6
+
+
+
+
+
+
+
+stringcount_terminus
+26
+
+stringcount_busstop
+9
+
+*****************
+* T e r m i n i *
+*****************
+
+[addterminus_list]
+{ALLEX}	0	Empty
+	240	Vitochov, namesti	VÍTOCHOV, NÁM.  	    VÍTOCHOV    	     NÁMÌSTÍ    	VÍTOCHOV, NÁM.  		NÁMÌSTÍ
+	244	Trnava	TRNAVA          	     TRNAVA     		TRNAVA          		TRNAVA
+	241	Borovnik, rybnik	BOROVNÍK, RYBNÍK	    BOROVNÍK    	     RYBNÍK     	BOROVNÍK, RYBNÍK		Rybník
+	242	Zeleznicni stanice	ŽEL.STANICE     	   ŽELEZNIÈNÍ   	    STANICE     	ŽEL.STANICE     		ŽEL.STANICE
+	246	Udoli	ÚDOLÍ           	     ÚDOLÍ      		ÚDOLÍ           		ÚDOLÍ
+	245	Za Hrbitovem	ZA HØBITOVEM    	  ZA HØBITOVEM  		ZA HØBITOVEM    		ZA HØBITOVEM
+	247	Bauhaus	BAUHAUS         	    BAUHAUS     		BAHAUS          		Bauhaus
+	243	Uzka	ÚZKÁ            	      ÚZKÁ      		ÚZKÁ            		ÚZKÁ
+{ALLEX}	980	Depo	DEPO            	       DEPO     
+	248	Jizni Mesto	JIŽNÍ MÌSTO     	  Jižní Mìsto   		JIŽNÍ MÌSTO     		JIŽNÍ MÌSTO
+	244	Letiste	LETIŠTÌ         	     LETIŠTÌ    	     Hutov      	LETIŠTÌ         		LETIŠTÌ
+	245	Shopping park	SHOPPING PARK   	SHOPPING PARK   		SHOPPING PARK   		Huta shopping park
+	249	Uncin, Pekarna	UNÈÍN, PEKÁRNA  	     Unèín      	    Pekárna     	Unèín, Pekárna  		Unèín, Pekárna
+	250	Lhota	LHOTA           	     Lhota      		Lhota           		Lhota               
+	251	Nemocnice	NEMOCNICE       	   Nemocnice    	     Hutov      	Nemocnice       		Nemocnice           
+[end]
+
+*******************
+* B u s s t o p s *
+*******************
+
+[addbusstop_list]
+Bauhaus	BAUHAUS	pøíští zastávka	Bauhaus	Bauhaus
+Borovnicka	BOROVNICKÁ      	pøíští zastávka	Borovnická	Borovnická
+Borovnik	BOROVNÍK        	pøíští zastávka	Borovník	Borovník
+Borovnik, rybnik	BOROVNÍK, RYBNÍK	pøíští zastávka	Borovník, rybník	Borovník, rybník
+Borovnik, skola	BOROVNÍK, ŠKOLA 	pøíští zastávka	Borovník, škola	Borovník, škola
+Bus Depot	BUS DEPOT       	pøíští zastávka	Bus Depot	Bus Depot
+Dlouha	DLOUHÁ          	pøíští zastávka	Dlouhá	Dlouhá
+Gottova	GOTTOVA         	pøíští zastávka	Gottova	Gottova
+Hamplova	HAMPLOVA        	pøíští zastávka	Hamplova	Hamplova
+Hlavni, LIDL	HLAVNÍ, LIDL    	pøíští zastávka	Hlavní, LIDL	Hlavní, LIDL
+Hutova	HUTOVA          	pøíští zastávka	Hutova	Hutova
+Jezero	JEZERO          	pøíští zastávka	Jezero	Jezero
+Jizni Mesto	JIŽNÍ MÌSTO     	pøíští zastávka	Jižní Mìsto	Jižní Mìsto
+K Nadrazi	K NADRÁŽÍ       	pøíští zastávka	K Nadráží	K Nadráží
+Karlovo namesti	KARLOVO NÁMÌSTÍ 	pøíští zastávka	Karlovo námìstí	Karlovo námìstí
+Letiste	LETISTE         	pøíští zastávka	Letiste	Letiste
+Lhota	LHOTA           	pøíští zastávka	Lhota	Lhota
+Lhota, Hutovska	LHOTA, HUTOVSKÁ 	pøíští zastávka	Lhota, Hutovská	Lhota, Hutovská
+Lhota, sidliste	LHOTA, SÍDLIŠTÌ 	pøíští zastávka	Lhota, sídlištì	Lhota, sídlištì
+Liskovec	LÍSKOVEC        	pøíští zastávka	Lískovec	Lískovec
+Namesti Karla IV	NÁMÌSTÍ KARLA IV	pøíští zastávka	Námìstí Karla IV	Námìstí Karla IV
+Nemocnice	NEMOCNICE       	pøíští zastávka	Nemocnice	Nemocnice
+Nova	NOVÁ            	pøíští zastávka	Nová	Nová
+Nove Sidliste	NOVÉ SÍDLIŠTÌ   	pøíští zastávka	Nové Sídlištì	Nové Sídlištì
+Obchodni	OBCHODNÍ        	pøíští zastávka	Obchodní	Obchodní
+Palackeho	PALACKÉHO       	pøíští zastávka	Palackého	Palackého
+Shopping park	SHOPPING PARK   	Shopping park	pøíští zastávka	Shopping park
+Strachujovska	STRACHUJOVSKÁ   	pøíští zastávka	Strachujovská	Strachujovská
+Tovarny	TOVÁRNY         	pøíští zastávka	Továrny	Továrny
+Trnava	TRNAVA          	pøíští zastávka	Trnava	Trnava
+Udoli	ÚDOLÍ           	pøíští zastávka	Údolí	Údolí
+Ukrajinska	UKRAJINSKÁ      	pøíští zastávka	Ukrajinská	Ukrajinská
+Uzka	ÚZKÁ            	pøíští zastávka	Úzká	Úzká
+Vitochov	VÍTOCHOV        	pøíští zastávka	Vítochov	Vítochov
+Vitochov, namesti	VÍTOCHOV, NÁM.  	pøíští zastávka	Vítochov, námìstí	Vítochov, námìstí
+Za Hrbitovem	ZA HØBITOVEM    	pøíští zastávka	Za Høbitovem	Za Høbitovem
+Zahradnictvi	ZAHRADNICTVÍ    	Zahradnictví	pøíští zastávka	Zahradnictví
+Zeleznicni stanice	ŽELEZNIÈNÍ STANI	pøíští zastávka	Železnièní stanice	Železnièní stanice
+Uncin, Pekarna	UNÈÍN, PEKÁRNA  	pøíští zastávka	Unèín, Pekárna	Unèín, Pekárna
+Uncin, namesti	UNÈÍN, NÁMÌSTÍ  	pøíští zastávka	Unèín, námìstí	Unèín, námìstí
+[end]
+
+***************
+* R o u t e s *
+***************
+
+[infosystem_trip]
+21101
+Bahnhof > Enge Straße
+243
+211
+
+[infosystem_busstop_list]
+20
+Zeleznicni stanice
+Zeleznicni stanice
+Bauhaus
+Nove Sidliste
+Za Hrbitovem
+Nove Sidliste
+K Nadrazi
+Hlavni, LIDL
+Liskovec
+Strachujovska
+Borovnicka
+Trnava
+Obchodni
+Nemocnice
+Hutova
+Zahradnictvi
+Hamplova
+Dlouha
+Uzka
+Uzka
+
+[infosystem_trip]
+21102
+Enge Straße > Bahnhof
+242
+211
+
+[infosystem_busstop_list]
+20
+Uzka
+Uzka
+Nova
+Dlouha
+Hamplova
+Hutova
+Namesti Karla IV
+Nemocnice
+Obchodni
+Trnava
+Borovnicka
+Strachujovska
+Liskovec
+Hlavni, LIDL
+K Nadrazi
+Nove Sidliste
+Za Hrbitovem
+Nove Sidliste
+Bauhaus
+Zeleznicni stanice
+
+[infosystem_trip]
+5001
+Waldstraße > Marienthal
+246
+50
+
+[infosystem_busstop_list]
+10
+Trnava
+Strachujovska
+Hlavni, LIDL
+Zeleznicni stanice
+Nove Sidliste
+Liskovec
+Zahradnictvi
+Gottova
+Ukrajinska
+Udoli
+
+[infosystem_trip]
+5002
+Marienthal > Waldstraße
+244
+50
+
+[infosystem_busstop_list]
+11
+Udoli
+Ukrajinska
+Gottova
+Hamplova
+Liskovec
+Nove Sidliste
+Zeleznicni stanice
+K Nadrazi
+Hlavni, LIDL
+Strachujovska
+Trnava
+
+[infosystem_trip]
+9601
+Bauhaus > Marienthal
+246
+96
+
+[infosystem_busstop_list]
+14
+Bauhaus
+K Nadrazi
+Hlavni, LIDL
+Borovnicka
+Trnava
+Obchodni
+Nemocnice
+Obchodni
+Strachujovska
+Zahradnictvi
+Hamplova
+Gottova
+Ukrajinska
+Udoli
+
+[infosystem_trip]
+9602
+Marienthal > Bauhaus
+247
+96
+
+[infosystem_busstop_list]
+14
+Udoli
+Ukrajinska
+Gottova
+Gottova
+Hamplova
+Strachujovska
+Obchodni
+Nemocnice
+Obchodni
+Trnava
+Borovnicka
+Hlavni, LIDL
+K Nadrazi
+Bauhaus
+
+[infosystem_trip]
+16301
+Laffenau See > Beichl, Kirche
+240
+163
+
+[infosystem_busstop_list]
+14
+Borovnik, rybnik
+Borovnik, skola
+Borovnik
+Lhota, sidliste
+Lhota
+Lhota, Hutovska
+Hamplova
+Gottova
+Nemocnice
+Hlavni, LIDL
+K Nadrazi
+Bauhaus
+Vitochov
+Vitochov, namesti
+
+[infosystem_trip]
+16302
+Beichl, Kirche > Laffenau See
+241
+163
+
+[infosystem_busstop_list]
+17
+Vitochov, namesti
+Vitochov
+Bauhaus
+K Nadrazi
+Hlavni, LIDL
+Borovnicka
+Obchodni
+Nemocnice
+Gottova
+Hamplova
+Dlouha
+Lhota, Hutovska
+Lhota
+Lhota, sidliste
+Borovnik
+Borovnik, skola
+Borovnik, rybnik
+
+[infosystem_trip]
+9701
+Nordspitze, Friedhof > Enge Strasse
+243
+97
+
+[infosystem_busstop_list]
+12
+Za Hrbitovem
+Nove Sidliste
+Obchodni
+Nemocnice
+Hutova
+Zahradnictvi
+Hamplova
+Palackeho
+Karlovo namesti
+Palackeho
+Nova
+Uzka
+
+[infosystem_trip]
+9702
+Engestrasse > Nordspitze, Friedhof
+245
+97
+
+[infosystem_busstop_list]
+12
+Uzka
+Nova
+Palackeho
+Karlovo namesti
+Palackeho
+Hamplova
+Hutova
+Namesti Karla IV
+Nemocnice
+Obchodni
+Nove Sidliste
+Za Hrbitovem
+
+[infosystem_trip]
+50101
+Bahnhof > Spektefeld
+248
+501
+
+[infosystem_busstop_list]
+13
+Zeleznicni stanice
+Zeleznicni stanice
+K Nadrazi
+Hlavni, LIDL
+Liskovec
+Hutova
+Namesti Karla IV
+Nemocnice
+Gottova
+Hamplova
+Palackeho
+Karlovo namesti
+Jizni Mesto
+
+[infosystem_trip]
+50102
+Spektefeld > Bahnhof
+242
+501
+
+[infosystem_busstop_list]
+14
+Jizni Mesto
+Jizni Mesto
+Karlovo namesti
+Palackeho
+Nova
+Dlouha
+Hamplova
+Nemocnice
+Hutova
+Liskovec
+Hlavni, LIDL
+K Nadrazi
+Zeleznicni stanice
+Zeleznicni stanice
+
+[infosystem_trip]
+10001
+Airport > Bahnhof
+242
+100
+
+[infosystem_busstop_list]
+6
+Letiste
+Letiste
+Letiste
+Jizni Mesto
+Dlouha
+Zeleznicni stanice
+
+[infosystem_trip]
+10002
+Bahnhof > Airport
+0
+100
+
+[infosystem_busstop_list]
+6
+Zeleznicni stanice
+Zeleznicni stanice
+Dlouha
+Jizni Mesto
+Letiste
+Letiste
+
+[infosystem_trip]
+20001
+OC
+245
+200
+
+[infosystem_busstop_list]
+9
+Zeleznicni stanice
+Zeleznicni stanice
+Dlouha
+Bus Depot
+Shopping park
+Shopping park
+Bus Depot
+Dlouha
+Zeleznicni stanice
+

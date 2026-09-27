@@ -1,0 +1,1746 @@
+[name]
+AC Kleinschreibung 2015
+
+[servicetrip]
+ASEAG Der gute Einstieg
+
+stringcount_terminus
+6
+
+stringcount_busstop
+4
+
+[global_strings]	
+3	
+Aachen33
+Aachen33
+Aachen33
+
+######################################
+ TERMINI
+######################################
+	Code	Ident	IBIS	Frnt-ANNAX	Frnt-ANNAX	Side-ANNAX	Roller Blind	IBIS2	Add. plate				Just for Information: Index Nr.
+
+[addterminus_list]
+	9	Aachen Hauptbahnhof	AC Hauptbahnhof	Aachen*B	Hauptbahnhof	Hauptbahnhof		Aachen Hauptbahnhof
+	22	Aachen Kaiserplatz	Kaiserplatz	Aachen*B	Kaiserplatz	Kaiserplatz		Aachen Kaiserplatz
+	23	Aachen Siegel	AachenSiegel	Aachen*B	Siegel	Siegel		AachenSiegel
+	423	Aachen Trierer Platz	Trierer Platz	Aachen*B	Trierer Platz	Trierer Platz		Aachen Trierer Platz
+	6	Aachen Waldfriedhof	Waldfriedhof	Aachen*B	Waldfriedhof	Waldfriedhof		Aachen Waldfriedhof
+	472	Aachen Westbahnhof	Westbahnhof	Aachen*B	Westbahnhof	Westbahnhof		Aachen Westbahnhof
+	25	Aachen Weststaﬂe	Weststaﬂe	Aachen*B	Weststaﬂe	Weststaﬂe		Aachen Weststasse
+	12	Alsdorf Annapark	Annapark	Alsdorf*B	Annapark	Annapark		Alsdorf Annapark
+	29	Atsch Dreieck	Atsch	Atsch*B	Dreieck	Atsch		Atsch
+	31	Baesweiler Reyplatz	Baesweiler Reyplatz	Baesweiler*B	Reyplatz	Reyplatz		Baesweiler Reyplatz
+	2	Baesweiler In der Schaf	Baesweiler In der Schaf	Baesweiler*B	In der Schaf	In der Schaf		Baesweiler In der Schaf
+	33	Bardenberg Krkhs.	Bardenberg Krkhs.	Bardenberg*B	Krankenhaus	Krankenhaus		Bardenberg Krkhs.
+	34	Bardenberg Pley	Bardenberg Pley	Bardenberg*B	Pley	Pley		Bardenberg Pley
+	36	Bendplatz	Bendplatz	Bendplatz		Bendplatz		Bendplatz
+	349	Berensberg	Berensberg	Berensberg		Berensberg		Berensberg
+	39	Brand	Brand	Brand		Brand		Brand
+	41	Breinig Entengasse	Breinig Entengasse	Breinig*B	Entengasse	Entengasse		Breinig Entengasse
+	165	Breinigerberg	Breinigerberg	Breinigerberg		Breinigerberg		Breinigerberg
+	49	B¸sbach	B¸sbach	B¸sbach		B¸sbach		B¸sbach
+	39	Buschm¸hle Friedhof	Buschm¸hle	Buschm¸hle*B	Friedhof	Buschm¸hle Friedhof
+	51	Couven-Gymnasium	Couven-Gymnasium	Couven-*B	Gymnasium*B	Couven-Gymn		Couven-Gymnasium
+	84	Donnerberg Hˆhenstr.	Donnerberg	Donnerberg*B	Hˆhenstraﬂe	Donnerberg		Donnerberg
+	68	Dorff	Dorff	Dorff		DorfF		Dorff
+	72	D¸rwiﬂ	D¸rwiﬂ	D¸rwiﬂ		D¸rwiﬂ		D¸rwiﬂ
+	85	Eilend. Am Tunnel	Eilend. Am Tunnel	Eilendorf*B	Am Tunnel	Am Tunnel		Eilend. Am Tunnel
+	79	Eilend. Schubertstraﬂe	Eilend. Schubertstraﬂe	Eilendorf*B	Schubertstraﬂe	Schubertstraﬂe		Eilend. Schubertstraﬂe
+	90	Einsatzbus	Einsatzbus	Einsatzbus		Einsatzbus		Einsatzbus
+	102	Eschw. Bushof	Eschw. Bushof	Eschweiler*B	Bushof	Bushof		Eschw. Bushof
+	118	Eschw. Hauptbahnhof	Eschw. Hauptbahnhof	Eschweiler*B	Hauptbahnhof	Hauptbahnhof		Eschw. Hauptbahnhof
+	113	Eschw. Vˆckelsberg	Eschw. Vˆckelsberg	Eschweiler*B	Vˆckelsberg	Vˆckelsberg		Eschw. Vˆckelsberg
+	94	Euchen	Euchen	Euchen		Euchen		Euchen
+	95	Eupen Bushof	Eupen Bushof	Eupen*B	Bushof	Bushof		Eupen Bushof
+	97	Eurogress	Eurogress	Eurogress		Eurogress		Eurogress
+	98	Europadorf	Europadorf	Europadorf		Europadorf		Europadorf
+	87	Eynatten Dorf	Eynatten Dorf	Eynatten*B	Dorf	Eynatten		Eynatten Dorf
+{ALLEX}	150	Fahrschule	Fahrschule	Fahrschule		Fahrschule		Fahrschule
+	139	Freund	Freund	Freund		Freund		Freund
+{ALLEX}	160	Gep‰ckbus	Gep‰ckbus	Gep‰ckbus		Gep‰ckbus		Gep‰ckbus
+	159	Gewerb. Aach. Kreuz	Gewerb. Aach. Kreuz	Gewerbegebiet	Aachener Kreuz	Aachener Kreuz		Gewerb. Aach. Kreuz
+	153	Gewerb. Eilendorf	Gewerb. Eilendorf	Gewerbegebiet	Eilendorf S¸d	Eilendorf S¸d		Gewerb. Eilendorf
+	326	Pascalstraﬂe	Pascalstraﬂe	Gewerbegebiet	Pascalstraﬂe	Pascalstraﬂe		Pascalstraﬂe
+	155	Gressenich	Gressenich	Gressenich		Gressenich		Gressenich
+	161	Haaren Markt	Haaren Markt	Haaren*B	Markt	Haaren Markt		Haaren Markt
+	163	Hahn Abzw. Venwegen	Hahn Abzw. Venwegen	Hahn*B	Abzw. Venwegen	Hahn*B		Hahn Abzw. Venwegen
+{ALLEX}	100	H‰lt nur zum Aussteigen	H‰lt nur zum Aussteigen	H‰lt nur zum*B	Aussteigen*B			H‰lt nur zum Aussteigen
+	164	Hamich	Hamich	Hamich		Hamich		Hamich
+	166	Hanbruch	Hanbruch	Hanbruch		Hanbruch		Hanbruch
+	174	Hastenrath	Hastenrath	Hastenrath		Hastenrath		Hastenrath
+	314	Hbf.-Schanz-Ponttor	Hbf.-Schanz-Ponttor	Hbf. - Schanz*B	Ponttor*B	Ponttor*B		Hbf.-Schanz-Ponttor
+	564	Hbf.-Schanz-Uniklinik	Hbf.-Schanz-Uniklinik	Hbf. - Schanz*B	Uniklinik*B	Uniklinik*B		Hbf.-Schanz-Uniklinik
+	181	Heerlen	Heerlen	Heerlen		Heerlen		Heerlen
+	200	Hehlrath	Hehlrath	Hehlrath		Hehlrath		Hehlrath
+	183	Heistern	Heistern	Heistern		Heistern		Heistern
+	188	Herzogenr. Bahnhof	Herzog. Bahnhof	Herzogenrath*B	Bahnhof	Bahnhof		Herzog. Bahnhof
+	193	Hoengen Goethestr.	Hoengen Goethestr.	Hoengen*B	Goethestraﬂe	Goethestraﬂe		Hoengen Goethestr.
+	3	Hoengen I G A	Hoengen IGA	Hoengen*B	I G A	I G A		Hoengen IGA
+	197	Horbach	Horbach	Horbach		Horbach		Horbach
+	198	Hˆrn Kastanienweg	Hˆrn Kastanienweg	Hˆrn*B	Kastanienweg	Kastanienweg		Hˆrn Kastanienweg
+	148	H¸cheln	H¸cheln	H¸cheln		H¸cheln		H¸cheln
+	201	H¸cheln Wasserfeld	H¸cheln Wasserfeld	H¸cheln*B	Wasserfeld	Wasserfeld		H¸cheln Wasserfeld
+	204	H¸ls	H¸ls	H¸ls		H¸ls		H¸ls
+	278	H¸ls Elleter Feld	H¸ls Elleter Feld	H¸ls*B	Elleter Feld	Elleter Feld		H¸ls Elleter Feld
+	207	H¸ls Friedhof	H¸ls Friedhof	H¸ls*B	Friedhof	Friedhof		H¸ls Friedhof
+	205	H¸ls Gewerbegebiet	H¸ls Gewerbegebiet	H¸ls*B	Gewerbegebiet	Gewerbegebiet		H¸ls Gewerbegebiet
+	208	H¸ls Schulzentrum	H¸ls Schulzentrum	H¸ls*B	Schulzentrum	Schulzentrum		H¸ls Schulzentrum
+{ALLEX}	213	Info-Bus	Info-Bus	Infobus		Infobus		Info-Bus
+	215	J¸lich	J¸lich	J¸lich		J¸lich		J¸lich
+	223	K‰mpchen	K‰mpchen	K‰mpchen		K‰mpchen		K‰mpchen
+	219	Kaninsberg	Kaninsberg	W¸rselen*B	Kaninsberg	Kaninsberg		Kaninsberg
+	224	Kelmis	Kelmis	Kelmis		Kelmis		Kelmis
+	220	Kerkrade Busstation	Kerkrade	Kerkrade*B	Busstation	Kerkrade*B		Kerkrade
+	226	Kinzweiler	Kinzweiler	Kinzweiler		Kinzweiler		Kinzweiler
+	227	Klinkheide	Klinkheide	Klinkheide		Klinkheide		Klinkheide
+	236	Kohlscheid Bahnhof	Kohlscheid Bahnhof	Kohlscheid*B	Bahnhof	Bahnhof		Kohlscheid Bahnhof
+	32	Kohlscheid Bank	Kohlscheid Bank	Kohlscheid*B	Bank	Bank		Kohlscheid Bank
+	232	Kohlscheid Weststaﬂe	Kohlscheid Weststaﬂe	Kohlscheid*B	Weststaﬂe	Weststaﬂe		Kohlscheid Weststaﬂe
+	233	Kˆpfchen	Kˆpfchen	Kˆpfchen		Kˆpfchen		Kˆpfchen
+	234	Kornelim¸nster	Kornelim¸nster	Kornelim¸nster*B	Napoleonsberg	Kornelim¸nster		Kornelim¸nster
+	241	Laurensberg Rahe	Laurensberg Rahe	Laurensberg*B	Rahe	Rahe		Laurensberg Rahe
+	4	Laurensberg Rahe - Im Ring	Laurensberg Rahe - Im Ring	Laurensberg*B	Rahe - Im Ring	Rahe - Im Ring		Laurensberg Rahe - Im Ring
+	247	Lemiers	Lemiers	Lemiers		Lemiers		Lemiers
+	251	Lichtenbusch	Lichtenbusch	Lichtenbusch		Lichtenbusch		Lichtenbusch
+	390	Liester	Liester	Liester		Liester		Liester
+	482	Lintert Friedhof	Lintert Friedhof	Lintert*B	Friedhof	Lintert*B		Lintert Friedhof
+	256	Locht	Locht	Locht		Locht		Locht
+	246	Ludwig Forum	Ludwig Forum	Ludwig*B	Forum*			Ludwig Forum
+	261	Mariadorf Dreieck	Mariadorf Dreieck	Mariadorf*B	Dreieck			Mariadorf Dreieck
+	253	Mausbach	Mausbach	Mausbach*B	Kapelle	Mausbach		Mausbach
+	263	Merkst. Aug.-Schmidt-Pl.	Merkstein Aug.-Schmidt-Pl.	Merkstein*B	Aug.-Schmidt-Pl.	Aug.-Schmidt-Pl.		Merkstein Aug.-Schmidt-Pl.
+	265	Merkstein Stadion	Merkstein Stadion	Merkstein*B	STADION	Merkstein		Merkstein Stadion
+	503	Messfahrt	Messfahrt	MESSFAHRT	NICHT EINSTEIGEN	MESSFAHRT		Messfahrt
+	270	M¸nsterbusch	M¸nsterbusch	Stolberg*B	M¸nsterbusch	M¸nsterbusch		M¸nsterbusch
+	518	Aachen Bushof          NE	Nachtexpress Bushof	Nachtexpress*B	Aachen Bushof			Nachtexpress Bushof
+	505	AC Elisenbrunnen          NE	Nachtexpress Elisenbrunnen	Nachtexpress*B	AC-Elisenbrunnen			Nachtexpress Elisenbrunnen
+	506	Brand- Walheim          NE	Nachtexpress Brand- Walheim	Nachtexpress*B	Brand - Walheim			Nachtexpress Brand- Walheim
+	519	Eilendorf          NE	Nachtexpress Eilendorf	Nachtexpress*B	Eilendorf S¸d			Nachtexpress Eilendorf
+	517	Eilendorf - Stolberg          NE	Nachtexpress Eilendorf - Stolberg	Nachtexpress*B	Eilendorf - Stolberg			Nachtexpress Eilendorf - Stolberg
+	509	Haaren - Merkstein          NE	Nachtexpress Haaren - Merkstein	Nachtexpress*B	Haaren - Merkstein			Nachtexpress Haaren - Merkstein
+	507	Hanbruch - Kelmis          NE	Nachtexpress Hanbruch - Kelmis	Nachtexpress*B	Hanbruch - Kelmis			Nachtexpress Hanbruch - Kelmis
+	510	Hˆrn - Vaals             NE	Nachtexpress Hˆrn - Vaals	Nachtexpress*B	Hˆrn - Vaals			Nachtexpress Hˆrn - Vaals
+	511	Kohlscheid - W¸rselen          NE	Nachtexpress Kohlscheid - W¸rselen	Nachtexpress*B	Kohlscheid - W¸rselen			Nachtexpress Kohlscheid - W¸rselen
+	514	Lichtenbusch          NE	Nachtexpress Lichtenbusch	Nachtexpress*B	Lichtenbusch			Nachtexpress Lichtenbusch
+	508	Richterich - Locht          NE	Nachtexpress Richterich - Locht	Nachtexpress*B	Richterich - Locht			Nachtexpress Richterich - Locht
+	512	Schleckheim             NE	Nachtexpress Schleckheim	Nachtexpress*B	Schleckheim			Nachtexpress Schleckheim
+	516	Verlautenheide          NE	Nachtexpress Verlautenheide	Nachtexpress*B	Verlautenheide			Nachtexpress Verlautenheide
+	276	Neu-Lohn	Neu-Lohn	Neu-Lohn		Neu-Lohn		Neu-Lohn
+	280	Nothberg	Nothberg	Nothberg		Nothberg		Nothberg
+	291	Oberforstbach	Oberforstbach	Oberforstbach*B	Laschet	Oberforstbach*B		Oberforstbach
+	293	Ofden Gymnasium	Ofden Gymnasium	Ofden*B	Gymnasium	Ofden*B		Ofden Gymnasium
+	292	Orsbach	Orsbach	Orsbach		Orsbach		Orsbach
+	303	Palenberg Bahnhof	Palenberg	Palenberg*B	Bahnhof	Palenberg*B		Palenberg
+	152	Pannesheide	Pannesheide	Pannesheide		Pannesheide		Pannesheide
+	305	Pius-Gymnasium	Pius-Gymnasium	Pius-*B	Gymnasium*B	Pius-Gymnasium		Pius-Gymnasium
+	307	Polizeipr‰sidium	Polizeipr‰sidium	Polizei-*B	Pr‰sidium*B	Polizeipr‰sidium		Polizeipr‰sidium
+	309	Ponttor	Ponttor	Ponttor		Ponttor		Ponttor
+	146	Ponttor - Hbf. - Schanz - Uniklinik	Ponttor - Hbf. - Schanz - Uniklinik	Ponttor - Hbf*B	Schanz - Uniklinik*B			Ponttor - Hbf. - Schanz - Uniklinik
+	313	Preuswald	Preuswald	Preuswald		Preuswald		Preuswald
+	332	Richt. Schˆnauer Friede	Richterich Schˆnauer Friede	Richterich*B	Schˆnauer Friede	Schˆnauer Friede		Richterich Schˆnauer Friede
+	335	Richterich Schˆnau	Richterich Schˆnau	Richterich*B	Schˆnau	Schˆnau		Richterich Schˆnau
+	341	Ronheide	Ronheide	Ronheide		Ronheide		Ronheide
+	342	Ronheider Weg	Ronheider Weg	Ronheider*B	Weg*B	Ronheider Weg		Ronheider Weg
+	312	Schanz - Hbf. - Ponttor	Schanz - Hbf. - Ponttor	Schanz - Hbf.	Ponttor*B	Ponttor		Schanz - Hbf. - Ponttor
+	561	Schanz - Hbf. - Ponttor - Uniklinik	Schanz - Hbf. - Ponttor - Uniklinik	Schanz - Hbf.	Ponttor - Uniklinik	Uniklinik*B		Schanz - Hbf. - Ponttor - Uniklinik
+	352	Schevenh¸tte	Schevenh¸tte	Schevenh¸tte*B	Helenasruh	Schevenh¸tte*B		Schevenh¸tte
+	395	SEV	SEV	SCHIENEN-*B	ERSATZVERKEHR*B	SEV		SEV
+	351	Schleckheim	Schleckheim	Schleckheim		Schleckheim		Schleckheim
+	359	Schmithof Schule	Schmithof Schule	Schmithof*B	Schule	Schmithof		Schmithof Schule
+	488	SB Aachen Bushof	SB Aachen Bushof	SCHNELLBUS*B	Aachen Bushof	Aachen Bushof		SB Aachen Bushof
+	176	SB Aachen Hbf	SB Aachen Hbf	SCHNELLBUS*B	Aachen Hbf	Aachen Hbf		SB Aachen Hbf
+	35	SB Baesweiler	SB Baesweiler	SCHNELLBUS*B	Baesweiler	Baesweiler		SB Baesweiler
+	65	SB Brand	SB Brand	SCHNELLBUS*B	Brand	Brand		SB Brand
+	162	SB Elisenbrunnen	SB Elisenbrunnen	SCHNELLBUS*B	AC-Elisenbrunnen	AC-Elisenbrunnen		SB Elisenbrunnen
+	184	Schnellbus Heerlen	SB Heerlen	SCHNELLBUS*B	Heerlen*B	Heerlen*B		SB Heerlen
+	187	SB Herzogenrath Bf	SB Herzogenrath Bf	SCHNELLBUS*B	Herzogenrath Bf	Herzogenrath Bf		SB Herzogenrath Bf
+	370	SB Horbach	SB Horbach	SCHNELLBUS*B	Horbach*B	Horbach*B		SB Horbach
+	135	SB Kohlscheid	SB Kohlscheid	SCHNELLBUS*B	Kohlscheid Weststr.	Kohlscheid Weststr.		SB Kohlscheid
+	372	SB Locht	SB Locht	SCHNELLBUS*B	Locht*B	Locht*B		SB Locht
+	264	SB Merkstein	SB Merkstein	SCHNELLBUS*B	Merkstein	Merkstein		SB Merkstein
+	386	SB Stolberg	SB Stolberg	SCHNELLBUS*B	Stolberg M¸hlener Bahnhof	Stolberg M¸hlener Bahnhof		SB Stolberg
+	587	SB S¸sterau-Unikl	SB S¸sterau-Unikl	SCHNELLBUS*B	S¸sterau - Uniklinik	S¸sterau - Uniklinik		SB S¸sterau-Unikl
+	592	SB Waldfriedhof	SB Waldfriedhof	SCHNELLBUS*B	Hbf.- Waldfriedhof	Hbf.- Waldfriedhof		SB Waldfriedhof
+	450	SB Walheim- Hahn	SB Walheim - Hahn	SCHNELLBUS*B	Walheim - Hahn	Walheim - Hahn		SB Walheim- Hahn
+	364	Setterich	Setterich	Setterich*B	Siedlung	Setterich		Setterich
+	500	Shuttle-Bus	Shuttle-Bus	SHUTTLE-*B	BUS*B	SCHUTTLEBUS		Shuttle-Bus
+	367	Sief Schule	Sief Schule	Sief*B	Schule	Sief Schule		Sief Schule
+{ALLEX}	396	Sonderfahrt	Sonderfahrt	SONDERFAHRT		SONDERFAHRT		Sonderfahrt
+	426	Sportpark Soers	Sportpark Soers	Sportpark*B	Soers*B	Sportpark Soers		Sportpark Soers
+	400	St. Jˆris	St. Jˆris	St. Jˆris		St. Jˆris		St. Jˆris
+	408	Stolberg Altstadt	Stolberg Altstadt	Stolberg*B	Altstadt	Stolberg Altstadt		Stolberg Altstadt
+	175	Hans-Bˆckler-Str.	Hans-Bˆckler-Str.	Stolberg*B	Hans-Bˆckler-Str.	Hans-Bˆckler-Str.		Hans-Bˆckler-Str.
+	407	Stolberg Hauptbahnhof	Stolberg Hauptbahnhof	Stolberg*B	Hauptbahnhof	Hauptbahnhof		Stolberg Hauptbahnhof
+	378	Stolberg M¸hlener Bahnhof.	Stolberg M¸hlener Bahnhof.	Stolberg*B	M¸hlener Bahnhof	M¸hlener Bahnhof		Stolberg M¸hlener Bahnhof.
+	513	Strunx-Express	Strunx-Express	STRUNX-*B	EXPRESS*B			Strunx-Express
+	416	S¸sterau	S¸sterau	S¸sterau		S¸sterau		S¸sterau
+	411	S¸sterfeld	S¸sterfeld	S¸sterfeld		S¸sterfeld		S¸sterfeld
+	272	Uniklinik	Uniklinik	Uniklinik		Uniklinik		Uniklinik
+	5	Uniklinik               Melaten	Uniklinik ¸. Melaten	Uniklinik*B	‹. Campus Melaten	Uniklinik		Uniklinik ¸. Camp. Melaten
+	431	Vaals	Vaals	Vaals		Vaals		Vaals
+	13	Vaals Busstation	Vaals Busstation	Vaals*B	Busstation	Busstation		Vaals Busstation
+	7	Vaals Bloemendal	Vaals Bloemendal	Vaals*B	Bloemendal	Bloemendal		Vaals Bloemendal
+	8	Vaals Heuvel	Vaals Heuvel	Vaals*B	Heuvel	Heuvel		Vaals Heuvel
+	11	Vaals Flats	Vaals Flats	Vaals*B	Flats	Flats		Vaals Flats
+	432	Vaals Grenze	Vaals Grenze	Vaals*B	Grenze	Vaals Grenze		Vaals Grenze
+	448	Verlautenheide Endstr.	Verlautenheide	Verlautenheide*B	ENDSTRASSE	ENDSTRASSE		Verlautenheide
+	133	Verst‰rkerfahrt Aachen Bushof	Verst‰rkerfahrt Aachen Bushof	VERSTƒRKERFAHRT*B	Aachen Bushof	Aachen Bushof		Verst‰rkerfahrt Aachen Bushof
+	420	Verst‰rkerfahrt AlsDorf	Verst‰rkerfahrt AlsDorf	VERSTƒRKERFAHRT*B	ALSDorf	ALSDorf		Verst‰rkerfahrt AlsDorf
+	551	Verst‰rkerfahrt Baesweiler	Verst‰rkerfahrt Baesweiler	VERSTƒRKERFAHRT*B	Baesweiler	Baesweiler		Verst‰rkerfahrt Baesweiler
+	912	Verst‰rkerfahrt Bardenberg	Verst‰rkerfahrt Bardenberg	VERSTƒRKERFAHRT*B	Bardenberg	Bardenberg		Verst‰rkerfahrt Bardenberg
+	59	Verst‰rkerfahrt Brand	Verst‰rkerfahrt Brand	VERSTƒRKERFAHRT*B	Brand	Brand		Verst‰rkerfahrt Brand
+	573	Verst‰rkerfahrt Brand Schulzentrum	Verst‰rkerfahrt Brand Schulzentrum	VERSTƒRKERFAHRT*B	Brand Schulzentrum	Brand Schulzentrum		Verst‰rkerfahrt Brand Schulzentrum
+	552	Verst‰rkerfahrt Breinig	Verst‰rkerfahrt Breinig	VERSTƒRKERFAHRT*B	BREINIG	BREINIG		Verst‰rkerfahrt Breinig
+	553	Verst‰rkerfahrt B¸sbach	Verst‰rkerfahrt B¸sbach	VERSTƒRKERFAHRT*B	B‹SBACH	B‹SBACH		Verst‰rkerfahrt B¸sbach
+	60	Verst‰rkerfahrt Driescher Hof	Verst‰rkerfahrt Driescher Hof	VERSTƒRKERFAHRT*B	Driescher Hof	Driescher Hof		Verst‰rkerfahrt Driescher Hof
+	74	Verst‰rkerfahrt Eilendorf	Verst‰rkerfahrt Eilendorf	VERSTƒRKERFAHRT*B	Eilendorf	Eilendorf		Verst‰rkerfahrt Eilendorf
+	134	Verst‰rkerfahrt Elisenbrunnen	Verst‰rkerfahrt Elisenbrunnen	VERSTƒRKERFAHRT*B	Elisenbrunnen	Elisenbrunnen		Verst‰rkerfahrt Elisenbrunnen
+	422	Verst‰rkerfahrt Eschweiler Bushof	Verst‰rkerfahrt Eschweiler Bushof	VERSTƒRKERFAHRT*B	Eschweiler Bushof	Eschweiler Bushof		Verst‰rkerfahrt Eschweiler Bushof
+	554	Verst‰rkerfahrt Eschweiler S¸dstr.	Verst‰rkerfahrt Eschweiler S¸dstr.	VERSTƒRKERFAHRT*B	Eschweiler S¸dstr.	Eschweiler S¸dstr.		Verst‰rkerfahrt Eschweiler S¸dstr.
+	124	Verst‰rkerfahrt Fringsgraben	Verst‰rkerfahrt Fringsgraben	VERSTƒRKERFAHRT*B	Fringsgraben	Fringsgraben		Verst‰rkerfahrt Fringsgraben
+	132	Verst‰rkerfahrt Fuchserde	Verst‰rkerfahrt Fuchserde	VERSTƒRKERFAHRT*B	Fuchserde	Fuchserde		Verst‰rkerfahrt Fuchserde
+	317	Verst‰rkerfahrt Herzogenrath	Verst‰rkerfahrt Herzogenrath	VERSTƒRKERFAHRT*B	Herzogenrath BF	Herzogenrath BF		Verst‰rkerfahrt Herzogenrath
+	555	Verst‰rkerfahrt Hoengen	Verst‰rkerfahrt Hoengen	VERSTƒRKERFAHRT*B	Hoengen	Hoengen		Verst‰rkerfahrt Hoengen
+	595	Verst‰rkerfahrt Kelmis	Verst‰rkerfahrt Kelmis	VERSTƒRKERFAHRT*B	Kelmis	Kelmis		Verst‰rkerfahrt Kelmis
+	316	Verst‰rkerfahrt Kohlscheid Weststr.	Verst‰rkerfahrt Kohlscheid Weststr.	VERSTƒRKERFAHRT*B	Kohlscheid Weststr.	Kohlscheid Weststr.		Verst‰rkerfahrt Kohlscheid Weststr.
+	338	Verst‰rkerfahrt Locht	Verst‰rkerfahrt Locht	VERSTƒRKERFAHRT*B	Locht*B	Locht*B		Verst‰rkerfahrt Locht
+	556	Verst‰rkerfahrt Merkstein	Verst‰rkerfahrt Merkstein	VERSTƒRKERFAHRT*B	Merkstein	Merkstein		Verst‰rkerfahrt Merkstein
+	557	Verst‰rkerfahrt M¸nsterbusch	Verst‰rkerfahrt M¸nsterbusch	VERSTƒRKERFAHRT*B	M¸nsterbusch	M¸nsterbusch		Verst‰rkerfahrt M¸nsterbusch
+	558	Verst‰rkerfahrt Schleckheim	Verst‰rkerfahrt Schleckheim	VERSTƒRKERFAHRT*B	Schleckheim	Schleckheim		Verst‰rkerfahrt Schleckheim
+	318	Verst‰rkerfahrt Schˆnauer Friede	Verst‰rkerfahrt Schˆnauer Friede	VERSTƒRKERFAHRT*B	Schˆnauer Friede	Schˆnauer Friede		Verst‰rkerfahrt Schˆnauer Friede
+	559	Verst‰rkerfahrt Setterich	Verst‰rkerfahrt Setterich	VERSTƒRKERFAHRT*B	Setterich	Setterich		Verst‰rkerfahrt Setterich
+	550	Verst‰rkerfahrt M¸hlener Bahnhof	Verst‰rkerfahrt M¸hlener Bahnhof	VERSTƒRKERFAHRT*B	M‹HLENER Bahnhof	M‹HLENER Bahnhof		Verst‰rkerfahrt M¸hlener Bahnhof
+	73	Verst‰rkerfahrt Trierer Platz	Verst‰rkerfahrt Trierer Platz	VERSTƒRKERFAHRT*B	Trierer Platz	Trierer Platz		Verst‰rkerfahrt Trierer Platz
+	131	Verst‰rkerfahrt Uniklinik	Verst‰rkerfahrt Uniklinik	VERSTƒRKERFAHRT*B	Uniklinik*B	Uniklinik*B		Verst‰rkerfahrt Uniklinik
+	75	Verst‰rkerfahrt Vaals	Verst‰rkerfahrt Vaals	VERSTƒRKERFAHRT*B	Vaals	Vaals		Verst‰rkerfahrt Vaals
+	325	Verst‰rkerfahrt Verlautenheide	Verst‰rkerfahrt Verlautenheide	VERSTƒRKERFAHRT*B	Verlautenheide	Verlautenheide		Verst‰rkerfahrt Verlautenheide
+	596	Verst‰rkerfahrt Waldfriedhof	Verst‰rkerfahrt Waldfriedhof	VERSTƒRKERFAHRT*B	Waldfriedhof	Waldfriedhof		Verst‰rkerfahrt Waldfriedhof
+	311	Verst‰rkerfahrt Weiden Kirche	Verst‰rkerfahrt Weiden Kirche	VERSTƒRKERFAHRT*B	Weiden Kirche	Weiden Kirche		Verst‰rkerfahrt Weiden Kirche
+	441	Vetschau	Vetschau	Vetschau		Vetschau		Vetschau
+	443	Vicht	Vicht	Vicht		Vicht		Vicht
+	447	Volkenrath	Volkenrath	VOLKENRATH		VOLKENRATH		Volkenrath
+	461	Vorweiden	Vorweiden	Vorweiden		Vorweiden		Vorweiden
+	456	Walheim Hasbach	Walheim Hasbach	Walheim*B	Hasbach	Walheim*B		Walheim Hasbach
+	486	Warden	Warden	Warden		Warden		Warden
+	460	Weiden	Weiden	Weiden		Weiden		Weiden
+	466	Weisweiler	Weisweiler	Weisweiler		Weisweiler		Weisweiler
+	463	Weisweiler IGP	Weisweiler IGP	Weisweiler*B	I G P	Weisweiler*B		Weisweiler IGP
+	470	Werkstattfahrt	Werkstattfahrt	WERKSTATTFAHRT		WERKSTATTFAHRT		Werkstattfahrt
+	471	Werth	Werth	Werth		Werth		Werth
+	476	W¸rselen Parkhotel	W¸rselen Parkhotel	W ‹ R S E LE N*B	Parkhotel	W¸rselen*B		W¸rselen Parkhotel
+	491	Zweifall	Zweifall	Zweifall		Zweifall		Zweifall
+	493	Zweifall Solchbachtal	Zweifall Solchbachtal	Zweifall*B	Solchbachtal	Zweifall*B		Zweifall Solchbachtal
+	19	ASEAG	ASEAG	A S E A G		ASEAG		ASEAG
+	1	Aachen Bushof	Aachen Bushof	Aachen*B	Bushof	Bushof		Aachen Bushof
+	26	Aachen Diepenbenden	Aachen Diepenbenden	Aachen*B	Diepenbenden	Diepenbenden		Diepenbenden
+	91	Aachen Elisenbrunnen	Aachen Elisenbrunnen	Aachen*B	Elisenbrunnen	Elisenbrunnen		Elisenbrunnen
+	145	Aachen Fuchserde	Aachen Fuchserde	Aachen*B	Fuchserde	Fuchserde		Fuchserde
+	1	Aachen Bushof	Aachen Bushof	Aachen*B	Bushof	Bushof		Aachen Bushof
+{ALLEX}	300	ASEAG Der gute Einstieg	ASEAG Der gute Einstieg	A S E A G*B	Der gute Einstieg	ASEAG		ASEAG Der gute Einstieg
+	10	AachenBf. Rothe Erde	Bf. Rothe Erde	Aachen*B	Bf. Rothe Erde	Bf. Rothe Erde		Bf. Rothe Erde
+	999	Aachen Bushof          (w43)	Aachen Bushof	Aachen Bushof*B	(weiter als Li. 43)	Bushof		Aachen Bushof(Li.43)
+	998	Aachen Bushof          (w47)	Aachen Bushof	Aachen Bushof*B	(weiter als Li. 47)	Bushof		Aachen Bushof(Li.47)
+	997	AachenVinzenzplatz	AachenVinzenzplatz	Aachen*B	VINZENZPLATZ	VINZENZPLATZ		AachenVINZENZPLATZ
+	996	Campus Melaten	Campus Melaten	Aachen*B	Campus Melaten	Campus Melaten		Campus Melaten
+	995	Uniklinik - Schanz - Hbf.	Uniklinik - Schanz - Hbf.	Uniklinik - Schanz	Hbf. - Ponttor	Uniklinik*B		Uniklinik - Schanz - Hbf.
+	994	Merkst. Boscheler Berg	Merkstein Boscheler Berg	Merkstein*B	BOSCHELER BERG	Merkstein		Merkstein Boscheler Berg
+	993	Herzogenr. Waldfriedhof	Herzog. Waldfriedhof	Herzogenrath*B	Waldfriedhof	Waldfriedhof		Herzog. Waldfriedhof
+	992	Merkstein Industriegeb.	Merkstein Industriegeb.	Merkstein*B	Industriegebiet	Merkstein		Merkstein Industriegeb.
+	991	AachenFringsgraben	AC Fringsgraben	Aachen*B	Fringsgraben	Fringsgraben		AachenFringsgraben
+	990	Aachen Bushof          (w4)	Aachen Bushof	Aachen Bushof*B	(weiter als Li. 4)	Bushof		Aachen Bushof(Li.4)
+	989	Aachen Bushof          (w12)	Aachen Bushof	Aachen Bushof*B	(weiter als Li. 12)	Bushof		Aachen Bushof(Li.12)
+	988	Aachen Bushof          (w22)	Aachen Bushof	Aachen Bushof*B	(weiter als Li. 22)	Bushof		Aachen Bushof(Li.22)
+	987	Driesch. Hof - Brand	Brand	Brand*B	‹. Driescher Hof	Brand		Brand
+	986	Brand Schulzentrum	Brand	Brand*B	Schulzentrum	Brand		Brand Schulztrm.
+	984	Vaals Heuvel               Melaten	Heuvel ¸. Melaten	Vaals Heuvel*B	‹. Campus Melaten	Vaals Heuvel		Heuvel ¸. Camp. Melaten
+	983	Vaals Flats               Melaten	Flats ¸. Melaten	Vaals Flats*B	‹. Campus Melaten	Vaals Flats		Flats ¸. Camp. Melaten
+	982	Vaals Bloemendal               Melaten	Bloemendal ¸. Melaten	Vaals Bloemendal	‹. Campus Melaten	Vaals Bloemendal		Bloemendal ¸. Camp. Melaten
+	981	Vaals Busstation               Melaten	Busstation ¸. Melaten	Vaals Busstation	‹. Campus Melaten	Vaals Busstation		Busstation ¸. Camp. Melaten
+	980	Oberforstbach          NE	Nachtexpress Oberforstbach	Nachtexpress*B	Oberforstbach			Nachtexpress Oberforstbach
+	979	AC-Driescher G.	AC-Driescher G.	Aachen*B	Driescher G‰sschen	Driescher G‰sschen		Ac-Driescher G‰ssch.
+	978	Aachen Theater	Aachen Theater	Aachen*B	Theater*B	Theater*B		Aachen Theater
+	977	Br¸sseler Ring	Br¸sseler Ring	Br¸sseler-*B	Ring*B	BR‹SS. RING*B		Br¸sseler Ring
+	976	Fuchserde	Fuchserde	Fuchserde		Fuchserde		Fuchserde
+	975	Diepenbenden	Diepenbenden	Diepenbenden		Diepenbenden		Diepenbenden
+	974	aseag.de	aseag.de	aseag.de		aseag.de		aseag.de
+	973	Grabenr. Bush-Karlsgr-TH	Grabenring innen	Grabenring*B	Bush. - Karlsgr. - TH	Grabenring		Grabenring innen
+	972	Grabenr. Bush-TH-Karlsgr	Grabenring auﬂen	Grabenring*B	Bush. - TH - Karlsgr.	Grabenring		Grabenring auﬂen
+	971	Karlsgraben	Karlsgraben	Aachen*B	Karlsgraben	Karlsgraben		Karlsgraben
+[end]
+
+
+######################################
+ BUS STOPS
+######################################
+
+Ident	IBIS-1	Int-Display Line 1	Int-Display Line 2	IBIS-2								
+												
+[addbusstop_list]
+Aachen Bushof	Aachen Bushof	Aachen Bushof		Aachen Bushof
+Elisenbrunnen	Elisenbrunnen	Elisenbrunnen		Elisenbrunnen
+Jupp-M¸ller-Straﬂe	Jupp-M¸ller-Straﬂe	Jupp-M¸ller-Straﬂe		Jupp-M¸ller-Straﬂe
+Arbeitsag./Bendpl.	Arbeitsag./Bendpl.	Arbeitsag./Bendpl.		Arbeitsag./Bendpl.
+Ponttor	Ponttor	Ponttor		Ponttor
+Driescher G‰sschen	Driescher G‰sschen	Driescher G‰sschen		Driescher G‰sschen
+Minoritenstraﬂe	Minoritenstraﬂe	Minoritenstraﬂe		Minoritenstraﬂe
+Bf. Rothe Erde	Bf. Rothe Erde	Bf. Rothe Erde		Bf. Rothe Erde
+Elsassstraﬂe	Elsassstraﬂe	Elsassstraﬂe		Elsassstraﬂe
+Josefskirche	Josefskirche	Josefskirche		Josefskirche
+Scheibenstraﬂe	Scheibenstraﬂe	Scheibenstraﬂe		Scheibenstraﬂe
+Kaiserplatz	Kaiserplatz	Kaiserplatz		Kaiserplatz
+Hansemannplatz	Hansemannplatz	Hansemannplatz		Hansemannplatz
+Audimax	Audimax	Audimax		Audimax
+Westbahnhof	Westbahnhof	Westbahnhof		Westbahnhof
+M.-v.-d.-Rohe-Str	M.-v.-d.-Rohe-Str.	M.-v.-d.-Rohe-Str.		M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe	Hainbuchenstraﬂe	Hainbuchenstraﬂe		Hainbuchenstraﬂe
+Halifaxstraﬂe	Halifaxstraﬂe	Halifaxstraﬂe		Halifaxstraﬂe
+Auf der Hˆrn	Auf der Hˆrn	Auf der Hˆrn		Auf der Hˆrn
+Hˆrn Br¸cke	Hˆrn Br¸cke	Hˆrn Br¸cke		Hˆrn Br¸cke
+Forckenbeckstraﬂe	Forckenbeckstraﬂe	Forckenbeckstraﬂe		Forckenbeckstraﬂe
+Campus Melaten	Campus Melaten	Campus Melaten		Campus Melaten
+Stiewistraﬂe	Stiewistraﬂe	Stiewistraﬂe		Stiewistraﬂe
+Wendlingweg	Wendlingweg	Wendlingweg		Wendlingweg
+Worringer Weg	Worringer Weg	Worringer Weg		Worringer Weg
+Uniklinik	Uniklinik	Uniklinik		Uniklinik
+Steinbergweg	Steinbergweg	Steinbergweg		Steinbergweg
+Kullen	Kullen	Kullen		Kullen
+Philipp-Neri-Weg	Philipp-Neri-Weg	Philipp-Neri-Weg		Philipp-Neri-Weg
+Schmiedgasse	Schmiedgasse	Schmiedgasse		Schmiedgasse
+Keltenstraﬂe	Keltenstraﬂe	Keltenstraﬂe		Keltenstraﬂe
+P¸ngelerstraﬂe	P¸ngelerstraﬂe	P¸ngelerstraﬂe		P¸ngelerstraﬂe
+Vaals Grenze	Vaals Grenze	Vaals Grenze		Vaals Grenze
+Busstation	Busstation	Busstation		Busstation
+St. Jozefkerk	St. Jozefkerk	St. Jozefkerk		St. Jozefkerk
+Parklaan	Parklaan	Parklaan		Parklaan
+De lange Akker	De lange Akker	De lange Akker		De lange Akker
+Korenstraat	Korenstraat	Korenstraat		Korenstraat
+Vaals Flats	Vaals Flats	Vaals Flats		Vaals Flats
+Theater	Theater	Theater		Theater
+Wallstraﬂe	Wallstraﬂe	Wallstraﬂe		Wallstraﬂe
+Normaluhr	Normaluhr	Normaluhr		Normaluhr
+Schlossstraﬂe	Schlossstraﬂe	Schlossstraﬂe		Schlossstraﬂe
+Viktoriaallee	Viktoriaallee	Viktoriaallee		Viktoriaallee
+Frankenberg	Frankenberg	Frankenberg		Frankenberg
+Zwanzigmorgen	Zwanzigmorgen	Zwanzigmorgen		Zwanzigmorgen
+Beverau	Beverau	Beverau		Beverau
+Vogelsang	Vogelsang	Vogelsang		Vogelsang
+Buschhausen	Buschhausen	Buschhausen		Buschhausen
+Lˆwenstein-Kaserne	Lˆwenstein-Kaserne	Lˆwenstein-Kaserne		Lˆwenstein-Kaserne
+Fuchserde	Fuchserde	Fuchserde		Fuchserde
+Maastrichterlaan	Maastrichterlaan	Maastrichterlaan		Maastrichterlaan
+Bloemendal	Bloemendal	Bloemendal		Bloemendal
+Heuvel	Heuvel	Heuvel		Heuvel
+Technische Hochschule	Technische Hochschule	Technische Hochschule		Technische Hochschule
+Kˆnigstraﬂe	Kˆnigstraﬂe	Kˆnigstraﬂe		Kˆnigstraﬂe
+Turmstraﬂe	Turmstraﬂe	Turmstraﬂe		Turmstraﬂe
+Lochnerstraﬂe	Lochnerstraﬂe	Lochnerstraﬂe		Lochnerstraﬂe
+Schanz	Schanz	Schanz		Schanz
+Luisenhospital	Luisenhospital	Luisenhospital		Luisenhospital
+Misereor	Misereor	Misereor		Misereor
+Aachen Hauptbahnhof	Aachen Hauptbahnhof	Aachen Hauptbahnhof		Aachen Hauptbahnhof
+Augustastraﬂe	Augustastraﬂe	Augustastraﬂe		Augustastraﬂe
+Eurogress	Eurogress	Eurogress		Eurogress
+Ehrenmal/Lousberg	Ehrenmal/Lousberg	Ehrenmal/Lousberg		Ehrenmal/Lousberg
+Karlsgraben	Karlsgraben	Karlsgraben		Karlsgraben
+Annastraﬂe	Annastraﬂe	Annastraﬂe		Annastraﬂe
+Alter Posthof	Alter Posthof	Alter Posthof		Alter Posthof
+Willy-Brandt-Platz	Willy-Brandt-Platz	Willy-Brandt-Platz		Willy-Brandt-Platz
+[end]
+
+######################################
+ TRIPS / ROUTES
+######################################
+
+Line 73, Route 01:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+7301
+ROTHE ERDE  >>  Uniklinik
+5
+XXX
+
+[infosystem_busstop_list]
+23
+Bf. Rothe Erde
+Elsassstraﬂe
+Josefskirche
+Scheibenstraﬂe
+Kaiserplatz
+Willy-Brandt-Platz
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+
+Line 73, Route 02:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+7302
+Uniklinik  >>  ROTHE ERDE
+10
+XXX
+
+[infosystem_busstop_list]
+22
+Uniklinik
+Worringer Weg
+Wendlingweg
+Stiewistraﬂe
+Campus Melaten
+Forckenbeckstraﬂe
+Auf der Hˆrn
+Halifaxstraﬂe
+Hainbuchenstraﬂe
+M.-v.-d.-Rohe-Str
+Westbahnhof
+Audimax
+Ponttor
+Driescher G‰sschen
+Minoritenstraﬂe
+Aachen Bushof
+Willy-Brandt-Platz
+Kaiserplatz
+Scheibenstraﬂe
+Josefskirche
+Elsassstraﬂe
+Bf. Rothe Erde
+
+Line 73, Route 03:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+7303
+Aachen Bushof  >>  Uniklinik
+5
+XXX
+
+[infosystem_busstop_list]
+17
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+
+Line 73, Route 04:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+7304
+Uniklinik  >>  Aachen Bushof
+1
+XXX
+
+[infosystem_busstop_list]
+16
+Uniklinik
+Worringer Weg
+Wendlingweg
+Stiewistraﬂe
+Campus Melaten
+Forckenbeckstraﬂe
+Auf der Hˆrn
+Halifaxstraﬂe
+Hainbuchenstraﬂe
+M.-v.-d.-Rohe-Str
+Westbahnhof
+Audimax
+Ponttor
+Driescher G‰sschen
+Minoritenstraﬂe
+Aachen Bushof
+
+
+Line 33, Route 01:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3301
+Fuchserde  >>  Vaals
+983
+XXX
+
+[infosystem_busstop_list]
+43
+Fuchserde
+Lˆwenstein-Kaserne
+Buschhausen
+Vogelsang
+Beverau
+Zwanzigmorgen
+Frankenberg
+Viktoriaallee
+Schlossstraﬂe
+Normaluhr
+Wallstraﬂe
+Theater
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+Steinbergweg
+Kullen
+Philipp-Neri-Weg
+Schmiedgasse
+Keltenstraﬂe
+P¸ngelerstraﬂe
+Vaals Grenze
+Busstation
+St. Jozefkerk
+Parklaan
+De lange Akker
+Korenstraat
+Vaals Flats
+
+Line 33, Route 02:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3302
+Vaals  >>  Fuchserde
+145
+XXX
+
+[infosystem_busstop_list]
+40
+Vaals Flats
+De lange Akker
+Parklaan
+Bloemendal
+Maastrichterlaan
+Vaals Grenze
+Keltenstraﬂe
+Schmiedgasse
+Philipp-Neri-Weg
+Kullen
+Steinbergweg
+Uniklinik
+Worringer Weg
+Wendlingweg
+Stiewistraﬂe
+Campus Melaten
+Forckenbeckstraﬂe
+Auf der Hˆrn
+Halifaxstraﬂe
+Hainbuchenstraﬂe
+M.-v.-d.-Rohe-Str
+Westbahnhof
+Audimax
+Ponttor
+Driescher G‰sschen
+Minoritenstraﬂe
+Aachen Bushof
+Elisenbrunnen
+Theater
+Wallstraﬂe
+Normaluhr
+Schlossstraﬂe
+Viktoriaallee
+Frankenberg
+Zwanzigmorgen
+Beverau
+Vogelsang
+Buschhausen
+Lˆwenstein-Kaserne
+Fuchserde
+
+Line 33, Route 03:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3303
+Fuchserde  >>  Vaals
+982
+XXX
+
+[infosystem_busstop_list]
+40
+Fuchserde
+Lˆwenstein-Kaserne
+Buschhausen
+Vogelsang
+Beverau
+Zwanzigmorgen
+Frankenberg
+Viktoriaallee
+Schlossstraﬂe
+Normaluhr
+Wallstraﬂe
+Theater
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+Steinbergweg
+Kullen
+Philipp-Neri-Weg
+Schmiedgasse
+Keltenstraﬂe
+P¸ngelerstraﬂe
+Vaals Grenze
+Busstation
+St. Jozefkerk
+Bloemendal
+
+Line 33, Route 04:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3304
+Vaals  >>  Fuchserde
+145
+XXX
+
+[infosystem_busstop_list]
+37
+Bloemendal
+Maastrichterlaan
+Vaals Grenze
+Keltenstraﬂe
+Schmiedgasse
+Philipp-Neri-Weg
+Kullen
+Steinbergweg
+Uniklinik
+Worringer Weg
+Wendlingweg
+Stiewistraﬂe
+Campus Melaten
+Forckenbeckstraﬂe
+Auf der Hˆrn
+Halifaxstraﬂe
+Hainbuchenstraﬂe
+M.-v.-d.-Rohe-Str
+Westbahnhof
+Audimax
+Ponttor
+Driescher G‰sschen
+Minoritenstraﬂe
+Aachen Bushof
+Elisenbrunnen
+Theater
+Wallstraﬂe
+Normaluhr
+Schlossstraﬂe
+Viktoriaallee
+Frankenberg
+Zwanzigmorgen
+Beverau
+Vogelsang
+Buschhausen
+Lˆwenstein-Kaserne
+Fuchserde
+
+Line 33, Route 05:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3305
+Fuchserde  >>  Vaals
+981
+XXX
+
+[infosystem_busstop_list]
+38
+Fuchserde
+Lˆwenstein-Kaserne
+Buschhausen
+Vogelsang
+Beverau
+Zwanzigmorgen
+Frankenberg
+Viktoriaallee
+Schlossstraﬂe
+Normaluhr
+Wallstraﬂe
+Theater
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+Steinbergweg
+Kullen
+Philipp-Neri-Weg
+Schmiedgasse
+Keltenstraﬂe
+P¸ngelerstraﬂe
+Vaals Grenze
+Busstation
+
+Line 33, Route 06:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3306
+Vaals  >>  Fuchserde
+145
+XXX
+
+[infosystem_busstop_list]
+36
+Busstation
+Vaals Grenze
+Keltenstraﬂe
+Schmiedgasse
+Philipp-Neri-Weg
+Kullen
+Steinbergweg
+Uniklinik
+Worringer Weg
+Wendlingweg
+Stiewistraﬂe
+Campus Melaten
+Forckenbeckstraﬂe
+Auf der Hˆrn
+Halifaxstraﬂe
+Hainbuchenstraﬂe
+M.-v.-d.-Rohe-Str
+Westbahnhof
+Audimax
+Ponttor
+Driescher G‰sschen
+Minoritenstraﬂe
+Aachen Bushof
+Elisenbrunnen
+Theater
+Wallstraﬂe
+Normaluhr
+Schlossstraﬂe
+Viktoriaallee
+Frankenberg
+Zwanzigmorgen
+Beverau
+Vogelsang
+Buschhausen
+Lˆwenstein-Kaserne
+Fuchserde
+
+Line 33, Route 07:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3307
+Bushof  >>  UNIKINIK
+5
+XXX
+
+[infosystem_busstop_list]
+17
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+
+Line 33, Route 08:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3308
+Uniklinik  >>  Bushof
+1
+XXX
+
+[infosystem_busstop_list]
+16
+Uniklinik
+Worringer Weg
+Wendlingweg
+Stiewistraﬂe
+Campus Melaten
+Forckenbeckstraﬂe
+Auf der Hˆrn
+Halifaxstraﬂe
+Hainbuchenstraﬂe
+M.-v.-d.-Rohe-Str
+Westbahnhof
+Audimax
+Ponttor
+Driescher G‰sschen
+Minoritenstraﬂe
+Aachen Bushof
+
+Line 33, Route 09:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3309
+BEVERAU  >>  Uniklinik
+5
+XXX
+
+[infosystem_busstop_list]
+26
+Beverau
+Zwanzigmorgen
+Frankenberg
+Viktoriaallee
+Schlossstraﬂe
+Normaluhr
+Wallstraﬂe
+Theater
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+
+Line 33, Route 10:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3310
+BEVERAU  >>  Vaals
+982
+XXX
+
+[infosystem_busstop_list]
+36
+Beverau
+Zwanzigmorgen
+Frankenberg
+Viktoriaallee
+Schlossstraﬂe
+Normaluhr
+Wallstraﬂe
+Theater
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+Steinbergweg
+Kullen
+Philipp-Neri-Weg
+Schmiedgasse
+Keltenstraﬂe
+P¸ngelerstraﬂe
+Vaals Grenze
+Busstation
+St. Jozefkerk
+Bloemendal
+
+Line 33, Route 11:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3311
+BEVERAU  >>  Vaals
+981
+XXX
+
+[infosystem_busstop_list]
+34
+Beverau
+Zwanzigmorgen
+Frankenberg
+Viktoriaallee
+Schlossstraﬂe
+Normaluhr
+Wallstraﬂe
+Theater
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+Steinbergweg
+Kullen
+Philipp-Neri-Weg
+Schmiedgasse
+Keltenstraﬂe
+P¸ngelerstraﬂe
+Vaals Grenze
+Busstation
+
+Line 33, Route 12:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3312
+NORMALUHR  >>  Vaals
+981
+XXX
+
+[infosystem_busstop_list]
+29
+Normaluhr
+Wallstraﬂe
+Theater
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+Steinbergweg
+Kullen
+Philipp-Neri-Weg
+Schmiedgasse
+Keltenstraﬂe
+P¸ngelerstraﬂe
+Vaals Grenze
+Busstation
+
+Line 33, Route 13:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3313
+Fuchserde  >>  Uniklinik 
+5
+XXX
+
+[infosystem_busstop_list]
+30
+Fuchserde
+Lˆwenstein-Kaserne
+Buschhausen
+Vogelsang
+Beverau
+Zwanzigmorgen
+Frankenberg
+Viktoriaallee
+Schlossstraﬂe
+Normaluhr
+Wallstraﬂe
+Theater
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+
+
+Line 33, Route 14:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3314
+Uniklinik  >>  Fuchserde
+145
+XXX
+
+[infosystem_busstop_list]
+29
+Uniklinik
+Worringer Weg
+Wendlingweg
+Stiewistraﬂe
+Campus Melaten
+Forckenbeckstraﬂe
+Auf der Hˆrn
+Halifaxstraﬂe
+Hainbuchenstraﬂe
+M.-v.-d.-Rohe-Str
+Westbahnhof
+Audimax
+Ponttor
+Driescher G‰sschen
+Minoritenstraﬂe
+Aachen Bushof
+Elisenbrunnen
+Theater
+Wallstraﬂe
+Normaluhr
+Schlossstraﬂe
+Viktoriaallee
+Frankenberg
+Zwanzigmorgen
+Beverau
+Vogelsang
+Buschhausen
+Lˆwenstein-Kaserne
+Fuchserde
+
+Line 33, Route 15:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3315
+Elisenbrunnen  >>  Uniklinik 
+5
+XXX
+
+[infosystem_busstop_list]
+18
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+
+Line 33, Route 16:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3316
+BEVERAU  >>  Vaals GR.
+432
+XXX
+
+[infosystem_busstop_list]
+33
+Beverau
+Zwanzigmorgen
+Frankenberg
+Viktoriaallee
+Schlossstraﬂe
+Normaluhr
+Wallstraﬂe
+Theater
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+Steinbergweg
+Kullen
+Philipp-Neri-Weg
+Schmiedgasse
+Keltenstraﬂe
+P¸ngelerstraﬂe
+Vaals Grenze
+
+Line 33, Route 17:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3317
+Bushof  >>  Vaals GR.
+432
+XXX
+
+[infosystem_busstop_list]
+24
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+Steinbergweg
+Kullen
+Philipp-Neri-Weg
+Schmiedgasse
+Keltenstraﬂe
+P¸ngelerstraﬂe
+Vaals Grenze
+
+Line 33, Route 18:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3318
+Fuchserde  >>  Heuvel
+984
+XXX
+
+[infosystem_busstop_list]
+40
+Fuchserde
+Lˆwenstein-Kaserne
+Buschhausen
+Vogelsang
+Beverau
+Zwanzigmorgen
+Frankenberg
+Viktoriaallee
+Schlossstraﬂe
+Normaluhr
+Wallstraﬂe
+Theater
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+Steinbergweg
+Kullen
+Philipp-Neri-Weg
+Schmiedgasse
+Keltenstraﬂe
+P¸ngelerstraﬂe
+Vaals Grenze
+Busstation
+St. Jozefkerk
+Heuvel
+De lange Akker
+Korenstraat
+Vaals Flats
+
+Line 33, Route 19:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3319
+Heuvel  >>  Fuchserde
+145
+XXX
+
+[infosystem_busstop_list]
+38
+Heuvel
+Bloemendal
+Maastrichterlaan
+Vaals Grenze
+Keltenstraﬂe
+Schmiedgasse
+Philipp-Neri-Weg
+Kullen
+Steinbergweg
+Uniklinik
+Worringer Weg
+Wendlingweg
+Stiewistraﬂe
+Campus Melaten
+Forckenbeckstraﬂe
+Auf der Hˆrn
+Halifaxstraﬂe
+Hainbuchenstraﬂe
+M.-v.-d.-Rohe-Str
+Westbahnhof
+Audimax
+Ponttor
+Driescher G‰sschen
+Minoritenstraﬂe
+Aachen Bushof
+Elisenbrunnen
+Theater
+Wallstraﬂe
+Normaluhr
+Schlossstraﬂe
+Viktoriaallee
+Frankenberg
+Zwanzigmorgen
+Beverau
+Vogelsang
+Buschhausen
+Lˆwenstein-Kaserne
+Fuchserde
+
+Line 33, Route 20:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3320
+Fuchserde  >>  Flats
+983
+XXX
+
+[infosystem_busstop_list]
+45
+Fuchserde
+Lˆwenstein-Kaserne
+Buschhausen
+Vogelsang
+Beverau
+Zwanzigmorgen
+Frankenberg
+Viktoriaallee
+Schlossstraﬂe
+Normaluhr
+Wallstraﬂe
+Theater
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+Steinbergweg
+Kullen
+Philipp-Neri-Weg
+Schmiedgasse
+Keltenstraﬂe
+P¸ngelerstraﬂe
+Vaals Grenze
+Busstation
+St. Jozefkerk
+Heuvel
+Heuvel
+Parklaan
+De lange Akker
+Korenstraat
+Vaals Flats
+
+Line 33, Route 90:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3390
+Bloemendal  >> DRIESCH. G.
+979
+XXX
+
+[infosystem_busstop_list]
+22
+Bloemendal
+Maastrichterlaan
+Vaals Grenze
+Keltenstraﬂe
+Schmiedgasse
+Philipp-Neri-Weg
+Kullen
+Steinbergweg
+Uniklinik
+Worringer Weg
+Wendlingweg
+Stiewistraﬂe
+Campus Melaten
+Forckenbeckstraﬂe
+Auf der Hˆrn
+Halifaxstraﬂe
+Hainbuchenstraﬂe
+M.-v.-d.-Rohe-Str
+Westbahnhof
+Audimax
+Ponttor
+Driescher G‰sschen
+
+
+Line 33, Route 91:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3391
+DRIESCH. G.  >>  Bloemendal
+982
+XXX
+
+[infosystem_busstop_list]
+25
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+Steinbergweg
+Kullen
+Philipp-Neri-Weg
+Schmiedgasse
+Keltenstraﬂe
+P¸ngelerstraﬂe
+Vaals Grenze
+Busstation
+St. Jozefkerk
+Bloemendal
+
+
+Line 33, Route 92:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3392
+Vaals BUSST.  >> DRIESCH. G.
+979
+XXX
+
+[infosystem_busstop_list]
+21
+Busstation
+Vaals Grenze
+Keltenstraﬂe
+Schmiedgasse
+Philipp-Neri-Weg
+Kullen
+Steinbergweg
+Uniklinik
+Worringer Weg
+Wendlingweg
+Stiewistraﬂe
+Campus Melaten
+Forckenbeckstraﬂe
+Auf der Hˆrn
+Halifaxstraﬂe
+Hainbuchenstraﬂe
+M.-v.-d.-Rohe-Str
+Westbahnhof
+Audimax
+Ponttor
+Driescher G‰sschen
+
+
+Line 33, Route 93:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3393
+DRIESCH. G.  >>  Vaals BUSST.
+981
+XXX
+
+[infosystem_busstop_list]
+23
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+Steinbergweg
+Kullen
+Philipp-Neri-Weg
+Schmiedgasse
+Keltenstraﬂe
+P¸ngelerstraﬂe
+Vaals Grenze
+Busstation
+
+
+Line 33, Route 94:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3394
+Theater  >>  Fuchserde
+145
+XXX
+
+[infosystem_busstop_list]
+12
+Theater
+Wallstraﬂe
+Normaluhr
+Schlossstraﬂe
+Viktoriaallee
+Frankenberg
+Zwanzigmorgen
+Beverau
+Vogelsang
+Buschhausen
+Lˆwenstein-Kaserne
+Fuchserde
+
+Line 33, Route 95:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+3395
+Fuchserde  >>  Theater
+978
+XXX
+
+[infosystem_busstop_list]
+12
+Fuchserde
+Lˆwenstein-Kaserne
+Buschhausen
+Vogelsang
+Beverau
+Zwanzigmorgen
+Frankenberg
+Viktoriaallee
+Schlossstraﬂe
+Normaluhr
+Wallstraﬂe
+Theater
+
+Line N4, Route 1:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+8401
+Elisenbrunnen  >>  Vaals
+510
+XXX
+
+[infosystem_busstop_list]
+28
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Ponttor
+Audimax
+Westbahnhof
+M.-v.-d.-Rohe-Str
+Hainbuchenstraﬂe
+Halifaxstraﬂe
+Auf der Hˆrn
+Hˆrn Br¸cke
+Forckenbeckstraﬂe
+Campus Melaten
+Stiewistraﬂe
+Wendlingweg
+Worringer Weg
+Uniklinik
+Steinbergweg
+Kullen
+Philipp-Neri-Weg
+Schmiedgasse
+Keltenstraﬂe
+P¸ngelerstraﬂe
+Vaals Grenze
+Busstation
+St. Jozefkerk
+Heuvel
+
+Line N4, Route 2:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+8402
+Vaals  >>  Elisenbrunnen
+505
+XXX
+
+[infosystem_busstop_list]
+26
+Heuvel
+St. Jozefkerk
+Maastrichterlaan
+Vaals Grenze
+Keltenstraﬂe
+Schmiedgasse
+Philipp-Neri-Weg
+Kullen
+Steinbergweg
+Uniklinik
+Worringer Weg
+Wendlingweg
+Stiewistraﬂe
+Campus Melaten
+Forckenbeckstraﬂe
+Auf der Hˆrn
+Halifaxstraﬂe
+Hainbuchenstraﬂe
+M.-v.-d.-Rohe-Str
+Westbahnhof
+Audimax
+Ponttor
+Driescher G‰sschen
+Minoritenstraﬂe
+Aachen Bushof
+Elisenbrunnen
+
+Line 13A, Route 1:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+1301
+ALLEENRING
+312
+XXX
+
+[infosystem_busstop_list]
+16
+Ponttor
+Technische Hochschule
+Kˆnigstraﬂe
+Turmstraﬂe
+Lochnerstraﬂe
+Schanz
+Luisenhospital
+Misereor
+Aachen Hauptbahnhof
+Normaluhr
+Augustastraﬂe
+Kaiserplatz
+Hansemannplatz
+Eurogress
+Ehrenmal/Lousberg
+Ponttor
+
+
+Line 13B, Route 1:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+2001
+ALLEENRING
+314
+XXX
+
+[infosystem_busstop_list]
+18
+Ponttor
+Ponttor
+Ehrenmal/Lousberg
+Eurogress
+Hansemannplatz
+Kaiserplatz
+Augustastraﬂe
+Normaluhr
+Aachen Hauptbahnhof
+Misereor
+Luisenhospital
+Schanz
+Lochnerstraﬂe
+Turmstraﬂe
+Kˆnigstraﬂe
+Technische Hochschule
+Driescher G‰sschen
+Ponttor
+
+Line G.A, Route 1:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+11301
+ALLEENRING
+972
+XXX
+
+[infosystem_busstop_list]
+10
+Elisenbrunnen
+Aachen Bushof
+Minoritenstraﬂe
+Driescher G‰sschen
+Technische Hochschule
+Kˆnigstraﬂe
+Karlsgraben
+Annastraﬂe
+Alter Posthof
+Elisenbrunnen
+
+Line G.B, Route 1:
+----------------------------------------------------------------------
+
+[infosystem_trip]
+12001
+ALLEENRING
+973
+XXX
+
+[infosystem_busstop_list]
+10
+Elisenbrunnen
+Alter Posthof
+Annastraﬂe
+Karlsgraben
+Kˆnigstraﬂe
+Technische Hochschule
+Driescher G‰sschen
+Minoritenstraﬂe
+Aachen Bushof
+Elisenbrunnen

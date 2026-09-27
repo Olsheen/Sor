@@ -1,0 +1,5928 @@
+#####COMMENT#####
+
+Bienvenue dans le fichier HOF d'Horizon16 ! Version Krueger Polychrome Blanche.
+
+#####ENDCOMMENT#####
+
+
+[name]
+Horizon16KruegerPB
+
+[servicetrip]
+Sans voyageurs
+
+[global_strings]									
+3									
+Horizon16									
+Horizon16								
+Horizon16
+
+stringcount_terminus
+8
+
+stringcount_busstop
+5
+
+
+
+######################################
+ TERMINI
+######################################
+
+
+[addterminus_allexit]
+001
+Mise en ligne
+MISE EN LIGNE
+ HORIZONBUS
+MISE EN LIGNE
+MISE EN LIGNE
+Blanko.tga
+MISE EN LIGNE
+
+PB_MISEENLIGNE.bmp
+.........................
+
+
+[addterminus_allexit]
+002
+Sans voyageurs
+SANS VOYAGEURS
+  HORIZONBUS
+SANS VOYAGEURS
+SANS VOYAGEURS
+Blanko.tga
+SANS VOYAGEURS
+
+PB_SANSVOYAGEURS.bmp
+.........................
+
+
+[addterminus_allexit]
+003
+Retour dépot
+RETOUR DEPOT
+ HORIZONBUS
+RETOUR DEPOT
+RETOUR DEPOT
+Blanko.tga
+RETOUR DEPOT
+
+PB_RETOURDEPOT.bmp
+.........................
+
+
+[addterminus_allexit]
+004
+Horizon16
+HORIZON16
+  HORIZON16
+by HEULIEZ427
+HORIZON16
+Blanko.tga
+HORIZON16
+
+PB_HORIZON16.bmp
+.........................
+
+
+[addterminus]
+100
+1 Voltaire
+VOLTAIRE
+  VOLTAIRE
+par BEAULIEU
+VOLTAIRE
+Blanko.tga
+VOLTAIRE
+
+PB_1_VOLTAIRE.bmp
+.........................
+
+
+[addterminus]
+101
+1 Cap Sud
+CAP SUD
+  CAP SUD
+par BEAULIEU
+CAP SUD
+Blanko.tga
+CAP SUD
+
+PB_1_CAPSUD.bmp
+.........................
+
+
+[addterminus]
+102
+1 Voltaire SP
+VOLTAIRE
+  VOLTAIRE
+
+VOLTAIRE
+Blanko.tga
+VOLTAIRE
+
+PB_1_VOLTAIRESP.bmp
+.........................
+
+
+[addterminus]
+103
+1 Beaulieu SP
+BEAULIEU
+  BEAULIEU
+
+BEAULIEU
+Blanko.tga
+BEAULIEU
+
+PB_1_BEAULIEUSP.bmp
+.........................
+
+
+[addterminus]
+200
+2 Voltaire
+VOLTAIRE
+  VOLTAIRE
+par POINTERIE
+VOLTAIRE
+Blanko.tga
+VOLTAIRE
+
+PB_2_VOLTAIRE.bmp
+.........................
+
+
+[addterminus]
+201
+2 Saint Maur
+SAINT MAUR
+ SAINT MAUR
+par POINTERIE
+SAINT MAUR
+Blanko.tga
+SAINT MAUR
+
+PB_2_SAINTMAUR.bmp
+.........................
+
+
+[addterminus]
+202
+2 Voltaire SP
+VOLTAIRE
+  VOLTAIRE
+
+VOLTAIRE
+Blanko.tga
+VOLTAIRE
+
+PB_2_VOLTAIRESP.bmp
+.........................
+
+
+[addterminus]
+203
+2 Pointerie SP
+POINTERIE
+POINTERIE
+
+POINTERIE
+Blanko.tga
+POINTERIE
+
+PB_2_POINTERIESP.bmp
+.........................
+
+
+[addterminus]
+800
+8 La loge
+LA LOGE
+  LA LOGE
+par CAP SUD
+LA LOGE
+Blanko.tga
+LA LOGE
+
+PB_8_LALOGE.bmp
+.........................
+
+
+[addterminus]
+801
+8 Notz
+NOTZ
+   NOTZ
+par CAP SUD
+NOTZ
+Blanko.tga
+NOTZ
+
+PB_8_NOTZ.bmp
+.........................
+
+
+[addterminus]
+802
+8 Saint Maur
+SAINT MAUR
+SAINT MAUR
+par CAP SUD
+SAINT MAUR
+Blanko.tga
+SAINT MAUR
+
+PB_8_SAINTMAUR.bmp
+.........................
+
+
+[addterminus]
+810
+8a La loge
+LA LOGE
+LA LOGE
+
+LA LOGE
+Blanko.tga
+LA LOGE
+
+PB_8a_LALOGE.bmp
+.........................
+
+
+[addterminus]
+811
+8a St Christophe
+ST CHRISTOPHE
+ST CHRISTOPHE
+
+ST CHRISTOPHE
+Blanko.tga
+ST CHRISTOPHE
+
+PB_8a_STCHRISTOPHE.bmp
+.........................
+
+
+[addterminus]
+820
+8b La loge
+LA LOGE
+LA LOGE
+
+LA LOGE
+Blanko.tga
+LA LOGE
+
+PB_8b_LALOGE.bmp
+.........................
+
+
+[addterminus]
+821
+8b St Pierre
+ST PIERRE
+ST PIERRE
+
+ST PIERRE
+Blanko.tga
+ST PIERRE
+
+PB_8b_STPIERRE.bmp
+.........................
+
+
+[addterminus]
+900
+9 La loge
+LA LOGE
+LA LOGE
+
+LA LOGE
+Blanko.tga
+LA LOGE
+
+PB_9_LALOGE.bmp
+.........................
+
+
+[addterminus]
+901
+9 Provence
+PROVENCE
+PROVENCE
+
+PROVENCE
+Blanko.tga
+PROVENCE
+
+PB_9_PROVENCE.bmp
+.........................
+
+
+[addterminus]
+980
+B Pointerie
+POINTERIE
+ POINTERIE
+par VOLTAIRE
+POINTERIE
+Blanko.tga
+POINTERIE
+
+PB_B_POINTERIE.bmp
+.........................
+
+
+[addterminus]
+981
+B St Christophe
+ST CHRISTOPHE
+ST CHRISTOPHE
+par VOLTAIRE
+ST CHRISTOPHE
+Blanko.tga
+ST CHRISTOPHE
+
+PB_B_STCHRISTOPHE.bmp
+.........................
+
+
+[addterminus]
+950
+CSL MACH36
+MACH36
+MACH36
+
+MACH36
+Blanko.tga
+MACH36
+
+PB_CSL_MACH36.bmp
+.........................
+
+
+[addterminus]
+951
+CSL Etang de Von
+ETANG DE VON
+ETANG DE VON
+
+ETANG DE VON
+Blanko.tga
+ETANG DE VON
+
+PB_CSL_ETANGDEVON.bmp
+.........................
+
+
+[addterminus]
+990
+F3 Voltaire
+FLEXO 3
+    FLEXO 3
+SERVICE DU SOIR
+FLEXO 3
+Blanko.tga
+FLEXO 3
+
+PB_F3_FLEXO3.bmp
+.........................
+
+
+[addterminus]
+960
+S4 Ecole Les Planches
+ECOLE LES PLANCHES
+   SAINT MAUR
+ECOLE LES PLANCHES
+ECOLE LES PLANCHES
+Blanko.tga
+ECOLE LES PLANCHES
+
+PB_S4_SAINTMAUR.bmp
+.........................
+
+
+[addterminus]
+961
+S4 Place de Blois
+PLACE DE BLOIS
+VILLERS LES ORMES
+ PLACE DE BLOIS
+PLACE DE BLOIS
+Blanko.tga
+PLACE DE BLOIS
+
+PB_S4_VILLERS.bmp
+.........................
+
+
+
+
+
+
+######################################
+ BUS STOPS
+######################################
+
+
+[addbusstop]
+Allée du commerce
+ALLEE DU COMMERCE
+PROCHAIN ARRET
+ALLEE DU COMMERCE
+ALLEE DU COMMERCE
+
+.........................
+
+
+[addbusstop]
+1_C_Allée du commerce
+ALLEE DU COMMERCE
+ARRET
+ALLEE DU COMMERCE
+ALLEE DU COMMERCE
+
+.........................
+
+
+[addbusstop]
+1_V_Allée du commerce
+ALLEE DU COMMERCE
+ARRET
+ALLEE DU COMMERCE
+ALLEE DU COMMERCE
+
+.........................
+
+
+[addbusstop]
+8_L_Allée du commerce
+ALLEE DU COMMERCE
+ARRET
+ALLEE DU COMMERCE
+ALLEE DU COMMERCE
+
+.........................
+
+
+[addbusstop]
+8_N_Allée du commerce
+ALLEE DU COMMERCE
+ARRET
+ALLEE DU COMMERCE
+ALLEE DU COMMERCE
+
+.........................
+
+
+[addbusstop]
+8_S_Allée du commerce
+ALLEE DU COMMERCE
+ARRET
+ALLEE DU COMMERCE
+ALLEE DU COMMERCE
+
+.........................
+
+
+[addbusstop]
+Anatole France
+ANATOLE FRANCE
+PROCHAIN ARRET
+ANATOLE FRANCE
+ANATOLE FRANCE
+
+.........................
+
+
+[addbusstop]
+2_P_Anatole France
+ANATOLE FRANCE
+ARRET
+ANATOLE FRANCE
+ANATOLE FRANCE
+
+.........................
+
+
+[addbusstop]
+2_S_Anatole France
+ANATOLE FRANCE
+ARRET
+ANATOLE FRANCE
+ANATOLE FRANCE
+
+.........................
+
+
+[addbusstop]
+2_V_Anatole France
+ANATOLE FRANCE
+ARRET
+ANATOLE FRANCE
+ANATOLE FRANCE
+
+.........................
+
+
+[addbusstop]
+8a_L_Anatole France
+ANATOLE FRANCE
+ARRET
+ANATOLE FRANCE
+ANATOLE FRANCE
+
+.........................
+
+
+[addbusstop]
+8a_S_Anatole France
+ANATOLE FRANCE
+ARRET
+ANATOLE FRANCE
+ANATOLE FRANCE
+
+.........................
+
+
+[addbusstop]
+B_P_Anatole France
+ANATOLE FRANCE
+ARRET
+ANATOLE FRANCE
+ANATOLE FRANCE
+
+.........................
+
+
+[addbusstop]
+B_S_Anatole France
+ANATOLE FRANCE
+ARRET
+ANATOLE FRANCE
+ANATOLE FRANCE
+
+.........................
+
+
+[addbusstop]
+Anjou
+ANJOU
+PROCHAIN ARRET
+ANJOU
+ANJOU
+
+.........................
+
+
+[addbusstop]
+1_C_Anjou
+ANJOU
+ARRET
+ANJOU
+ANJOU
+
+.........................
+
+
+[addbusstop]
+1_V_Anjou
+ANJOU
+ARRET
+ANJOU
+ANJOU
+
+.........................
+
+
+[addbusstop]
+8b_L_Anjou
+ANJOU
+ARRET
+ANJOU
+ANJOU
+
+.........................
+
+
+[addbusstop]
+8b_S_Anjou
+ANJOU
+ARRET
+ANJOU
+ANJOU
+
+.........................
+
+
+[addbusstop]
+9_L_Anjou
+ANJOU
+ARRET
+ANJOU
+ANJOU
+
+.........................
+
+
+[addbusstop]
+9_P_Anjou
+ANJOU
+ARRET
+ANJOU
+ANJOU
+
+.........................
+
+
+[addbusstop]
+B_P_Anjou
+ANJOU
+ARRET
+ANJOU
+ANJOU
+
+.........................
+
+
+[addbusstop]
+B_S_Anjou
+ANJOU
+ARRET
+ANJOU
+ANJOU
+
+.........................
+
+
+[addbusstop]
+Aquitaine
+AQUITAINE
+PROCHAIN ARRET
+AQUITAINE
+AQUITAINE
+
+.........................
+
+
+[addbusstop]
+8b_L_Aquitaine
+AQUITAINE
+ARRET
+AQUITAINE
+AQUITAINE
+
+.........................
+
+
+[addbusstop]
+8b_S_Aquitaine
+AQUITAINE
+ARRET
+AQUITAINE
+AQUITAINE
+
+.........................
+
+
+[addbusstop]
+Avenue d'Argenton
+AVENUE D'ARGENTON
+PROCHAIN ARRET
+AVENUE D'ARGENTON
+AVENUE D'ARGENTON
+
+.........................
+
+
+[addbusstop]
+1_C_Avenue d'Argenton
+AVENUE D'ARGENTON
+ARRET
+AVENUE D'ARGENTON
+AVENUE D'ARGENTON
+
+.........................
+
+
+[addbusstop]
+1_V_Avenue d'Argenton
+AVENUE D'ARGENTON
+ARRET
+AVENUE D'ARGENTON
+AVENUE D'ARGENTON
+
+.........................
+
+
+[addbusstop]
+9_L_Avenue d'Argenton
+AVENUE D'ARGENTON
+ARRET
+AVENUE D'ARGENTON
+AVENUE D'ARGENTON
+
+.........................
+
+
+[addbusstop]
+9_P_Avenue d'Argenton
+AVENUE D'ARGENTON
+ARRET
+AVENUE D'ARGENTON
+AVENUE D'ARGENTON
+
+.........................
+
+
+[addbusstop]
+Balsan Université
+BALSAN UNIVERSITE
+PROCHAIN ARRET
+BALSAN UNIVERSITE
+BALSAN UNIVERSITE
+
+.........................
+
+
+[addbusstop]
+1_B_Balsan Université
+BALSAN UNIVERSITE
+ARRET
+BALSAN UNIVERSITE
+BALSAN UNIVERSITE
+
+.........................
+
+
+[addbusstop]
+1_C_Balsan Université
+BALSAN UNIVERSITE
+ARRET
+BALSAN UNIVERSITE
+BALSAN UNIVERSITE
+
+.........................
+
+
+[addbusstop]
+1_V_Balsan Université
+BALSAN UNIVERSITE
+ARRET
+BALSAN UNIVERSITE
+BALSAN UNIVERSITE
+
+.........................
+
+
+[addbusstop]
+Beaulieu
+BEAULIEU
+PROCHAIN ARRET
+BEAULIEU
+BEAULIEU
+
+.........................
+
+
+[addbusstop]
+1 Beaulieu SP
+BEAULIEU
+PROCHAIN ARRET
+BEAULIEU
+BEAULIEU
+
+.........................
+
+
+[addbusstop]
+1_C_Beaulieu
+BEAULIEU
+ARRET
+BEAULIEU
+BEAULIEU
+
+.........................
+
+
+[addbusstop]
+1_V_Beaulieu
+BEAULIEU
+ARRET
+BEAULIEU
+BEAULIEU
+
+.........................
+
+
+[addbusstop]
+9_L_Beaulieu
+BEAULIEU
+ARRET
+BEAULIEU
+BEAULIEU
+
+.........................
+
+
+[addbusstop]
+9_P_Beaulieu
+BEAULIEU
+ARRET
+BEAULIEU
+BEAULIEU
+
+.........................
+
+
+[addbusstop]
+B_P_Beaulieu
+BEAULIEU
+ARRET
+BEAULIEU
+BEAULIEU
+
+.........................
+
+
+[addbusstop]
+B_S_Beaulieu
+BEAULIEU
+ARRET
+BEAULIEU
+BEAULIEU
+
+.........................
+
+
+[addbusstop]
+F3_V_Beaulieu
+BEAULIEU
+ARRET
+BEAULIEU
+BEAULIEU
+
+.........................
+
+
+[addbusstop]
+Beaupré
+BEAUPRE
+PROCHAIN ARRET
+BEAUPRE
+BEAUPRE
+
+.........................
+
+
+[addbusstop]
+8_L_Beaupré
+BEAUPRE
+ARRET
+BEAUPRE
+BEAUPRE
+
+.........................
+
+
+[addbusstop]
+8a_L_Beaupré
+BEAUPRE
+ARRET
+BEAUPRE
+BEAUPRE
+
+.........................
+
+
+[addbusstop]
+8b_L_Beaupré
+BEAUPRE
+ARRET
+BEAUPRE
+BEAUPRE
+
+.........................
+
+
+[addbusstop]
+8_S_Beaupré
+BEAUPRE
+ARRET
+BEAUPRE
+BEAUPRE
+
+.........................
+
+
+[addbusstop]
+8a_S_Beaupré
+BEAUPRE
+ARRET
+BEAUPRE
+BEAUPRE
+
+.........................
+
+
+[addbusstop]
+8b_S_Beaupré
+BEAUPRE
+ARRET
+BEAUPRE
+BEAUPRE
+
+.........................
+
+
+[addbusstop]
+9_L_Beaupré
+BEAUPRE
+ARRET
+BEAUPRE
+BEAUPRE
+
+.........................
+
+
+[addbusstop]
+9_P_Beaupré
+BEAUPRE
+ARRET
+BEAUPRE
+BEAUPRE
+
+.........................
+
+
+[addbusstop]
+Bel air
+BEL AIR
+PROCHAIN ARRET
+BEL AIR
+BEL AIR
+
+.........................
+
+
+[addbusstop]
+2_S_Bel air
+BEL AIR
+ARRET
+BEL AIR
+BEL AIR
+
+.........................
+
+
+[addbusstop]
+2_V_Bel air
+BEL AIR
+ARRET
+BEL AIR
+BEL AIR
+
+.........................
+
+
+[addbusstop]
+8_L_Bel air
+BEL AIR
+ARRET
+BEL AIR
+BEL AIR
+
+.........................
+
+
+[addbusstop]
+8_N_Bel air
+BEL AIR
+ARRET
+BEL AIR
+BEL AIR
+
+.........................
+
+
+[addbusstop]
+8_S_Bel air
+BEL AIR
+ARRET
+BEL AIR
+BEL AIR
+
+.........................
+
+
+[addbusstop]
+Berry Coop
+BERRY COOP
+PROCHAIN ARRET
+BERRY COOP
+BERRY COOP
+
+.........................
+
+
+[addbusstop]
+1_C_Berry Coop
+BERRY COOP
+ARRET
+BERRY COOP
+BERRY COOP
+
+.........................
+
+
+[addbusstop]
+1_V_Berry Coop
+BERRY COOP
+ARRET
+BERRY COOP
+BERRY COOP
+
+.........................
+
+
+[addbusstop]
+8a_L_Berry Coop
+BERRY COOP
+ARRET
+BERRY COOP
+BERRY COOP
+
+.........................
+
+
+[addbusstop]
+8b_L_Berry Coop
+BERRY COOP
+ARRET
+BERRY COOP
+BERRY COOP
+
+.........................
+
+
+[addbusstop]
+8a_S_Berry Coop
+BERRY COOP
+ARRET
+BERRY COOP
+BERRY COOP
+
+.........................
+
+
+[addbusstop]
+8b_S_Berry Coop
+BERRY COOP
+ARRET
+BERRY COOP
+BERRY COOP
+
+.........................
+
+
+[addbusstop]
+9_L_Berry Coop
+BERRY COOP
+ARRET
+BERRY COOP
+BERRY COOP
+
+.........................
+
+
+[addbusstop]
+9_P_Berry Coop
+BERRY COOP
+ARRET
+BERRY COOP
+BERRY COOP
+
+.........................
+
+
+[addbusstop]
+Boulevard du Franc
+BOULEVARD DU FRANC
+PROCHAIN ARRET
+BOULEVARD DU FRANC
+BOULEVARD DU FRANC
+
+.........................
+
+
+[addbusstop]
+1_C_Boulevard du Franc
+BOULEVARD DU FRANC
+ARRET
+BOULEVARD DU FRANC
+BOULEVARD DU FRANC
+
+.........................
+
+
+[addbusstop]
+1_V_Boulevard du Franc
+BOULEVARD DU FRANC
+ARRET
+BOULEVARD DU FRANC
+BOULEVARD DU FRANC
+
+.........................
+
+
+[addbusstop]
+8_L_Boulevard du Franc
+BOULEVARD DU FRANC
+ARRET
+BOULEVARD DU FRANC
+BOULEVARD DU FRANC
+
+.........................
+
+
+[addbusstop]
+8_N_Boulevard du Franc
+BOULEVARD DU FRANC
+ARRET
+BOULEVARD DU FRANC
+BOULEVARD DU FRANC
+
+.........................
+
+
+[addbusstop]
+8_S_Boulevard du Franc
+BOULEVARD DU FRANC
+ARRET
+BOULEVARD DU FRANC
+BOULEVARD DU FRANC
+
+.........................
+
+
+[addbusstop]
+Bourdillon
+BOURDILLON
+PROCHAIN ARRET
+BOURDILLON
+BOURDILLON
+
+.........................
+
+
+[addbusstop]
+2_P_Bourdillon
+BOURDILLON
+ARRET
+BOURDILLON
+BOURDILLON
+
+.........................
+
+
+[addbusstop]
+2_S_Bourdillon
+BOURDILLON
+ARRET
+BOURDILLON
+BOURDILLON
+
+.........................
+
+
+[addbusstop]
+Bourgogne
+BOURGOGNE
+PROCHAIN ARRET
+BOURGOGNE
+BOURGOGNE
+
+.........................
+
+
+[addbusstop]
+2_P_Bourgogne
+BOURGOGNE
+ARRET
+BOURGOGNE
+BOURGOGNE
+
+.........................
+
+
+[addbusstop]
+2_S_Bourgogne
+BOURGOGNE
+ARRET
+BOURGOGNE
+BOURGOGNE
+
+.........................
+
+
+[addbusstop]
+2_V_Bourgogne
+BOURGOGNE
+ARRET
+BOURGOGNE
+BOURGOGNE
+
+.........................
+
+
+[addbusstop]
+8a_L_Bourgogne
+BOURGOGNE
+ARRET
+BOURGOGNE
+BOURGOGNE
+
+.........................
+
+
+[addbusstop]
+8a_S_Bourgogne
+BOURGOGNE
+ARRET
+BOURGOGNE
+BOURGOGNE
+
+.........................
+
+
+[addbusstop]
+Cap Sud
+CAP SUD
+PROCHAIN ARRET
+CAP SUD
+CAP SUD
+
+.........................
+
+
+[addbusstop]
+1 Cap Sud
+CAP SUD
+PROCHAIN ARRET
+CAP SUD
+CAP SUD
+
+.........................
+
+
+[addbusstop]
+1_V_Cap Sud
+CAP SUD
+ARRET
+CAP SUD
+CAP SUD
+
+.........................
+
+
+[addbusstop]
+8_L_Cap Sud
+CAP SUD
+ARRET
+CAP SUD
+CAP SUD
+
+.........................
+
+
+[addbusstop]
+8_N_Cap Sud
+CAP SUD
+ARRET
+CAP SUD
+CAP SUD
+
+.........................
+
+
+[addbusstop]
+8_S_Cap Sud
+CAP SUD
+ARRET
+CAP SUD
+CAP SUD
+
+.........................
+
+
+[addbusstop]
+Capucins
+CAPUCINS
+PROCHAIN ARRET
+CAPUCINS
+CAPUCINS
+
+.........................
+
+
+[addbusstop]
+1_V_Capucins
+CAPUCINS
+ARRET
+CAPUCINS
+CAPUCINS
+
+.........................
+
+
+[addbusstop]
+2_V_Capucins
+CAPUCINS
+ARRET
+CAPUCINS
+CAPUCINS
+
+.........................
+
+
+[addbusstop]
+B_P_Capucins
+CAPUCINS
+ARRET
+CAPUCINS
+CAPUCINS
+
+.........................
+
+
+[addbusstop]
+B_S_Capucins
+CAPUCINS
+ARRET
+CAPUCINS
+CAPUCINS
+
+.........................
+
+
+[addbusstop]
+Carrorie
+CARRORIE
+PROCHAIN ARRET
+CARRORIE
+CARRORIE
+
+.........................
+
+
+[addbusstop]
+8_L_Carrorie
+CARRORIE
+ARRET
+CARRORIE
+CARRORIE
+
+.........................
+
+
+[addbusstop]
+8_N_Carrorie
+CARRORIE
+ARRET
+CARRORIE
+CARRORIE
+
+.........................
+
+
+[addbusstop]
+8_S_Carrorie
+CARRORIE
+ARRET
+CARRORIE
+CARRORIE
+
+.........................
+
+
+[addbusstop]
+Cécile Sorel
+CECILE SOREL
+PROCHAIN ARRET
+CECILE SOREL
+CECILE SOREL
+
+.........................
+
+
+[addbusstop]
+2_V_Cécile Sorel
+CECILE SOREL
+ARRET
+CECILE SOREL
+CECILE SOREL
+
+.........................
+
+
+[addbusstop]
+B_S_Cécile Sorel
+CECILE SOREL
+ARRET
+CECILE SOREL
+CECILE SOREL
+
+.........................
+
+
+[addbusstop]
+F3_V_Cécile Sorel
+CECILE SOREL
+ARRET
+CECILE SOREL
+CECILE SOREL
+
+.........................
+
+
+[addbusstop]
+Centre sportif de Saint Maur
+CENTRE SPORTIF
+PROCHAIN ARRET
+CENTRE SPORTIF
+CENTRE SPORTIF
+
+.........................
+
+
+[addbusstop]
+CSL_E_Centre sportif de Saint Maur
+CENTRE SPORTIF
+ARRET
+CENTRE SPORTIF
+CENTRE SPORTIF
+
+.........................
+
+
+[addbusstop]
+CSL_M_Centre sportif de Saint Maur
+CENTRE SPORTIF
+ARRET
+CENTRE SPORTIF
+CENTRE SPORTIF
+
+.........................
+
+
+[addbusstop]
+Champ bossu
+CHAMP BOSSU
+PROCHAIN ARRET
+CHAMP BOSSU
+CHAMP BOSSU
+
+.........................
+
+
+[addbusstop]
+8_L_Champ bossu
+CHAMP BOSSU
+ARRET
+CHAMP BOSSU
+CHAMP BOSSU
+
+.........................
+
+
+[addbusstop]
+8a_L_Champ bossu
+CHAMP BOSSU
+ARRET
+CHAMP BOSSU
+CHAMP BOSSU
+
+.........................
+
+
+[addbusstop]
+8b_L_Champ bossu
+CHAMP BOSSU
+ARRET
+CHAMP BOSSU
+CHAMP BOSSU
+
+.........................
+
+
+[addbusstop]
+8_S_Champ bossu
+CHAMP BOSSU
+ARRET
+CHAMP BOSSU
+CHAMP BOSSU
+
+.........................
+
+
+[addbusstop]
+8a_S_Champ bossu
+CHAMP BOSSU
+ARRET
+CHAMP BOSSU
+CHAMP BOSSU
+
+.........................
+
+
+[addbusstop]
+8b_S_Champ bossu
+CHAMP BOSSU
+ARRET
+CHAMP BOSSU
+CHAMP BOSSU
+
+.........................
+
+
+[addbusstop]
+9_L_Champ bossu
+CHAMP BOSSU
+ARRET
+CHAMP BOSSU
+CHAMP BOSSU
+
+.........................
+
+
+[addbusstop]
+9_P_Champ bossu
+CHAMP BOSSU
+ARRET
+CHAMP BOSSU
+CHAMP BOSSU
+
+.........................
+
+
+[addbusstop]
+Châtellerault
+CHATELLERAULT
+PROCHAIN ARRET
+CHATELLERAULT
+CHATELLERAULT
+
+.........................
+
+
+[addbusstop]
+2_P_Châtellerault
+CHATELLERAULT
+ARRET
+CHATELLERAULT
+CHATELLERAULT
+
+.........................
+
+
+[addbusstop]
+2_S_Châtellerault
+CHATELLERAULT
+ARRET
+CHATELLERAULT
+CHATELLERAULT
+
+.........................
+
+
+[addbusstop]
+2_V_Châtellerault
+CHATELLERAULT
+ARRET
+CHATELLERAULT
+CHATELLERAULT
+
+.........................
+
+
+[addbusstop]
+B_P_Châtellerault
+CHATELLERAULT
+ARRET
+CHATELLERAULT
+CHATELLERAULT
+
+.........................
+
+
+[addbusstop]
+B_S_Châtellerault
+CHATELLERAULT
+ARRET
+CHATELLERAULT
+CHATELLERAULT
+
+.........................
+
+
+[addbusstop]
+Claude Bernard
+CLAUDE BERNARD
+PROCHAIN ARRET
+CLAUDE BERNARD
+CLAUDE BERNARD
+
+.........................
+
+
+[addbusstop]
+2_P_Claude Bernard
+CLAUDE BERNARD
+ARRET
+CLAUDE BERNARD
+CLAUDE BERNARD
+
+.........................
+
+
+[addbusstop]
+2_S_Claude Bernard
+CLAUDE BERNARD
+ARRET
+CLAUDE BERNARD
+CLAUDE BERNARD
+
+.........................
+
+
+[addbusstop]
+2_V_Claude Bernard
+CLAUDE BERNARD
+ARRET
+CLAUDE BERNARD
+CLAUDE BERNARD
+
+.........................
+
+
+[addbusstop]
+8a_L_Claude Bernard
+CLAUDE BERNARD
+ARRET
+CLAUDE BERNARD
+CLAUDE BERNARD
+
+.........................
+
+
+[addbusstop]
+8a_S_Claude Bernard
+CLAUDE BERNARD
+ARRET
+CLAUDE BERNARD
+CLAUDE BERNARD
+
+.........................
+
+
+[addbusstop]
+B_P_Claude Bernard
+CLAUDE BERNARD
+ARRET
+CLAUDE BERNARD
+CLAUDE BERNARD
+
+.........................
+
+
+[addbusstop]
+B_S_Claude Bernard
+CLAUDE BERNARD
+ARRET
+CLAUDE BERNARD
+CLAUDE BERNARD
+
+.........................
+
+
+[addbusstop]
+Clos des portes
+CLOS DES PORTES
+PROCHAIN ARRET
+CLOS DES PORTES
+CLOS DES PORTES
+
+.........................
+
+
+[addbusstop]
+2_S_Clos des portes
+CLOS DES PORTES
+ARRET
+CLOS DES PORTES
+CLOS DES PORTES
+
+.........................
+
+
+[addbusstop]
+2_V_Clos des portes
+CLOS DES PORTES
+ARRET
+CLOS DES PORTES
+CLOS DES PORTES
+
+.........................
+
+
+[addbusstop]
+8_L_Clos des portes
+CLOS DES PORTES
+ARRET
+CLOS DES PORTES
+CLOS DES PORTES
+
+.........................
+
+
+[addbusstop]
+8_N_Clos des portes
+CLOS DES PORTES
+ARRET
+CLOS DES PORTES
+CLOS DES PORTES
+
+.........................
+
+
+[addbusstop]
+8_S_Clos des portes
+CLOS DES PORTES
+ARRET
+CLOS DES PORTES
+CLOS DES PORTES
+
+.........................
+
+
+[addbusstop]
+Diderot
+DIDEROT
+PROCHAIN ARRET
+DIDEROT
+DIDEROT
+
+.........................
+
+
+[addbusstop]
+1_V_Diderot
+DIDEROT
+ARRET
+DIDEROT
+DIDEROT
+
+.........................
+
+
+[addbusstop]
+2_V_Diderot
+DIDEROT
+ARRET
+DIDEROT
+DIDEROT
+
+.........................
+
+
+[addbusstop]
+B_P_Diderot
+DIDEROT
+ARRET
+DIDEROT
+DIDEROT
+
+.........................
+
+
+[addbusstop]
+B_S_Diderot
+DIDEROT
+ARRET
+DIDEROT
+DIDEROT
+
+.........................
+
+
+[addbusstop]
+Ecole Les Planches
+ECOLE LES PLANCHES
+PROCHAIN ARRET
+ECOLE LES PLANCHES
+ECOLE LES PLANCHES
+
+.........................
+
+
+[addbusstop]
+S4 Ecole Les Planches
+ECOLE LES PLANCHES
+PROCHAIN ARRET
+ECOLE LES PLANCHES
+ECOLE LES PLANCHES
+
+.........................
+
+
+[addbusstop]
+S4_P_Ecole Les Planches
+ECOLE LES PLANCHES
+ARRET
+ECOLE LES PLANCHES
+ECOLE LES PLANCHES
+
+.........................
+
+
+[addbusstop]
+Ecole des Rochettes
+ECOLE DES ROCHETTES
+PROCHAIN ARRET
+ECOLE DES ROCHETTES
+ECOLE DES ROCHETTES
+
+.........................
+
+
+[addbusstop]
+S4_E_Ecole des Rochettes
+ECOLE DES ROCHETTES
+ARRET
+ECOLE DES ROCHETTES
+ECOLE DES ROCHETTES
+
+.........................
+
+
+[addbusstop]
+S4_P_Ecole des Rochettes
+ECOLE DES ROCHETTES
+ARRET
+ECOLE DES ROCHETTES
+ECOLE DES ROCHETTES
+
+.........................
+
+
+[addbusstop]
+Eglise de Saint Maur
+EGLISE ST MAUR
+PROCHAIN ARRET
+EGLISE ST MAUR
+EGLISE ST MAUR
+
+.........................
+
+
+[addbusstop]
+2_S_Eglise de Saint Maur
+EGLISE ST MAUR
+ARRET
+EGLISE ST MAUR
+EGLISE ST MAUR
+
+.........................
+
+
+[addbusstop]
+2_V_Eglise de Saint Maur
+EGLISE ST MAUR
+ARRET
+EGLISE ST MAUR
+EGLISE ST MAUR
+
+.........................
+
+
+[addbusstop]
+8_L_Eglise de Saint Maur
+EGLISE ST MAUR
+ARRET
+EGLISE ST MAUR
+EGLISE ST MAUR
+
+.........................
+
+
+[addbusstop]
+8_N_Eglise de Saint Maur
+EGLISE ST MAUR
+ARRET
+EGLISE ST MAUR
+EGLISE ST MAUR
+
+.........................
+
+
+[addbusstop]
+8_S_Eglise de Saint Maur
+EGLISE ST MAUR
+ARRET
+EGLISE ST MAUR
+EGLISE ST MAUR
+
+.........................
+
+
+[addbusstop]
+Etang de Von
+ETANG DE VON
+PROCHAIN ARRET
+ETANG DE VON
+ETANG DE VON
+
+.........................
+
+
+[addbusstop]
+CSL Etang de Von
+ETANG DE VON
+PROCHAIN ARRET
+ETANG DE VON
+ETANG DE VON
+
+.........................
+
+
+[addbusstop]
+CSL_M_Etang de Von
+ETANG DE VON
+ARRET
+ETANG DE VON
+ETANG DE VON
+
+.........................
+
+
+[addbusstop]
+Gambetta
+GAMBETTA
+PROCHAIN ARRET
+GAMBETTA
+GAMBETTA
+
+.........................
+
+
+[addbusstop]
+1_B_Gambetta
+GAMBETTA
+ARRET
+GAMBETTA
+GAMBETTA
+
+.........................
+
+
+[addbusstop]
+1_C_Gambetta
+GAMBETTA
+ARRET
+GAMBETTA
+GAMBETTA
+
+.........................
+
+
+[addbusstop]
+B_P_Gambetta
+GAMBETTA
+ARRET
+GAMBETTA
+GAMBETTA
+
+.........................
+
+
+[addbusstop]
+B_S_Gambetta
+GAMBETTA
+ARRET
+GAMBETTA
+GAMBETTA
+
+.........................
+
+
+[addbusstop]
+Gares
+GARES
+PROCHAIN ARRET
+GARES
+GARES
+
+.........................
+
+
+[addbusstop]
+1_V_Gares
+GARES
+ARRET
+GARES
+GARES
+
+.........................
+
+
+[addbusstop]
+2_V_Gares
+GARES
+ARRET
+GARES
+GARES
+
+.........................
+
+
+[addbusstop]
+B_P_Gares
+GARES
+ARRET
+GARES
+GARES
+
+.........................
+
+
+[addbusstop]
+B_S_Gares
+GARES
+ARRET
+GARES
+GARES
+
+.........................
+
+
+[addbusstop]
+Gérard Philippe
+GERARD PHILIPPE
+PROCHAIN ARRET
+GERARD PHILIPPE
+GERARD PHILIPPE
+
+.........................
+
+
+[addbusstop]
+8a_L_Gérard Philippe
+GERARD PHILIPPE
+ARRET
+GERARD PHILIPPE
+GERARD PHILIPPE
+
+.........................
+
+
+[addbusstop]
+8b_L_Gérard Philippe
+GERARD PHILIPPE
+ARRET
+GERARD PHILIPPE
+GERARD PHILIPPE
+
+.........................
+
+
+[addbusstop]
+8a_S_Gérard Philippe
+GERARD PHILIPPE
+ARRET
+GERARD PHILIPPE
+GERARD PHILIPPE
+
+.........................
+
+
+[addbusstop]
+8b_S_Gérard Philippe
+GERARD PHILIPPE
+ARRET
+GERARD PHILIPPE
+GERARD PHILIPPE
+
+.........................
+
+
+[addbusstop]
+Hervé Faye
+HERVE FAYE
+PROCHAIN ARRET
+HERVE FAYE
+HERVE FAYE
+
+.........................
+
+
+[addbusstop]
+8_L_Hervé Faye
+HERVE FAYE
+ARRET
+HERVE FAYE
+HERVE FAYE
+
+.........................
+
+
+[addbusstop]
+8a_L_Hervé Faye
+HERVE FAYE
+ARRET
+HERVE FAYE
+HERVE FAYE
+
+.........................
+
+
+[addbusstop]
+8b_L_Hervé Faye
+HERVE FAYE
+ARRET
+HERVE FAYE
+HERVE FAYE
+
+.........................
+
+
+[addbusstop]
+8_N_Hervé Faye
+HERVE FAYE
+ARRET
+HERVE FAYE
+HERVE FAYE
+
+.........................
+
+
+[addbusstop]
+8_S_Hervé Faye
+HERVE FAYE
+ARRET
+HERVE FAYE
+HERVE FAYE
+
+.........................
+
+
+[addbusstop]
+8a_S_Hervé Faye
+HERVE FAYE
+ARRET
+HERVE FAYE
+HERVE FAYE
+
+.........................
+
+
+[addbusstop]
+8b_S_Hervé Faye
+HERVE FAYE
+ARRET
+HERVE FAYE
+HERVE FAYE
+
+.........................
+
+
+[addbusstop]
+9_L_Hervé Faye
+HERVE FAYE
+ARRET
+HERVE FAYE
+HERVE FAYE
+
+.........................
+
+
+[addbusstop]
+9_P_Hervé Faye
+HERVE FAYE
+ARRET
+HERVE FAYE
+HERVE FAYE
+
+.........................
+
+
+[addbusstop]
+Hippodrome
+HIPPODROME
+PROCHAIN ARRET
+HIPPODROME
+HIPPODROME
+
+.........................
+
+
+[addbusstop]
+2_P_Hippodrome
+HIPPODROME
+ARRET
+HIPPODROME
+HIPPODROME
+
+.........................
+
+
+[addbusstop]
+2_S_Hippodrome
+HIPPODROME
+ARRET
+HIPPODROME
+HIPPODROME
+
+.........................
+
+
+[addbusstop]
+2_V_Hippodrome
+HIPPODROME
+ARRET
+HIPPODROME
+HIPPODROME
+
+.........................
+
+
+[addbusstop]
+8a_L_Hippodrome
+HIPPODROME
+ARRET
+HIPPODROME
+HIPPODROME
+
+.........................
+
+
+[addbusstop]
+8b_L_Hippodrome
+HIPPODROME
+ARRET
+HIPPODROME
+HIPPODROME
+
+.........................
+
+
+[addbusstop]
+8a_S_Hippodrome
+HIPPODROME
+ARRET
+HIPPODROME
+HIPPODROME
+
+.........................
+
+
+[addbusstop]
+8b_S_Hippodrome
+HIPPODROME
+ARRET
+HIPPODROME
+HIPPODROME
+
+.........................
+
+
+[addbusstop]
+B_P_Hippodrome
+HIPPODROME
+ARRET
+HIPPODROME
+HIPPODROME
+
+.........................
+
+
+[addbusstop]
+B_S_Hippodrome
+HIPPODROME
+ARRET
+HIPPODROME
+HIPPODROME
+
+.........................
+
+
+[addbusstop]
+Hôtel de ville
+HOTEL DE VILLE
+PROCHAIN ARRET
+HOTEL DE VILLE
+HOTEL DE VILLE
+
+.........................
+
+
+[addbusstop]
+1_B_Hôtel de ville
+HOTEL DE VILLE
+ARRET
+HOTEL DE VILLE
+HOTEL DE VILLE
+
+.........................
+
+
+[addbusstop]
+1_C_Hôtel de ville
+HOTEL DE VILLE
+ARRET
+HOTEL DE VILLE
+HOTEL DE VILLE
+
+.........................
+
+
+[addbusstop]
+B_P_Hôtel de ville
+HOTEL DE VILLE
+ARRET
+HOTEL DE VILLE
+HOTEL DE VILLE
+
+.........................
+
+
+[addbusstop]
+B_S_Hôtel de ville
+HOTEL DE VILLE
+ARRET
+HOTEL DE VILLE
+HOTEL DE VILLE
+
+.........................
+
+
+[addbusstop]
+IUT
+IUT
+PROCHAIN ARRET
+IUT
+IUT
+
+.........................
+
+
+[addbusstop]
+1_B_IUT
+IUT
+ARRET
+IUT
+IUT
+
+.........................
+
+
+[addbusstop]
+1_C_IUT
+IUT
+ARRET
+IUT
+IUT
+
+.........................
+
+
+[addbusstop]
+1_V_IUT
+IUT
+ARRET
+IUT
+IUT
+
+.........................
+
+
+[addbusstop]
+Jules Ferry
+JULES FERRY
+PROCHAIN ARRET
+JULES FERRY
+JULES FERRY
+
+.........................
+
+
+[addbusstop]
+8b_L_Jules Ferry
+JULES FERRY
+ARRET
+JULES FERRY
+JULES FERRY
+
+.........................
+
+
+[addbusstop]
+8b_S_Jules Ferry
+JULES FERRY
+ARRET
+JULES FERRY
+JULES FERRY
+
+.........................
+
+
+[addbusstop]
+La loge
+LA LOGE
+PROCHAIN ARRET
+LA LOGE
+LA LOGE
+
+.........................
+
+
+[addbusstop]
+8 La loge
+LA LOGE
+PROCHAIN ARRET
+LA LOGE
+LA LOGE
+
+.........................
+
+
+[addbusstop]
+8a La loge
+LA LOGE
+PROCHAIN ARRET
+LA LOGE
+LA LOGE
+
+.........................
+
+
+[addbusstop]
+8b La loge
+LA LOGE
+PROCHAIN ARRET
+LA LOGE
+LA LOGE
+
+.........................
+
+
+[addbusstop]
+9 La loge
+LA LOGE
+PROCHAIN ARRET
+LA LOGE
+LA LOGE
+
+.........................
+
+
+[addbusstop]
+8_S_La loge
+LA LOGE
+ARRET
+LA LOGE
+LA LOGE
+
+.........................
+
+
+[addbusstop]
+8a_S_La loge
+LA LOGE
+ARRET
+LA LOGE
+LA LOGE
+
+.........................
+
+
+[addbusstop]
+8b_S_La loge
+LA LOGE
+ARRET
+LA LOGE
+LA LOGE
+
+.........................
+
+
+[addbusstop]
+9_P_La loge
+LA LOGE
+ARRET
+LA LOGE
+LA LOGE
+
+.........................
+
+
+[addbusstop]
+L'Occitane
+L'OCCITANE
+PROCHAIN ARRET
+L'OCCITANE
+L'OCCITANE
+
+.........................
+
+
+[addbusstop]
+S4_E_L'Occitane
+L'OCCITANE
+ARRET
+L'OCCITANE
+L'OCCITANE
+
+.........................
+
+
+[addbusstop]
+S4_P_L'Occitane
+L'OCCITANE
+ARRET
+L'OCCITANE
+L'OCCITANE
+
+.........................
+
+
+[addbusstop]
+La nourat
+LA NOURAT
+PROCHAIN ARRET
+LA NOURAT
+LA NOURAT
+
+.........................
+
+
+[addbusstop]
+1_C_La nourat
+LA NOURAT
+ARRET
+LA NOURAT
+LA NOURAT
+
+.........................
+
+
+[addbusstop]
+1_V_La nourat
+LA NOURAT
+ARRET
+LA NOURAT
+LA NOURAT
+
+.........................
+
+
+[addbusstop]
+8_L_La nourat
+LA NOURAT
+ARRET
+LA NOURAT
+LA NOURAT
+
+.........................
+
+
+[addbusstop]
+8_N_La nourat
+LA NOURAT
+ARRET
+LA NOURAT
+LA NOURAT
+
+.........................
+
+
+[addbusstop]
+8_S_La nourat
+LA NOURAT
+ARRET
+LA NOURAT
+LA NOURAT
+
+.........................
+
+
+[addbusstop]
+Ledru Rollin
+LEDRU ROLLIN
+PROCHAIN ARRET
+LEDRU ROLLIN
+LEDRU ROLLIN
+
+.........................
+
+
+[addbusstop]
+1_B_Ledru Rollin
+LEDRU ROLLIN
+ARRET
+LEDRU ROLLIN
+LEDRU ROLLIN
+
+.........................
+
+
+[addbusstop]
+1_C_Ledru Rollin
+LEDRU ROLLIN
+ARRET
+LEDRU ROLLIN
+LEDRU ROLLIN
+
+.........................
+
+
+[addbusstop]
+B_P_Ledru Rollin
+LEDRU ROLLIN
+ARRET
+LEDRU ROLLIN
+LEDRU ROLLIN
+
+.........................
+
+
+[addbusstop]
+B_S_Ledru Rollin
+LEDRU ROLLIN
+ARRET
+LEDRU ROLLIN
+LEDRU ROLLIN
+
+.........................
+
+
+[addbusstop]
+Les clefs moreaux
+LES CLEFS MOREAUX
+PROCHAIN ARRET
+LES CLEFS MOREAUX
+LES CLEFS MOREAUX
+
+.........................
+
+
+[addbusstop]
+2_S_Les clefs moreaux
+LES CLEFS MOREAUX
+ARRET
+LES CLEFS MOREAUX
+LES CLEFS MOREAUX
+
+.........................
+
+
+[addbusstop]
+2_V_Les clefs moreaux
+LES CLEFS MOREAUX
+ARRET
+LES CLEFS MOREAUX
+LES CLEFS MOREAUX
+
+.........................
+
+
+[addbusstop]
+8_L_Les clefs moreaux
+LES CLEFS MOREAUX
+ARRET
+LES CLEFS MOREAUX
+LES CLEFS MOREAUX
+
+.........................
+
+
+[addbusstop]
+8_N_Les clefs moreaux
+LES CLEFS MOREAUX
+ARRET
+LES CLEFS MOREAUX
+LES CLEFS MOREAUX
+
+.........................
+
+
+[addbusstop]
+8_S_Les clefs moreaux
+LES CLEFS MOREAUX
+ARRET
+LES CLEFS MOREAUX
+LES CLEFS MOREAUX
+
+.........................
+
+
+[addbusstop]
+Les coteaux
+LES COTEAUX
+PROCHAIN ARRET
+LES COTEAUX
+LES COTEAUX
+
+.........................
+
+
+[addbusstop]
+2_S_Les coteaux
+LES COTEAUX
+ARRET
+LES COTEAUX
+LES COTEAUX
+
+.........................
+
+
+[addbusstop]
+2_V_Les coteaux
+LES COTEAUX
+ARRET
+LES COTEAUX
+LES COTEAUX
+
+.........................
+
+
+[addbusstop]
+Les Gauthiers
+LES GAUTHIERS
+PROCHAIN ARRET
+LES GAUTHIERS
+LES GAUTHIERS
+
+.........................
+
+
+[addbusstop]
+S4_E_Les Gauthiers
+LES GAUTHIERS
+ARRET
+LES GAUTHIERS
+LES GAUTHIERS
+
+.........................
+
+
+[addbusstop]
+S4_P_Les Gauthiers
+LES GAUTHIERS
+ARRET
+LES GAUTHIERS
+LES GAUTHIERS
+
+.........................
+
+
+[addbusstop]
+Les grouailles
+LES GROUAILLES
+PROCHAIN ARRET
+LES GROUAILLES
+LES GROUAILLES
+
+.........................
+
+
+[addbusstop]
+8_L_Les grouailles
+LES GROUAILLES
+ARRET
+LES GROUAILLES
+LES GROUAILLES
+
+.........................
+
+
+[addbusstop]
+8a_L_Les grouailles
+LES GROUAILLES
+ARRET
+LES GROUAILLES
+LES GROUAILLES
+
+.........................
+
+
+[addbusstop]
+8b_L_Les grouailles
+LES GROUAILLES
+ARRET
+LES GROUAILLES
+LES GROUAILLES
+
+.........................
+
+
+[addbusstop]
+8_S_Les grouailles
+LES GROUAILLES
+ARRET
+LES GROUAILLES
+LES GROUAILLES
+
+.........................
+
+
+[addbusstop]
+8a_S_Les grouailles
+LES GROUAILLES
+ARRET
+LES GROUAILLES
+LES GROUAILLES
+
+.........................
+
+
+[addbusstop]
+8b_S_Les grouailles
+LES GROUAILLES
+ARRET
+LES GROUAILLES
+LES GROUAILLES
+
+.........................
+
+
+[addbusstop]
+9_L_Les grouailles
+LES GROUAILLES
+ARRET
+LES GROUAILLES
+LES GROUAILLES
+
+.........................
+
+
+[addbusstop]
+9_P_Les grouailles
+LES GROUAILLES
+ARRET
+LES GROUAILLES
+LES GROUAILLES
+
+.........................
+
+
+[addbusstop]
+Les ormeaux
+LES ORMEAUX
+PROCHAIN ARRET
+LES ORMEAUX
+LES ORMEAUX
+
+.........................
+
+
+[addbusstop]
+2_S_Les ormeaux
+LES ORMEAUX
+ARRET
+LES ORMEAUX
+LES ORMEAUX
+
+.........................
+
+
+[addbusstop]
+2_V_Les ormeaux
+LES ORMEAUX
+ARRET
+LES ORMEAUX
+LES ORMEAUX
+
+.........................
+
+
+[addbusstop]
+Les silos
+LES SILOS
+PROCHAIN ARRET
+LES SILOS
+LES SILOS
+
+.........................
+
+
+[addbusstop]
+2_S_Les silos
+LES SILOS
+ARRET
+LES SILOS
+LES SILOS
+
+.........................
+
+
+[addbusstop]
+2_V_Les silos
+LES SILOS
+ARRET
+LES SILOS
+LES SILOS
+
+.........................
+
+
+[addbusstop]
+8_L_Les silos
+LES SILOS
+ARRET
+LES SILOS
+LES SILOS
+
+.........................
+
+
+[addbusstop]
+8_N_Les silos
+LES SILOS
+ARRET
+LES SILOS
+LES SILOS
+
+.........................
+
+
+[addbusstop]
+8_S_Les silos
+LES SILOS
+ARRET
+LES SILOS
+LES SILOS
+
+.........................
+
+
+[addbusstop]
+MACH36
+MACH36
+PROCHAIN ARRET
+MACH36
+MACH36
+
+.........................
+
+
+[addbusstop]
+CSL MACH36
+MACH36
+PROCHAIN ARRET
+MACH36
+MACH36
+
+.........................
+
+
+[addbusstop]
+CSL_E_MACH36
+MACH36
+ARRET
+MACH36
+MACH36
+
+.........................
+
+
+[addbusstop]
+Marins
+MARINS
+PROCHAIN ARRET
+MARINS
+MARINS
+
+.........................
+
+
+[addbusstop]
+1_B_Marins
+MARINS
+ARRET
+MARINS
+MARINS
+
+.........................
+
+
+[addbusstop]
+1_C_Marins
+MARINS
+ARRET
+MARINS
+MARINS
+
+.........................
+
+
+[addbusstop]
+1_V_Marins
+MARINS
+ARRET
+MARINS
+MARINS
+
+.........................
+
+
+[addbusstop]
+Max Hymans
+MAX HYMANS
+PROCHAIN ARRET
+MAX HYMANS
+MAX HYMANS
+
+.........................
+
+
+[addbusstop]
+2_P_Max Hymans
+MAX HYMANS
+ARRET
+MAX HYMANS
+MAX HYMANS
+
+.........................
+
+
+[addbusstop]
+2_S_Max Hymans
+MAX HYMANS
+ARRET
+MAX HYMANS
+MAX HYMANS
+
+.........................
+
+
+[addbusstop]
+2_V_Max Hymans
+MAX HYMANS
+ARRET
+MAX HYMANS
+MAX HYMANS
+
+.........................
+
+
+[addbusstop]
+8a_L_Max Hymans
+MAX HYMANS
+ARRET
+MAX HYMANS
+MAX HYMANS
+
+.........................
+
+
+[addbusstop]
+8b_L_Max Hymans
+MAX HYMANS
+ARRET
+MAX HYMANS
+MAX HYMANS
+
+.........................
+
+
+[addbusstop]
+8a_S_Max Hymans
+MAX HYMANS
+ARRET
+MAX HYMANS
+MAX HYMANS
+
+.........................
+
+
+[addbusstop]
+8b_S_Max Hymans
+MAX HYMANS
+ARRET
+MAX HYMANS
+MAX HYMANS
+
+.........................
+
+
+[addbusstop]
+B_P_Max Hymans
+MAX HYMANS
+ARRET
+MAX HYMANS
+MAX HYMANS
+
+.........................
+
+
+[addbusstop]
+B_S_Max Hymans
+MAX HYMANS
+ARRET
+MAX HYMANS
+MAX HYMANS
+
+.........................
+
+
+[addbusstop]
+Médiathèque
+MEDIATHEQUE
+PROCHAIN ARRET
+MEDIATHEQUE
+MEDIATHEQUE
+
+.........................
+
+
+[addbusstop]
+2_P_Médiathèque
+MEDIATHEQUE
+ARRET
+MEDIATHEQUE
+MEDIATHEQUE
+
+.........................
+
+
+[addbusstop]
+2_S_Médiathèque
+MEDIATHEQUE
+ARRET
+MEDIATHEQUE
+MEDIATHEQUE
+
+.........................
+
+
+[addbusstop]
+Mendès France
+MENDES FRANCE
+PROCHAIN ARRET
+MENDES FRANCE
+MENDES FRANCE
+
+.........................
+
+
+[addbusstop]
+1_B_Mendès France
+MENDES FRANCE
+ARRET
+MENDES FRANCE
+MENDES FRANCE
+
+.........................
+
+
+[addbusstop]
+1_C_Mendès France
+MENDES FRANCE
+ARRET
+MENDES FRANCE
+MENDES FRANCE
+
+.........................
+
+
+[addbusstop]
+1_V_Mendès France
+MENDES FRANCE
+ARRET
+MENDES FRANCE
+MENDES FRANCE
+
+.........................
+
+
+[addbusstop]
+F3_V_Mendès France
+MENDES FRANCE
+ARRET
+MENDES FRANCE
+MENDES FRANCE
+
+.........................
+
+
+[addbusstop]
+Notz
+NOTZ
+PROCHAIN ARRET
+NOTZ
+NOTZ
+
+.........................
+
+
+[addbusstop]
+8 Notz
+NOTZ
+PROCHAIN ARRET
+NOTZ
+NOTZ
+
+.........................
+
+
+[addbusstop]
+8_L_Notz
+NOTZ
+ARRET
+NOTZ
+NOTZ
+
+.........................
+
+
+[addbusstop]
+8a_L_Notz
+NOTZ
+ARRET
+NOTZ
+NOTZ
+
+.........................
+
+
+[addbusstop]
+8b_L_Notz
+NOTZ
+ARRET
+NOTZ
+NOTZ
+
+.........................
+
+
+[addbusstop]
+8_S_Notz
+NOTZ
+ARRET
+NOTZ
+NOTZ
+
+.........................
+
+
+[addbusstop]
+8a_S_Notz
+NOTZ
+ARRET
+NOTZ
+NOTZ
+
+.........................
+
+
+[addbusstop]
+8b_S_Notz
+NOTZ
+ARRET
+NOTZ
+NOTZ
+
+.........................
+
+
+[addbusstop]
+9_L_Notz
+NOTZ
+ARRET
+NOTZ
+NOTZ
+
+.........................
+
+
+[addbusstop]
+9_P_Notz
+NOTZ
+ARRET
+NOTZ
+NOTZ
+
+.........................
+
+
+[addbusstop]
+Occitanie
+OCCITANIE
+PROCHAIN ARRET
+OCCITANIE
+OCCITANIE
+
+.........................
+
+
+[addbusstop]
+1_C_Occitanie
+OCCITANIE
+ARRET
+OCCITANIE
+OCCITANIE
+
+.........................
+
+
+[addbusstop]
+1_V_Occitanie
+OCCITANIE
+ARRET
+OCCITANIE
+OCCITANIE
+
+.........................
+
+
+[addbusstop]
+8_L_Occitanie
+OCCITANIE
+ARRET
+OCCITANIE
+OCCITANIE
+
+.........................
+
+
+[addbusstop]
+8_N_Occitanie
+OCCITANIE
+ARRET
+OCCITANIE
+OCCITANIE
+
+.........................
+
+
+[addbusstop]
+8_S_Occitanie
+OCCITANIE
+ARRET
+OCCITANIE
+OCCITANIE
+
+.........................
+
+
+[addbusstop]
+Parc d'activités du Grandéols
+ECOPARC GRANDEOLS
+PROCHAIN ARRET
+ECOPARC GRANDEOLS
+ECOPARC GRANDEOLS
+
+.........................
+
+
+[addbusstop]
+CSL_E_Parc d'activités du Grandéols
+ECOPARC GRANDEOLS
+ARRET
+ECOPARC GRANDEOLS
+ECOPARC GRANDEOLS
+
+.........................
+
+
+[addbusstop]
+CSL_M_Parc d'activités du Grandéols
+ECOPARC GRANDEOLS
+ARRET
+ECOPARC GRANDEOLS
+ECOPARC GRANDEOLS
+
+.........................
+
+
+[addbusstop]
+Place de Blois
+PLACE DE BLOIS
+PROCHAIN ARRET
+PLACE DE BLOIS
+PLACE DE BLOIS
+
+.........................
+
+
+[addbusstop]
+S4 Place de Blois
+PLACE DE BLOIS
+PROCHAIN ARRET
+PLACE DE BLOIS
+PLACE DE BLOIS
+
+.........................
+
+
+[addbusstop]
+S4_E_Place de Blois
+PLACE DE BLOIS
+ARRET
+PLACE DE BLOIS
+PLACE DE BLOIS
+
+.........................
+
+
+[addbusstop]
+Plaine de Bel Air
+PLAINE DE BEL AIR
+PROCHAIN ARRET
+PLAINE DE BEL AIR
+PLAINE DE BEL AIR
+
+.........................
+
+
+[addbusstop]
+CSL_E_Plaine de Bel Air
+PLAINE DE BEL AIR
+ARRET
+PLAINE DE BEL AIR
+PLAINE DE BEL AIR
+
+.........................
+
+
+[addbusstop]
+CSL_M_Plaine de Bel Air
+PLAINE DE BEL AIR
+ARRET
+PLAINE DE BEL AIR
+PLAINE DE BEL AIR
+
+.........................
+
+
+[addbusstop]
+Plateau de Bel Air
+PLATEAU DE BEL AIR
+PROCHAIN ARRET
+PLATEAU DE BEL AIR
+PLATEAU DE BEL AIR
+
+.........................
+
+
+[addbusstop]
+CSL_E_Plateau de Bel Air
+PLATEAU DE BEL AIR
+ARRET
+PLATEAU DE BEL AIR
+PLATEAU DE BEL AIR
+
+.........................
+
+
+[addbusstop]
+CSL_M_Plateau de Bel Air
+PLATEAU DE BEL AIR
+ARRET
+PLATEAU DE BEL AIR
+PLATEAU DE BEL AIR
+
+.........................
+
+
+[addbusstop]
+Pointerie
+POINTERIE
+PROCHAIN ARRET
+POINTERIE
+POINTERIE
+
+.........................
+
+
+[addbusstop]
+2 Pointerie SP
+POINTERIE
+PROCHAIN ARRET
+POINTERIE
+POINTERIE
+
+.........................
+
+
+[addbusstop]
+B Pointerie
+POINTERIE
+PROCHAIN ARRET
+POINTERIE
+POINTERIE
+
+.........................
+
+
+[addbusstop]
+2_P_Pointerie
+POINTERIE
+ARRET
+POINTERIE
+POINTERIE
+
+.........................
+
+
+[addbusstop]
+2_S_Pointerie
+POINTERIE
+ARRET
+POINTERIE
+POINTERIE
+
+.........................
+
+
+[addbusstop]
+2_V_Pointerie
+POINTERIE
+ARRET
+POINTERIE
+POINTERIE
+
+.........................
+
+
+[addbusstop]
+B_P_Pointerie
+POINTERIE
+ARRET
+POINTERIE
+POINTERIE
+
+.........................
+
+
+[addbusstop]
+B_S_Pointerie
+POINTERIE
+ARRET
+POINTERIE
+POINTERIE
+
+.........................
+
+
+[addbusstop]
+Poste
+POSTE
+PROCHAIN ARRET
+POSTE
+POSTE
+
+.........................
+
+
+[addbusstop]
+1_V_Poste
+POSTE
+ARRET
+POSTE
+POSTE
+
+.........................
+
+
+[addbusstop]
+2_V_Poste
+POSTE
+ARRET
+POSTE
+POSTE
+
+.........................
+
+
+[addbusstop]
+B_P_Poste
+POSTE
+ARRET
+POSTE
+POSTE
+
+.........................
+
+
+[addbusstop]
+B_S_Poste
+POSTE
+ARRET
+POSTE
+POSTE
+
+.........................
+
+
+[addbusstop]
+Pré Naudin
+PRE NAUDIN
+PROCHAIN ARRET
+PRE NAUDIN
+PRE NAUDIN
+
+.........................
+
+
+[addbusstop]
+1_C_Pré Naudin
+PRE NAUDIN
+ARRET
+PRE NAUDIN
+PRE NAUDIN
+
+.........................
+
+
+[addbusstop]
+1_V_Pré Naudin
+PRE NAUDIN
+ARRET
+PRE NAUDIN
+PRE NAUDIN
+
+.........................
+
+
+[addbusstop]
+8_L_Pré Naudin
+PRE NAUDIN
+ARRET
+PRE NAUDIN
+PRE NAUDIN
+
+.........................
+
+
+[addbusstop]
+8_N_Pré Naudin
+PRE NAUDIN
+ARRET
+PRE NAUDIN
+PRE NAUDIN
+
+.........................
+
+
+[addbusstop]
+8_S_Pré Naudin
+PRE NAUDIN
+ARRET
+PRE NAUDIN
+PRE NAUDIN
+
+.........................
+
+
+[addbusstop]
+Préfecture
+PREFECTURE
+PROCHAIN ARRET
+PREFECTURE
+PREFECTURE
+
+.........................
+
+
+[addbusstop]
+1_B_Préfecture
+PREFECTURE
+ARRET
+PREFECTURE
+PREFECTURE
+
+.........................
+
+
+[addbusstop]
+1_C_Préfecture
+PREFECTURE
+ARRET
+PREFECTURE
+PREFECTURE
+
+.........................
+
+
+[addbusstop]
+1_V_Préfecture
+PREFECTURE
+ARRET
+PREFECTURE
+PREFECTURE
+
+.........................
+
+
+[addbusstop]
+8a_L_Préfecture
+PREFECTURE
+ARRET
+PREFECTURE
+PREFECTURE
+
+.........................
+
+
+[addbusstop]
+8a_S_Préfecture
+PREFECTURE
+ARRET
+PREFECTURE
+PREFECTURE
+
+.........................
+
+
+[addbusstop]
+B_P_Préfecture
+PREFECTURE
+ARRET
+PREFECTURE
+PREFECTURE
+
+.........................
+
+
+[addbusstop]
+B_S_Préfecture
+PREFECTURE
+ARRET
+PREFECTURE
+PREFECTURE
+
+.........................
+
+
+[addbusstop]
+Provence
+PROVENCE
+PROCHAIN ARRET
+PROVENCE
+PROVENCE
+
+.........................
+
+
+[addbusstop]
+9 Provence
+PROVENCE
+PROCHAIN ARRET
+PROVENCE
+PROVENCE
+
+.........................
+
+
+[addbusstop]
+1_B_Provence
+PROVENCE
+ARRET
+PROVENCE
+PROVENCE
+
+.........................
+
+
+[addbusstop]
+1_C_Provence
+PROVENCE
+ARRET
+PROVENCE
+PROVENCE
+
+.........................
+
+
+[addbusstop]
+1_V_Provence
+PROVENCE
+ARRET
+PROVENCE
+PROVENCE
+
+.........................
+
+
+[addbusstop]
+9_L_Provence
+PROVENCE
+ARRET
+PROVENCE
+PROVENCE
+
+.........................
+
+
+[addbusstop]
+B_P_Provence
+PROVENCE
+ARRET
+PROVENCE
+PROVENCE
+
+.........................
+
+
+[addbusstop]
+B_S_Provence
+PROVENCE
+ARRET
+PROVENCE
+PROVENCE
+
+.........................
+
+
+[addbusstop]
+Raimu
+RAIMU
+PROCHAIN ARRET
+RAIMU
+RAIMU
+
+.........................
+
+
+[addbusstop]
+8a_L_Raimu
+RAIMU
+PROCHAIN ARRET
+RAIMU
+RAIMU
+
+.........................
+
+
+[addbusstop]
+8b_L_Raimu
+RAIMU
+PROCHAIN ARRET
+RAIMU
+RAIMU
+
+.........................
+
+
+[addbusstop]
+8a_S_Raimu
+RAIMU
+PROCHAIN ARRET
+RAIMU
+RAIMU
+
+.........................
+
+
+[addbusstop]
+8b_S_Raimu
+RAIMU
+PROCHAIN ARRET
+RAIMU
+RAIMU
+
+.........................
+
+
+[addbusstop]
+Ratouis de Limay
+RATOUIS DE LIMAY
+PROCHAIN ARRET
+RATOUIS DE LIMAY
+RATOUIS DE LIMAY
+
+.........................
+
+
+[addbusstop]
+8_L_Ratouis de Limay
+RATOUIS DE LIMAY
+ARRET
+RATOUIS DE LIMAY
+RATOUIS DE LIMAY
+
+.........................
+
+
+[addbusstop]
+8a_L_Ratouis de Limay
+RATOUIS DE LIMAY
+ARRET
+RATOUIS DE LIMAY
+RATOUIS DE LIMAY
+
+.........................
+
+
+[addbusstop]
+8b_L_Ratouis de Limay
+RATOUIS DE LIMAY
+ARRET
+RATOUIS DE LIMAY
+RATOUIS DE LIMAY
+
+.........................
+
+
+[addbusstop]
+8_S_Ratouis de Limay
+RATOUIS DE LIMAY
+ARRET
+RATOUIS DE LIMAY
+RATOUIS DE LIMAY
+
+.........................
+
+
+[addbusstop]
+8a_S_Ratouis de Limay
+RATOUIS DE LIMAY
+ARRET
+RATOUIS DE LIMAY
+RATOUIS DE LIMAY
+
+.........................
+
+
+[addbusstop]
+8b_S_Ratouis de Limay
+RATOUIS DE LIMAY
+ARRET
+RATOUIS DE LIMAY
+RATOUIS DE LIMAY
+
+.........................
+
+
+[addbusstop]
+9_L_Ratouis de Limay
+RATOUIS DE LIMAY
+ARRET
+RATOUIS DE LIMAY
+RATOUIS DE LIMAY
+
+.........................
+
+
+[addbusstop]
+9_P_Ratouis de Limay
+RATOUIS DE LIMAY
+ARRET
+RATOUIS DE LIMAY
+RATOUIS DE LIMAY
+
+.........................
+
+
+[addbusstop]
+République
+REPUBLIQUE
+PROCHAIN ARRET
+REPUBLIQUE
+REPUBLIQUE
+
+.........................
+
+
+[addbusstop]
+1_B_République
+REPUBLIQUE
+ARRET
+REPUBLIQUE
+REPUBLIQUE
+
+.........................
+
+
+[addbusstop]
+1_C_République
+REPUBLIQUE
+ARRET
+REPUBLIQUE
+REPUBLIQUE
+
+.........................
+
+
+[addbusstop]
+1_V_République
+REPUBLIQUE
+ARRET
+REPUBLIQUE
+REPUBLIQUE
+
+.........................
+
+
+[addbusstop]
+2_V_République
+REPUBLIQUE
+ARRET
+REPUBLIQUE
+REPUBLIQUE
+
+.........................
+
+
+[addbusstop]
+B_P_République
+REPUBLIQUE
+ARRET
+REPUBLIQUE
+REPUBLIQUE
+
+.........................
+
+
+[addbusstop]
+B_S_République
+REPUBLIQUE
+ARRET
+REPUBLIQUE
+REPUBLIQUE
+
+.........................
+
+
+[addbusstop]
+Route de Niherne
+ROUTE DE NIHERNE
+PROCHAIN ARRET
+ROUTE DE NIHERNE
+ROUTE DE NIHERNE
+
+.........................
+
+
+[addbusstop]
+S4_E_Route de Niherne
+ROUTE DE NIHERNE
+ARRET
+ROUTE DE NIHERNE
+ROUTE DE NIHERNE
+
+.........................
+
+
+[addbusstop]
+S4_P_Route de Niherne
+ROUTE DE NIHERNE
+ARRET
+ROUTE DE NIHERNE
+ROUTE DE NIHERNE
+
+.........................
+
+
+[addbusstop]
+St Christophe
+ST CHRISTOPHE
+PROCHAIN ARRET
+ST CHRISTOPHE
+ST CHRISTOPHE
+
+.........................
+
+
+[addbusstop]
+8a St Christophe
+ST CHRISTOPHE
+PROCHAIN ARRET
+ST CHRISTOPHE
+ST CHRISTOPHE
+
+.........................
+
+
+[addbusstop]
+B St Christophe
+ST CHRISTOPHE
+PROCHAIN ARRET
+ST CHRISTOPHE
+ST CHRISTOPHE
+
+.........................
+
+
+[addbusstop]
+8a_L_St Christophe
+ST CHRISTOPHE
+ARRET
+ST CHRISTOPHE
+ST CHRISTOPHE
+
+.........................
+
+
+[addbusstop]
+B_P_St Christophe
+ST CHRISTOPHE
+ARRET
+ST CHRISTOPHE
+ST CHRISTOPHE
+
+.........................
+
+
+[addbusstop]
+Saint Maur
+SAINT MAUR
+PROCHAIN ARRET
+SAINT MAUR
+SAINT MAUR
+
+.........................
+
+
+[addbusstop]
+2 Saint Maur
+SAINT MAUR
+PROCHAIN ARRET
+SAINT MAUR
+SAINT MAUR
+
+.........................
+
+
+[addbusstop]
+8 Saint Maur
+SAINT MAUR
+PROCHAIN ARRET
+SAINT MAUR
+SAINT MAUR
+
+.........................
+
+
+[addbusstop]
+2_V_Saint Maur
+SAINT MAUR
+ARRET
+SAINT MAUR
+SAINT MAUR
+
+.........................
+
+
+[addbusstop]
+8_L_Saint Maur
+SAINT MAUR
+ARRET
+SAINT MAUR
+SAINT MAUR
+
+.........................
+
+
+[addbusstop]
+8_N_Saint Maur
+SAINT MAUR
+ARRET
+SAINT MAUR
+SAINT MAUR
+
+.........................
+
+
+[addbusstop]
+Saint Maur Centrale
+SAINT MAUR CENTRALE
+PROCHAIN ARRET
+SAINT MAUR CENTRALE
+SAINT MAUR CENTRALE
+
+.........................
+
+
+[addbusstop]
+8_L_Saint Maur Centrale
+SAINT MAUR CENTRALE
+ARRET
+SAINT MAUR CENTRALE
+SAINT MAUR CENTRALE
+
+.........................
+
+
+[addbusstop]
+8_N_Saint Maur Centrale
+SAINT MAUR CENTRALE
+ARRET
+SAINT MAUR CENTRALE
+SAINT MAUR CENTRALE
+
+.........................
+
+
+[addbusstop]
+8_S_Saint Maur Centrale
+SAINT MAUR CENTRALE
+ARRET
+SAINT MAUR CENTRALE
+SAINT MAUR CENTRALE
+
+.........................
+
+
+[addbusstop]
+St Pierre
+ST PIERRE
+PROCHAIN ARRET
+ST PIERRE
+ST PIERRE
+
+.........................
+
+
+[addbusstop]
+8b St Pierre
+ST PIERRE
+PROCHAIN ARRET
+ST PIERRE
+ST PIERRE
+
+.........................
+
+
+[addbusstop]
+8_L_St Pierre
+ST PIERRE
+ARRET
+ST PIERRE
+ST PIERRE
+
+.........................
+
+
+[addbusstop]
+Sarah Bernhardt
+SARAH BERNHARDT
+PROCHAIN ARRET
+SARAH BERNHARDT
+SARAH BERNHARDT
+
+.........................
+
+
+[addbusstop]
+2_P_Sarah Bernhardt
+SARAH BERNHARDT
+ARRET
+SARAH BERNHARDT
+SARAH BERNHARDT
+
+.........................
+
+
+[addbusstop]
+2_S_Sarah Bernhardt
+SARAH BERNHARDT
+ARRET
+SARAH BERNHARDT
+SARAH BERNHARDT
+
+.........................
+
+
+[addbusstop]
+2_V_Sarah Bernhardt
+SARAH BERNHARDT
+ARRET
+SARAH BERNHARDT
+SARAH BERNHARDT
+
+.........................
+
+
+[addbusstop]
+B_P_Sarah Bernhardt
+SARAH BERNHARDT
+ARRET
+SARAH BERNHARDT
+SARAH BERNHARDT
+
+.........................
+
+
+[addbusstop]
+B_S_Sarah Bernhardt
+SARAH BERNHARDT
+ARRET
+SARAH BERNHARDT
+SARAH BERNHARDT
+
+.........................
+
+
+[addbusstop]
+Terres noires
+TERRES NOIRES
+PROCHAIN ARRET
+TERRES NOIRES
+TERRES NOIRES
+
+.........................
+
+
+[addbusstop]
+1_C_Terres noires
+TERRES NOIRES
+ARRET
+TERRES NOIRES
+TERRES NOIRES
+
+.........................
+
+
+[addbusstop]
+1_V_Terres noires
+TERRES NOIRES
+ARRET
+TERRES NOIRES
+TERRES NOIRES
+
+.........................
+
+
+[addbusstop]
+8_L_Terres noires
+TERRES NOIRES
+ARRET
+TERRES NOIRES
+TERRES NOIRES
+
+.........................
+
+
+[addbusstop]
+8_N_Terres noires
+TERRES NOIRES
+ARRET
+TERRES NOIRES
+TERRES NOIRES
+
+.........................
+
+
+[addbusstop]
+8_S_Terres noires
+TERRES NOIRES
+ARRET
+TERRES NOIRES
+TERRES NOIRES
+
+.........................
+
+
+[addbusstop]
+Toutifaut
+TOUTIFAUT
+PROCHAIN ARRET
+TOUTIFAUT
+TOUTIFAUT
+
+.........................
+
+
+[addbusstop]
+1_C_Toutifaut
+TOUTIFAUT
+ARRET
+TOUTIFAUT
+TOUTIFAUT
+
+.........................
+
+
+[addbusstop]
+1_V_Toutifaut
+TOUTIFAUT
+ARRET
+TOUTIFAUT
+TOUTIFAUT
+
+.........................
+
+
+[addbusstop]
+8a_L_Toutifaut
+TOUTIFAUT
+ARRET
+TOUTIFAUT
+TOUTIFAUT
+
+.........................
+
+
+[addbusstop]
+8b_L_Toutifaut
+TOUTIFAUT
+ARRET
+TOUTIFAUT
+TOUTIFAUT
+
+.........................
+
+
+[addbusstop]
+8a_S_Toutifaut
+TOUTIFAUT
+ARRET
+TOUTIFAUT
+TOUTIFAUT
+
+.........................
+
+
+[addbusstop]
+8b_S_Toutifaut
+TOUTIFAUT
+ARRET
+TOUTIFAUT
+TOUTIFAUT
+
+.........................
+
+
+[addbusstop]
+9_L_Toutifaut
+TOUTIFAUT
+ARRET
+TOUTIFAUT
+TOUTIFAUT
+
+.........................
+
+
+[addbusstop]
+9_P_Toutifaut
+TOUTIFAUT
+ARRET
+TOUTIFAUT
+TOUTIFAUT
+
+.........................
+
+
+[addbusstop]
+Treuillaud
+TREUILLAUD
+PROCHAIN ARRET
+TREUILLAUD
+TREUILLAUD
+
+.........................
+
+
+[addbusstop]
+S4_E_Treuillaud
+TREUILLAUD
+ARRET
+TREUILLAUD
+TREUILLAUD
+
+.........................
+
+
+[addbusstop]
+S4_P_Treuillaud
+TREUILLAUD
+ARRET
+TREUILLAUD
+TREUILLAUD
+
+.........................
+
+
+[addbusstop]
+Vernusse
+VERNUSSE
+PROCHAIN ARRET
+VERNUSSE
+VERNUSSE
+
+.........................
+
+
+[addbusstop]
+8_L_Vernusse
+VERNUSSE
+ARRET
+VERNUSSE
+VERNUSSE
+
+.........................
+
+
+[addbusstop]
+8a_L_Vernusse
+VERNUSSE
+ARRET
+VERNUSSE
+VERNUSSE
+
+.........................
+
+
+[addbusstop]
+8b_L_Vernusse
+VERNUSSE
+ARRET
+VERNUSSE
+VERNUSSE
+
+.........................
+
+
+[addbusstop]
+8_S_Vernusse
+VERNUSSE
+ARRET
+VERNUSSE
+VERNUSSE
+
+.........................
+
+
+[addbusstop]
+8a_S_Vernusse
+VERNUSSE
+ARRET
+VERNUSSE
+VERNUSSE
+
+.........................
+
+
+[addbusstop]
+8b_S_Vernusse
+VERNUSSE
+ARRET
+VERNUSSE
+VERNUSSE
+
+.........................
+
+
+[addbusstop]
+9_L_Vernusse
+VERNUSSE
+ARRET
+VERNUSSE
+VERNUSSE
+
+.........................
+
+
+[addbusstop]
+9_P_Vernusse
+VERNUSSE
+ARRET
+VERNUSSE
+VERNUSSE
+
+.........................
+
+
+[addbusstop]
+Victor Hugo
+VICTOR HUGO
+PROCHAIN ARRET
+VICTOR HUGO
+VICTOR HUGO
+
+.........................
+
+
+[addbusstop]
+8b_L_Victor Hugo
+VICTOR HUGO
+ARRET
+VICTOR HUGO
+VICTOR HUGO
+
+.........................
+
+
+[addbusstop]
+8b_S_Victor Hugo
+VICTOR HUGO
+ARRET
+VICTOR HUGO
+VICTOR HUGO
+
+.........................
+
+
+[addbusstop]
+Villechaise
+VILLECHAISE
+PROCHAIN ARRET
+VILLECHAISE
+VILLECHAISE
+
+.........................
+
+
+[addbusstop]
+S4_E_Villechaise
+VILLECHAISE
+ARRET
+VILLECHAISE
+VILLECHAISE
+
+.........................
+
+
+[addbusstop]
+S4_P_Villechaise
+VILLECHAISE
+ARRET
+VILLECHAISE
+VILLECHAISE
+
+.........................
+
+
+[addbusstop]
+Voltaire
+VOLTAIRE
+PROCHAIN ARRET
+VOLTAIRE
+VOLTAIRE
+
+.........................
+
+
+[addbusstop]
+1 Voltaire
+VOLTAIRE
+PROCHAIN ARRET
+VOLTAIRE
+VOLTAIRE
+
+.........................
+
+
+[addbusstop]
+1 Voltaire SP
+VOLTAIRE
+PROCHAIN ARRET
+VOLTAIRE
+VOLTAIRE
+
+.........................
+
+
+[addbusstop]
+2 Voltaire
+VOLTAIRE
+PROCHAIN ARRET
+VOLTAIRE
+VOLTAIRE
+
+.........................
+
+
+[addbusstop]
+2 Voltaire SP
+VOLTAIRE
+PROCHAIN ARRET
+VOLTAIRE
+VOLTAIRE
+
+.........................
+
+
+[addbusstop]
+F3 Voltaire
+VOLTAIRE
+PROCHAIN ARRET
+VOLTAIRE
+VOLTAIRE
+
+.........................
+
+
+[addbusstop]
+1_B_Voltaire
+VOLTAIRE
+ARRET
+VOLTAIRE
+VOLTAIRE
+
+.........................
+
+
+[addbusstop]
+1_C_Voltaire
+VOLTAIRE
+ARRET
+VOLTAIRE
+VOLTAIRE
+
+.........................
+
+
+[addbusstop]
+2_P_Voltaire
+VOLTAIRE
+ARRET
+VOLTAIRE
+VOLTAIRE
+
+.........................
+
+
+[addbusstop]
+2_S_Voltaire
+VOLTAIRE
+ARRET
+VOLTAIRE
+VOLTAIRE
+
+.........................
+
+
+[addbusstop]
+B_P_Voltaire
+VOLTAIRE
+ARRET
+VOLTAIRE
+VOLTAIRE
+
+.........................
+
+
+[addbusstop]
+B_S_Voltaire
+VOLTAIRE
+ARRET
+VOLTAIRE
+VOLTAIRE
+
+.........................
+
+
+[addbusstop]
+F3_V_Voltaire
+VOLTAIRE
+ARRET
+VOLTAIRE
+VOLTAIRE
+
+.........................
+
+
+######################################
+ TRIPS / ROUTES
+######################################
+
+
+Line 001, Route 01: Cap Sud  >>  1 Voltaire
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00101
+CAP SUD  >>  VOLTAIRE
+100
+XXX
+
+[infosystem_busstop_list]
+47
+Cap Sud
+1_V_Cap Sud
+Allée du commerce
+1_V_Allée du commerce
+Occitanie
+1_V_Occitanie
+Boulevard du Franc
+1_V_Boulevard du Franc
+Terres noires
+1_V_Terres noires
+La nourat
+1_V_La nourat
+Pré Naudin
+1_V_Pré Naudin
+Toutifaut
+1_V_Toutifaut
+Berry Coop
+1_V_Berry Coop
+Avenue d'Argenton
+1_V_Avenue d'Argenton
+Anjou
+1_V_Anjou
+Beaulieu
+1_V_Beaulieu
+Provence
+1_V_Provence
+Marins
+1_V_Marins
+Balsan Université
+1_V_Balsan Université
+Mendès France
+1_V_Mendès France
+IUT
+1_V_IUT
+Préfecture
+1_V_Préfecture
+République
+1_V_République
+Diderot
+1_V_Diderot
+Poste
+1_V_Poste
+Capucins
+1_V_Capucins
+Gares
+1_V_Gares
+1 Voltaire
+
+
+Line 001, Route 02: Voltaire  >>  1 Cap Sud
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00102
+VOLTAIRE  >>  CAP SUD
+101
+XXX
+
+[infosystem_busstop_list]
+45
+Voltaire
+1_C_Voltaire
+Ledru Rollin
+1_C_Ledru Rollin
+Gambetta
+1_C_Gambetta
+Hôtel de ville
+1_C_Hôtel de ville
+République
+1_C_République
+Préfecture
+1_C_Préfecture
+IUT
+1_C_IUT
+Mendès France
+1_C_Mendès France
+Balsan Université
+1_C_Balsan Université
+Marins
+1_C_Marins
+Provence
+1_C_Provence
+Beaulieu
+1_C_Beaulieu
+Anjou
+1_C_Anjou
+Avenue d'Argenton
+1_C_Avenue d'Argenton
+Berry Coop
+1_C_Berry Coop
+Toutifaut
+1_C_Toutifaut
+Pré Naudin
+1_C_Pré Naudin
+La nourat
+1_C_La nourat
+Terres noires
+1_C_Terres noires
+Boulevard du Franc
+1_C_Boulevard du Franc
+Occitanie
+1_C_Occitanie
+Allée du commerce
+1_C_Allée du commerce
+1 Cap Sud
+
+
+Line 001, Route 03: Beaulieu  >>  1 Voltaire SP
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00103
+BEAULIEU  >>  VOLTAIRE
+102
+XXX
+
+[infosystem_busstop_list]
+25
+Beaulieu
+1_V_Beaulieu
+Provence
+1_V_Provence
+Marins
+1_V_Marins
+Balsan Université
+1_V_Balsan Université
+Mendès France
+1_V_Mendès France
+IUT
+1_V_IUT
+Préfecture
+1_V_Préfecture
+République
+1_V_République
+Diderot
+1_V_Diderot
+Poste
+1_V_Poste
+Capucins
+1_V_Capucins
+Gares
+1_V_Gares
+1 Voltaire SP
+
+
+Line 001, Route 04: Voltaire  >>  1 Beaulieu SP
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00104
+VOLTAIRE  >>  BEAULIEU
+103
+XXX
+
+[infosystem_busstop_list]
+23
+Voltaire
+1_B_Voltaire
+Ledru Rollin
+1_B_Ledru Rollin
+Gambetta
+1_B_Gambetta
+Hôtel de ville
+1_B_Hôtel de ville
+République
+1_B_République
+Préfecture
+1_B_Préfecture
+IUT
+1_B_IUT
+Mendès France
+1_B_Mendès France
+Balsan Université
+1_B_Balsan Université
+Marins
+1_B_Marins
+Provence
+1_B_Provence
+1 Beaulieu SP
+
+
+Line 002, Route 01: Saint Maur  >>  2 Voltaire
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00201
+SAINT MAUR  >>  VOLTAIRE
+200
+XXX
+
+[infosystem_busstop_list]
+43
+Saint Maur
+2_V_Saint Maur
+Clos des portes
+2_V_Clos des portes
+Les coteaux
+2_V_Les coteaux
+Les ormeaux
+2_V_Les ormeaux
+Eglise de Saint Maur
+2_V_Eglise de Saint Maur
+Bel air
+2_V_Bel air
+Les clefs moreaux
+2_V_Les clefs moreaux
+Les silos
+2_V_Les silos
+Pointerie
+2_V_Pointerie
+Sarah Bernhardt
+2_V_Sarah Bernhardt
+Châtellerault
+2_V_Châtellerault
+Hippodrome
+2_V_Hippodrome
+Max Hymans
+2_V_Max Hymans
+Bourgogne
+2_V_Bourgogne
+Anatole France
+2_V_Anatole France
+Claude Bernard
+2_V_Claude Bernard
+République
+2_V_République
+Diderot
+2_V_Diderot
+Poste
+2_V_Poste
+Capucins
+2_V_Capucins
+Gares
+2_V_Gares
+2 Voltaire
+
+
+Line 002, Route 02: Voltaire  >>  2 Saint Maur
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00202
+VOLTAIRE  >>  SAINT MAUR
+201
+XXX
+
+[infosystem_busstop_list]
+37
+Voltaire
+2_S_Voltaire
+Bourdillon
+2_S_Bourdillon
+Médiathèque
+2_S_Médiathèque
+Claude Bernard
+2_S_Claude Bernard
+Anatole France
+2_S_Anatole France
+Bourgogne
+2_S_Bourgogne
+Max Hymans
+2_S_Max Hymans
+Hippodrome
+2_S_Hippodrome
+Châtellerault
+2_S_Châtellerault
+Sarah Bernhardt
+2_S_Sarah Bernhardt
+Pointerie
+2_S_Pointerie
+Les silos
+2_S_Les silos
+Les clefs moreaux
+2_S_Les clefs moreaux
+Bel air
+2_S_Bel air
+Eglise de Saint Maur
+2_S_Eglise de Saint Maur
+Les ormeaux
+2_S_Les ormeaux
+Les coteaux
+2_S_Les coteaux
+Clos des portes
+2_S_Clos des portes
+2 Saint Maur
+
+
+Line 002, Route 03: Cécile Sorel  >>  2 Voltaire SP
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00203
+CECILE SOREL  >>  VOLTAIRE
+202
+XXX
+
+[infosystem_busstop_list]
+29
+Cécile Sorel
+2_V_Cécile Sorel
+Pointerie
+2_V_Pointerie
+Sarah Bernhardt
+2_V_Sarah Bernhardt
+Châtellerault
+2_V_Châtellerault
+Hippodrome
+2_V_Hippodrome
+Max Hymans
+2_V_Max Hymans
+Bourgogne
+2_V_Bourgogne
+Anatole France
+2_V_Anatole France
+Claude Bernard
+2_V_Claude Bernard
+République
+2_V_République
+Diderot
+2_V_Diderot
+Poste
+2_V_Poste
+Capucins
+2_V_Capucins
+Gares
+2_V_Gares
+2 Voltaire SP
+
+
+Line 002, Route 04: Voltaire  >>  2 Pointerie SP
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00204
+VOLTAIRE  >>  POINTERIE
+203
+XXX
+
+[infosystem_busstop_list]
+23
+Voltaire
+2_P_Voltaire
+Bourdillon
+2_P_Bourdillon
+Médiathèque
+2_P_Médiathèque
+Claude Bernard
+2_P_Claude Bernard
+Anatole France
+2_P_Anatole France
+Bourgogne
+2_P_Bourgogne
+Max Hymans
+2_P_Max Hymans
+Hippodrome
+2_P_Hippodrome
+Châtellerault
+2_P_Châtellerault
+Sarah Bernhardt
+2_P_Sarah Bernhardt
+Pointerie
+2_P_Pointerie
+2 Pointerie SP
+
+
+Line 008, Route 01: Saint Maur  >>  8 La loge
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00801
+SAINT MAUR  >>  LA LOGE
+800
+XXX
+
+[infosystem_busstop_list]
+45
+Saint Maur
+8_L_Saint Maur
+Clos des portes
+8_L_Clos des portes
+Eglise de Saint Maur
+8_L_Eglise de Saint Maur
+Bel air
+8_L_Bel air
+Les clefs moreaux
+8_L_Les clefs moreaux
+Carrorie
+8_L_Carrorie
+Les silos
+8_L_Les silos
+Saint Maur Centrale
+8_L_Saint Maur Centrale
+Cap Sud
+8_L_Cap Sud
+Allée du commerce
+8_L_Allée du commerce
+Occitanie
+8_L_Occitanie
+Boulevard du Franc
+8_L_Boulevard du Franc
+Terres noires
+8_L_Terres noires
+La nourat
+8_L_La nourat
+Pré Naudin
+8_L_Pré Naudin
+Hervé Faye
+8_L_Hervé Faye
+Notz
+8_L_Notz
+Beaupré
+8_L_Beaupré
+Champ bossu
+8_L_Champ bossu
+Les grouailles
+8_L_Les grouailles
+Ratouis de Limay
+8_L_Ratouis de Limay
+Vernusse
+8_L_Vernusse
+8 La loge
+
+
+Line 008, Route 02: La loge  >>  8 Saint Maur
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00802
+LA LOGE  >>  SAINT MAUR
+802
+XXX
+
+[infosystem_busstop_list]
+45
+La loge
+8_S_La loge
+Vernusse
+8_S_Vernusse
+Ratouis de Limay
+8_S_Ratouis de Limay
+Les grouailles
+8_S_Les grouailles
+Champ bossu
+8_S_Champ bossu
+Beaupré
+8_S_Beaupré
+Notz
+8_S_Notz
+Hervé Faye
+8_S_Hervé Faye
+Pré Naudin
+8_S_Pré Naudin
+La nourat
+8_S_La nourat
+Terres noires
+8_S_Terres noires
+Boulevard du Franc
+8_S_Boulevard du Franc
+Occitanie
+8_S_Occitanie
+Allée du commerce
+8_S_Allée du commerce
+Cap Sud
+8_S_Cap Sud
+Saint Maur Centrale
+8_S_Saint Maur Centrale
+Les silos
+8_S_Les silos
+Carrorie
+8_S_Carrorie
+Les clefs moreaux
+8_S_Les clefs moreaux
+Bel air
+8_S_Bel air
+Eglise de Saint Maur
+8_S_Eglise de Saint Maur
+Clos des portes
+8_S_Clos des portes
+8 Saint Maur
+
+
+Line 008, Route 03: Saint Maur  >>  8 Notz
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00803
+SAINT MAUR  >>  NOTZ
+801
+XXX
+
+[infosystem_busstop_list]
+33
+Saint Maur
+8_N_Saint Maur
+Clos des portes
+8_N_Clos des portes
+Eglise de Saint Maur
+8_N_Eglise de Saint Maur
+Bel air
+8_N_Bel air
+Les clefs moreaux
+8_N_Les clefs moreaux
+Carrorie
+8_N_Carrorie
+Les silos
+8_N_Les silos
+Saint Maur Centrale
+8_N_Saint Maur Centrale
+Cap Sud
+8_N_Cap Sud
+Allée du commerce
+8_N_Allée du commerce
+Occitanie
+8_N_Occitanie
+Boulevard du Franc
+8_N_Boulevard du Franc
+Terres noires
+8_N_Terres noires
+La nourat
+8_N_La nourat
+Pré Naudin
+8_N_Pré Naudin
+Hervé Faye
+8_N_Hervé Faye
+8 Notz
+
+
+Line 008, Route 04: Notz  >>  8 Saint Maur
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00804
+NOTZ  >>  SAINT MAUR
+802
+XXX
+
+[infosystem_busstop_list]
+33
+Notz
+8_S_Notz
+Hervé Faye
+8_S_Hervé Faye
+Pré Naudin
+8_S_Pré Naudin
+La nourat
+8_S_La nourat
+Terres noires
+8_S_Terres noires
+Boulevard du Franc
+8_S_Boulevard du Franc
+Occitanie
+8_S_Occitanie
+Allée du commerce
+8_S_Allée du commerce
+Cap Sud
+8_S_Cap Sud
+Saint Maur Centrale
+8_S_Saint Maur Centrale
+Les silos
+8_S_Les silos
+Carrorie
+8_S_Carrorie
+Les clefs moreaux
+8_S_Les clefs moreaux
+Bel air
+8_S_Bel air
+Eglise de Saint Maur
+8_S_Eglise de Saint Maur
+Clos des portes
+8_S_Clos des portes
+8 Saint Maur
+
+
+Line 081, Route 01: St Christophe  >>  8a La loge
+----------------------------------------------------------------------
+
+[infosystem_trip]
+08101
+ST CRHISTOPHE  >>  LA LOGE
+810
+XXX
+
+[infosystem_busstop_list]
+37
+St Christophe
+8a_L_St Christophe
+Préfecture
+8a_L_Préfecture
+Claude Bernard
+8a_L_Claude Bernard
+Anatole France
+8a_L_Anatole France
+Bourgogne
+8a_L_Bourgogne
+Max Hymans
+8a_L_Max Hymans
+Hippodrome
+8a_L_Hippodrome
+Raimu
+8a_L_Raimu
+Gérard Philippe
+8a_L_Gérard Philippe
+Berry Coop
+8a_L_Berry Coop
+Toutifaut
+8a_L_Toutifaut
+Hervé Faye
+8a_L_Hervé Faye
+Notz
+8a_L_Notz
+Beaupré
+8a_L_Beaupré
+Champ bossu
+8a_L_Champ bossu
+Les grouailles
+8a_L_Les grouailles
+Ratouis de Limay
+8a_L_Ratouis de Limay
+Vernusse
+8a_L_Vernusse
+8a La loge
+
+
+Line 081, Route 02: La loge  >>  8a St Christophe
+----------------------------------------------------------------------
+
+[infosystem_trip]
+08102
+LA LOGE  >>  ST CHRISTOPHE
+811
+XXX
+
+[infosystem_busstop_list]
+37
+La loge
+8a_S_La loge
+Vernusse
+8a_S_Vernusse
+Ratouis de Limay
+8a_S_Ratouis de Limay
+Les grouailles
+8a_S_Les grouailles
+Champ bossu
+8a_S_Champ bossu
+Beaupré
+8a_S_Beaupré
+Notz
+8a_S_Notz
+Hervé Faye
+8a_S_Hervé Faye
+Toutifaut
+8a_S_Toutifaut
+Berry Coop
+8a_S_Berry Coop
+Gérard Philippe
+8a_S_Gérard Philippe
+Raimu
+8a_S_Raimu
+Hippodrome
+8a_S_Hippodrome
+Max Hymans
+8a_S_Max Hymans
+Bourgogne
+8a_S_Bourgogne
+Anatole France
+8a_S_Anatole France
+Claude Bernard
+8a_S_Claude Bernard
+Préfecture
+8a_S_Préfecture
+8a St Christophe
+
+
+Line 082, Route 01: St Pierre  >>  8b La loge
+----------------------------------------------------------------------
+
+[infosystem_trip]
+08201
+ST PIERRE  >>  LA LOGE
+820
+XXX
+
+[infosystem_busstop_list]
+37
+St Pierre
+8b_L_St Pierre
+Jules Ferry
+8b_L_Jules Ferry
+Aquitaine
+8b_L_Aquitaine
+Victor Hugo
+8b_L_Victor Hugo
+Anjou
+8b_L_Anjou
+Max Hymans
+8b_L_Max Hymans
+Hippodrome
+8b_L_Hippodrome
+Raimu
+8b_L_Raimu
+Gérard Philippe
+8b_L_Gérard Philippe
+Berry Coop
+8b_L_Berry Coop
+Toutifaut
+8b_L_Toutifaut
+Hervé Faye
+8b_L_Hervé Faye
+Notz
+8b_L_Notz
+Beaupré
+8b_L_Beaupré
+Champ bossu
+8b_L_Champ bossu
+Les grouailles
+8b_L_Les grouailles
+Ratouis de Limay
+8b_L_Ratouis de Limay
+Vernusse
+8b_L_Vernusse
+8b La loge
+
+
+Line 082, Route 02: La loge  >>  8b St Pierre
+----------------------------------------------------------------------
+
+[infosystem_trip]
+08202
+LA LOGE  >>  ST PIERRE
+821
+XXX
+
+[infosystem_busstop_list]
+37
+La loge
+8b_S_La loge
+Vernusse
+8b_S_Vernusse
+Ratouis de Limay
+8b_S_Ratouis de Limay
+Les grouailles
+8b_S_Les grouailles
+Champ bossu
+8b_S_Champ bossu
+Beaupré
+8b_S_Beaupré
+Notz
+8b_S_Notz
+Hervé Faye
+8b_S_Hervé Faye
+Toutifaut
+8b_S_Toutifaut
+Berry Coop
+8b_S_Berry Coop
+Gérard Philippe
+8b_S_Gérard Philippe
+Raimu
+8b_S_Raimu
+Hippodrome
+8b_S_Hippodrome
+Max Hymans
+8b_S_Max Hymans
+Anjou
+8b_S_Anjou
+Victor Hugo
+8b_S_Victor Hugo
+Aquitaine
+8b_S_Aquitaine
+Jules Ferry
+8b_S_Jules Ferry
+8b St Pierre
+
+
+Line 009, Route 01: Provence  >>  9 La loge
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00901
+PROVENCE  >>  LA LOGE
+900
+XXX
+
+[infosystem_busstop_list]
+27
+Provence
+9_L_Provence
+Beaulieu
+9_L_Beaulieu
+Anjou
+9_L_Anjou
+Avenue d'Argenton
+9_L_Avenue d'Argenton
+Berry Coop
+9_L_Berry Coop
+Toutifaut
+9_L_Toutifaut
+Hervé Faye
+9_L_Hervé Faye
+Notz
+9_L_Notz
+Beaupré
+9_L_Beaupré
+Champ bossu
+9_L_Champ bossu
+Les grouailles
+9_L_Les grouailles
+Ratouis de Limay
+9_L_Ratouis de Limay
+Vernusse
+9_L_Vernusse
+9 La loge
+
+
+Line 009, Route 02: La loge  >>  9 Provence
+----------------------------------------------------------------------
+
+[infosystem_trip]
+00902
+LA LOGE  >>  PROVENCE
+901
+XXX
+
+[infosystem_busstop_list]
+27
+La loge
+9_P_La loge
+Vernusse
+9_P_Vernusse
+Ratouis de Limay
+9_P_Ratouis de Limay
+Les grouailles
+9_P_Les grouailles
+Champ bossu
+9_P_Champ bossu
+Beaupré
+9_P_Beaupré
+Notz
+9_P_Notz
+Hervé Faye
+9_P_Hervé Faye
+Toutifaut
+9_P_Toutifaut
+Berry Coop
+9_P_Berry Coop
+Avenue d'Argenton
+9_P_Avenue d'Argenton
+Anjou
+9_P_Anjou
+Beaulieu
+9_P_Beaulieu
+9 Provence
+
+
+Line 980, Route 01: St Christophe  >>  B Pointerie
+----------------------------------------------------------------------
+
+[infosystem_trip]
+98001
+ST CHRISTOPHE  >>  POINTERIE
+980
+XXX
+
+[infosystem_busstop_list]
+45
+St Christophe
+B_P_St Christophe
+Préfecture
+B_P_Préfecture
+République
+B_P_République
+Diderot
+B_P_Diderot
+Poste
+B_P_Poste
+Capucins
+B_P_Capucins
+Gares
+B_P_Gares
+Voltaire
+B_P_Voltaire
+Ledru Rollin
+B_P_Ledru Rollin
+Gambetta
+B_P_Gambetta
+Hôtel de ville
+B_P_Hôtel de ville
+République
+B_P_République
+Claude Bernard
+B_P_Claude Bernard
+Anatole France
+B_P_Anatole France
+Provence
+B_P_Provence
+Beaulieu
+B_P_Beaulieu
+Anjou
+B_P_Anjou
+Max Hymans
+B_P_Max Hymans
+Hippodrome
+B_P_Hippodrome
+Châtellerault
+B_P_Châtellerault
+Sarah Bernhardt
+B_P_Sarah Bernhardt
+Pointerie
+B_P_Pointerie
+B Pointerie
+
+
+Line 980, Route 02: Cécile Sorel  >>  B St Christophe
+----------------------------------------------------------------------
+
+[infosystem_trip]
+98002
+CECILE SOREL  >>  ST CHRISTOPHE
+981
+XXX
+
+[infosystem_busstop_list]
+45
+Cécile Sorel
+B_S_Cécile Sorel
+Pointerie
+B_S_Pointerie
+Sarah Bernhardt
+B_S_Sarah Bernhardt
+Châtellerault
+B_S_Châtellerault
+Hippodrome
+B_S_Hippodrome
+Max Hymans
+B_S_Max Hymans
+Anjou
+B_S_Anjou
+Beaulieu
+B_S_Beaulieu
+Provence
+B_S_Provence
+Anatole France
+B_S_Anatole France
+Claude Bernard
+B_S_Claude Bernard
+République
+B_S_République
+Diderot
+B_S_Diderot
+Poste
+B_S_Poste
+Capucins
+B_S_Capucins
+Gares
+B_S_Gares
+Voltaire
+B_S_Voltaire
+Ledru Rollin
+B_S_Ledru Rollin
+Gambetta
+B_S_Gambetta
+Hôtel de ville
+B_S_Hôtel de ville
+République
+B_S_République
+Préfecture
+B_S_Préfecture
+B St Christophe
+
+
+Line 990, Route 01: Voltaire  >>  F3 Voltaire
+----------------------------------------------------------------------
+
+[infosystem_trip]
+99001
+VOLTAIRE  >>  VOLTAIRE
+990
+XXX
+
+[infosystem_busstop_list]
+35
+Voltaire
+F3_V_Voltaire
+Ledru Rollin
+Gambetta
+Hôtel de ville
+République
+Claude Bernard
+St Pierre
+Provence
+Beaulieu
+F3_V_Beaulieu
+Anjou
+Avenue d'Argenton
+Gérard Philippe
+Raimu
+Sarah Bernhardt
+Pointerie
+Cécile Sorel
+F3_V_Cécile Sorel
+Châtellerault
+Hippodrome
+Max Hymans
+Bourgogne
+Marins
+Balsan Université
+Mendès France
+F3_V_Mendès France
+IUT
+Préfecture
+République
+Diderot
+Poste
+Capucins
+Gares
+F3 Voltaire
+
+
+Line 950, Route 01: Etang de Von  >>  CSL MACH36
+----------------------------------------------------------------------
+
+[infosystem_trip]
+95001
+ETANG DE VON  >>  MACH36
+950
+XXX
+
+[infosystem_busstop_list]
+11
+Etang de Von
+CSL_M_Etang de Von
+Plateau de Bel Air
+CSL_M_Plateau de Bel Air
+Plaine de Bel Air
+CSL_M_Plaine de Bel Air
+Centre sportif de Saint Maur
+CSL_M_Centre sportif de Saint Maur
+Parc d'activités du Grandéols
+CSL_M_Parc d'activités du Grandéols
+CSL MACH36
+
+
+Line 950, Route 02: MACH36  >>  CSL Etang de Von
+----------------------------------------------------------------------
+
+[infosystem_trip]
+95002
+MACH36  >>  ETANG DE VON
+951
+XXX
+
+[infosystem_busstop_list]
+11
+MACH36
+CSL_E_MACH36
+Parc d'activités du Grandéols
+CSL_E_Parc d'activités du Grandéols
+Centre sportif de Saint Maur
+CSL_E_Centre sportif de Saint Maur
+Plaine de Bel Air
+CSL_E_Plaine de Bel Air
+Plateau de Bel Air
+CSL_E_Plateau de Bel Air
+CSL Etang de Von
+
+
+Line 960, Route 01: Place de Blois  >>  S4 Ecole Les Planches
+----------------------------------------------------------------------
+
+[infosystem_trip]
+96001
+PLACE DE BLOIS  >>  ECOLE LES PLANCHES
+960
+XXX
+
+[infosystem_busstop_list]
+15
+Place de Blois
+S4_E_Place de Blois
+Route de Niherne
+S4_E_Route de Niherne
+Treuillaud
+S4_E_Treuillaud
+Villechaise
+S4_E_Villechaise
+Les Gauthiers
+S4_E_Les Gauthiers
+L'Occitane
+S4_E_L'Occitane
+Ecole des Rochettes
+S4_E_Ecole des Rochettes
+S4 Ecole Les Planches
+
+
+Line 960, Route 02: Ecole Les Planches  >>  S4 Place de Blois
+----------------------------------------------------------------------
+
+[infosystem_trip]
+96002
+ECOLE LES PLANCHES  >>  PLACE DE BLOIS
+961
+XXX
+
+[infosystem_busstop_list]
+15
+Ecole Les Planches
+S4_P_Ecole Les Planches
+Ecole des Rochettes
+S4_P_Ecole des Rochettes
+L'Occitane
+S4_P_L'Occitane
+Les Gauthiers
+S4_P_Les Gauthiers
+Villechaise
+S4_P_Villechaise
+Treuillaud
+S4_P_Treuillaud
+Route de Niherne
+S4_P_Route de Niherne
+S4 Place de Blois

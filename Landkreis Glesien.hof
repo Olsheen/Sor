@@ -1,0 +1,945 @@
+#####TEMPLATE FILE#####
+Upper_and_Normal_N2.xml
+
+#####COMMENT#####
+Map by LVB Fan12
+.hof by LVB Fan12 & Lasse
+
+.hof-Datei für die Map "Landkreis Glesien V2"
+.hof-File for the map "Landkreis Glesien V2"
+#####ENDCOMMENT#####
+
+
+>>> Created: 14/6/2013, 15:18:58
+
+>>> This file was created with HOF Creator 1.1. Thank you for usage!
+>>> www.jan-kiesewalter.de
+
+
+[name]
+Landkreis Glesien
+
+[servicetrip]
+Betriebsfahrt
+
+
+stringcount_terminus
+6
+
+stringcount_busstop
+4
+
+
+
+######################################
+ TERMINI
+######################################
+
+
+[addterminus_allexit]
+000
+Leerfeld
+LEERFELD
+
+
+
+LG_Leerfeld.bmp
+Leerfeld
+.........................
+
+
+[addterminus_allexit]
+901
+Betriebsfahrt
+BETRIEBSFAHRT
+
+Betriebsfahrt*I
+
+LG_Betriebsfahrt.bmp
+Betriebsfahrt
+.........................
+
+
+[addterminus]
+902
+Sonderfahrt
+SONDERFAHRT
+
+Sonderfahrt*I
+
+LG_Sonderfahrt.bmp
+Sonderfahrt
+.........................
+
+
+[addterminus]
+903
+Einsatzwagen
+EINSATZWAGEN
+
+Einsatzwagen*I
+
+LG_Einsatzwagen.bmp
+Einsatzwagen
+.........................
+
+
+[addterminus]
+904
+Schienenersatzverkehr
+SCHIENENERSATZV.
+
+Schienenersatz*M
+
+LG_SEV1.bmp
+Schienenersatzverk.
+.........................
+
+
+[addterminus]
+905
+Schienenersatzverkehr 2
+SCHIENENERSATZV.
+Schienen-*B
+Ersatzverkehr*B
+
+LG_SEV2.bmp
+Schienenersatzverk.
+.........................
+
+
+[addterminus]
+906
+U Ersatzverkehr
+U ERSATZVERKEHR
+U-Bahn*B
+Ersatzverkehr*B
+
+LG_SEVU.bmp
+U-Bahn Ersatzverkehr
+.........................
+
+
+[addterminus]
+907
+S Ersatzverkehr
+S ERSATZVERKEHR
+S-Bahn*B
+Ersatzverkehr*B
+
+LG_SEVS.bmp
+S-Bahn Ersatzverkehr
+.........................
+
+
+[addterminus]
+908
+Pause
+PAUSE
+
+Pause*P
+
+LG_Pause.bmp
+Pause
+.........................
+
+
+[addterminus]
+909
+Bus endet hier
+BUS ENDET HIER
+
+Bus endet hier*M
+
+LG_Busendethier.bmp
+Bus endet hier
+.........................
+
+
+[addterminus]
+910
+Schulbus
+SCHULBUS
+
+Schulbus
+
+LG_Schulbus.bmp
+Schulbus
+.........................
+
+
+[addterminus]
+911
+Fahrschule
+FAHSCHULE
+
+Fahrschule
+
+LG_Fahrschule.bmp
+Fahrschule
+.........................
+
+
+[addterminus_allexit]
+912
+Messfahrt
+MESSFAHRT
+
+Messfahrt*I*M
+
+LG_Messfahrt.bmp
+Messfahrt
+.........................
+
+
+[addterminus]
+101
+Hayna Sportplatz
+HAYNA SPORTPLATZ
+Hayna*B
+Sportplatz*B
+
+LG_Sportplatz.bmp
+Hayna Sportplatz
+.........................
+
+
+[addterminus]
+102
+Schafsteich
+SCHAFSTEICH
+
+Schafsteich*M
+
+LG_Schafsteich.bmp
+Schafsteich
+.........................
+
+
+[addterminus]
+103
+Glesiener Stausee
+GLES. STAUSEE
+Glesiener*B
+Stausee*B
+
+LG_Stausee.bmp
+Glesiener Stausee
+.........................
+
+
+[addterminus]
+104
+Radefeld
+RADEF FRIEDHOF
+Radefeld*B
+Friedhof*B
+
+LG_Radefeld.bmp
+Radefeld Friedhof
+.........................
+
+
+[addterminus]
+105
+Lengede
+LENGEDE
+Lengede*B
+Grenzpark*B
+
+LG_Lengede.bmp
+Lengende
+.........................
+
+
+[addterminus]
+106
+N1 Schafsteich
+RING SCHAFSTEICH
+Schafsteich*B
+via Gerbisdorf
+
+LG_Leerfeld.bmp
+Ring Schafsteich
+.........................
+
+
+[addterminus]
+1106
+N1 Schafsteich
+RING SCHAFSTEICH
+Schafsteich*B
+via Broistedt
+
+LG_Leerfeld.bmp
+Ring Schafsteich
+.........................
+
+
+[addterminus]
+2106
+N1 Schafsteich
+RING SCHAFSTEICH
+Schafsteich*B
+via Freyroda
+
+LG_Leerfeld.bmp
+Ring Schafsteich
+.........................
+
+
+[addterminus]
+3106
+N1 Schafsteich
+RING SCHAFSTEICH
+Schafsteich*B
+via Hayna-Radef.
+
+LG_Leerfeld.bmp
+Ring Schafsteich
+.........................
+
+
+[addterminus]
+107
+Delitzsch, Kreiskrankenhaus
+KREISKRANKENHAUS
+Delitzsch*B
+Kreiskrankenhaus*B
+
+LG_Kreiskrankenhaus.bmp
+D-Kreiskrankenhaus
+.........................
+
+
+[addterminus]
+108
+Delitzsch, Flugplatz
+FLUGPLATZ
+Delitzsch*B
+Flugplatz*F*B
+
+LG_Flugplatz.bmp
+D-Flugplatz
+.........................
+
+
+[addterminus]
+109
+Brodau
+BRODAU
+
+Brodau
+
+LG_Brodau.bmp
+Brodau
+.........................
+
+
+
+
+
+
+######################################
+ BUS STOPS
+######################################
+
+
+[addbusstop]
+Lengede Grenzpark
+LENGEDE GRENZP.
+Lengede
+Grenzpark
+Lengede Grenzpark
+.........................
+
+
+[addbusstop]
+Ortsmitte
+LENGEDE ORTSM.
+Lengede
+Ortsmitte
+Lengede Ortsmitte
+.........................
+
+
+[addbusstop]
+Schachtweg
+SCHACHTWEG
+Schachtweg
+
+Schachtweg
+.........................
+
+
+[addbusstop]
+Gerbisdorf
+GERBISDORF
+Gerbisdorf
+
+Gerbisdorf
+.........................
+
+
+[addbusstop]
+Gerbisdorf1
+GERBISDORF1
+Gerbisdorf1
+
+Gerbisdorf1
+.........................
+
+
+[addbusstop]
+Kölsaer Str
+KOELSAER STR.
+Kölsaer Str.
+
+Kölsaer Str.
+.........................
+
+
+[addbusstop]
+Glesien Schafsteich
+GLEIS. SCHAFST.
+Glesien
+Schafsteich
+Glesien Schafsteich
+.........................
+
+
+[addbusstop]
+Radefeld Friedhof
+RADEFELD FRIEDH.
+Radefeld
+Friedhof
+Radefeld Friedhof
+.........................
+
+
+[addbusstop]
+Radefeld Gartenstr
+RADEF GARTENSTR
+Radefeld
+Gartenstr.
+Radef. Gartenstr
+.........................
+
+
+[addbusstop]
+Hayna Sportplatz
+HAYNA SPORTPLATZ
+Hayna Sportplatz
+
+Hayna Sportplatz
+.........................
+
+
+[addbusstop]
+Hayna
+HAYNA
+Hayna
+
+Hayna
+.........................
+
+
+[addbusstop]
+Glesiener Stausee
+GLEIS. STAUSEE
+Glesiener
+Stausee
+Glesiener Stausee
+.........................
+
+
+[addbusstop]
+Altes Militärgelände
+ALTES MITITAERG.
+Altes
+Militärgelände
+Altes Militärgelände
+.........................
+
+
+[addbusstop]
+Luisenhof
+LUISNENHOF
+Luisenhof
+
+Luisenhof
+.........................
+
+
+[addbusstop]
+Freyroda
+FREYRODA
+Freyroda
+
+Freyroda
+.........................
+
+
+[addbusstop]
+Dorfplatz
+BROIS. DORFPLATZ
+Broistedt
+Dorfplatz
+Broistedt Dorfplatz
+.........................
+
+
+[addbusstop]
+Broistedt
+BROISTEDT
+Broistedt
+
+Broistedt
+.........................
+
+
+[addbusstop]
+Unter den Linden
+UNTER DEN LINDEN
+Unter den Linden
+
+Unter den Linden
+.........................
+
+
+[addbusstop]
+Broistedt Bahnhof
+BROISTEDT BHF
+Broistedt
+Bahnhof
+Broistedt Bahnhof
+.........................
+
+
+[addbusstop]
+Zum Jagdweiler
+ZUM JAGDWEILER
+Zum Jagdweiler
+
+Zum Jagdweiler
+.........................
+
+
+[addbusstop]
+Kölsaer Str1
+KOELSAER STR.1
+Kölsaer Str.1
+
+Kölsaer Str.1
+.........................
+
+
+[addbusstop]
+Glesien Schafsteich1
+GLEIS. SCHAFST.1
+Glesien1
+Schafsteich1
+Glesien Schafsteich1
+.........................
+
+
+[addbusstop]
+Delitzsch, Kreiskrankenhaus
+KREISKRANKENHAUS
+Delitzsch
+Kreiskrankenhaus
+D-Kreiskrankenhaus
+.........................
+
+
+[addbusstop]
+Delitzsch, Hauptwache
+HAUPTWACHE
+Delitzsch
+Hauptwache
+D-Hauptwache
+.........................
+
+
+[addbusstop]
+Delitzsch, Gesamtschule
+GESAMTSCHULE
+Delitzsch
+Gesamtschule
+D-Gesamtschule
+.........................
+
+
+[addbusstop]
+Delitzsch, unterer Bahnhof
+UNTERER BAHNHOF
+Delitzsch
+Unterer Bahnhof
+D-Unterer Bahnhof
+.........................
+
+
+[addbusstop]
+Delitzsch, Flugplatz
+FLUGPLATZ
+Delitzsch
+Flugplatz
+D-Flugplatz
+.........................
+
+
+[addbusstop]
+Dorfstr.
+DORFSTR.
+Dorfstraße
+
+Dorfstr.
+.........................
+
+
+[addbusstop]
+Wolteritz
+WOLTERITZ
+Wolteritz
+
+Wolteritz
+.........................
+
+
+[addbusstop]
+Lemsel
+LEMSEL
+Lemsel
+
+Lemsel
+.........................
+
+
+[addbusstop]
+Wolteritzer See
+WOLTERITZER SEE
+Wolteritzer See
+
+Wolteritzer See
+.........................
+
+
+[addbusstop]
+Brodau
+BRODAU
+Brodau
+
+Brodau
+.........................
+
+
+[addbusstop]
+Brodau, Werner H. Gym.
+WERNER H. GYM.
+Brodau
+Werner-H.-Gymnasium
+Brod. Werner H. Gym.
+.........................
+
+
+[addbusstop]
+Brodau, Dorfkirche
+DORFKIRCHE
+Brodau
+Dorfkirche
+Brodau, Dorfkirche
+.........................
+
+
+
+
+
+
+######################################
+ TRIPS / ROUTES
+######################################
+
+
+Line 763, Route 01: Glesiener Stausee  >>  Glesien Schafsteich
+----------------------------------------------------------------------
+
+[infosystem_trip]
+76301
+GLESIENER STAUSEE  >>  GLESIEN SCHAFSTEICH
+102
+XXX
+
+[infosystem_busstop_list]
+12
+Glesiener Stausee
+Altes Militärgelände
+Luisenhof
+Freyroda
+Dorfplatz
+Broistedt
+Unter den Linden
+Broistedt Bahnhof
+Zum Jagdweiler
+Gerbisdorf
+Kölsaer Str
+Glesien Schafsteich
+
+
+Line 763, Route 02: Glesien Schafsteich  >>  Glesiener Stausee
+----------------------------------------------------------------------
+
+[infosystem_trip]
+76302
+GLESIEN SCHAFSTEICH  >>  GLESIENER STAUSEE
+103
+XXX
+
+[infosystem_busstop_list]
+12
+Glesien Schafsteich
+Kölsaer Str
+Gerbisdorf
+Zum Jagdweiler
+Broistedt Bahnhof
+Unter den Linden
+Broistedt
+Dorfplatz
+Freyroda
+Luisenhof
+Altes Militärgelände
+Glesiener Stausee
+
+
+Line 764, Route 01: Radefeld Friedhof  >>  Lengede Grenzpark
+----------------------------------------------------------------------
+
+[infosystem_trip]
+76401
+RADEFELD FRIEDHOF  >>  LENGEDE GRENZPARK
+105
+XXX
+
+[infosystem_busstop_list]
+15
+Radefeld Friedhof
+Radefeld Gartenstr
+Hayna Sportplatz
+Hayna
+Glesiener Stausee
+Altes Militärgelände
+Luisenhof
+Freyroda
+Dorfplatz
+Broistedt
+Unter den Linden
+Broistedt Bahnhof
+Zum Jagdweiler
+Ortsmitte
+Lengede Grenzpark
+
+
+Line 764, Route 02: Lengede Grenzpark  >>  Radefeld Friedhof
+----------------------------------------------------------------------
+
+[infosystem_trip]
+76402
+LENGEDE GRENZPARK  >>  RADEFELD FRIEDHOF
+104
+XXX
+
+[infosystem_busstop_list]
+15
+Lengede Grenzpark
+Ortsmitte
+Zum Jagdweiler
+Broistedt Bahnhof
+Unter den Linden
+Broistedt
+Dorfplatz
+Freyroda
+Luisenhof
+Altes Militärgelände
+Glesiener Stausee
+Hayna
+Hayna Sportplatz
+Radefeld Gartenstr
+Radefeld Friedhof
+
+
+Line 765, Route 01: Lengede Grenzpark  >>  Delitzsch, Flugplatz
+----------------------------------------------------------------------
+
+[infosystem_trip]
+76501
+LENGEDE GRENZPARK  >>  DELITZSCH, FLUGPLATZ
+108
+XXX
+
+[infosystem_busstop_list]
+17
+Lengede Grenzpark
+Ortsmitte
+Gerbisdorf
+Radefeld Gartenstr
+Radefeld Friedhof
+Dorfstr.
+Wolteritz
+Lemsel
+Wolteritzer See
+Brodau
+Brodau, Werner H. Gym.
+Brodau, Dorfkirche
+Delitzsch, Kreiskrankenhaus
+Delitzsch, Hauptwache
+Delitzsch, Gesamtschule
+Delitzsch, unterer Bahnhof
+Delitzsch, Flugplatz
+
+
+Line 765, Route 02: Delitzsch, Flugplatz  >>  Lengede Grenzpark
+----------------------------------------------------------------------
+
+[infosystem_trip]
+76502
+DELITZSCH, FLUGPLATZ  >>  LENGEDE GRENZPARK
+105
+XXX
+
+[infosystem_busstop_list]
+17
+Delitzsch, Flugplatz
+Delitzsch, unterer Bahnhof
+Delitzsch, Gesamtschule
+Delitzsch, Hauptwache
+Delitzsch, Kreiskrankenhaus
+Brodau, Dorfkirche
+Brodau, Werner H. Gym.
+Brodau
+Wolteritzer See
+Lemsel
+Wolteritz
+Dorfstr.
+Radefeld Friedhof
+Radefeld Gartenstr
+Gerbisdorf
+Ortsmitte
+Lengede Grenzpark
+
+
+Line 765, Route 03: Lengede Grenzpark  >>  Brodau
+----------------------------------------------------------------------
+
+[infosystem_trip]
+76503
+LENGEDE GRENZPARK  >>  BRODAU
+109
+XXX
+
+[infosystem_busstop_list]
+10
+Lengede Grenzpark
+Ortsmitte
+Gerbisdorf
+Radefeld Gartenstr
+Radefeld Friedhof
+Dorfstr.
+Wolteritz
+Lemsel
+Wolteritzer See
+Brodau
+
+
+Line 765, Route 04: Brodau  >>  Lengede Grenzpark
+----------------------------------------------------------------------
+
+[infosystem_trip]
+76504
+BRODAU  >>  LENGEDE GRENZPARK
+105
+XXX
+
+[infosystem_busstop_list]
+10
+Brodau
+Wolteritzer See
+Lemsel
+Wolteritz
+Dorfstr.
+Radefeld Friedhof
+Radefeld Gartenstr
+Gerbisdorf
+Ortsmitte
+Lengede Grenzpark
+
+
+Line 766, Route 02: Delitzsch, Flugplatz  >>  Delitzsch, Kreiskrankenhaus
+----------------------------------------------------------------------
+
+[infosystem_trip]
+76602
+DELITZSCH, FLUGPLATZ  >>  DELITZSCH, KREISKRANKENHAUS
+107
+XXX
+
+[infosystem_busstop_list]
+5
+Delitzsch, Flugplatz
+Delitzsch, unterer Bahnhof
+Delitzsch, Gesamtschule
+Delitzsch, Hauptwache
+Delitzsch, Kreiskrankenhaus
+
+
+Line 766, Route 01: Delitzsch, Kreiskrankenhaus  >>  Delitzsch, Flugplatz
+----------------------------------------------------------------------
+
+[infosystem_trip]
+76601
+DELITZSCH, KREISKRANKENHAUS  >>  DELITZSCH, FLUGPLATZ
+108
+XXX
+
+[infosystem_busstop_list]
+5
+Delitzsch, Kreiskrankenhaus
+Delitzsch, Hauptwache
+Delitzsch, Gesamtschule
+Delitzsch, unterer Bahnhof
+Delitzsch, Flugplatz
+
+
+Line 901, Route 01: Glesien Schafsteich  >>  Glesien Schafsteich1
+----------------------------------------------------------------------
+
+[infosystem_trip]
+90101
+GLESIEN SCHAFSTEICH  >>  GLESIEN SCHAFSTEICH1
+106
+XXX
+
+[infosystem_busstop_list]
+22
+Glesien Schafsteich
+Kölsaer Str
+Gerbisdorf
+Schachtweg
+Ortsmitte
+Lengede Grenzpark
+Zum Jagdweiler
+Broistedt Bahnhof
+Unter den Linden
+Broistedt
+Dorfplatz
+Freyroda
+Luisenhof
+Altes Militärgelände
+Glesiener Stausee
+Hayna
+Hayna Sportplatz
+Radefeld Gartenstr
+Radefeld Friedhof
+Gerbisdorf1
+Kölsaer Str1
+Glesien Schafsteich1
+
+

@@ -1,0 +1,689 @@
+Diese Datei wurde mit der HOF Suite von Rumpelhans geschrieben.
+This file was written with HOF Suite by Rumpelhans.
+
+*****************************************
+* H O F   F i l e   p r o p e r t i e s *
+*****************************************
+
+[name]
+Krummenaab 2020
+
+[servicetrip]
+Betriebsfahrt
+
+[global_strings]
+6
+Krummenaab 2020
+
+
+
+
+
+
+stringcount_terminus
+26
+
+stringcount_busstop
+9
+
+*****************
+* T e r m i n i *
+*****************
+
+[addterminus_list]
+{ALLEX}	0	Leerfeld	LEERFELD        					LEERFELD
+{ALLEX}	1	KVB	KVB KRUMMENAAB  	  Krummenaaber  	Verkehrsbetriebe	 KVB Krummenaab 		KVB Krummenaab
+{ALLEX}	2	DB Ostbayernbus	DB OSTBAYERNBUS 	DB Ostbayernbus 		DB Ostbayernbus 		DB Ostbayernbus
+{ALLEX}	3	Ceské dráhy	CESKE DRAHY     	  Ceske drahy   		  Ceske drahy   		Ceske drahy
+{ALLEX}	4	Betriebsfahrt	BETRIEBSFAHRT   	 Betriebsfahrt  		 Betriebsfahrt  		Betriebsfahrt
+{ALLEX}	5	Dienstfahrt	DIENSTFAHRT     	  Dienstfahrt   		  Dienstfahrt   		Dienstfahrt
+{ALLEX}	6	Pause	PAUSE           	     Pause      		      Pause     		Pause
+{ALLEX}	7	Manipulaèní Jízda	MANIPULAENI JIZD	  Manipulaeni   	     Jizda      	Manipulaeni Jizd		Manipulaeni Jizda
+{ALLEX}	8	prestávka na kávu	PRESTAVKA NA KAV	   prestavka    	    na kavu     	prestavka na kav		prestavka na kavu
+	100	Stadtgarten              C41	STADTGARTEN     	  Stadtgarten	via Hauptbahnhof	  Stadtgarten   		Stadtgarten
+	101	Brandweiher             C41	BRANDWEIHER     	  Brandweiher   	via Hauptbahnhof	  Brandweiher   		  Brandweiher
+	102	König-Ludwig-Straße C41	KÖNIG-LUDWIG-STR	 König-Ludwig-  	    Straße	K.-Ludwig-Straße		König-Ludwig-Straße
+	103	Stadtgarten               C42	STADTGARTEN     	  Stadtgarten   	via Hauptbahnhof	  Stadtgarten   		Stadtgarten
+	104	Tierheim                     C42	TIERHEIM        	    Tierheim    	via Hauptbahnhof	    Tierheim    		Tierheim
+	105	Schönauer Straße	SCHÖNAUER STRAßE	Schönauer Straße	via Hauptbahnhof	Schönauer Straße		Schönauer Straße
+	106	Pirkmühle	PIRKMÜHLE       	   Pirkmühle    	via Hauptbahnhof	   Pirkmühle    		Pirkmühle
+	107	Hochschule	HOCHSCHULE      	   Hochschule   	via Hauptbahnhof	   Hochschule   		Hochschule
+	108	König-Ludwig-Straße	KÖNIG-LUDWIG-STR	 König-Ludwig-  	    Straße	K.-Ludwig-Straße		König-Ludwig-Straße
+	109	König-Ludwig-Straße                C45	KÖNIG-LUDWIG-STR	 König-Ludwig-  	    Straße	K.-Ludwig-Straße		König-Ludwig-Straße
+	110	Tierheim                     C45	TIERHEIM        	    Tierheim    	via Weingarten	    Tierheim    		Tierheim
+	126	Stadtgarten               C1	STADTGARTEN     	  Stadtrundfahrt   	z. Stadtgarten	  Stadtgarten   		Stadtgarten
+	127	Krummenaab Hauptbhf.	KRUMMENAAB HBF  	   Stadtrundfahrt   	  z. Hauptbahnhof  	Krummenaab Hbf  		Krummenaab Hauptbf.
+	128	Stadtgarten               I91	STADTGARTEN     	  Stadtgarten   	via Tierheim	  Stadtgarten   		Stadtgarten
+	200	Reisserdorf                I51	REISSERDORF     	   Reisserdorf  	 via Schönficht			Reisserdorf
+	201	Krummenaab Hauptbhf. I51	KRUMMENAAB HBF  	   Krummenaab   	  Hauptbahnhof  	   Krummenaab   		Krummenaab Hauptbf.
+	202	Krummenaab Hauptbhf.	KRUMMENAAB HBF  	   Krummenaab   	  Hauptbahnhof  	   Krummenaab   		Krummenaab Hauptbf.
+	203	Rothenstadt	ROTHENSTADT     	   Rothenstadt  	    Bahnhof     	Rothenstadt Bf. 		Rothenstadt Bahnhof
+	204	Wiesau	WIESAU EICHENPL.	     Wiesau     	  Eichenplatz   	Wiesau Eichenpl.		Wiesau Eichenplatz
+	205	Schönau Hbf.	SCHÖNAU HBF     	    Schönau     	  Hauptbahnhof  	Schönau Hbf     		Schönau Hauptbahnhof
+	206	Freyfurt ZOB	FREYFURT ZOB    	    Freyfurt    	Zentraler Busbf.	FREYFURT ZOB    		Freyfurt ZOB
+	207	Reisserdorf                11	REISSERDORF	   Reisserdorf	 via Cheb				Reisserdorf
+	208	Wildenau               I91	WILDENAU     	  Wildenau   	via Tierheim	  Wildenau   		Wildenau
+	300	KZ Flossenbürg         S31	FLOSSENBÜRG KZ  	  Flossenbürg   	KZ-Gedenkstätte 	Flossenürg KZ   		Flossenbürg KZ-Ged.
+	301	Krummenaab Hauptbhf. S31	KRUMMENAAB HBF  	   Krummenaab   	  Hauptbahnhof  	Krummenaab Hbf  		Krummenaab Hauptbf.
+	302	Krummenaab Hauptbhf.	KRUMMENAAB HBF  	   Krummenaab   	  Hauptbahnhof  	Krummenaab Hbf  		Krummenaab Hauptbf.
+	303	Brauerei Naabsbräu	BRAUEREI NAABSB.	    Brauerei    	   Naabsbräu    	Brauerei Naabsb.		Brauerei Naabsbräu
+	304	Einkaufspark Mooslohe	EINKAUFSPARK ML 	  Einkaufspark  	    Mooslohe    	Einkaufspark ML 		Einkaufspark Moosloh
+	400	Flossenbürg Bahnhof	FLOSSENBÜRG BF  	  Flossenbürg   	Bahnhof/Nadrazi 	Flossenbürg Bf  		Flossenbürg Bahnhof
+	401	Eger Bahnhof	EGER BF/CHEB NDR	  Eger Bahnhof  	  Cheb Nadrazi  	   Eger/Cheb    		Eger Bf/Cheb Nadrazi
+	402	Altenburg Bahnhof	ALTENBURG BAHNHO	   Altenburg    	    Bahnhof     	Altenburg Bahnh.		Altenburg Bahnhof
+	403	Rehau	REHAU           	      Rehau     		      Rehau     		Rehau
+	404	Eger Bahnhof	   11	Eger Bahnhof	  via Reisserdorf	   Eger/Cheb		Eger Bf/Cheb Nadrazi
+	500	Nemocnice	NEMOCNICE       	   Nemocnice    		   Nemocnice    		Nemocnice
+	501	námestí	NAMESTI         	    Namesti     		    namesti     		Namesti
+	502	nákupní stredisko	NAKUPNI STREDISK	    Nakupni     	   stredisko    	Nakupni stredisk		Nakupni stredisko
+	503	Jatecní	JATECNI         	    Jatecni     		    Jatecni     		Jatecni
+	504	Maria Loreto	MARIA LORETO    	  Maria Loreto  		  Maria Loreto  		Maria Loreto
+	505	Osvobození	OSVOBOZENI	   Osvobozeni   		   Osvobozeni   		Osvobozeni
+	506	Vilová	VILOVA          	     Vilova     		     Vilova     		Vilova
+	507	Brandlova	BRANDLOVA       	   Brandlova    		   Brandlova    		Brandlova
+	508	Skolní	SKOLNI          	     Skolni     		     Skolni     		Skolni
+	509	autobusove nadrazí	AUTOBUSOVÉ NÁDRA	   Autobusove   	    Nadrazi     	Autobusove Nadra		Autobusove Nadrazí
+[end]
+
+*******************
+* B u s s t o p s *
+*******************
+
+[addbusstop_list]
+Stadtgarten	STADTGARTEN     	Stadtgarten		Stadtgarten         					Stadtgarten
+Altes Rathaus	ALTES RATHAUS   	Altes Rathaus		Altes Rathaus       					Altes Rathaus
+Pilgerhausstraße	PILGERHAUSSTRAßE	Pilgerhausstraße		Pilgerhausstraße    					Pilgerhausstraße
+Steinplatz	STEINPLATZ      	Steinplatz		Steinplatz          					Steinplatz
+Theaterplatz	THEATERPLATZ    	Theaterplatz		Theaterplatz        					Theaterplatz
+Welserplatz	WELSERPLATZ     	Welserplatz		Welserplatz         					Welserplatz
+Moritzplatz	MORITZPLATZ     	Moritzplatz		Moritzplatz         					Moritzplatz
+Neues Rathaus	NEUES RATHAUS   	Neues Rathaus		Neues Rathaus       					Neues Rathaus
+Elektrozentrum	ELEKTROZENTRUM    	Elektrozentrum		Elektrozentrum         					Elektrozentrum
+Hauptbahnhof	HAUPTBAHNHOF    	Hauptbahnhof		Hauptbahnhof        					Hauptbahnhof
+Freiheitsplatz	FREIHEITSPLATZ  	Freiheitsplatz		Freiheitsplatz      					Freiheitsplatz
+Eisenbahnsiedlung	EISENBAHNSIEDL. 	Eisenbahnsiedlung		Eisenbahnsiedlung   					Eisenbahnsiedlung
+Jägerstraße	JÄGERSTRAßE     	Jägerstraße		Jägerstraße         					Jägerstraße
+Fichtenbühl	FICHTENBÜHL     	Fichtenbühl		Fichtenbühl         					Fichtenbühl
+Ullersricht	ULLERSRICHT     	Ullersricht		Ullersricht         					Ullersricht
+Egnermühlweg	EGNERMÜHLWEG    	Egnermühlweg		Egnermühlweg        					Egnermühlweg
+Tierheim	TIERHEIM        	Tierheim		Tierheim            					Tierheim
+Weingarten	WEINGARTEN	Weingarten		Weingarten					Weingarten
+Freyung	FREYUNG	Freyung		Freyung					Freyung
+König-Ludwig-Straße	KÖNIG-LUDWIG-STR	König-Ludwig-Straße		König-Ludwig-Straße 					König-Ludwig-Straße
+Abzweig Mooslohe	ABZWEIG MOOSLOHE	Abzweig Mooslohe		Abzweig Mooslohe    					Abzweig Mooslohe
+Polizeipräsidium	POLIZEIPRÄSIDIUM	Polizeipräsidium		Polizeipräsidium					Polizeipräsidium
+Justizvollzugsanstalt	JVA KRUMMENAAB	JVA Krummenaab		JVA Krummenaab					JVA Krummenaab
+Von-der-Tann-Straße	VON-DER-TANN-STR.	Von-der-Tann-Str.		Von-der-Tann-Straße 					Von-der-Tann-Straße
+Hohe Garten	HOHE GARTEN	Hohe Garten		Hohe Garten					Hohe Garten
+Friedrich-Ebert-Straße	FRIEDRICH-EBERT	Friedrich-Ebert-	Straße	Friedrich-Ebert-Str.					Friedrich-Ebert-Str.
+Brandweiher	BRANDWEIHER	Brandweiher		Brandweiher					Brandweiher
+Leichau	LEICHAU	Leichau		Leichau					Leichau
+Schönficht, Bahnhof	SCHÖNFICHT, BHF.	Schönficht, Bahnhof		Schönficht, Bahnhof 					Schönficht, Bahnhof
+Schönficht, Kirche	SCHÖNF. ,KIRCHE 	Schönficht, Kirche		Schönficht, Kirche  					Schönficht, Kirche
+Wildenau	WILDENAU	Wildenau		Wildenau					Wildenau
+Zanklhut	ZANKLHUT	Zanklhut		Zanklhut					Zanklhut
+Püchersreuth, Höhenweg	PÜR., HÖHENWEG  	Püchersreuth,	Höhenweg	Püchersr., Höhenweg 					Püchersr., Höhenweg
+Püchersreuth, Ilsenweg	PÜR., ILSENWEG  	Püchersreuth,	Ilsenweg	Püchersr., Ilsennweg					Püchersr., Ilsennweg
+Ilsenbach	ILSENBACH	Ilsenbach		Ilsenbach					Ilsenbach
+Wöllershof	WÖLLERHOF	Wöllershof		Wöllershof					Wöllershof
+Wöllershof, Abzweig	WÖLLERHOF	Wöllershof		Wöllershof					Wöllershof
+Reisserdorf	REISSERDORF     	Reisserdorf		Reisserdorf         					Reisserdorf
+Flossenbürg, Bahnhof	FLOSSENBUERG BHF	Flossenbürg, Bahnhof		Flossenbürg, Bahnhof					Flossenbürg, Bahnhof
+Flossenbürg, St. Mariahilf	FLB., ST. MARIAH	Flossenbürg,	St. Mariahilf	Flb., St. Mariahilf 					Flb., St. Mariahilf
+Flossenbürg, KZ-Gedenkstätte	FLB., GEDENKST. 	Flossenbürg,	Gedenkstätte	Flb., Gedenkstätte  					Flb., Gedenkstätte
+Flossenbürg, KZ-Gedenkstätte (KVB)	FLB., GEDENKST. 	Flossenbürg,	Gedenkstätte	Flb., Gedenkstätte  					Flb., Gedenkstätte
+Flossenbürg, Landstraße	FLB., LANDSTRAßE	Flossenbürg,	Landstraße	Flb., Landstraße    					Flb., Landstraße
+Heimhof	HEIMHOF         	Heimhof		Heimhof             					Heimhof
+Floß	FLOß            	Floß		Floß                					Floß
+Falkenberg	FALKENBERG      	Falkenberg		Falkenberg          					Falkenberg
+Haid	HAID	Haid		Haid					Haid
+Baumgarten	BAUMGARTEN	Baumgarten,	Hotel IGEL	Baumgarten					Baumgarten
+Baumgarten, Hotel IGEL	BAUMGARTEN	Baumgarten,	Hotel IGEL	Baumgarten					Baumgarten
+Wurz	WURZ            	Wurz		Wurz                					Wurz
+Cheb, Freyfurtska	CHEB, FREYFURTSK	Cheb, Freyfurtska	Eger, Freyfurter Straße	Cheb, Freyfurtska   					Cheb, Freyfurtska
+Cheb, Na Visluni	CHEB, NA VISLUNI	Cheb, Na Visluni		Cheb, Na Visluni    					Cheb, Na Visluni
+Cheb, Maria Loreto	CHEB, MARIA LORE	Cheb, Maria Loreto		Cheb, Maria Loreto  					Cheb, Maria Loreto
+Cheb, Nadrazi	CHEB, NADRAZI   	Cheb, Nadrazi	Eger, Bahnhof	Cheb, Nadrazi       					Cheb, Nadrazi
+Na Hrazi	NA HRAZI        	Na Hrazi		Na Hrazi            					Na Hrazi
+Paleckého	PALECKEHO       	Paleckeho		Paleckeho           					Paleckeho
+Královehradecká	KRALOVEHRADECKA 	Královehradecká		Kralovehradecka     					Kralovehradecka
+Park T.G. Masaryka	PARK T.G. MASARY	Park T.G. Masaryka		Park T.G. Masaryka  					Park T.G. Masaryka
+Osvobození	OSVOBOZENI      	Osvobozeni		Osvobozeni          					Osvobozeni
+Bezruèova	BEZRUEOVA       	Bezrueova		Bezrueova           					Bezrueova
+Vrbenskeho	VRBENSKEHO      	Vrbenskeho		Vrbenskeho
+Nadrazi	NADRAZI         	Nadrazi		Nadrazi
+Maria Loreto	MARIA LORETO    	Maria Loreto		Maria Loreto
+Krummenaab, Hbf.	KRUMMENAAB HBF  	Krummenaab	Hauptbahnhof	Krummenaab, Hbf.
+[end]
+
+***************
+* R o u t e s *
+***************
+
+[infosystem_trip]
+3101
+S31 Krummenaab - Flossenbürg
+300
+31
+
+[infosystem_busstop_list]
+5
+Krummenaab, Hbf.
+Freiheitsplatz
+Baumgarten, Hotel IGEL
+Flossenbürg, KZ-Gedenkstätte (KVB)
+Flossenbürg, KZ-Gedenkstätte (KVB)
+
+[infosystem_trip]
+3102
+S31 Flossenbürg - Krummenaab
+301
+31
+
+[infosystem_busstop_list]
+4
+Flossenbürg, KZ-Gedenkstätte
+Baumgarten, Hotel IGEL
+Freiheitsplatz
+Krummenaab, Hbf.
+
+[infosystem_trip]
+101
+C1 Hauptbahnhof - Stadtgarten
+126
+1
+
+[infosystem_busstop_list]
+9
+Hauptbahnhof
+Elektrozentrum
+Neues Rathaus
+Moritzplatz
+Welserplatz
+Theaterplatz
+Steinplatz
+Altes Rathaus
+Stadtgarten
+
+[infosystem_trip]
+102
+C1 Stadtgarten - Hauptbahnhof
+127
+1
+
+[infosystem_busstop_list]
+10
+Stadtgarten
+Pilgerhausstraße
+Altes Rathaus
+Steinplatz
+Theaterplatz
+Welserplatz
+Moritzplatz
+Neues Rathaus
+Elektrozentrum
+Hauptbahnhof
+
+[infosystem_trip]
+4101
+C41 Stadtgarten - Brandweiher
+101
+41
+
+[infosystem_busstop_list]
+21
+Stadtgarten
+Pilgerhausstraße
+Altes Rathaus
+Steinplatz
+Theaterplatz
+Welserplatz
+Moritzplatz
+Neues Rathaus
+Elektrozentrum
+Hauptbahnhof
+Freiheitsplatz
+Eisenbahnsiedlung
+Weingarten
+Freyung
+Abzweig Mooslohe
+Polizeipräsidium
+Justizvollzugsanstalt
+Von-der-Tann-Straße
+Hohe Garten
+Friedrich-Ebert-Straße
+Brandweiher
+
+[infosystem_trip]
+1101
+11 Eger/Cheb - Reisserdorf
+207
+11
+
+[infosystem_busstop_list]
+5
+Cheb, Nadrazi
+Cheb, Maria Loreto
+Cheb, Na Visluni
+Cheb, Freyfurtska
+Reisserdorf
+
+[infosystem_trip]
+1102
+11 Reisserdorf - Eger/Cheb
+404
+11
+
+[infosystem_busstop_list]
+5
+Reisserdorf
+Cheb, Freyfurtska
+Cheb, Na Visluni
+Cheb, Maria Loreto
+Cheb, Nadrazi
+
+[infosystem_trip]
+4102
+C41 Brandweiher - Stadtgarten
+100
+41
+
+[infosystem_busstop_list]
+20
+Brandweiher
+Friedrich-Ebert-Straße
+Hohe Garten
+Von-der-Tann-Straße
+Justizvollzugsanstalt
+Polizeipräsidium
+Abzweig Mooslohe
+Freyung
+Weingarten
+Eisenbahnsiedlung
+Freiheitsplatz
+Hauptbahnhof
+Elektrozentrum
+Neues Rathaus
+Moritzplatz
+Welserplatz
+Theaterplatz
+Steinplatz
+Altes Rathaus
+Stadtgarten
+
+[infosystem_trip]
+4103
+C41 Stadtgarten - König-Ludwig-Straße
+102
+41
+
+[infosystem_busstop_list]
+15
+Stadtgarten
+Pilgerhausstraße
+Altes Rathaus
+Steinplatz
+Theaterplatz
+Welserplatz
+Moritzplatz
+Neues Rathaus
+Elektrozentrum
+Hauptbahnhof
+Freiheitsplatz
+Eisenbahnsiedlung
+Weingarten
+Freyung
+König-Ludwig-Straße
+
+[infosystem_trip]
+4104
+C41 König-Ludwig-Straße - Stadtgarten
+100
+41
+
+[infosystem_busstop_list]
+15
+König-Ludwig-Straße
+Abzweig Mooslohe
+Freyung
+Weingarten
+Eisenbahnsiedlung
+Freiheitsplatz
+Hauptbahnhof
+Elektrozentrum
+Neues Rathaus
+Moritzplatz
+Welserplatz
+Theaterplatz
+Steinplatz
+Altes Rathaus
+Stadtgarten
+
+[infosystem_trip]
+4201
+C42 Stadtgarten - Tierheim
+104
+42
+
+[infosystem_busstop_list]
+17
+Stadtgarten
+Pilgerhausstraße
+Altes Rathaus
+Steinplatz
+Theaterplatz
+Welserplatz
+Moritzplatz
+Neues Rathaus
+Elektrozentrum
+Hauptbahnhof
+Freiheitsplatz
+Eisenbahnsiedlung
+Jägerstraße
+Fichtenbühl
+Ullersricht
+Egnermühlweg
+Tierheim
+
+[infosystem_trip]
+4202
+C42 Tierheim - Stadtgarten
+100
+42
+
+[infosystem_busstop_list]
+16
+Tierheim
+Egnermühlweg
+Ullersricht
+Fichtenbühl
+Jägerstraße
+Eisenbahnsiedlung
+Freiheitsplatz
+Hauptbahnhof
+Elektrozentrum
+Neues Rathaus
+Moritzplatz
+Welserplatz
+Theaterplatz
+Steinplatz
+Altes Rathaus
+Stadtgarten
+
+[infosystem_trip]
+4501
+C45 Tierheim - König-Ludwig-Straße
+109
+45
+
+[infosystem_busstop_list]
+8
+Tierheim
+Egnermühlweg
+Ullersricht
+Fichtenbühl
+Jägerstraße
+Weingarten
+Freyung
+König-Ludwig-Straße
+
+[infosystem_trip]
+4502
+C45 König-Ludwig-Straße - Tierheim
+110
+45
+
+[infosystem_busstop_list]
+9
+König-Ludwig-Straße
+Abzweigung Mooslohe
+Freyung
+Weingarten
+Jägerstraße
+Fichenbühl
+Ullersricht
+Egnermühlweg
+Tierheim
+
+[infosystem_trip]
+9101
+I91 Stadtgarten - Wildenau
+208
+91
+
+[infosystem_busstop_list]
+24
+Stadtgarten
+Pilgerhausstraße
+Altes Rathaus
+Steinplatz
+Theaterplatz
+Welserplatz
+Moritzplatz
+Neues Rathaus
+Elektrozentrum
+Hauptbahnhof
+Freiheitsplatz
+Eisenbahnsiedlung
+Jägerstraße
+Fichenbühl
+Ullersricht
+Egnermühlweg
+Tierheim
+Weingarten
+Freyung
+Abzweig Mooslohe
+Leichau
+Schönficht, Bahnhof
+Schönficht, Kirche
+Wildenau
+
+[infosystem_trip]
+9102
+I91 Wildenau - Stadtgarten
+128
+91
+
+[infosystem_busstop_list]
+24
+Wildenau
+Schönficht, Kirche
+Schönficht, Bahnhof
+Leichau
+Abzweigung Mooslohe
+Freyung
+Weingarten
+Jägerstraße
+Fichenbühl
+Ullersricht
+Egnermühlweg
+Tierheim
+Eisenbahnsiedlung
+Freiheitsplatz
+Hauptbahnhof
+Elektrozentrum
+Neues Rathaus
+Moritzplatz
+Welserplatz
+Theaterplatz
+Steinplatz
+Altes Rathaus
+Stadtgarten
+
+[infosystem_trip]
+5101
+I51 Krummenaab - Reisserdorf
+200
+51
+
+[infosystem_busstop_list]
+17
+Krummenaab, Hbf.
+Freiheitsplatz
+Eisenbahnsiedlung
+Weingarten
+Freyung
+Abzweig Mooslohe
+Leichau
+Schönficht, Bahnhof
+Schönficht, Kirche
+Wildenau
+Zanklhut
+Püchersreuth, Höhenweg
+Püchersreuth, Ilsenweg
+Ilsenbach
+Wöllershof, Abzweig
+Reisserdorf
+Reisserdorf
+
+[infosystem_trip]
+5102
+I51 Reisserdorf - Krummenaab
+201
+51
+
+[infosystem_busstop_list]
+16
+Reisserdorf
+Wöllershof, Abzweig
+Ilsenbach
+Püchersreuth, Ilsenweg
+Püchersreuth, Höhenweg
+Zanklhut
+Wildenau
+Schönficht, Kirche
+Schönficht, Bahnhof
+Leichau
+Abzweig Mooslohe
+Freyung
+Weingarten
+Eisenbahnsiedlung
+Freiheitsplatz
+Krummenaab, Hbf.
+
+[infosystem_trip]
+629501
+6295 Flossenbürg - Eger/Cheb
+401
+6295
+
+[infosystem_busstop_list]
+15
+Flossenbürg, Bahnhof
+Flossenbürg, St. Mariahilf
+Flossenbürg, KZ-Gedenkstätte
+Flossenbürg, Landstraße
+Heimhof
+Floß
+Falkenberg
+Haid
+Baumgarten
+Wurz
+Wöllershof
+Cheb, Freyfurtska
+Cheb, Na Visluni
+Cheb, Maria Loreto
+Cheb, Nadrazi
+
+[infosystem_trip]
+629502
+6295 Eger/Cheb - Flossenbürg
+400
+6295
+
+[infosystem_busstop_list]
+15
+Cheb, Nadrazi
+Cheb, Maria Loreto
+Cheb, Na Visluni
+Cheb, Freyfurtska
+Wöllershof
+Wurz
+Baumgarten
+Haid
+Falkenberg
+Floß
+Heimhof
+Flossenbürg, Landstraße
+Flossenbürg, KZ-Gedenkstätte
+Flossenbürg, St. Mariahilf
+Flossenbürg, Bahnhof
+
+[infosystem_trip]
+29501
+6295 Flossenbürg - Eger/Cheb
+401
+295
+
+[infosystem_busstop_list]
+15
+Flossenbürg, Bahnhof
+Flossenbürg, St. Mariahilf
+Flossenbürg, KZ-Gedenkstätte
+Flossenbürg, Landstraße
+Heimhof
+Floß
+Falkenberg
+Haid
+Baumgarten
+Wurz
+Wöllershof
+Cheb, Freyfurtska
+Cheb, Na Visluni
+Cheb, Maria Loreto
+Cheb, Nadrazi
+
+[infosystem_trip]
+29502
+6295 Eger/Cheb - Flossenbürg
+400
+295
+
+[infosystem_busstop_list]
+15
+Cheb, Nadrazi
+Cheb, Maria Loreto
+Cheb, Na Visluni
+Cheb, Freyfurtska
+Wöllershof
+Wurz
+Baumgarten
+Haid
+Falkenberg
+Floß
+Heimhof
+Flossenbürg, Landstraße
+Flossenbürg, KZ-Gedenkstätte
+Flossenbürg, St. Mariahilf
+Flossenbürg, Bahnhof
+
+[infosystem_trip]
+601
+6 Maria Loreto - Osvobození
+505
+6
+
+[infosystem_busstop_list]
+7
+Maria Loreto
+Nadrazi
+Na Hrazi
+Paleckého
+Královehradecká
+Park T.G. Masaryka
+Osvobození
+
+[infosystem_trip]
+602
+6 Osvobození - Maria Loreto
+504
+6
+
+[infosystem_busstop_list]
+5
+Osvobození
+Vrbenskeho
+Bezruèova
+Nadrazi
+Maria Loreto
+
