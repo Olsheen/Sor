@@ -1,0 +1,15 @@
+navigator_menu_select
+navigator_select_visible
+navigator_menu
+navigator_menu_visible
+
+kasa_boot_ok
+kasa_boot_visible
+kasa_boot2_visible
+kasa_boot_prubeh
+kasa_boot_prubeh_ok
+kasa_login
+kasa_login_ps
+
+SLHLA_select
+kasa_OtevOdp

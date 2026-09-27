@@ -1,0 +1,15 @@
+[const]
+Matrix_Waittime
+2
+
+[const]
+Matrix_Changetime_Terminus
+1
+
+[const]
+Matrix_Changetime_Nr
+0.25
+
+[const]
+Matrix_Wechselziel-Timer
+3

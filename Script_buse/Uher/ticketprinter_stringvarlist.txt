@@ -1,0 +1,12 @@
+ticketprinter_display
+
+kasa_cena01
+kasa_cena02
+kasa_cena_text
+kasa_cena_text_dolniR
+
+kasa_tisk_text
+kasa_menu_text_dolniR
+
+
+

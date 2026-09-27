@@ -1,0 +1,7 @@
+cockpit_temperatur
+
+pocitac_dojezd
+palubni_pocitac
+
+cp_odpojovac_kasa
+cp_odpojovac_kasa_func01

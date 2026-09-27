@@ -1,0 +1,430 @@
+'##############
+'Mikroelektronika II.
+'##############
+
+'Needs:
+'- 'Mikroelektronika I.
+'- 'Mikroelektronika III.
+
+'- Daniel94
+'- Marty515
+'--------------------------------------------------------------------------------------
+{trigger:kasa_menu}
+	1 (S.L.navigator_menu)
+		(T.L.ev_IBIS_piep)
+	0 (S.L.kasa_OtevOdp)
+
+{end}
+
+
+{macro:kasa_frame}
+	(M.L.kasa_boot)
+
+(L.L.cp_odpojovac_kasa) 1 =
+{if}
+
+                       
+"" "@" "@" $+
+	(L.L.navigator_menu)
+	{if}
+	
+		(L.L.hlasenivisible)
+		{if}
+		
+		0 (S.L.navigator_menu_visible)
+		{else}
+	
+			1 (S.L.navigator_menu_visible)
+				
+			(L.L.navigator_menu_select) 0 =
+			{if}
+			1 (S.L.IBIS_mode)
+			">" $+
+
+			{else}
+			" " $+
+			{endif}
+			"èíslo turnusu       000" $+ (L.$.kasa_turnus) $+ "@" $+
+			(L.L.navigator_menu_select) 1 =
+			{if}
+			2 (S.L.IBIS_mode)
+			">" $+
+
+		{else}
+			" " $+
+		{endif}
+		"èíslo linky           0000" $+ (L.$.kasa_linka) $+ "@" $+
+		
+		(L.L.navigator_menu_select) 2 =
+		{if}
+			3 (S.L.IBIS_mode)
+			">" $+
+
+		{else}
+			" " $+
+		{endif}
+		"èíslo spoje              " $+ 
+		
+		(L.L.IBIS_mode) 3 =
+		{if}
+			(L.$.kasa_cil) $+ "@" $+
+		{else}
+			(L.L.IBIS_TerminusCode) "03" $IntToStrEnh $+ "@" $+
+		{endif}
+		{endif}
+		(S.$.navigator_menu)
+	{else}
+		0 (S.L.navigator_menu_visible)
+	{endif}
+	
+{else}
+         0 (S.L.navigator_menu_visible)
+{endif}
+	
+	
+
+	
+		
+
+{end}
+
+
+
+
+
+{macro:kasa_datumcas_frame}
+   
+   	 ""
+	(L.S.Day) "02" $IntToStrEnh $+ "." $+
+	(L.S.Month) "02" $IntToStrEnh $+ "." $+
+	(L.S.Year) $IntToStr 2 $SetLengthR $+ "      " $+ "1" $+ "       " $+	
+	(L.S.Time) 3600 / s0 trunc s1 "02" $IntToStrEnh $+ ":" $+
+	  l0 l1 - 60 * trunc "02" $IntToStrEnh $+ 
+	  
+    	(S.$.Kasa_info)
+	  
+	  	
+	
+{end}
+
+
+{macro:kasa_cas_frame}
+   
+   	 ""	
+	(L.S.Time) 3600 / s0 trunc s1 "02" $IntToStrEnh $+ ":" $+
+	  l0 l1 - 60 * trunc "02" $IntToStrEnh $+ 
+	  
+    	(S.$.kasa_cas)
+	  
+	  	
+	
+{end}
+
+{macro:kasa_text_frame}
+	(L.L.kasa_OtevOdp) 1 =
+	{if}
+		"OTEVøENí ODPOèTU" (S.$.kasa_manupulace_txt)
+	{else}
+		"MANIPULACE" (S.$.kasa_manupulace_txt)
+	{endif}
+{end}
+
+{macro:kasa_boot}
+	(L.L.cp_odpojovac_kasa) 0 =
+	{if}
+		0 (S.L.kasa_boot_ok)
+	{endif}
+	
+	(L.L.cp_odpojovac_kasa) 1 =
+	(L.L.kasa_boot_ok) 0 = &&
+	{if}
+		(L.L.kasa_login) 0 =
+		{if}
+			1 (S.L.kasa_boot_visible)
+			
+		{endif}
+		(L.L.kasa_boot_prubeh_ok) 0 =		
+		{if}
+			(L.L.kasa_boot_prubeh) (L.S.Timegap) + (S.L.kasa_boot_prubeh)
+				0 (S.L.navigator_menu)
+				" USV24C 3.02.1241 Apr 15 2011 10:36:50     "  "@" $+
+				"" $+ "@" $+
+				"" $+ "@" $+
+				"" $+ "@" $+
+				"" $+ "@" $+
+				"" $+ "@" $+
+				"" $+
+				(S.$.kasa_boot)
+				
+				
+				
+			(L.L.kasa_boot_prubeh) 1 >
+			{if}
+				""
+				" USV24C 3.02.1241 Apr 15 2011 10:36:50     "  "@" $+
+				" Test programu ..                          " $+ "@" $+
+				"" $+ "@" $+
+				"" $+ "@" $+
+				"" $+ "@" $+
+				"" $+ "@" $+
+				"" $+
+				(S.$.kasa_boot)			
+				
+				(L.L.kasa_boot_prubeh) 2 >
+				{if}
+					" USV24C 3.02.1241 Apr 15 2011 10:36:50     "  "@" $+
+					" Test programu ..                      O.K." $+ "@" $+
+					" Kontrola dat (5%) (FLASH 4MB)             " $+ "@" $+
+					"" $+ "@" $+
+					"" $+ "@" $+
+					"" $+ "@" $+
+					"" $+
+					(S.$.kasa_boot)				
+
+					(L.L.kasa_boot_prubeh) 3 >
+					{if}
+						" USV24C 3.02.1241 Apr 15 2011 10:36:50     "  "@" $+
+						" Test programu ..                      O.K." $+ "@" $+
+						" Kontrola dat (5%) (FLASH 4MB)         O.K." $+ "@" $+
+						" Test výstupních dat ...                   " $+ "@" $+
+						"" $+ "@" $+
+						"" $+ "@" $+
+						"" $+
+						(S.$.kasa_boot)				
+						
+						(L.L.kasa_boot_prubeh) 5 >
+						{if}
+							" USV24C 3.02.1241 Apr 15 2011 10:36:50     "  "@" $+
+							" Test programu ..                      O.K." $+ "@" $+
+							" Kontrola dat (5%) (FLASH 4MB)         O.K." $+ "@" $+
+							" Test výstupních dat ...               O.K." $+ "@" $+
+							" Inicializace tiskarny                     " $+ "@" $+
+							"" $+ "@" $+
+							"" $+
+							(S.$.kasa_boot)				
+							
+							(L.L.kasa_boot_prubeh) 8 >
+							{if}
+								" USV24C 3.02.1241 Apr 15 2011 10:36:50     "  "@" $+
+								" Test programu ..                      O.K." $+ "@" $+
+								" Kontrola dat (5%) (FLASH 4MB)         O.K." $+ "@" $+
+								" Test výstupních dat ...               O.K." $+ "@" $+
+								" Inicializace tiskarny                 O.K." $+ "@" $+
+								" Test tiskárny                 4.07a       " $+ "@" $+
+								"" $+
+								(S.$.kasa_boot)				
+								
+								(L.L.kasa_boot_prubeh) 10 >
+								{if}
+									" USV24C 3.02.1241 Apr 15 2011 10:36:50     "  "@" $+
+									" Test programu ..                      O.K." $+ "@" $+
+									" Kontrola dat (5%) (FLASH 4MB)         O.K." $+ "@" $+
+									" Test výstupních dat ...               O.K." $+ "@" $+
+									" Inicializace tiskarny                 O.K." $+ "@" $+
+									" Test tiskárny                 4.07a   O.K." $+ "@" $+
+									" Reset CORE modulu MIFARE (RC500)          " $+
+									(S.$.kasa_boot)				
+									
+									(L.L.kasa_boot_prubeh) 25 >
+									{if}
+										1 (S.L.kasa_login)
+
+										0 (S.L.kasa_boot_prubeh)
+										1 (S.L.kasa_boot_prubeh_ok)
+
+									{endif}
+								{endif}
+							{endif}
+						{endif}
+					{endif}
+				{endif}
+			{endif}
+		{endif}
+	{else}
+		0 (S.L.kasa_boot_prubeh)
+		0 (S.L.kasa_boot_visible)
+		0 (S.L.kasa_boot_prubeh_ok)
+		0 (S.L.kasa_login)
+		0 (S.L.kasa_boot2_visible)
+	{endif}
+	
+	(L.L.kasa_login) 1 =
+	{if}
+		""
+		"                   " $+ (L.$.kasa_pin) $+ "@" $+ "@" $+
+		"              ZADEJTE PIN (SAM)" $+
+		(S.$.kasa_boot2)
+		
+		""
+		" " (S.$.kasa_boot)
+		
+		1 (S.L.kasa_boot2_visible)
+		
+	{endif}
+	
+	(L.L.kasa_login) 2 =
+	{if}
+		""
+		"                   " $+ (L.$.kasa_pin) $+ "@" $+ "@" $+
+		"           ZADEJTE èíSLO øIDIèE" $+
+
+		(S.$.kasa_boot2)
+		
+				""
+				"" $+ "@" $+
+				"    èSAD HORNí DOLNí a.s." $+
+				(S.$.kasa_boot)
+		
+	{endif}
+
+	(L.L.kasa_login) 3 =
+	{if}
+		""
+		"                   " $+ (L.$.kasa_pin) $+ "@" $+ "@" $+
+		"                ZADEJTE PIN" $+
+
+		(S.$.kasa_boot2)
+		
+		1 (S.L.kasa_OtevOdp)
+		
+	{endif}
+	
+'	" USV24C 3.03.1241 Apr 15 2011 10:36:50     "  "@" $+
+'	" Test programu .. 		                   O.K." $+ "@" $+
+'	" Kontrola dat (5%) (FLASH 4MB)         O.K." $+ "@" $+
+'	" Test výstupních dat ...	              O.K." $+ "@" $+
+'	" Inicializace tiskarny                 O.K." $+ "@" $+
+'	" Test tiskárny	                4.07a   O.K." $+ "@" $+
+'	" Reset CORE modulu MIFARE (RC500)      O.K." $+
+'	(S.$.kasa_boot)
+{end}
+
+{macro:SLHLA_frame}
+     	
+	
+	(L.L.hlasenivisible) 1 =
+	{if}
+	
+	(L.L.SLHLA_select) 0 =
+			{if}
+			""
+
+		"              SLUžEBNí HLášENí              "  "@" $+
+		"  >50-Postupujte dále do vozu.             " $+ "@" $+
+		"   51-Nastupujte pøedními dveømi.          " $+ "@" $+
+		"   52-Vozidlo obsazeno.                    " $+ "@" $+
+		"   60-Vozidlo má poruchu.                  " $+ "@" $+
+		"   61-Vozidlo má poruchu, vyèkejte ND.     " $+
+
+			{else}
+			" " $+
+			{endif}
+			
+	(L.L.SLHLA_select) 1 =
+			{if}
+			""
+		"              SLUžEBNí HLášENí              "  "@" $+
+		"   50-Postupujte dále do vozu.             " $+ "@" $+
+		"  >51-Nastupujte pøedními dveømi.          " $+ "@" $+
+		"   52-Vozidlo obsazeno.                    " $+ "@" $+
+		"   60-Vozidlo má poruchu.                  " $+ "@" $+
+		"   61-Vozidlo má poruchu, vyèkejte ND.     " $+
+
+			{else}
+			" " $+
+			{endif}
+			
+	(L.L.SLHLA_select) 2 =
+			{if}
+			""
+		"              SLUžEBNí HLášENí              "  "@" $+
+		"   50-Postupujte dále do vozu.             " $+ "@" $+
+		"   51-Nastupujte pøedními dveømi.          " $+ "@" $+
+		"  >52-Vozidlo obsazeno.                    " $+ "@" $+
+		"   60-Vozidlo má poruchu.                  " $+ "@" $+
+		"   61-Vozidlo má poruchu, vyèkejte ND.     " $+
+
+			{else}
+			" " $+
+			{endif}
+			
+	(L.L.SLHLA_select) 3 =
+			{if}
+			""
+		"              SLUžEBNí HLášENí              "  "@" $+
+		"   50-Postupujte dále do vozu.             " $+ "@" $+
+		"   51-Nastupujte pøedními dveømi.          " $+ "@" $+
+		"   52-Vozidlo obsazeno.                    " $+ "@" $+
+		"  >60-Vozidlo má poruchu.                  " $+ "@" $+
+		"   61-Vozidlo má poruchu, vyèkejte ND.     " $+
+
+			{else}
+			" " $+
+			{endif}
+			
+	(L.L.SLHLA_select) 4 =
+			{if}
+			""
+		"              SLUžEBNí HLášENí              "  "@" $+
+		"   50-Postupujte dále do vozu.             " $+ "@" $+
+		"   51-Nastupujte pøedními dveømi.          " $+ "@" $+
+		"   52-Vozidlo obsazeno.                    " $+ "@" $+
+		"   60-Vozidlo má poruchu.                  " $+ "@" $+
+		"  >61-Vozidlo má poruchu, vyèkejte ND.     " $+
+
+			{else}
+			" " $+
+			{endif}
+			
+				(L.L.SLHLA_select) 5 =
+			{if}
+			""
+		"              SLUžEBNí HLášENí              "  "@" $+
+		"   51-Nastupujte pøedními dveømi.          " $+ "@" $+
+		"   52-Vozidlo obsazeno.                    " $+ "@" $+
+		"   60-Vozidlo má poruchu.                  " $+ "@" $+
+		"   61-Vozidlo má poruchu, vyèkejte ND.     " $+ "@" $+
+		"  >95-Vyèkáváme na odjezd dle Jø           " $+
+
+			{else}
+			" " $+
+			{endif}
+			
+				(L.L.SLHLA_select) 6 =
+			{if}
+						""
+		"              SLUžEBNí HLášENí              "  "@" $+
+		"   52-Vozidlo obsazeno.                    " $+ "@" $+
+		"   60-Vozidlo má poruchu.                  " $+ "@" $+
+		"   61-Vozidlo má poruchu, vyèkejte ND.     " $+ "@" $+
+		"   95-Vyèkáváme na odjezd dle Jø           " $+ "@" $+
+		"  >98-Pøepravní kontrola.                  " $+
+
+
+			{else}
+			" " $+
+			{endif}
+			
+				(L.L.SLHLA_select) 7 =
+			{if}
+									""
+		"              SLUžEBNí HLášENí              "  "@" $+
+		"   60-Vozidlo má poruchu.                  " $+ "@" $+
+		"   61-Vozidlo má poruchu, vyèkejte ND.     " $+ "@" $+
+		"   95-Vyèkáváme na odjezd dle Jø           " $+ "@" $+
+		"   98-Pøepravní kontrola.                  " $+ "@" $+
+		"  >99-Pøepr.kontrola, výstup pø. dveømi.   " $+
+
+
+			{else}
+			" " $+
+			{endif}
+			
+			(S.$.SLHLA_txt)
+			
+
+	{else}
+	" " (S.$.SLHLA_txt)
+	{endif}
+	
+{end}
