@@ -1,4 +1,0 @@
-auspuff_vel
-auspuff_freq
-auspuff_leben
-auspuff_alpha

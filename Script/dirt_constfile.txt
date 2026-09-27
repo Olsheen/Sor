@@ -1,3 +1,0 @@
-[const]
-Dirt_wiper_eff
-0.1

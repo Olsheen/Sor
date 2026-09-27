@@ -1,3 +1,0 @@
-Dirt_Wiped
-Dirt_Wiper_Pos
-Dirt_Wiper_Pos_Prev
